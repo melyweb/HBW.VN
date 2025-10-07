@@ -19,18 +19,18 @@ const STATIC_CACHE_URLS = [
 
 // Install event - cache static resources
 self.addEventListener('install', (event) => {
-    console.log('[SW] Installing...');
+    // console.log('[SW] Installing...');
     
     event.waitUntil(
         caches.open(CACHE_NAME)
             .then((cache) => {
-                console.log('[SW] Caching static resources');
+                // console.log('[SW] Caching static resources');
                 return cache.addAll(STATIC_CACHE_URLS.map(url => new Request(url, {
                     cache: 'reload'
                 })));
             })
             .then(() => {
-                console.log('[SW] Installation complete');
+                // console.log('[SW] Installation complete');
                 return self.skipWaiting();
             })
             .catch((error) => {
@@ -41,7 +41,7 @@ self.addEventListener('install', (event) => {
 
 // Activate event - cleanup old caches
 self.addEventListener('activate', (event) => {
-    console.log('[SW] Activating...');
+    // console.log('[SW] Activating...');
     
     event.waitUntil(
         caches.keys()
@@ -52,13 +52,13 @@ self.addEventListener('activate', (event) => {
                             return cacheName.startsWith('hbw-') && cacheName !== CACHE_NAME;
                         })
                         .map((cacheName) => {
-                            console.log('[SW] Deleting old cache:', cacheName);
+                            // console.log('[SW] Deleting old cache:', cacheName);
                             return caches.delete(cacheName);
                         })
                 );
             })
             .then(() => {
-                console.log('[SW] Activation complete');
+                // console.log('[SW] Activation complete');
                 return self.clients.claim();
             })
     );
@@ -145,7 +145,7 @@ self.addEventListener('fetch', (event) => {
 
 // Background sync for form submissions
 self.addEventListener('sync', (event) => {
-    console.log('[SW] Background sync triggered:', event.tag);
+    // console.log('[SW] Background sync triggered:', event.tag);
     
     if (event.tag === 'contact-form-sync') {
         event.waitUntil(
@@ -157,7 +157,7 @@ self.addEventListener('sync', (event) => {
 
 // Push notification handling
 self.addEventListener('push', (event) => {
-    console.log('[SW] Push notification received');
+    // console.log('[SW] Push notification received');
     
     const options = {
         body: event.data ? event.data.text() : 'New notification from HBW',
@@ -183,7 +183,7 @@ self.addEventListener('push', (event) => {
 
 // Notification click handling
 self.addEventListener('notificationclick', (event) => {
-    console.log('[SW] Notification clicked:', event.action);
+    // console.log('[SW] Notification clicked:', event.action);
     
     event.notification.close();
     
@@ -198,7 +198,7 @@ self.addEventListener('notificationclick', (event) => {
 async function handleOfflineFormSubmissions() {
     try {
         // Implement offline form submission logic here
-        console.log('[SW] Handling offline form submissions');
+        // console.log('[SW] Handling offline form submissions');
         
         // This would typically involve:
         // 1. Retrieving saved form data from IndexedDB
@@ -215,7 +215,7 @@ async function handleOfflineFormSubmissions() {
 // Performance monitoring
 self.addEventListener('message', (event) => {
     if (event.data && event.data.type === 'PERFORMANCE_METRICS') {
-        console.log('[SW] Performance metrics received:', event.data.metrics);
+        // console.log('[SW] Performance metrics received:', event.data.metrics);
         
         // Forward metrics to analytics service when online
         if (navigator.onLine) {

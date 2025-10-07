@@ -63,7 +63,7 @@ class LanguageManager {
             this.setupUrlHandling();
             
             this.initialized = true;
-            console.log(`✅ Language system initialized: ${this.currentLang}`);
+            // console.log(`✅ Language system initialized: ${this.currentLang}`);
             
         } catch (error) {
             console.error('❌ Language initialization failed:', error);
@@ -88,7 +88,7 @@ class LanguageManager {
             }
             
             this.data[lang] = await response.json();
-            console.log(`📄 Loaded language data: ${lang}`);
+            // console.log(`📄 Loaded language data: ${lang}`);
             return this.data[lang];
             
         } catch (error) {
@@ -156,7 +156,7 @@ class LanguageManager {
             }
         });
         
-        console.log(`🔄 Content updated for language: ${this.currentLang}`);
+        // console.log(`🔄 Content updated for language: ${this.currentLang}`);
     }
     
     // Update meta tags
@@ -328,7 +328,7 @@ class LanguageManager {
             // Hide loading state
             this.hideLoadingState();
             
-            console.log(`🔄 Language switched to: ${targetLang}`);
+            // console.log(`🔄 Language switched to: ${targetLang}`);
             
             // Dispatch custom event
             window.dispatchEvent(new CustomEvent('languageChanged', {

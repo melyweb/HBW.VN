@@ -217,7 +217,7 @@ document.addEventListener('DOMContentLoaded', function() {
             setTimeout(() => {
                 // Simulate random success/failure for demo
                 if (Math.random() > 0.1) { // 90% success rate
-                    console.log('Form data submitted:', data);
+                    // console.log('Form data submitted:', data);
                     resolve({ success: true, message: 'Form submitted successfully' });
                 } else {
                     reject(new Error('Simulated network error'));
@@ -317,11 +317,11 @@ document.addEventListener('DOMContentLoaded', function() {
             });
         }
         
-        console.log('Form submission tracked:', {
-            service: data.service,
-            budget: data.budget,
-            timestamp: data.timestamp
-        });
+        // console.log('Form submission tracked:', {
+        //     service: data.service,
+        //     budget: data.budget,
+        //     timestamp: data.timestamp
+        // });
     }
     
     function getBudgetValue(budget) {

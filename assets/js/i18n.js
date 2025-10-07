@@ -107,7 +107,7 @@ class HBWi18n {
             const commonUrl = `${basePath}/${lang}/common.json`;
             const pageUrl = `${basePath}/${lang}/${page}.json`;
             
-            console.log(`📥 Loading translations: ${commonUrl} and ${pageUrl}`);
+            // console.log(`📥 Loading translations: ${commonUrl} and ${pageUrl}`);
             
             const [commonResponse, pageResponse] = await Promise.all([
                 fetch(commonUrl),
@@ -138,14 +138,14 @@ class HBWi18n {
             // Apply translations to DOM
             this.applyTranslations();
             
-            console.log(`✅ Loaded ${lang.toUpperCase()} translations for ${page} page`);
+            // console.log(`✅ Loaded ${lang.toUpperCase()} translations for ${page} page`);
             
         } catch (error) {
             console.error(`❌ Error loading ${lang} translations:`, error);
             
             // Fallback to English if error loading Vietnamese
             if (lang === 'vi') {
-                console.log('🔄 Falling back to English translations');
+                // console.log('🔄 Falling back to English translations');
                 this.currentLang = 'en';
                 this.loadLanguage('en');
             }
@@ -338,19 +338,19 @@ class HBWi18n {
      */
     clearCache() {
         this.cache.clear();
-        console.log('🗑️ Translation cache cleared');
+        // console.log('🗑️ Translation cache cleared');
     }
 }
 
 // Initialize the i18n system when DOM is ready
 document.addEventListener('DOMContentLoaded', () => {
-    console.log('🌐 Initializing HBW i18n system...');
+    // console.log('🌐 Initializing HBW i18n system...');
     const hbwI18n = new HBWi18n();
     
     // Export for global access
     window.HBWi18n = hbwI18n;
     
-    console.log('✅ HBW i18n system initialized');
+    // console.log('✅ HBW i18n system initialized');
 });
 
 // Export for ES6 modules

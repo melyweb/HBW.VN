@@ -516,7 +516,7 @@ export function loadHBWComponents() {
     // Initialize mobile menu functionality
     setTimeout(() => {
         initializeMobileMenu();
-        console.log('📱 Mobile menu initialized');
+        // console.log('📱 Mobile menu initialized');
     }, 100);
     
     // Initialize Google Analytics
@@ -671,11 +671,11 @@ function loadFloatingContact() {
     `;
     
     document.body.insertAdjacentHTML('beforeend', floatingContactHTML);
-    console.log('✅ Floating contact HTML added to body');
+    // console.log('✅ Floating contact HTML added to body');
     
     // Initialize functionality
     setTimeout(() => {
-        console.log('🔄 Initializing floating contact functionality...');
+        // console.log('🔄 Initializing floating contact functionality...');
         initFloatingContactBubble();
     }, 100);
 }
@@ -686,7 +686,7 @@ function initFloatingContactBubble() {
     const menu = document.getElementById('contact-options-menu');
     
     if (!mainBtn || !menu) {
-        console.log('⚠️ Floating contact elements not found');
+        // console.log('⚠️ Floating contact elements not found');
         return;
     }
     
@@ -734,7 +734,7 @@ function initFloatingContactBubble() {
     contactLinks.forEach(link => {
         link.addEventListener('click', function() {
             const platform = this.querySelector('.font-semibold').textContent;
-            console.log(`📞 Contact clicked: ${platform}`);
+            // console.log(`📞 Contact clicked: ${platform}`);
             
             // Close menu after click
             setTimeout(() => {
@@ -743,7 +743,7 @@ function initFloatingContactBubble() {
         });
     });
 
-    console.log('🚀 Floating contact bubble initialized successfully!');
+    // console.log('🚀 Floating contact bubble initialized successfully!');
 }
 
 // Active navigation highlighting
@@ -856,7 +856,7 @@ function initializeGoogleAnalytics() {
     `;
     document.head.appendChild(gtagConfig);
     
-    console.log('Google Analytics (G-KCL68RY08K) initialized successfully');
+    // console.log('Google Analytics (G-KCL68RY08K) initialized successfully');
 }
 
 // Language switching is now handled by i18n.js
