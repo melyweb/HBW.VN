@@ -28,7 +28,7 @@ export const headerTemplate = `
                 
                 <!-- Services Mega Menu -->
                 <div class="mega-menu-wrapper group relative">
-                    <a href="/services.html" data-page="services" class="nav-link relative flex items-center px-4 py-3 font-medium transition-all duration-300 rounded-lg text-slate-600 hover:text-blue-600">
+                    <a href="/services" data-page="services" class="nav-link relative flex items-center px-4 py-3 font-medium transition-all duration-300 rounded-lg text-slate-600 hover:text-blue-600">
                         <i class="flex items-center justify-center w-4 h-4 mr-3 text-sm transition-transform duration-300 fas fa-cogs group-hover:scale-110"></i>
                         <span class="leading-4" data-i18n="navigation.services">Services</span>
                         <i class="flex items-center justify-center w-3 h-3 ml-2 text-xs transition-transform duration-300 fas fa-chevron-down group-hover:rotate-180"></i>
@@ -46,7 +46,7 @@ export const headerTemplate = `
                                             <span data-i18n="navigation.mega_menu.blockchain.title">Blockchain Development</span>
                                         </h4>
                                         <div class="space-y-2">
-                                            <a href="/services/blockchain.html" class="flex items-center p-3 transition-all duration-200 rounded-xl hover:bg-white hover:shadow-md group/item">
+                                            <a href="/services/smart-contracts" class="flex items-center p-3 transition-all duration-200 rounded-xl hover:bg-white hover:shadow-md group/item">
                                                 <div class="flex items-center justify-center w-10 h-10 mr-3 transition-colors duration-200 rounded-lg bg-blue-50 group-hover/item:bg-blue-100">
                                                     <i class="fas fa-file-contract text-blue-600"></i>
                                                 </div>
@@ -55,7 +55,7 @@ export const headerTemplate = `
                                                     <div class="text-xs text-slate-500" data-i18n="navigation.mega_menu.blockchain.smart_contracts_desc">ERC-20, ERC-721, DeFi</div>
                                                 </div>
                                             </a>
-                                            <a href="/services/defi-protocols.html" class="flex items-center p-3 transition-all duration-200 rounded-xl hover:bg-white hover:shadow-md group/item">
+                                            <a href="/services/defi-protocols" class="flex items-center p-3 transition-all duration-200 rounded-xl hover:bg-white hover:shadow-md group/item">
                                                 <div class="flex items-center justify-center w-10 h-10 mr-3 transition-colors duration-200 rounded-lg bg-purple-50 group-hover/item:bg-purple-100">
                                                     <i class="fas fa-coins text-purple-600"></i>
                                                 </div>
@@ -64,7 +64,7 @@ export const headerTemplate = `
                                                     <div class="text-xs text-slate-500" data-i18n="navigation.mega_menu.blockchain.defi_desc">AMM, Yield Farming, Lending</div>
                                                 </div>
                                             </a>
-                                            <a href="/services/ai-trading-bots.html" class="flex items-center p-3 transition-all duration-200 rounded-xl hover:bg-white hover:shadow-md group/item">
+                                            <a href="/services/ai-trading-bots" class="flex items-center p-3 transition-all duration-200 rounded-xl hover:bg-white hover:shadow-md group/item">
                                                 <div class="flex items-center justify-center w-10 h-10 mr-3 transition-colors duration-200 rounded-lg bg-indigo-50 group-hover/item:bg-indigo-100">
                                                     <i class="fas fa-robot text-indigo-600"></i>
                                                 </div>
@@ -83,7 +83,7 @@ export const headerTemplate = `
                                             <span data-i18n="navigation.mega_menu.web.title">Web Development</span>
                                         </h4>
                                         <div class="space-y-2">
-                                            <a href="/services/web-development.html" class="flex items-center p-3 transition-all duration-200 rounded-xl hover:bg-white hover:shadow-md group/item">
+                                            <a href="/services/web-development" class="flex items-center p-3 transition-all duration-200 rounded-xl hover:bg-white hover:shadow-md group/item">
                                                 <div class="flex items-center justify-center w-10 h-10 mr-3 transition-colors duration-200 rounded-lg bg-green-50 group-hover/item:bg-green-100">
                                                     <i class="fab fa-react text-green-600"></i>
                                                 </div>
@@ -92,7 +92,7 @@ export const headerTemplate = `
                                                     <div class="text-xs text-slate-500" data-i18n="navigation.mega_menu.web.web_development_desc">React, Vue.js, Next.js</div>
                                                 </div>
                                             </a>
-                                            <a href="/services/modern-web-apps.html" class="flex items-center p-3 transition-all duration-200 rounded-xl hover:bg-white hover:shadow-md group/item">
+                                            <a href="/services/modern-web-apps" class="flex items-center p-3 transition-all duration-200 rounded-xl hover:bg-white hover:shadow-md group/item">
                                                 <div class="flex items-center justify-center w-10 h-10 mr-3 transition-colors duration-200 rounded-lg bg-blue-50 group-hover/item:bg-blue-100">
                                                     <i class="fas fa-rocket text-blue-600"></i>
                                                 </div>
@@ -101,7 +101,7 @@ export const headerTemplate = `
                                                     <div class="text-xs text-slate-500" data-i18n="navigation.mega_menu.web.modern_apps_desc">PWA, WebAssembly, AI</div>
                                                 </div>
                                             </a>
-                                            <a href="/services/e-commerce-solutions.html" class="flex items-center p-3 transition-all duration-200 rounded-xl hover:bg-white hover:shadow-md group/item">
+                                            <a href="/services/e-commerce-solutions" class="flex items-center p-3 transition-all duration-200 rounded-xl hover:bg-white hover:shadow-md group/item">
                                                 <div class="flex items-center justify-center w-10 h-10 mr-3 transition-colors duration-200 rounded-lg bg-teal-50 group-hover/item:bg-teal-100">
                                                     <i class="fas fa-store text-teal-600"></i>
                                                 </div>
@@ -120,7 +120,7 @@ export const headerTemplate = `
                                             <span data-i18n="navigation.mega_menu.mobile.title">Mobile & AI Solutions</span>
                                         </h4>
                                         <div class="space-y-2">
-                                            <a href="/services/mobile-apps.html" class="flex items-center p-3 transition-all duration-200 rounded-xl hover:bg-white hover:shadow-md group/item">
+                                            <a href="/services/mobile-apps" class="flex items-center p-3 transition-all duration-200 rounded-xl hover:bg-white hover:shadow-md group/item">
                                                 <div class="flex items-center justify-center w-10 h-10 mr-3 transition-colors duration-200 rounded-lg bg-orange-50 group-hover/item:bg-orange-100">
                                                     <i class="fas fa-mobile-alt text-orange-600"></i>
                                                 </div>
@@ -129,22 +129,13 @@ export const headerTemplate = `
                                                     <div class="text-xs text-slate-500" data-i18n="navigation.mega_menu.mobile.apps_desc">iOS, Android, Cross-Platform</div>
                                                 </div>
                                             </a>
-                                            <a href="/services/mobile-ai-solutions.html" class="flex items-center p-3 transition-all duration-200 rounded-xl hover:bg-white hover:shadow-md group/item">
+                                            <a href="/services/mobile-ai-solutions" class="flex items-center p-3 transition-all duration-200 rounded-xl hover:bg-white hover:shadow-md group/item">
                                                 <div class="flex items-center justify-center w-10 h-10 mr-3 transition-colors duration-200 rounded-lg bg-pink-50 group-hover/item:bg-pink-100">
                                                     <i class="fas fa-brain text-pink-600"></i>
                                                 </div>
                                                 <div>
                                                     <div class="font-medium transition-colors duration-200 text-slate-800 group-hover/item:text-pink-600" data-i18n="navigation.mega_menu.mobile.ai_mobile">AI Mobile Solutions</div>
                                                     <div class="text-xs text-slate-500" data-i18n="navigation.mega_menu.mobile.ai_mobile_desc">Computer Vision, NLP</div>
-                                                </div>
-                                            </a>
-                                            <a href="/services/boost-rank-similarweb-hypestat.html" class="flex items-center p-3 transition-all duration-200 rounded-xl hover:bg-white hover:shadow-md group/item">
-                                                <div class="flex items-center justify-center w-10 h-10 mr-3 transition-colors duration-200 rounded-lg bg-yellow-50 group-hover/item:bg-yellow-100">
-                                                    <i class="fas fa-chart-line text-yellow-600"></i>
-                                                </div>
-                                                <div>
-                                                    <div class="font-medium transition-colors duration-200 text-slate-800 group-hover/item:text-yellow-600" data-i18n="navigation.mega_menu.mobile.seo_boost">SEO Traffic Boost</div>
-                                                    <div class="text-xs text-slate-500" data-i18n="navigation.mega_menu.mobile.seo_boost_desc">SimilarWeb, HypeStat</div>
                                                 </div>
                                             </a>
                                         </div>
@@ -165,7 +156,7 @@ export const headerTemplate = `
                                         </div>
                                     </div>
                                     <div class="flex items-center space-x-3">
-                                        <a href="/contact.html" class="px-6 py-3 font-semibold transition-colors duration-200 bg-white shadow-lg text-blue-600 rounded-xl hover:bg-blue-50">
+                                        <a href="/contact" class="px-6 py-3 font-semibold transition-colors duration-200 bg-white shadow-lg text-blue-600 rounded-xl hover:bg-blue-50">
                                             <i class="mr-2 fas fa-comments"></i>
                                             <span data-i18n="navigation.mega_menu.consultation.cta">Contact Now</span>
                                         </a>
@@ -176,19 +167,19 @@ export const headerTemplate = `
                     </div>
                 </div>
                 
-                <a href="/portfolio.html" data-page="portfolio" class="nav-link flex items-center text-slate-600 hover:text-blue-600 font-medium transition-colors duration-200 focus-ring rounded px-3 py-2 hover:bg-blue-50">
+                <a href="/portfolio" data-page="portfolio" class="nav-link flex items-center text-slate-600 hover:text-blue-600 font-medium transition-colors duration-200 focus-ring rounded px-3 py-2 hover:bg-blue-50">
                     <i class="fas fa-folder-open w-4 h-4 mr-2 text-sm"></i>
                     <span data-i18n="navigation.portfolio">Portfolio</span>
                 </a>
-                <a href="/about.html" data-page="about" class="nav-link flex items-center text-slate-600 hover:text-blue-600 font-medium transition-colors duration-200 focus-ring rounded px-3 py-2 hover:bg-blue-50">
+                <a href="/about" data-page="about" class="nav-link flex items-center text-slate-600 hover:text-blue-600 font-medium transition-colors duration-200 focus-ring rounded px-3 py-2 hover:bg-blue-50">
                     <i class="fas fa-users w-4 h-4 mr-2 text-sm"></i>
                     <span data-i18n="navigation.about">About</span>
                 </a>
-                <a href="/contact.html" data-page="contact" class="nav-link flex items-center text-slate-600 hover:text-blue-600 font-medium transition-colors duration-200 focus-ring rounded px-3 py-2 hover:bg-blue-50">
+                <a href="/contact" data-page="contact" class="nav-link flex items-center text-slate-600 hover:text-blue-600 font-medium transition-colors duration-200 focus-ring rounded px-3 py-2 hover:bg-blue-50">
                     <i class="fas fa-phone w-4 h-4 mr-2 text-sm"></i>
                     <span data-i18n="navigation.contact">Contact</span>
                 </a>
-                <a href="/blog.html" data-page="blog" class="nav-link flex items-center text-slate-600 hover:text-blue-600 font-medium transition-colors duration-200 focus-ring rounded px-3 py-2 hover:bg-blue-50">
+                <a href="/blog" data-page="blog" class="nav-link flex items-center text-slate-600 hover:text-blue-600 font-medium transition-colors duration-200 focus-ring rounded px-3 py-2 hover:bg-blue-50">
                     <i class="fas fa-rss w-4 h-4 mr-2 text-sm"></i>
                     <span data-i18n="navigation.blog">Blog</span>
                 </a>
@@ -200,7 +191,7 @@ export const headerTemplate = `
                     <button id="lang-vi" class="px-3 py-1 text-sm font-medium rounded-md transition-all duration-200 focus-ring lang-btn" data-lang="vi">VI</button>
                     <button id="lang-en" class="px-3 py-1 text-sm font-medium rounded-md transition-all duration-200 focus-ring lang-btn active bg-blue-500 text-white" data-lang="en">EN</button>
                 </div>
-                <a href="/contact.html" class="hidden md:inline-flex items-center px-4 py-2 bg-gradient-to-r from-blue-500 to-purple-600 text-white rounded-lg font-semibold text-sm transition-all duration-300 hover:scale-105 focus-ring" data-i18n="navigation.cta">Free Consultation</a>
+                <a href="/contact" class="hidden md:inline-flex items-center px-4 py-2 bg-gradient-to-r from-blue-500 to-purple-600 text-white rounded-lg font-semibold text-sm transition-all duration-300 hover:scale-105 focus-ring" data-i18n="navigation.cta">Free Consultation</a>
                 
                 <!-- Mobile menu button -->
                 <button id="mobile-menu-btn" class="lg:hidden p-2 text-slate-600 hover:text-blue-600 transition-colors duration-200 focus-ring rounded" aria-label="Toggle mobile menu" aria-expanded="false">
@@ -216,7 +207,7 @@ export const headerTemplate = `
             <div class="space-y-3">
                 
                 <!-- Home -->
-                <a href="/" data-page="home" class="flex items-center justify-between w-full p-3 text-left transition-all duration-200 hover:bg-blue-50 hover:text-blue-600 rounded-xl text-slate-700 font-medium">
+                <a href="/" data-page="home" class="mobile-nav-link flex items-center justify-between w-full p-3 text-left transition-all duration-200 hover:bg-blue-50 hover:text-blue-600 rounded-xl text-slate-700 font-medium">
                     <div class="flex items-center space-x-4">
                         <div class="flex items-center justify-center w-10 h-10 rounded-full bg-blue-500/10">
                             <i class="fas fa-home text-sm text-blue-600"></i>
@@ -252,15 +243,15 @@ export const headerTemplate = `
                                     <h4 class="text-sm font-semibold text-slate-900" data-i18n="navigation.mega_menu.blockchain.title">Blockchain Development</h4>
                                 </div>
                                 <div class="ml-4 space-y-2">
-                                    <a href="/services/smart-contracts.html" class="flex items-center px-4 py-2 mb-1 text-sm text-slate-600 transition-colors rounded-full hover:bg-white hover:text-blue-600 hover:shadow-sm">
+                                    <a href="/services/smart-contracts" class="mobile-nav-link flex items-center px-4 py-2 mb-1 text-sm text-slate-600 transition-colors rounded-full hover:bg-white hover:text-blue-600 hover:shadow-sm">
                                         <i class="mr-2 text-xs fas fa-file-contract text-blue-500"></i>
                                         <span data-i18n="navigation.mega_menu.blockchain.smart_contracts">Smart Contracts</span>
                                     </a>
-                                    <a href="/services/defi-protocols.html" class="flex items-center px-4 py-2 mb-1 text-sm text-slate-600 transition-colors rounded-full hover:bg-white hover:text-purple-600 hover:shadow-sm">
+                                    <a href="/services/defi-protocols" class="mobile-nav-link flex items-center px-4 py-2 mb-1 text-sm text-slate-600 transition-colors rounded-full hover:bg-white hover:text-purple-600 hover:shadow-sm">
                                         <i class="mr-2 text-xs fas fa-coins text-purple-500"></i>
                                         <span data-i18n="navigation.mega_menu.blockchain.defi">DeFi Protocols</span>
                                     </a>
-                                    <a href="/services/ai-trading-bots.html" class="flex items-center px-4 py-2 mb-1 text-sm text-slate-600 transition-colors rounded-full hover:bg-white hover:text-indigo-600 hover:shadow-sm">
+                                    <a href="/services/ai-trading-bots" class="mobile-nav-link flex items-center px-4 py-2 mb-1 text-sm text-slate-600 transition-colors rounded-full hover:bg-white hover:text-indigo-600 hover:shadow-sm">
                                         <i class="mr-2 text-xs fas fa-robot text-indigo-500"></i>
                                         <span data-i18n="navigation.mega_menu.blockchain.ai_trading">AI Trading Bots</span>
                                     </a>
@@ -274,15 +265,15 @@ export const headerTemplate = `
                                     <h4 class="text-sm font-semibold text-slate-900" data-i18n="navigation.mega_menu.web.title">Web Development</h4>
                                 </div>
                                 <div class="ml-4 space-y-2">
-                                    <a href="/services/web-development.html" class="flex items-center px-4 py-2 mb-1 text-sm text-slate-600 transition-colors rounded-full hover:bg-white hover:text-green-600 hover:shadow-sm">
+                                    <a href="/services/web-development" class="mobile-nav-link flex items-center px-4 py-2 mb-1 text-sm text-slate-600 transition-colors rounded-full hover:bg-white hover:text-green-600 hover:shadow-sm">
                                         <i class="mr-2 text-xs fab fa-react text-green-500"></i>
                                         <span data-i18n="navigation.mega_menu.web.web_development">Web Development</span>
                                     </a>
-                                    <a href="/services/modern-web-apps.html" class="flex items-center px-4 py-2 mb-1 text-sm text-slate-600 transition-colors rounded-full hover:bg-white hover:text-blue-600 hover:shadow-sm">
+                                    <a href="/services/modern-web-apps" class="mobile-nav-link flex items-center px-4 py-2 mb-1 text-sm text-slate-600 transition-colors rounded-full hover:bg-white hover:text-blue-600 hover:shadow-sm">
                                         <i class="mr-2 text-xs fas fa-rocket text-blue-500"></i>
                                         <span data-i18n="navigation.mega_menu.web.modern_apps">Modern Web Apps</span>
                                     </a>
-                                    <a href="/services/e-commerce-solutions.html" class="flex items-center px-4 py-2 mb-1 text-sm text-slate-600 transition-colors rounded-full hover:bg-white hover:text-orange-600 hover:shadow-sm">
+                                    <a href="/services/e-commerce-solutions" class="mobile-nav-link flex items-center px-4 py-2 mb-1 text-sm text-slate-600 transition-colors rounded-full hover:bg-white hover:text-orange-600 hover:shadow-sm">
                                         <i class="mr-2 text-xs fas fa-shopping-cart text-orange-500"></i>
                                         <span data-i18n="navigation.mega_menu.web.ecommerce">E-commerce Solutions</span>
                                     </a>
@@ -296,11 +287,11 @@ export const headerTemplate = `
                                     <h4 class="text-sm font-semibold text-slate-900" data-i18n="navigation.mega_menu.mobile.title">Mobile & AI Solutions</h4>
                                 </div>
                                 <div class="ml-4 space-y-2">
-                                    <a href="/services/mobile-apps.html" class="flex items-center px-4 py-2 mb-1 text-sm text-slate-600 transition-colors rounded-full hover:bg-white hover:text-orange-600 hover:shadow-sm">
+                                    <a href="/services/mobile-apps" class="mobile-nav-link flex items-center px-4 py-2 mb-1 text-sm text-slate-600 transition-colors rounded-full hover:bg-white hover:text-orange-600 hover:shadow-sm">
                                         <i class="mr-2 text-xs fas fa-mobile-alt text-orange-500"></i>
                                         <span data-i18n="navigation.mega_menu.mobile.mobile_apps">Mobile Apps</span>
                                     </a>
-                                    <a href="/services/mobile-ai-solutions.html" class="flex items-center px-4 py-2 mb-1 text-sm text-slate-600 transition-colors rounded-full hover:bg-white hover:text-pink-600 hover:shadow-sm">
+                                    <a href="/services/mobile-ai-solutions" class="mobile-nav-link flex items-center px-4 py-2 mb-1 text-sm text-slate-600 transition-colors rounded-full hover:bg-white hover:text-pink-600 hover:shadow-sm">
                                         <i class="mr-2 text-xs fas fa-brain text-pink-500"></i>
                                         <span data-i18n="navigation.mega_menu.mobile.ai_solutions">AI Solutions</span>
                                     </a>
@@ -311,7 +302,7 @@ export const headerTemplate = `
                 </div>
                 
                 <!-- Portfolio -->
-                <a href="/portfolio.html" data-page="portfolio" class="flex items-center justify-between w-full p-3 text-left transition-all duration-200 hover:bg-slate-50 hover:text-blue-600 rounded-xl text-slate-700 font-medium">
+                <a href="/portfolio" data-page="portfolio" class="mobile-nav-link flex items-center justify-between w-full p-3 text-left transition-all duration-200 hover:bg-slate-50 hover:text-blue-600 rounded-xl text-slate-700 font-medium">
                     <div class="flex items-center space-x-4">
                         <div class="flex items-center justify-center w-10 h-10 rounded-full bg-green-500/10">
                             <i class="fas fa-folder-open text-sm text-green-600"></i>
@@ -321,7 +312,7 @@ export const headerTemplate = `
                 </a>
                 
                 <!-- About -->
-                <a href="/about.html" data-page="about" class="flex items-center justify-between w-full p-3 text-left transition-all duration-200 hover:bg-slate-50 hover:text-blue-600 rounded-xl text-slate-700 font-medium">
+                <a href="/about" data-page="about" class="mobile-nav-link flex items-center justify-between w-full p-3 text-left transition-all duration-200 hover:bg-slate-50 hover:text-blue-600 rounded-xl text-slate-700 font-medium">
                     <div class="flex items-center space-x-4">
                         <div class="flex items-center justify-center w-10 h-10 rounded-full bg-indigo-500/10">
                             <i class="fas fa-users text-sm text-indigo-600"></i>
@@ -331,7 +322,7 @@ export const headerTemplate = `
                 </a>
                 
                 <!-- Contact -->
-                <a href="/contact.html" data-page="contact" class="flex items-center justify-between w-full p-3 text-left transition-all duration-200 hover:bg-orange-50 hover:text-orange-600 rounded-xl text-slate-700 font-medium">
+                <a href="/contact" data-page="contact" class="mobile-nav-link flex items-center justify-between w-full p-3 text-left transition-all duration-200 hover:bg-orange-50 hover:text-orange-600 rounded-xl text-slate-700 font-medium">
                     <div class="flex items-center space-x-4">
                         <div class="flex items-center justify-center w-10 h-10 rounded-full bg-orange-500/10">
                             <i class="fas fa-phone text-sm text-orange-600"></i>
@@ -341,7 +332,7 @@ export const headerTemplate = `
                 </a>
                 
                 <!-- Blog -->
-                <a href="/blog.html" data-page="blog" class="flex items-center justify-between w-full p-3 text-left transition-all duration-200 hover:bg-slate-50 hover:text-blue-600 rounded-xl text-slate-700 font-medium">
+                <a href="/blog" data-page="blog" class="mobile-nav-link flex items-center justify-between w-full p-3 text-left transition-all duration-200 hover:bg-slate-50 hover:text-blue-600 rounded-xl text-slate-700 font-medium">
                     <div class="flex items-center space-x-4">
                         <div class="flex items-center justify-center w-10 h-10 rounded-full bg-slate-500/10">
                             <i class="fas fa-rss text-sm text-slate-600"></i>
@@ -350,19 +341,15 @@ export const headerTemplate = `
                     </div>
                 </a>
                 
-                <!-- Language Switcher for Mobile -->
+                <!-- Language Switcher & CTA for Mobile -->
                 <div class="pt-4 border-t border-slate-200">
-                    <div class="flex items-center justify-center space-x-2 p-1 bg-slate-100 rounded-lg">
-                        <button id="mobile-lang-vi" class="px-4 py-2 text-sm font-medium rounded-md transition-all duration-200 lang-btn" data-lang="vi">VI</button>
-                        <button id="mobile-lang-en" class="px-4 py-2 text-sm font-medium rounded-md transition-all duration-200 lang-btn active bg-blue-500 text-white" data-lang="en">EN</button>
+                    <div class="flex items-center justify-between space-x-4">
+                        <div class="flex items-center space-x-2 p-1 bg-slate-100 rounded-lg">
+                            <button class="px-3 py-1 text-sm font-medium rounded-md transition-all duration-200 focus-ring lang-btn" data-lang="vi">VI</button>
+                            <button class="px-3 py-1 text-sm font-medium rounded-md transition-all duration-200 focus-ring lang-btn active bg-blue-500 text-white" data-lang="en">EN</button>
+                        </div>
+                        <a href="/contact" class="inline-flex items-center px-4 py-2 bg-gradient-to-r from-blue-500 to-purple-600 text-white rounded-lg font-semibold text-sm transition-all duration-300 focus-ring" data-i18n="navigation.cta">Free Consultation</a>
                     </div>
-                </div>
-                <div class="flex items-center space-x-2 pt-4">
-                    <div class="flex items-center space-x-2 p-1 bg-slate-100 rounded-lg">
-                        <button class="px-3 py-1 text-sm font-medium rounded-md transition-all duration-200 focus-ring lang-btn" data-lang="vi">VI</button>
-                        <button class="px-3 py-1 text-sm font-medium rounded-md transition-all duration-200 focus-ring lang-btn active bg-blue-500 text-white" data-lang="en">EN</button>
-                    </div>
-                    <a href="/contact.html" class="inline-flex items-center px-4 py-2 bg-gradient-to-r from-blue-500 to-purple-600 text-white rounded-lg font-semibold text-sm transition-all duration-300 focus-ring" data-i18n="navigation.cta">Free Consultation</a>
                 </div>
             </div>
         </div>
@@ -389,7 +376,7 @@ export const footerTemplate = `
                     Professional blockchain development company specializing in DeFi protocols, AI trading systems, and innovative web solutions.
                 </p>
                 <div class="flex space-x-4">
-                    <a href="https://github.com/melyweb" class="flex items-center justify-center w-10 h-10 bg-slate-800 hover:bg-blue-500 text-slate-400 hover:text-white rounded-lg transition-all duration-300">
+                    <a href="https://github.com/hbw-tech" class="flex items-center justify-center w-10 h-10 bg-slate-800 hover:bg-blue-500 text-slate-400 hover:text-white rounded-lg transition-all duration-300">
                         <i class="fab fa-github"></i>
                     </a>
                     <a href="https://linkedin.com/company/hbw-blockchain" class="flex items-center justify-center w-10 h-10 bg-slate-800 hover:bg-blue-500 text-slate-400 hover:text-white rounded-lg transition-all duration-300">
@@ -414,11 +401,11 @@ export const footerTemplate = `
                         <div class="col-span-1">
                             <h4 class="text-white font-semibold mb-4" data-i18n="footer.services.core_title">Core Services</h4>
                             <ul class="space-y-2">
-                                <li><a href="/services/blockchain.html" class="text-slate-400 hover:text-blue-400 transition-colors duration-200" data-i18n="footer.services.blockchain">Blockchain Development</a></li>
-                                <li><a href="/services/web-development.html" class="text-slate-400 hover:text-blue-400 transition-colors duration-200" data-i18n="footer.services.web">Web Development</a></li>
-                                <li><a href="/services/mobile-apps.html" class="text-slate-400 hover:text-blue-400 transition-colors duration-200" data-i18n="footer.services.mobile">Mobile Apps</a></li>
-                                <li><a href="/services/ai-trading-bots.html" class="text-slate-400 hover:text-blue-400 transition-colors duration-200" data-i18n="footer.services.ai_trading">AI Trading Bots</a></li>
-                                <li><a href="/services/defi-protocols.html" class="text-slate-400 hover:text-blue-400 transition-colors duration-200" data-i18n="footer.services.defi">DeFi Protocols</a></li>
+                                <li><a href="/services/blockchain" class="text-slate-400 hover:text-blue-400 transition-colors duration-200" data-i18n="footer.services.blockchain">Blockchain Development</a></li>
+                                <li><a href="/services/web-development" class="text-slate-400 hover:text-blue-400 transition-colors duration-200" data-i18n="footer.services.web">Web Development</a></li>
+                                <li><a href="/services/mobile-apps" class="text-slate-400 hover:text-blue-400 transition-colors duration-200" data-i18n="footer.services.mobile">Mobile Apps</a></li>
+                                <li><a href="/services/ai-trading-bots" class="text-slate-400 hover:text-blue-400 transition-colors duration-200" data-i18n="footer.services.ai_trading">AI Trading Bots</a></li>
+                                <li><a href="/services/defi-protocols" class="text-slate-400 hover:text-blue-400 transition-colors duration-200" data-i18n="footer.services.defi">DeFi Protocols</a></li>
                             </ul>
                         </div>
 
@@ -426,11 +413,11 @@ export const footerTemplate = `
                         <div class="col-span-1">
                             <h4 class="text-white font-semibold mb-4" data-i18n="footer.solutions.title">Solutions & Support</h4>
                             <ul class="space-y-2">
-                                <li><a href="/services/consulting.html" class="text-slate-400 hover:text-blue-400 transition-colors duration-200" data-i18n="footer.solutions.consulting">Technical Consulting</a></li>
-                                <li><a href="/services/modern-web-apps.html" class="text-slate-400 hover:text-blue-400 transition-colors duration-200" data-i18n="footer.solutions.modern_apps">Modern Web Apps</a></li>
-                                <li><a href="/services/e-commerce-solutions.html" class="text-slate-400 hover:text-blue-400 transition-colors duration-200" data-i18n="footer.solutions.ecommerce">E-commerce Solutions</a></li>
-                                <li><a href="/portfolio.html" class="text-slate-400 hover:text-blue-400 transition-colors duration-200" data-i18n="footer.solutions.portfolio">Portfolio</a></li>
-                                <li><a href="/blog.html" class="text-slate-400 hover:text-blue-400 transition-colors duration-200" data-i18n="footer.solutions.blog">Tech Blog</a></li>
+                                <li><a href="/services/consulting" class="text-slate-400 hover:text-blue-400 transition-colors duration-200" data-i18n="footer.solutions.consulting">Technical Consulting</a></li>
+                                <li><a href="/services/modern-web-apps" class="text-slate-400 hover:text-blue-400 transition-colors duration-200" data-i18n="footer.solutions.modern_apps">Modern Web Apps</a></li>
+                                <li><a href="/services/e-commerce-solutions" class="text-slate-400 hover:text-blue-400 transition-colors duration-200" data-i18n="footer.solutions.ecommerce">E-commerce Solutions</a></li>
+                                <li><a href="/portfolio" class="text-slate-400 hover:text-blue-400 transition-colors duration-200" data-i18n="footer.solutions.portfolio">Portfolio</a></li>
+                                <li><a href="/blog" class="text-slate-400 hover:text-blue-400 transition-colors duration-200" data-i18n="footer.solutions.blog">Tech Blog</a></li>
                             </ul>
                         </div>
 
@@ -448,7 +435,7 @@ export const footerTemplate = `
                                 </li>
                                 <li class="flex items-center text-slate-400">
                                     <i class="fas fa-map-marker-alt w-4 mr-2"></i>
-                                    <span data-i18n="footer.contact.location">Da Nang City, Vietnam</span>
+                                    <span data-i18n="footer.contact.location">Ho Chi Minh City, Vietnam</span>
                                 </li>
                             </ul>
                         </div>
@@ -481,11 +468,11 @@ export const footerTemplate = `
                             <!-- Legal Links -->
                             <div class="border-t border-slate-700 pt-3 mt-4">
                                 <div class="flex flex-wrap items-center justify-center gap-4 text-xs lg:text-sm">
-                                    <a href="/privacy.html" class="text-slate-400 hover:text-blue-400 transition-colors duration-200" data-i18n="footer.legal.privacy">Privacy Policy</a>
+                                    <a href="/privacy" class="text-slate-400 hover:text-blue-400 transition-colors duration-200" data-i18n="footer.legal.privacy">Privacy Policy</a>
                                     <span class="text-slate-600">•</span>
-                                    <a href="/terms.html" class="text-slate-400 hover:text-blue-400 transition-colors duration-200" data-i18n="footer.legal.terms">Terms of Service</a>
+                                    <a href="/terms" class="text-slate-400 hover:text-blue-400 transition-colors duration-200" data-i18n="footer.legal.terms">Terms of Service</a>
                                     <span class="text-slate-600">•</span>
-                                    <a href="/contact.html" class="text-slate-400 hover:text-blue-400 transition-colors duration-200" data-i18n="footer.legal.contact">Contact Us</a>
+                                    <a href="/contact" class="text-slate-400 hover:text-blue-400 transition-colors duration-200" data-i18n="footer.legal.contact">Contact Us</a>
                                 </div>
                             </div>
                         </div>
@@ -520,40 +507,20 @@ export function loadHBWComponents() {
         footerPlaceholder.innerHTML = footerTemplate;
     }
     
-    // Initialize Google Analytics
-    initializeGoogleAnalytics();
-    
     // Load floating contact bubble
     loadFloatingContact();
     
     // Set active navigation
     setActiveNavigation();
-}
-
-// Initialize Google Analytics - Loads on all pages
-function initializeGoogleAnalytics() {
-    // Check if Google Analytics is already loaded
-    if (window.gtag || document.querySelector('script[src*="googletagmanager.com/gtag/js"]')) {
-        return;
-    }
     
-    // Create and append Google Analytics script
-    const gtagScript = document.createElement('script');
-    gtagScript.async = true;
-    gtagScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-KCL68RY08K';
-    document.head.appendChild(gtagScript);
+    // Initialize mobile menu functionality
+    setTimeout(() => {
+        initializeMobileMenu();
+        console.log('📱 Mobile menu initialized');
+    }, 100);
     
-    // Initialize gtag function and configuration
-    const gtagConfig = document.createElement('script');
-    gtagConfig.innerHTML = `
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-KCL68RY08K');
-    `;
-    document.head.appendChild(gtagConfig);
-    
-    console.log('Google Analytics (G-KCL68RY08K) initialized successfully');
+    // Initialize Google Analytics
+    initializeGoogleAnalytics();
 }
 
 // Load floating contact bubble - Direct implementation
@@ -829,6 +796,17 @@ function initializeMobileMenu() {
                 mobileMenuBtn.querySelector('i').classList.add('fa-bars');
             }
         });
+        
+        // Close mobile menu when clicking a navigation link
+        const mobileNavLinks = mobileMenu.querySelectorAll('.mobile-nav-link');
+        mobileNavLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+                mobileMenuBtn.setAttribute('aria-expanded', 'false');
+                mobileMenuBtn.querySelector('i').classList.remove('fa-times');
+                mobileMenuBtn.querySelector('i').classList.add('fa-bars');
+            });
+        });
     }
 }
 
@@ -855,10 +833,34 @@ function toggleMobileAccordion(section) {
 // Make toggleMobileAccordion globally available
 window.toggleMobileAccordion = toggleMobileAccordion;
 
+// Initialize Google Analytics - Loads on all pages
+function initializeGoogleAnalytics() {
+    // Check if Google Analytics is already loaded
+    if (window.gtag || document.querySelector('script[src*="googletagmanager.com/gtag/js"]')) {
+        return;
+    }
+    
+    // Create and append Google Analytics script
+    const gtagScript = document.createElement('script');
+    gtagScript.async = true;
+    gtagScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-KCL68RY08K';
+    document.head.appendChild(gtagScript);
+    
+    // Initialize gtag function and configuration
+    const gtagConfig = document.createElement('script');
+    gtagConfig.innerHTML = `
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-KCL68RY08K');
+    `;
+    document.head.appendChild(gtagConfig);
+    
+    console.log('Google Analytics (G-KCL68RY08K) initialized successfully');
+}
+
 // Language switching is now handled by i18n.js
 // This function remains for compatibility but logic moved to HBWi18n class
-
-
 
 // Components will be loaded via ES6 module imports in each page
 // No auto-execution here to avoid conflicts
