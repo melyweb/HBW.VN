@@ -520,11 +520,40 @@ export function loadHBWComponents() {
         footerPlaceholder.innerHTML = footerTemplate;
     }
     
+    // Initialize Google Analytics
+    initializeGoogleAnalytics();
+    
     // Load floating contact bubble
     loadFloatingContact();
     
     // Set active navigation
     setActiveNavigation();
+}
+
+// Initialize Google Analytics - Loads on all pages
+function initializeGoogleAnalytics() {
+    // Check if Google Analytics is already loaded
+    if (window.gtag || document.querySelector('script[src*="googletagmanager.com/gtag/js"]')) {
+        return;
+    }
+    
+    // Create and append Google Analytics script
+    const gtagScript = document.createElement('script');
+    gtagScript.async = true;
+    gtagScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-KCL68RY08K';
+    document.head.appendChild(gtagScript);
+    
+    // Initialize gtag function and configuration
+    const gtagConfig = document.createElement('script');
+    gtagConfig.innerHTML = `
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-KCL68RY08K');
+    `;
+    document.head.appendChild(gtagConfig);
+    
+    console.log('Google Analytics (G-KCL68RY08K) initialized successfully');
 }
 
 // Load floating contact bubble - Direct implementation
