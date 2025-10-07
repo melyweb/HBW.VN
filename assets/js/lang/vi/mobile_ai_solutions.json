@@ -1,0 +1,247 @@
+{
+  "meta": {
+    "title": "Giải Pháp Mobile & AI - HBW Technology Solutions",
+    "description": "Phát triển ứng dụng mobile tiên tiến tích hợp AI. Giải pháp đa nền tảng, hiệu năng native, tính năng AI và trải nghiệm người dùng thông minh.",
+    "og_title": "Giải Pháp Mobile & AI | HBW Technology",
+    "og_description": "Phát triển ứng dụng mobile chuyên nghiệp với tích hợp AI tiên tiến cho trải nghiệm người dùng thông minh."
+  },
+  "hero": {
+    "badge": "Đổi Mới Mobile & AI",
+    "title": "Giải Pháp Mobile Thông Minh",
+    "description": "Phát triển ứng dụng mobile tiên tiến được hỗ trợ bởi công nghệ AI tiên tiến. Tạo ra trải nghiệm người dùng thông minh với machine learning, xử lý ngôn ngữ tự nhiên và tích hợp computer vision.",
+    "cta_primary": "Bắt Đầu Dự Án AI",
+    "cta_secondary": "Xem Demo AI",
+    "stats": {
+      "apps": "50+",
+      "apps_label": "Ứng Dụng AI",
+      "accuracy": "98%",
+      "accuracy_label": "Độ Chính Xác AI",
+      "performance": "3x",
+      "performance_label": "Xử Lý Nhanh Hơn"
+    }
+  },
+  "capabilities": {
+    "title": "Khả Năng Mobile Hỗ Trợ AI",
+    "description": "Tích hợp công nghệ AI tiên tiến vào ứng dụng mobile của bạn để có trải nghiệm người dùng thông minh và chức năng nâng cao.",
+    "computer_vision": {
+      "title": "Computer Vision",
+      "description": "Nhận dạng hình ảnh tiên tiến, phát hiện đối tượng, nhận dạng khuôn mặt và trải nghiệm AR được hỗ trợ bởi mô hình machine learning.",
+      "feature1": "Phát Hiện Đối Tượng Thời Gian Thực",
+      "feature2": "Nhận Dạng & Phân Tích Khuôn Mặt",
+      "feature3": "Tích Hợp Thực Tế Ảo"
+    },
+    "nlp": {
+      "title": "Xử Lý Ngôn Ngữ Tự Nhiên",
+      "description": "Chatbot thông minh, trợ lý giọng nói, dịch thuật ngôn ngữ và phân tích cảm xúc để nâng cao giao tiếp người dùng.",
+      "feature1": "Chatbot Thông Minh",
+      "feature2": "Nhận Dạng & Lệnh Giọng Nói",
+      "feature3": "Dịch Thuật Thời Gian Thực"
+    },
+    "ml": {
+      "title": "Mô Hình Machine Learning",
+      "description": "Mô hình ML tùy chỉnh cho phân tích dự đoán, công cụ gợi ý và trải nghiệm người dùng cá nhân hóa.",
+      "feature1": "Phân Tích Dự Đoán",
+      "feature2": "Công Cụ Gợi Ý",
+      "feature3": "Phân Tích Hành Vi"
+    },
+    "iot": {
+      "title": "Edge AI & IoT",
+      "description": "Xử lý AI trên thiết bị, tích hợp thiết bị IoT và phân tích dữ liệu cảm biến thông minh để có thông tin thời gian thực.",
+      "feature1": "Xử Lý Trên Thiết Bị",
+      "feature2": "Tích Hợp Cảm Biến Thông Minh",
+      "feature3": "Phân Tích Thời Gian Thực"
+    },
+    "blockchain_ai": {
+      "title": "Blockchain AI",
+      "description": "Ứng dụng DeFi hỗ trợ AI, tự động hóa smart contract và huấn luyện mô hình AI phi tập trung.",
+      "feature1": "DeFi AI Trading",
+      "feature2": "Tự Động Hóa Smart Contract",
+      "feature3": "Mô Hình ML Phi Tập Trung"
+    },
+    "ar_vr": {
+      "title": "AR/VR Intelligence",
+      "description": "Trải nghiệm AR/VR nhập vai với tương tác hỗ trợ AI, spatial computing và trợ lý ảo thông minh.",
+      "feature1": "Spatial Computing",
+      "feature2": "Trợ Lý AI Ảo",
+      "feature3": "Tương Tác Nhập Vai"
+    }
+  },
+  "tech_stack": {
+    "title": "Công Nghệ Tiên Tiến",
+    "description": "Các công nghệ và framework tiên tiến để xây dựng ứng dụng mobile thông minh với khả năng AI.",
+    "mobile_platforms": {
+      "title": "Nền Tảng Phát Triển Mobile",
+      "react_native": "React Native",
+      "react_native_desc": "Đa Nền Tảng",
+      "flutter": "Flutter",
+      "flutter_desc": "Framework Google",
+      "ios": "iOS Native",
+      "ios_desc": "Swift & Objective-C",
+      "android": "Android Native",
+      "android_desc": "Kotlin & Java"
+    },
+    "ai_frameworks": {
+      "title": "Framework AI/ML",
+      "tensorflow": "TensorFlow",
+      "pytorch": "PyTorch",
+      "coreml": "Core ML",
+      "ml_kit": "ML Kit",
+      "opencv": "OpenCV"
+    },
+    "cloud_backend": {
+      "title": "Hạ Tầng Cloud & Backend",
+      "aws": "AWS AI Services",
+      "gcp": "Google Cloud AI",
+      "azure": "Azure Cognitive",
+      "firebase": "Firebase ML",
+      "graphql": "GraphQL APIs",
+      "docker": "Docker & K8s"
+    }
+  },
+  "services": {
+    "title": "Dịch Vụ Phát Triển Mobile AI",
+    "description": "Dịch vụ phát triển mobile toàn diện với tích hợp AI tiên tiến cho ứng dụng thông minh, giàu tính năng.",
+    "ai_mobile": {
+      "title": "Ứng Dụng Mobile AI",
+      "duration": "8-16 tuần",
+      "price": "Từ $15,000",
+      "price_note": "Giải pháp mobile AI hoàn chỉnh",
+      "feature1": "Tích Hợp Computer Vision",
+      "feature2": "Xử Lý Ngôn Ngữ Tự Nhiên",
+      "feature3": "Mô Hình Machine Learning",
+      "feature4": "Xử Lý AI Thời Gian Thực",
+      "feature5": "Triển Khai Đa Nền Tảng",
+      "cta": "Báo Giá Ứng Dụng AI"
+    },
+    "cv_apps": {
+      "title": "Ứng Dụng Computer Vision",
+      "duration": "10-20 tuần",
+      "price": "Từ $25,000",
+      "price_note": "Giải pháp computer vision tiên tiến",
+      "badge": "Phổ Biến Nhất",
+      "feature1": "Phát Hiện & Nhận Dạng Đối Tượng",
+      "feature2": "Hệ Thống Nhận Dạng Khuôn Mặt",
+      "feature3": "Tính Năng Thực Tế Ảo",
+      "feature4": "Phân Tích & Xử Lý Hình Ảnh",
+      "feature5": "Xử Lý Video Thời Gian Thực",
+      "feature6": "Huấn Luyện Mô Hình ML Tùy Chỉnh",
+      "cta": "Bắt Đầu Dự Án Vision"
+    },
+    "chatbot_apps": {
+      "title": "Ứng Dụng AI Chatbot",
+      "duration": "6-12 tuần",
+      "price": "Từ $12,000",
+      "price_note": "AI đối thoại thông minh",
+      "feature1": "Tích Hợp NLP Tiên Tiến",
+      "feature2": "Nhận Dạng & Tổng Hợp Giọng Nói",
+      "feature3": "Hỗ Trợ Đa Ngôn Ngữ",
+      "feature4": "Phân Tích Cảm Xúc",
+      "feature5": "Tích Hợp Với Backend APIs",
+      "cta": "Xây Dựng AI Chatbot"
+    }
+  },
+  "metrics": {
+    "title": "Hiệu Suất AI Xuất Sắc",
+    "description": "Chỉ số hiệu suất thực tế từ các ứng dụng mobile hỗ trợ AI của chúng tôi trong môi trường sản xuất.",
+    "accuracy": {
+      "value": "98.7%",
+      "label": "Độ Chính Xác AI",
+      "description": "Độ chính xác trung bình của mô hình ML trên các tác vụ computer vision và NLP"
+    },
+    "speed": {
+      "value": "120ms",
+      "label": "Thời Gian Phản Hồi",
+      "description": "Thời gian xử lý AI trung bình cho ứng dụng thời gian thực"
+    },
+    "engagement": {
+      "value": "85%",
+      "label": "Giữ Chân Người Dùng",
+      "description": "Tỷ lệ giữ chân 30 ngày cho ứng dụng mobile có AI"
+    },
+    "battery": {
+      "value": "92%",
+      "label": "Hiệu Suất Pin",
+      "description": "Xử lý AI tối ưu với tác động pin tối thiểu"
+    }
+  },
+  "success_stories": {
+    "title": "Câu Chuyện Thành Công AI",
+    "description": "Các dự án thực tế thể hiện sức mạnh của việc tích hợp AI trong ứng dụng mobile với kết quả kinh doanh có thể đo lường được.",
+    "medical_app": {
+      "title": "MedScan AI",
+      "category": "Ứng Dụng Y Tế Hình Ảnh",
+      "description": "Ứng dụng mobile hỗ trợ AI cho các chuyên gia y tế phân tích X-quang và CT scan với công nghệ computer vision, cung cấp hỗ trợ chẩn đoán tức thì.",
+      "accuracy": "96.5%",
+      "accuracy_label": "Độ Chính Xác Chẩn Đoán",
+      "time_saved": "70%",
+      "time_saved_label": "Tiết Kiệm Thời Gian",
+      "users": "15K+",
+      "users_label": "Người Dùng Y Tế",
+      "tech1": "TensorFlow",
+      "tech2": "Computer Vision",
+      "tech3": "React Native",
+      "tech4": "AWS AI"
+    },
+    "retail_app": {
+      "title": "ShopSmart AI",
+      "category": "Ứng Dụng Retail Thông Minh",
+      "description": "Trợ lý mua sắm thông minh với nhận dạng sản phẩm, so sánh giá và gợi ý cá nhân hóa sử dụng thuật toán machine learning.",
+      "conversion": "45%",
+      "conversion_label": "Tăng Chuyển Đổi",
+      "engagement": "3.2x",
+      "engagement_label": "Tương Tác Người Dùng",
+      "downloads": "250K+",
+      "downloads_label": "Lượt Tải Ứng Dụng",
+      "tech1": "ML Kit",
+      "tech2": "Công Cụ Gợi Ý",
+      "tech3": "Flutter",
+      "tech4": "Firebase AI"
+    }
+  },
+  "process": {
+    "title": "Quy Trình Phát Triển AI",
+    "description": "Phương pháp tiếp cận có hệ thống để tích hợp khả năng AI vào ứng dụng mobile với phương pháp và thực hành tốt nhất đã được chứng minh.",
+    "step1": {
+      "title": "Chiến Lược & Lập Kế Hoạch AI",
+      "description": "Xác định use case AI, lựa chọn mô hình phù hợp và thiết kế kiến trúc tính năng thông minh cho ứng dụng mobile của bạn.",
+      "deliverable1": "Phân Tích Yêu Cầu AI",
+      "deliverable2": "Lựa Chọn Mô Hình & Kiến Trúc",
+      "deliverable3": "Nghiên Cứu Khả Thi Kỹ Thuật"
+    },
+    "step2": {
+      "title": "Huấn Luyện & Tối Ưu Mô Hình",
+      "description": "Huấn luyện mô hình ML tùy chỉnh, tối ưu cho hiệu năng mobile và triển khai khả năng edge AI để xử lý hiệu quả.",
+      "deliverable1": "Huấn Luyện Mô Hình Tùy Chỉnh",
+      "deliverable2": "Tối Ưu Mobile",
+      "deliverable3": "Kiểm Tra Hiệu Suất"
+    },
+    "step3": {
+      "title": "Tích Hợp Ứng Dụng Mobile",
+      "description": "Tích hợp mô hình AI vào ứng dụng mobile với giao diện người dùng tối ưu và khả năng xử lý thời gian thực mượt mà.",
+      "deliverable1": "Tích Hợp AI SDK",
+      "deliverable2": "Triển Khai UI/UX",
+      "deliverable3": "Triển Khai Đa Nền Tảng"
+    },
+    "step4": {
+      "title": "Triển Khai & Giám Sát AI",
+      "description": "Triển khai lên app store với giám sát mô hình AI liên tục, phân tích hiệu suất và cập nhật mô hình tự động.",
+      "deliverable1": "Triển Khai App Store",
+      "deliverable2": "Giám Sát Hiệu Suất AI",
+      "deliverable3": "Cải Tiến Liên Tục"
+    }
+  },
+  "cta": {
+    "title": "Sẵn Sàng Xây Dựng Ứng Dụng Mobile AI?",
+    "description": "Biến ý tưởng ứng dụng mobile của bạn thành hiện thực với công nghệ AI tiên tiến. Nhận tư vấn chuyên gia và phát triển tùy chỉnh từ đội ngũ phát triển AI và mobile có kinh nghiệm của chúng tôi.",
+    "primary": "Bắt Đầu Dự Án AI",
+    "secondary": "Đặt Lịch Tư Vấn",
+    "guarantee": {
+      "consultation": "Miễn Phí",
+      "consultation_label": "Tư Vấn Chiến Lược AI",
+      "response": "24h",
+      "response_label": "Thời Gian Phản Hồi",
+      "support": "100%",
+      "support_label": "Tỷ Lệ Thành Công Dự Án"
+    }
+  }
+}

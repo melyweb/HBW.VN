@@ -1,0 +1,227 @@
+{
+  "blog": {
+    "title": "HBW Blog - Phân Tích Blockchain & Thông Tin Ngành",
+    "meta_description": "Cập nhật xu hướng blockchain mới nhất, thông tin DeFi, chiến lược AI trading và phân tích kỹ thuật từ đội ngũ chuyên gia HBW.",
+    "og_title": "HBW Blog - Thông Tin Blockchain & DeFi", 
+    "og_description": "Thông tin chuyên gia về blockchain development, DeFi protocols, AI trading và xu hướng cryptocurrency từ đội ngũ HBW.",
+    "twitter_title": "HBW Blog - Thông Tin Blockchain",
+    "twitter_description": "Thông tin blockchain và DeFi chuyên sâu từ các chuyên gia ngành.",
+    
+    "hero": {
+      "badge": "Phân Tích & Thông Tin Ngành",
+      "title": "HBW Blog",
+      "subtitle": "Thông tin chuyên gia về blockchain development, DeFi protocols, chiến lược AI trading và xu hướng công nghệ mới nhất từ đội ngũ giàu kinh nghiệm của chúng tôi.",
+      "tag1": "Bài Viết Hàng Tuần",
+      "tag2": "Phân Tích Chuyên Gia",
+      "tag3": "Cập Nhật Ngành"
+    },
+    
+    "filters": {
+      "all": "Tất Cả Bài Viết",
+      "blockchain": "Blockchain",
+      "defi": "DeFi",
+      "ai_trading": "AI Trading",
+      "tutorials": "Hướng Dẫn",
+      "market": "Phân Tích Thị Trường"
+    },
+    
+    "categories": {
+      "title": "Danh Mục Blog",
+      "all": "Tất Cả Bài Viết",
+      "blockchain": "Blockchain Development",
+      "defi": "DeFi Protocols", 
+      "ai_trading": "AI Trading",
+      "tutorials": "Hướng Dẫn & Tutorials",
+      "market_analysis": "Phân Tích Thị Trường",
+      "technology": "Cập Nhật Công Nghệ"
+    },
+    
+    "featured": {
+      "title": "Bài Viết Nổi Bật",
+      "subtitle": "Phân tích chuyên sâu mới nhất về xu hướng blockchain và DeFi",
+      
+      "post": {
+        "title": "Tương Lai Của DeFi: Xu Hướng và Dự Đoán Cho Năm 2024",
+        "excerpt": "Phân tích toàn diện các xu hướng DeFi mới nổi, từ các giao thức đa chuỗi đến farming tự động bằng AI. Khám phá những đổi mới chính định hình tương lai của tài chính phi tập trung và tác động tiềm năng lên hệ thống tài chính truyền thống.",
+        "read_more": "Đọc Toàn Bộ Bài Viết",
+        "bookmark": "Lưu Lại Để Đọc Sau"
+      },
+      
+      "articles": {
+        "defi_trends": {
+          "title": "Xu Hướng DeFi 2024: Điều Gì Sẽ Xảy Ra Tiếp Theo Với Tài Chính Phi Tập Trung",
+          "excerpt": "Khám phá xu hướng DeFi mới nhất, protocols mới nổi và cơ hội đầu tư định hình cảnh quan tài chính phi tập trung năm 2024.",
+          "category": "Phân Tích DeFi",
+          "read_time": "8 phút đọc",
+          "date": "15 Tháng 1, 2024",
+          "author": "Brian Chen"
+        },
+        "ai_trading": {
+          "title": "Xây Dựng AI Trading Bots: Hướng Dẫn Kỹ Thuật Toàn Diện",
+          "excerpt": "Hướng dẫn từng bước tạo hệ thống AI trading sinh lời với machine learning algorithms và chiến lược quản lý rủi ro.",
+          "category": "AI Trading",
+          "read_time": "12 phút đọc", 
+          "date": "10 Tháng 1, 2024",
+          "author": "Alex Nguyen"
+        },
+        "smart_contracts": {
+          "title": "Bảo Mật Smart Contract: Best Practices Cho 2024",
+          "excerpt": "Thực hành bảo mật thiết yếu, lỗ hổng phổ biến và chiến lược audit để xây dựng smart contracts an toàn.",
+          "category": "Blockchain",
+          "read_time": "6 phút đọc",
+          "date": "5 Tháng 1, 2024",
+          "author": "Sarah Kim"
+        }
+      }
+    },
+    
+    "grid": {
+      "title": "Bài Viết Mới Nhất",
+      "subtitle": "Luôn cập nhật với những thông tin thường xuyên về công nghệ blockchain, xu hướng thị trường và thực hành phát triển tốt nhất"
+    },
+    
+    "articles": {
+      "defi_trends": {
+        "title": "Tương Lai của DeFi: Xu Hướng và Dự Đoán 2025",
+        "excerpt": "Phân tích toàn diện về các xu hướng DeFi mới nổi, từ cross-chain protocols đến AI-powered yield farming và tác động đối với tài chính truyền thống."
+      },
+      "ai_strategies": {
+        "title": "Chiến Lược AI Trading: Thuật Toán Tiên Tiến 2025",
+        "excerpt": "Đi sâu vào các chiến lược AI trading tiên tiến, bao gồm neural networks, reinforcement learning và phân tích sentiment để tối đa hóa ROI."
+      },
+      "web3_trends": {
+        "title": "Xu Hướng Phát Triển Web3: Định Hình Tương Lai",
+        "excerpt": "Khám phá các xu hướng phát triển Web3 mới nhất bao gồm decentralized identity, progressive Web3 apps và trải nghiệm người dùng thế hệ mới."
+      },
+      "enterprise": {
+        "title": "Tích Hợp Blockchain Cho Doanh Nghiệp: Ứng Dụng Thực Tế",
+        "excerpt": "Cách các doanh nghiệp triển khai thành công giải pháp blockchain cho supply chain, tài chính và digital identity với case studies cụ thể."
+      },
+      "security_2025": {
+        "title": "Bảo Mật Smart Contract: Lỗ Hổng & Giải Pháp Mới Nhất",
+        "excerpt": "Các thực hành bảo mật cập nhật cho 2025, bao gồm attack vectors mới, formal verification và kỹ thuật auditing tiên tiến cho smart contracts."
+      },
+      "market_outlook": {
+        "title": "Triển Vọng Thị Trường Cryptocurrency: Phân Tích Q4 2024",
+        "excerpt": "Phân tích toàn diện về xu hướng thị trường cryptocurrency, institutional adoption, phát triển quy định và dự đoán giá cho Q4 2024."
+      },
+      "read_more": "Đọc Thêm →"
+    },
+    
+    "load_more": "Tải Thêm Bài Viết",
+    
+    "recent": {
+      "title": "Bài Viết Gần Đây",
+      "subtitle": "Thông tin và cập nhật mới nhất từ thế giới blockchain",
+      "load_more": "Tải Thêm Bài Viết",
+      "no_more": "Không có bài viết nào để tải thêm"
+    },
+    
+    "newsletter": {
+      "title": "Luôn Cập Nhật",
+      "subtitle": "Đăng ký newsletter của chúng tôi và nhận các thông tin blockchain mới nhất được gửi đến hộp thư của bạn hàng tuần",
+      "email_placeholder": "Nhập địa chỉ email của bạn",
+      "subscribe": "Đăng Ký Ngay",
+      "privacy_note": "Chúng tôi tôn trọng quyền riêng tư của bạn. Không spam, hủy đăng ký bất cứ lúc nào.",
+      "subscribe_btn": "Đăng Ký Ngay",
+      "subscribing": "Đang Đăng Ký...", 
+      "success": "Đăng ký thành công!",
+      "privacy": "Chúng tôi tôn trọng quyền riêng tư. Hủy đăng ký bất cứ lúc nào.",
+      "benefits": {
+        "weekly": "Thông tin blockchain hàng tuần",
+        "exclusive": "Nội dung kỹ thuật độc quyền",
+        "early": "Truy cập sớm bài viết mới"
+      }
+    },
+    
+    "topics": {
+      "title": "Chủ Đề Phổ Biến",
+      "subtitle": "Khám phá các danh mục nội dung phổ biến nhất của chúng tôi và khám phá những thông tin chuyên gia",
+      
+      "blockchain": {
+        "title": "Công Nghệ Blockchain",
+        "desc": "Những phát triển mới nhất, xu hướng và thông tin kỹ thuật trong công nghệ blockchain",
+        "count": "25 Bài Viết"
+      },
+      "defi": {
+        "title": "Giao Thức DeFi",
+        "desc": "Phân tích sâu về các giao thức DeFi, yield farming và xu hướng tài chính phi tập trung",
+        "count": "18 Bài Viết"
+      },
+      "ai": {
+        "title": "AI Trading",
+        "desc": "Chiến lược giao dịch được hỗ trợ bởi AI, machine learning và các hệ thống tự động",
+        "count": "12 Bài Viết"
+      },
+      "market": {
+        "title": "Phân Tích Thị Trường",
+        "desc": "Xu hướng thị trường, phân tích giá cả và thông tin về hệ sinh thái cryptocurrency",
+        "count": "15 Bài Viết"
+      }
+    },
+    
+    "sidebar": {
+      "popular": {
+        "title": "Bài Viết Phổ Biến",
+        "article1": "Bắt Đầu Với DeFi: Hướng Dẫn Cho Người Mới",
+        "article2": "Chiến Lược Multi-Chain Development",
+        "article3": "Hướng Dẫn NFT Marketplace Development",
+        "article4": "Kỹ Thuật Tối Ưu Yield Farming",
+        "article5": "Cơ Bản Bảo Mật Blockchain"
+      },
+      
+      "tags": {
+        "title": "Tags Phổ Biến",
+        "ethereum": "Ethereum",
+        "defi": "DeFi",
+        "smart_contracts": "Smart Contracts",
+        "ai": "AI Trading",
+        "nft": "NFT",
+        "polygon": "Polygon",
+        "solidity": "Solidity",
+        "web3": "Web3"
+      },
+      
+      "resources": {
+        "title": "Tài Nguyên Miễn Phí",
+        "whitepaper": "Tải DeFi Whitepaper Của Chúng Tôi",
+        "toolkit": "Blockchain Developer Toolkit", 
+        "guides": "Hướng Dẫn Technical Implementation",
+        "templates": "Smart Contract Templates"
+      }
+    },
+    
+    "archive": {
+      "title": "Kho Bài Viết",
+      "filter_by_month": "Lọc Theo Tháng",
+      "filter_by_category": "Lọc Theo Danh Mục",
+      "search_placeholder": "Tìm kiếm bài viết...",
+      "results_found": "bài viết tìm thấy",
+      "no_results": "Không tìm thấy bài viết nào phù hợp"
+    },
+    
+    "cta": {
+      "title": "Có Dự Án Blockchain Trong Ý?",
+      "subtitle": "Hãy thảo luận về cách chuyên môn của chúng tôi có thể giúp biến tầm nhìn của bạn thành hiện thực với dịch vụ phát triển blockchain chuyên nghiệp",
+      "contact": "Bắt Đầu Cuộc Trò Chuyện",
+      "portfolio": "Xem Công Việc Của Chúng Tôi",
+      "consultation_btn": "Nhận Tư Vấn Miễn Phí",
+      "portfolio_btn": "Xem Công Việc Của Chúng Tôi"
+    },
+    
+    "post": {
+      "title": "Tương Lai của DeFi: Xu Hướng và Dự Đoán 2025 | HBW Technology Blog",
+      "meta_description": "Phân tích toàn diện về các xu hướng DeFi mới nổi, cross-chain protocols, AI yield farming và tác động tiềm năng đối với hệ thống tài chính truyền thống năm 2025.",
+      "og_title": "Tương Lai của DeFi: Xu Hướng và Dự Đoán 2025",
+      "og_description": "Phân tích chuyên gia về sự phát triển DeFi, đổi mới cross-chain và chiến lược yield AI định hình tài chính phi tập trung năm 2025.",
+      "twitter_title": "Tương Lai của DeFi: Xu Hướng và Dự Đoán 2025",
+      "twitter_description": "Phân tích DeFi chuyên gia cho 2025: cross-chain protocols, AI yield farming và đổi mới tài chính."
+    },
+    
+    "breadcrumb": {
+      "home": "Trang Chủ", 
+      "blog": "Blog",
+      "current": "Xu Hướng DeFi 2025"
+    }
+  }
+}

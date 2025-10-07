@@ -1,0 +1,353 @@
+{
+  "meta": {
+    "title": "Comprehensive Technology Services | HBW Technology Solutions",
+    "description": "Blockchain Development, Web Development, Digital Marketing with SimilarWeb & Hypestat ranking boost. Professional technology services from $500-$50K.",
+    "keywords": "blockchain development, web development, digital marketing, similarweb boost, hypestat ranking, smart contracts, defi, web3",
+    "og_title": "Comprehensive Technology Services | HBW Technology Solutions",
+    "og_description": "Blockchain, Web Development, Digital Marketing with SimilarWeb & Hypestat ranking boost"
+  },
+  "services": {
+    "badge": "Professional Technology Services",
+    "headline": "Technology Solutions",
+    "highlight": " That Convert",
+    "categories": "Blockchain Development • Web Development • Digital Marketing",
+    "description": "From concept to deployment - we provide comprehensive technology solutions for businesses of all sizes"
+  },
+  "hero_stats": {
+    "projects": {
+      "number": "500+",
+      "label": "Projects Delivered"
+    },
+    "tvl": {
+      "number": "$50M+",
+      "label": "TVL Managed"
+    },
+    "satisfaction": {
+      "number": "98%",
+      "label": "Client Satisfaction"
+    },
+    "support": {
+      "number": "24/7",
+      "label": "Technical Support"
+    }
+  },
+  "blockchain": {
+    "badge": "Enterprise Grade",
+    "title": "Blockchain Development",
+    "subtitle": "Smart Contracts & DeFi Solutions",
+    "description": "Enterprise-grade DEX development, smart contracts auditing, and DeFi protocol solutions with multi-chain integration",
+    "features": {
+      "smart_contracts": {
+        "title": "Smart Contracts Development",
+        "description": "Audited smart contracts with gas optimization and security-first approach"
+      },
+      "defi_protocols": {
+        "title": "DeFi Protocol Architecture",
+        "description": "Complete DeFi ecosystem with yield farming, staking, and governance systems"
+      },
+      "multichain": {
+        "title": "Multi-chain Integration",
+        "description": "Cross-chain compatibility with Ethereum, BSC, Polygon, and Solana networks"
+      },
+      "tokenomics": {
+        "title": "Tokenomics Design",
+        "description": "Economic modeling, token distribution strategies, and burn mechanisms"
+      }
+    },
+    "pricing": {
+      "smart_contract": {
+        "name": "Smart Contract",
+        "price": "$2,500",
+        "features": [
+          "Contract Development",
+          "Security Audit",
+          "Gas Optimization",
+          "Deployment Support"
+        ]
+      },
+      "defi_protocol": {
+        "name": "DeFi Protocol",
+        "price": "$15,000",
+        "features": [
+          "Complete DeFi Ecosystem",
+          "Yield Farming",
+          "Governance Token",
+          "Analytics Dashboard"
+        ]
+      },
+      "enterprise": {
+        "name": "Enterprise Solutions",
+        "price": "$50,000+",
+        "features": [
+          "Custom Blockchain",
+          "Multi-chain Integration",
+          "Enterprise Security",
+          "24/7 Technical Support"
+        ]
+      }
+    },
+    "cta": "Start Blockchain Project"
+  },
+  "web_development": {
+    "badge": "High Performance",
+    "title": "Web Development",
+    "subtitle": "Modern Responsive Websites",
+    "description": "Professional websites with 98+ PageSpeed Score, SEO optimization, and conversion-focused design",
+    "features": {
+      "responsive": {
+        "title": "Responsive Design",
+        "description": "Mobile-first approach with perfect display across all devices and screen sizes"
+      },
+      "performance": {
+        "title": "Performance Optimization",
+        "description": "98+ PageSpeed Score with advanced caching, CDN integration, and image optimization"
+      },
+      "seo": {
+        "title": "SEO Optimization",
+        "description": "Technical SEO, meta optimization, schema markup, and search engine visibility"
+      },
+      "conversion": {
+        "title": "Conversion Optimization",
+        "description": "A/B testing, user behavior analysis, and conversion funnel optimization"
+      }
+    },
+    "pricing": {
+      "landing": {
+        "name": "Landing Page",
+        "price": "$800",
+        "features": [
+          "Responsive Design",
+          "SEO Optimized",
+          "Contact Forms",
+          "Analytics Integration"
+        ]
+      },
+      "business": {
+        "name": "Business Website",
+        "price": "$2,500",
+        "features": [
+          "Multi-page Website",
+          "CMS Integration",
+          "E-commerce Ready",
+          "Performance Optimization"
+        ]
+      },
+      "enterprise": {
+        "name": "Enterprise Portal",
+        "price": "$8,000+",
+        "features": [
+          "Custom Development",
+          "Database Integration",
+          "User Management",
+          "Advanced Analytics"
+        ]
+      }
+    },
+    "cta": "Start Web Project"
+  },
+  "digital_marketing": {
+    "badge": "FLAGSHIP SERVICE",
+    "title": "Digital Marketing",
+    "highlight": "Ranking Boost",
+    "subtitle": "SimilarWeb & Hypestat Optimization",
+    "description": "Boost your website's SimilarWeb ranking, Hypestat metrics, and domain authority with our proven traffic growth strategies",
+    "flagship_features": {
+      "similarweb": {
+        "title": "SimilarWeb Ranking Boost",
+        "description": "Increase your SimilarWeb global ranking from unranked to top 500K-100K within 3-6 months",
+        "metrics": [
+          "Global Ranking Improvement",
+          "Traffic Analytics Boost",
+          "Engagement Metrics",
+          "Category Ranking"
+        ]
+      },
+      "hypestat": {
+        "title": "Hypestat Optimization",
+        "description": "Improve Hypestat domain value, daily visitors, and revenue estimates",
+        "metrics": [
+          "Domain Value Increase",
+          "Daily Visitors Growth", 
+          "Revenue Estimates",
+          "SEO Metrics"
+        ]
+      },
+      "traffic_growth": {
+        "title": "Organic Traffic Growth",
+        "description": "Sustainable traffic growth through advanced SEO, content marketing, and link building",
+        "metrics": [
+          "300-500% Traffic Increase",
+          "Keyword Ranking Boost",
+          "Backlink Portfolio",
+          "Content Strategy"
+        ]
+      }
+    },
+    "services_included": {
+      "seo": {
+        "title": "Advanced SEO",
+        "items": [
+          "Technical SEO Audit",
+          "Keyword Research & Strategy",
+          "On-page Optimization",
+          "Link Building Campaign"
+        ]
+      },
+      "content": {
+        "title": "Content Marketing",
+        "items": [
+          "SEO Content Creation",
+          "Blog Strategy & Writing",
+          "Social Media Content",
+          "Video Marketing"
+        ]
+      },
+      "ads": {
+        "title": "Paid Advertising",
+        "items": [
+          "Google Ads Management",
+          "Facebook/Instagram Ads",
+          "LinkedIn B2B Campaigns",
+          "Retargeting Strategies"
+        ]
+      },
+      "analytics": {
+        "title": "Analytics & Reporting",
+        "items": [
+          "Real-time Dashboard",
+          "SimilarWeb Tracking",
+          "Hypestat Monitoring",
+          "ROI Analysis"
+        ]
+      }
+    },
+    "pricing": {
+      "starter": {
+        "name": "Ranking Starter",
+        "price": "$1,500/month",
+        "duration": "3 months minimum",
+        "features": [
+          "SimilarWeb Ranking Boost",
+          "Basic SEO Optimization",
+          "Content Marketing",
+          "Monthly Reporting"
+        ],
+        "results": "Reach top 500K ranking"
+      },
+      "professional": {
+        "name": "Growth Accelerator",
+        "price": "$3,500/month", 
+        "duration": "6 months minimum",
+        "features": [
+          "Advanced SimilarWeb Boost",
+          "Hypestat Optimization",
+          "Comprehensive SEO",
+          "Paid Ads Management",
+          "Weekly Reporting"
+        ],
+        "results": "Reach top 100K ranking"
+      },
+      "enterprise": {
+        "name": "Market Domination",
+        "price": "$7,500/month",
+        "duration": "12 months minimum", 
+        "features": [
+          "Complete Market Analysis",
+          "Competitor Intelligence",
+          "Multi-channel Campaigns",
+          "Dedicated Account Manager",
+          "Real-time Dashboard"
+        ],
+        "results": "Top 50K ranking + market leadership"
+      }
+    },
+    "guarantee": {
+      "title": "Performance Guarantee",
+      "description": "We guarantee measurable improvements in SimilarWeb ranking and traffic growth within 90 days, or we continue working until targets are achieved.",
+      "metrics": [
+        "SimilarWeb ranking improvement",
+        "300%+ organic traffic growth", 
+        "Hypestat value increase",
+        "Conversion rate optimization"
+      ]
+    },
+    "cta": "Boost My Rankings"
+  },
+  "additional_services": {
+    "title": "Additional Services",
+    "mobile_apps": {
+      "title": "Mobile App Development",
+      "description": "Native iOS/Android apps with professional UI/UX, analytics integration, and high user engagement",
+      "price": "From $5,000"
+    },
+    "business_setup": {
+      "title": "Business Setup & Legal",
+      "description": "Company registration, business licenses, and legal consultation for technology startups",
+      "price": "From $800"
+    },
+    "hosting": {
+      "title": "Domain & Hosting",
+      "description": "Premium SSD hosting, domain registration, SSL certificates, and 24/7 monitoring",
+      "price": "From $200/year"
+    }
+  },
+  "why_choose": {
+    "title": "Why Choose HBW Technology Solutions?",
+    "reasons": {
+      "proven_results": {
+        "title": "Proven Results",
+        "description": "500+ successful projects with measurable ROI and client satisfaction rate of 98%"
+      },
+      "technical_expertise": {
+        "title": "Technical Expertise", 
+        "description": "Specialized in blockchain, DeFi, and advanced web technologies with security-first approach"
+      },
+      "transparency": {
+        "title": "Full Transparency",
+        "description": "Real-time project tracking, detailed reporting, and complete access to analytics dashboards"
+      },
+      "support": {
+        "title": "24/7 Support",
+        "description": "Dedicated technical support team available round the clock for all your needs"
+      }
+    }
+  },
+  "technology_platform": {
+    "badge": "Technology Platform",
+    "title": "Power of",
+    "highlight": "Technology Platform",
+    "description": "Modern infrastructure with cloud computing, AI/ML frameworks and enterprise-grade security protocols",
+    "stats": {
+      "uptime": {
+        "value": "99.9%",
+        "label": "Platform Uptime"
+      },
+      "load_time": {
+        "value": "2.1s",
+        "label": "Avg Load Time"
+      },
+      "security": {
+        "value": "A+",
+        "label": "Security Grade"
+      },
+      "support": {
+        "value": "24/7",
+        "label": "Support Coverage"
+      }
+    }
+  },
+  "cta_section": {
+    "badge": "Ready to Start Your Project?",
+    "title": "Transform Your Business",
+    "highlight": " Today",
+    "description": "Join 500+ successful businesses that have scaled with HBW technology solutions. From concept to market domination - we make it happen.",
+    "urgency": "Limited Spots - Only 3 Projects This Month",
+    "primary_cta": "Start My Project",
+    "secondary_cta": "View Case Studies",
+    "consultation": {
+      "title": "Free Strategy Consultation",
+      "description": "Get personalized recommendations for your business goals",
+      "duration": "30-minute call"
+    }
+  }
+}

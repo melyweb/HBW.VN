@@ -1,0 +1,250 @@
+{
+  "meta": {
+    "title": "Phát Triển Ứng Dụng Mobile - HBW Technology Solutions",
+    "description": "Phát triển ứng dụng mobile chuyên nghiệp cho iOS và Android. Giải pháp native, đa nền tảng và hybrid với các framework hiện đại như React Native và Flutter.",
+    "og_title": "Phát Triển Ứng Dụng Mobile | HBW Technology",
+    "og_description": "Dịch vụ phát triển ứng dụng mobile chuyên gia cho iOS, Android và giải pháp đa nền tảng."
+  },
+  "hero": {
+    "badge": "Xuất Sắc Mobile App",
+    "title": "Ứng Dụng Mobile Chuyên Nghiệp",
+    "description": "Xây dựng trải nghiệm mobile đặc biệt với đội ngũ phát triển chuyên gia của chúng tôi. Ứng dụng iOS & Android native, giải pháp đa nền tảng và công nghệ mobile tiên tiến cho thành công doanh nghiệp của bạn.",
+    "cta_primary": "Bắt Đầu Phát Triển",
+    "cta_secondary": "Xem Portfolio",
+    "stats": {
+      "apps": "200+",
+      "apps_label": "Ứng Dụng Đã Giao",
+      "downloads": "2M+",
+      "downloads_label": "Tổng Lượt Tải",
+      "rating": "4.8★",
+      "rating_label": "Đánh Giá Trung Bình"
+    }
+  },
+  "platforms": {
+    "title": "Xuất Sắc Đa Nền Tảng",
+    "description": "Chúng tôi cung cấp trải nghiệm mobile đặc biệt trên tất cả các nền tảng với hiệu năng native và giao diện người dùng tối ưu.",
+    "ios": {
+      "title": "Phát Triển iOS",
+      "description": "Ứng dụng iOS native với Swift và Objective-C, được tối ưu cho iPhone và iPad với các tính năng iOS mới nhất.",
+      "feature1": "Swift & Objective-C",
+      "feature2": "Tối Ưu App Store",
+      "feature3": "Hỗ Trợ iOS 17+",
+      "price": "Từ $8,000"
+    },
+    "android": {
+      "title": "Phát Triển Android",
+      "description": "Ứng dụng Android native với Kotlin và Java, hỗ trợ nhiều kích thước thiết bị và phiên bản Android.",
+      "feature1": "Kotlin & Java",
+      "feature2": "Phát Hành Play Store",
+      "feature3": "Material Design 3",
+      "price": "Từ $7,500"
+    },
+    "cross_platform": {
+      "title": "Ứng Dụng Đa Nền Tảng",
+      "badge": "Phổ Biến Nhất",
+      "description": "Một codebase cho iOS và Android sử dụng React Native, Flutter hoặc các framework hiện đại khác.",
+      "feature1": "React Native & Flutter",
+      "feature2": "Giảm 50% Chi Phí",
+      "feature3": "Ra Thị Trường Nhanh Hơn",
+      "price": "Từ $12,000"
+    },
+    "pwa": {
+      "title": "Progressive Web Apps",
+      "description": "Ứng dụng web với trải nghiệm giống native, chức năng offline và khả năng tương thích đa nền tảng.",
+      "feature1": "Hỗ Trợ Offline",
+      "feature2": "Push Notifications",
+      "feature3": "Sẵn Sàng App Store",
+      "price": "Từ $5,000"
+    }
+  },
+  "tech_stack": {
+    "title": "Công Nghệ Mobile Hiện Đại",
+    "description": "Chúng tôi tận dụng các công nghệ và framework phát triển mobile mới nhất để xây dựng ứng dụng nhanh, có thể mở rộng và dễ bảo trì.",
+    "native": {
+      "title": "Phát Triển Native",
+      "swift": "Swift",
+      "objective_c": "Objective-C",
+      "kotlin": "Kotlin",
+      "java": "Java",
+      "xcode": "Xcode",
+      "android_studio": "Android Studio",
+      "swiftui": "SwiftUI",
+      "jetpack": "Jetpack Compose"
+    },
+    "cross_platform": {
+      "title": "Framework Đa Nền Tảng",
+      "react_native": {
+        "title": "React Native",
+        "description": "Framework đa nền tảng của Facebook"
+      },
+      "flutter": {
+        "title": "Flutter",
+        "description": "UI toolkit cho mobile của Google"
+      },
+      "xamarin": {
+        "title": "Xamarin",
+        "description": "Framework .NET của Microsoft"
+      },
+      "ionic": {
+        "title": "Ionic",
+        "description": "Nền tảng phát triển ứng dụng hybrid"
+      }
+    },
+    "backend": {
+      "title": "Backend & Dịch Vụ Cloud",
+      "firebase": "Firebase",
+      "aws": "AWS",
+      "gcp": "Google Cloud",
+      "azure": "Azure",
+      "node": "Node.js",
+      "python": "Python"
+    }
+  },
+  "services": {
+    "title": "Dịch Vụ Mobile Toàn Diện",
+    "description": "Từ ý tưởng đến triển khai app store, chúng tôi cung cấp dịch vụ phát triển ứng dụng mobile từ đầu đến cuối với hỗ trợ và bảo trì liên tục.",
+    "design": {
+      "title": "Thiết Kế UI/UX",
+      "description": "Thiết kế lấy người dùng làm trung tâm với giao diện hiện đại, điều hướng trực quan và hướng dẫn thiết kế đặc thù từng nền tảng.",
+      "feature1": "Wireframing & Prototyping",
+      "feature2": "Hệ Thống Thiết Kế",
+      "feature3": "Kiểm Tra Khả Năng Sử Dụng"
+    },
+    "native": {
+      "title": "Phát Triển Native",
+      "description": "Ứng dụng native hiệu năng cao tận dụng các tính năng đặc thù nền tảng và trải nghiệm người dùng được tối ưu.",
+      "feature1": "Tối Ưu Nền Tảng",
+      "feature2": "Tích Hợp Phần Cứng",
+      "feature3": "Tối Ưu Hiệu Suất"
+    },
+    "backend": {
+      "title": "Tích Hợp Backend",
+      "description": "Hệ thống backend mạnh mẽ với API, cơ sở dữ liệu, dịch vụ cloud và đồng bộ hóa thời gian thực.",
+      "feature1": "RESTful APIs",
+      "feature2": "Thiết Kế Database",
+      "feature3": "Tích Hợp Cloud"
+    },
+    "testing": {
+      "title": "Testing & QA",
+      "description": "Kiểm tra toàn diện trên các thiết bị, nền tảng và tình huống để đảm bảo chất lượng và độ tin cậy.",
+      "feature1": "Automated Testing",
+      "feature2": "Kiểm Tra Thiết Bị",
+      "feature3": "Kiểm Tra Hiệu Suất"
+    },
+    "deployment": {
+      "title": "Triển Khai App Store",
+      "description": "Quy trình nộp app store hoàn chỉnh với tối ưu hóa để có khả năng hiển thị và lượt tải tốt hơn.",
+      "feature1": "Tối Ưu Store",
+      "feature2": "Hỗ Trợ Nộp Bài",
+      "feature3": "Quản Lý Review"
+    },
+    "maintenance": {
+      "title": "Bảo Trì & Hỗ Trợ",
+      "description": "Bảo trì liên tục, cập nhật, sửa lỗi và cải tiến tính năng để giữ ứng dụng của bạn luôn cập nhật.",
+      "feature1": "Cập Nhật Thường Xuyên",
+      "feature2": "Sửa Lỗi",
+      "feature3": "Hỗ Trợ 24/7"
+    }
+  },
+  "performance": {
+    "title": "Hiệu Suất Ứng Dụng Xuất Sắc",
+    "description": "Các ứng dụng mobile của chúng tôi liên tục mang lại chỉ số hiệu suất vượt trội và trải nghiệm người dùng trên tất cả các nền tảng.",
+    "load_time": {
+      "value": "1.2s",
+      "label": "Thời Gian Tải TB",
+      "description": "Được tối ưu cho khởi động nhanh và hiệu suất mượt mà"
+    },
+    "rating": {
+      "value": "4.8★",
+      "label": "Đánh Giá Store",
+      "description": "Sự hài lòng cao của người dùng và đánh giá tích cực"
+    },
+    "crash_rate": {
+      "value": "0.1%",
+      "label": "Tỷ Lệ Crash",
+      "description": "Hiệu suất ứng dụng ổn định và đáng tin cậy"
+    },
+    "retention": {
+      "value": "78%",
+      "label": "Giữ Chân 30 Ngày",
+      "description": "Tương tác người dùng cao và tỷ lệ quay lại cao"
+    }
+  },
+  "success_stories": {
+    "title": "Câu Chuyện Thành Công Mobile App",
+    "description": "Các dự án thực tế thể hiện chuyên môn phát triển ứng dụng mobile của chúng tôi với tác động kinh doanh có thể đo lường được và thành công của người dùng.",
+    "fitness_app": {
+      "title": "FitTracker Pro",
+      "category": "Ứng Dụng Sức Khỏe & Thể Dục",
+      "description": "Ứng dụng theo dõi thể dục đa nền tảng với kế hoạch tập luyện, theo dõi dinh dưỡng và tính năng xã hội. Được xây dựng bằng React Native cho iOS và Android.",
+      "downloads": "500K+",
+      "downloads_label": "Lượt Tải",
+      "rating": "4.7★",
+      "rating_label": "Đánh Giá App Store",
+      "retention": "82%",
+      "retention_label": "Giữ Chân Người Dùng",
+      "tech1": "React Native",
+      "tech2": "Firebase",
+      "tech3": "Node.js",
+      "tech4": "MongoDB"
+    },
+    "ecommerce_app": {
+      "title": "ShopEasy Mobile",
+      "category": "Ứng Dụng Mobile E-commerce",
+      "description": "Ứng dụng e-commerce iOS và Android native với trực quan hóa sản phẩm AR, thanh toán một click và gợi ý cá nhân hóa.",
+      "revenue": "$1.2M",
+      "revenue_label": "Doanh Thu Tháng",
+      "conversion": "3.8%",
+      "conversion_label": "Tỷ Lệ Chuyển Đổi",
+      "orders": "50K+",
+      "orders_label": "Đơn Hàng Tháng",
+      "tech1": "Swift",
+      "tech2": "Kotlin",
+      "tech3": "ARKit",
+      "tech4": "AWS"
+    }
+  },
+  "process": {
+    "title": "Quy Trình Phát Triển Mobile",
+    "description": "Phương pháp phát triển đã được chứng minh của chúng tôi đảm bảo giao hàng ứng dụng mobile thành công với chất lượng, hiệu suất và sự hài lòng của người dùng.",
+    "step1": {
+      "title": "Khám Phá & Lập Kế Hoạch",
+      "description": "Phân tích yêu cầu, lựa chọn nền tảng và lập kế hoạch kiến trúc kỹ thuật.",
+      "duration": "Tuần 1-2"
+    },
+    "step2": {
+      "title": "Thiết Kế UI/UX",
+      "description": "Wireframe, mockup, prototype và tối ưu trải nghiệm người dùng.",
+      "duration": "Tuần 2-4"
+    },
+    "step3": {
+      "title": "Phát Triển Ứng Dụng",
+      "description": "Phát triển frontend và backend, tích hợp API và triển khai chức năng cốt lõi.",
+      "duration": "Tuần 4-12"
+    },
+    "step4": {
+      "title": "Testing & QA",
+      "description": "Kiểm tra toàn diện, sửa lỗi, tối ưu hiệu suất và đảm bảo chất lượng.",
+      "duration": "Tuần 10-14"
+    },
+    "step5": {
+      "title": "Ra Mắt & Hỗ Trợ",
+      "description": "Triển khai app store, hỗ trợ marketing và bảo trì liên tục.",
+      "duration": "Tuần 14+"
+    }
+  },
+  "cta": {
+    "title": "Sẵn Sàng Xây Dựng Ứng Dụng Mobile?",
+    "description": "Biến ý tưởng của bạn thành ứng dụng mobile thành công với đội ngũ phát triển chuyên gia của chúng tôi. Nhận tư vấn chuyên nghiệp và dịch vụ phát triển tùy chỉnh.",
+    "primary": "Bắt Đầu Phát Triển App",
+    "secondary": "Ước Tính Chi Phí",
+    "guarantee": {
+      "consultation": "Miễn Phí",
+      "consultation_label": "Tư Vấn Ban Đầu",
+      "timeline": "16 tuần",
+      "timeline_label": "Giao Hàng Trung Bình",
+      "support": "1 năm",
+      "support_label": "Hỗ Trợ Miễn Phí"
+    }
+  }
+}

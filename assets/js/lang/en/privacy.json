@@ -1,0 +1,129 @@
+{
+  "privacy": {
+    "title": "Privacy Policy - HBW Technology Solutions Vietnam | Data Protection & Security",
+    "meta_description": "HBW Technology Solutions Privacy Policy - How we collect, use, and protect your personal information. GDPR compliant data protection practices for blockchain development services in Vietnam.",
+    "og_title": "Privacy Policy - HBW Technology Solutions Vietnam",
+    "og_description": "Learn about HBW's privacy practices and GDPR compliant data protection policies.",
+    "twitter_title": "Privacy Policy - HBW Technology Solutions", 
+    "twitter_description": "GDPR compliant privacy practices and data protection policies.",
+    
+    "hero": {
+      "title": "Privacy Policy",
+      "subtitle": "Your privacy is important to us. This policy explains how we collect, use, and protect your personal information.",
+      "last_updated": "Last updated: October 1, 2024"
+    },
+    
+    "intro": {
+      "title": "Our Commitment to Privacy",
+      "description": "At HBW Technology Solutions, we are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy explains how we collect, use, disclose, and protect your information when you use our services.",
+      "company_info": {
+        "company": "HBW Technology Solutions",
+        "ceo": "Brian Nguyen - Blockchain Expert",
+        "location": "Da Nang City, Vietnam",
+        "email": "privacy@hbw.com",
+        "specialization": "Blockchain Development, DeFi Protocols, AI Trading Systems"
+      }
+    },
+    
+    "toc": {
+      "title": "Table of Contents",
+      "info_collection": "1. Information We Collect",
+      "how_use": "2. How We Use Information",
+      "info_sharing": "3. Information Sharing",
+      "data_security": "4. Data Security",
+      "your_rights": "5. Your Rights",
+      "cookies": "6. Cookies & Tracking",
+      "retention": "7. International Transfers",
+      "contact": "8. Contact Information"
+    },
+    
+    "collection": {
+      "title": "Information We Collect",
+      "description": "We collect information you provide directly to us and information automatically collected when you use our services:",
+      "personal": {
+        "title": "Personal Information",
+        "items": [
+          "Name, email address, phone number",
+          "Company name and job title",
+          "Project requirements and technical specifications",
+          "Communication preferences",
+          "Billing and payment information"
+        ]
+      },
+      "automatic": {
+        "title": "Automatically Collected Information",
+        "items": [
+          "IP address and location data",
+          "Browser type, version, and operating system",
+          "Device information and screen resolution",
+          "Website usage patterns and analytics",
+          "Cookies and similar tracking technologies"
+        ]
+      }
+    },
+    
+    "usage": {
+      "title": "How We Use Your Information",
+      "description": "We use the collected information for the following purposes:",
+      "items": [
+        "Provide and improve our blockchain development services",
+        "Communicate with you about projects and support",
+        "Process payments and manage billing",
+        "Send important updates and security notifications",
+        "Analyze website performance and user experience",
+        "Comply with legal obligations and protect our rights"
+      ]
+    },
+    
+    "sharing": {
+      "title": "Information Sharing",
+      "description": "We do not sell your personal information. We may share your information only in these limited circumstances:",
+      "items": [
+        "With your explicit consent or at your direction",
+        "With trusted service providers who assist our operations",
+        "To comply with legal requirements or court orders",
+        "To protect our rights, property, or safety",
+        "In connection with business transfers or mergers"
+      ]
+    },
+    
+    "security": {
+      "title": "Data Security",
+      "description": "We implement comprehensive security measures to protect your information:",
+      "technical": {
+        "title": "Technical Safeguards",
+        "items": [
+          "End-to-end encryption for data transmission",
+          "Secure cloud storage with backup systems",
+          "Regular security audits and vulnerability assessments",
+          "Multi-factor authentication for system access",
+          "Automated threat detection and prevention"
+        ]
+      },
+      "organizational": {
+        "title": "Organizational Measures",
+        "items": [
+          "Employee training on data protection practices",
+          "Strict access controls and need-to-know basis",
+          "Regular review and update of security policies",
+          "Incident response and breach notification procedures",
+          "Compliance with international security standards"
+        ]
+      }
+    },
+    
+    "rights": {
+      "title": "Your Privacy Rights",
+      "description": "You have several rights regarding your personal information:",
+      "items": [
+        "Access: Request copies of your personal information",
+        "Rectification: Request correction of inaccurate data",
+        "Erasure: Request deletion of your personal information",
+        "Portability: Request transfer of your data to another service",
+        "Restriction: Request limitation of processing activities",
+        "Objection: Object to certain types of data processing"
+      ],
+      "exercise": "To exercise these rights, please contact us using the information provided in the Contact section."
+    }
+  }
+}

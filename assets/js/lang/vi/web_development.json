@@ -1,0 +1,229 @@
+{
+  "meta": {
+    "title": "Dịch Vụ Phát Triển Web - HBW Technology Solutions"
+  },
+
+  "hero": {
+    "badge": "Phát Triển Web Chuyên Nghiệp",
+    "title_line1": "Crafting Digital",
+    "title_line2": "Excellence",
+    "subtitle": "Từ responsive websites đến complex web applications - chúng tôi xây dựng cutting-edge digital solutions thúc đẩy business growth và mang lại exceptional user experiences.",
+    "stats": {
+      "projects": "200+",
+      "projects_label": "Dự Án",
+      "clients": "150+",
+      "clients_label": "Khách Hàng", 
+      "technologies": "15+",
+      "technologies_label": "Công Nghệ",
+      "support": "24/7",
+      "support_label": "Hỗ Trợ"
+    },
+    "cta_primary": "Khám Phá Dịch Vụ",
+    "cta_secondary": "Xem Portfolio"
+  },
+
+  "services": {
+    "title": "Dịch Vụ Phát Triển Web",
+    "subtitle": "Giải pháp phát triển web comprehensive bao gồm mọi aspect của modern digital applications, từ frontend interfaces đến robust backend systems.",
+
+    "frontend": {
+      "title": "Frontend Development",
+      "description": "Tạo stunning, responsive user interfaces với modern frameworks như React, Vue.js và Angular. Tối ưu cho performance và user experience.",
+      "feature1": "React & Next.js Applications",
+      "feature2": "Vue.js & Nuxt.js Development",
+      "feature3": "Responsive Design",
+      "feature4": "Performance Optimization",
+      "price": "Từ $3,000",
+      "timeline": "2-4 tuần"
+    },
+
+    "backend": {
+      "title": "Backend Development", 
+      "description": "Xây dựng robust, scalable backend systems với Node.js, Python và PHP. RESTful APIs, databases và cloud infrastructure.",
+      "feature1": "Node.js & Express.js APIs",
+      "feature2": "Python & Django/Flask",
+      "feature3": "Database Design & Management",
+      "feature4": "Cloud Deployment & DevOps",
+      "price": "Từ $5,000",
+      "timeline": "3-6 tuần"
+    },
+
+    "fullstack": {
+      "title": "Full-stack Development",
+      "description": "Complete web applications từ frontend đến backend. Modern tech stacks với seamless integration và optimal performance.",
+      "feature1": "MERN/MEAN Stack",
+      "feature2": "End-to-end Development",
+      "feature3": "Authentication & Authorization",
+      "feature4": "Real-time Features",
+      "price": "Từ $8,000",
+      "timeline": "4-8 tuần"
+    },
+
+    "mobile": {
+      "title": "Mobile Development",
+      "description": "Cross-platform mobile applications với React Native và Flutter. Native performance với shared codebase efficiency.",
+      "feature1": "React Native Apps",
+      "feature2": "Flutter Development",
+      "feature3": "iOS & Android Deploy",
+      "feature4": "App Store Optimization",
+      "price": "Từ $8,000", 
+      "timeline": "6-12 tuần"
+    },
+
+    "ecommerce": {
+      "title": "E-commerce Solutions",
+      "description": "Complete online stores với Shopify, WooCommerce và custom solutions. Payment integration, inventory management và analytics.",
+      "feature1": "Shopify Development",
+      "feature2": "WooCommerce Solutions", 
+      "feature3": "Payment Gateway Integration",
+      "feature4": "Inventory Management",
+      "price": "Từ $5,000",
+      "timeline": "4-8 tuần"
+    },
+
+    "cms": {
+      "title": "CMS & WordPress",
+      "description": "Content management systems với WordPress, Strapi và headless CMS solutions. Easy content editing và management.",
+      "feature1": "Custom WordPress Themes",
+      "feature2": "Plugin Development",
+      "feature3": "Headless CMS Integration", 
+      "feature4": "SEO Optimization",
+      "price": "Từ $2,500",
+      "timeline": "2-4 tuần"
+    }
+  },
+
+  "tech": {
+    "title": "Technology Stack",
+    "subtitle": "Chúng tôi sử dụng modern, proven technologies để xây dựng fast, secure và scalable web applications.",
+
+    "frontend": {
+      "title": "Frontend",
+      "react": "React & Next.js",
+      "vue": "Vue.js & Nuxt.js",
+      "angular": "Angular",
+      "tailwind": "Tailwind CSS",
+      "typescript": "TypeScript"
+    },
+
+    "backend": {
+      "title": "Backend", 
+      "nodejs": "Node.js & Express",
+      "python": "Python & Django",
+      "php": "PHP & Laravel",
+      "java": "Java & Spring",
+      "dotnet": ".NET Core"
+    },
+
+    "database": {
+      "title": "Databases",
+      "mongodb": "MongoDB",
+      "postgresql": "PostgreSQL",
+      "mysql": "MySQL",
+      "redis": "Redis",
+      "firebase": "Firebase"
+    },
+
+    "cloud": {
+      "title": "Cloud & DevOps",
+      "aws": "AWS",
+      "vercel": "Vercel",
+      "netlify": "Netlify", 
+      "docker": "Docker",
+      "github": "GitHub Actions"
+    }
+  },
+
+  "portfolio": {
+    "title": "Dự Án Nổi Bật",
+    "subtitle": "Khám phá các successful web development projects của chúng tôi trên various industries và technologies.",
+
+    "ecommerce": {
+      "title": "TechStore E-commerce",
+      "tech": "React + Node.js + Stripe",
+      "status": "Đang Live",
+      "sales": "$2.5M",
+      "sales_label": "Doanh Thu Tháng",
+      "products": "15K+", 
+      "products_label": "Sản Phẩm",
+      "users": "50K+",
+      "users_label": "Người Dùng Hoạt Động",
+      "description": "Full-featured e-commerce platform với advanced product catalog, secure payment processing, inventory management và comprehensive admin dashboard.",
+      "feature1": "Stripe Integration",
+      "feature2": "Real-time Inventory",
+      "feature3": "Mobile Responsive",
+      "feature4": "Admin Dashboard"
+    },
+
+    "saas": {
+      "title": "Analytics Dashboard",
+      "tech": "Vue.js + Python + PostgreSQL",
+      "status": "Đang Live",
+      "customers": "5K+",
+      "customers_label": "Khách Hàng",
+      "data": "100TB",
+      "data_label": "Dữ Liệu Xử Lý",
+      "uptime": "99.9%",
+      "uptime_label": "Thời Gian Hoạt Động",
+      "description": "Comprehensive SaaS analytics platform với real-time data visualization, custom reports, team collaboration và API integrations.",
+      "feature1": "Real-time Analytics",
+      "feature2": "Custom Reports",
+      "feature3": "API Integration", 
+      "feature4": "Team Collaboration"
+    }
+  },
+
+  "pricing": {
+    "title": "Gói Phát Triển",
+    "subtitle": "Chọn gói hoàn hảo cho web development needs của bạn. Tất cả gói bao gồm design, development, testing và deployment.",
+
+    "starter": {
+      "title": "Starter Website",
+      "description": "Hoàn hảo cho small businesses và startups",
+      "price": "$2,500",
+      "timeline": "2-3 tuần giao hàng",
+      "feature1": "Website 5-10 Trang",
+      "feature2": "Responsive Design",
+      "feature3": "Contact Forms",
+      "feature4": "SEO Optimization",
+      "feature5": "SSL Certificate",
+      "cta": "Bắt Đầu"
+    },
+
+    "professional": {
+      "title": "Professional App",
+      "description": "Advanced web applications với custom features",
+      "badge": "Phổ Biến Nhất", 
+      "price": "$8,000",
+      "timeline": "4-6 tuần giao hàng",
+      "feature1": "Custom Web Application",
+      "feature2": "User Authentication",
+      "feature3": "Database Integration",
+      "feature4": "API Development",
+      "feature5": "Admin Dashboard",
+      "feature6": "Cloud Deployment",
+      "cta": "Chọn Professional"
+    },
+
+    "enterprise": {
+      "title": "Enterprise Solution",
+      "description": "Large-scale applications với advanced requirements",
+      "price": "$15,000+",
+      "timeline": "8-12 tuần giao hàng",
+      "feature1": "Complex Web Platform",
+      "feature2": "Microservices Architecture",
+      "feature3": "Advanced Security",
+      "feature4": "Third-party Integrations",
+      "feature5": "Performance Optimization",
+      "feature6": "24/7 Support",
+      "cta": "Liên Hệ Sales"
+    }
+  },
+
+  "cta": {
+    "title": "Sẵn Sàng Xây Dựng Web Application Của Bạn?",
+    "subtitle": "Hãy biến ideas của bạn thành powerful web applications mang lại results. Từ concept đến deployment, chúng tôi ở đây để giúp đỡ.",
+    "primary": "Bắt Đầu Dự Án",
+    "secondary": "Xem Portfolio"
+  }
+}

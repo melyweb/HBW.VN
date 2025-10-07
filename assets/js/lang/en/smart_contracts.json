@@ -1,0 +1,256 @@
+{
+  "smart_contracts": {
+    "title": "Smart Contract Development Services - Secure & Audited | HBW",
+    "meta_description": "Professional smart contract development services including ERC-20/721/1155 tokens, DeFi protocols, governance systems, and multi-sig wallets. Security audited by HBW experts.",
+    "og_title": "Professional Smart Contract Development | HBW",
+    "og_description": "Secure smart contract development: ERC tokens, DeFi protocols, governance systems, and custom blockchain solutions.",
+    "twitter_title": "Smart Contract Development | HBW",
+    "twitter_description": "Expert smart contract development with security audits and best practices.",
+
+    "hero": {
+      "badge": "Smart Contract Development Experts",
+      "title": "Smart Contract Development",
+      "subtitle": "Build secure, audited smart contracts that power the future of decentralized applications. From ERC tokens to complex DeFi protocols, we deliver bulletproof blockchain solutions.",
+      "trust1": "500+ Contracts Deployed",
+      "trust2": "Zero Security Breaches", 
+      "trust3": "15+ Blockchains Supported",
+      "cta_primary": "Start Your Project",
+      "cta_secondary": "View Portfolio"
+    },
+
+    "services": {
+      "title": "Smart Contract Development Services",
+      "subtitle": "Comprehensive smart contract solutions for all your blockchain needs, from simple tokens to complex DeFi ecosystems.",
+
+      "tokens": {
+        "title": "ERC Token Development",
+        "description": "Create ERC-20, ERC-721, and ERC-1155 tokens with advanced features like burning, minting, staking, and governance.",
+        "feature1": "ERC-20 Utility Tokens",
+        "feature2": "ERC-721 NFT Collections",
+        "feature3": "ERC-1155 Multi-Token",
+        "feature4": "Advanced Tokenomics",
+        "price": "From $1,500",
+        "timeline": "1-3 weeks"
+      },
+
+      "defi": {
+        "title": "DeFi Protocol Development",
+        "description": "Build complete DeFi ecosystems with yield farming, staking, lending, AMM, and governance mechanisms.",
+        "feature1": "Yield Farming Protocols",
+        "feature2": "AMM & DEX Development",
+        "feature3": "Lending & Borrowing",
+        "feature4": "Cross-chain Bridges",
+        "price": "From $15,000",
+        "timeline": "2-6 months"
+      },
+
+      "governance": {
+        "title": "Governance & DAO Systems",
+        "description": "Implement decentralized governance systems with voting mechanisms, proposals, and treasury management.",
+        "feature1": "Voting Mechanisms",
+        "feature2": "Proposal Systems",
+        "feature3": "Treasury Management",
+        "feature4": "Multi-sig Integration",
+        "price": "From $8,000",
+        "timeline": "3-8 weeks"
+      },
+
+      "audit": {
+        "title": "Security Auditing",
+        "description": "Comprehensive security audits to identify vulnerabilities and ensure your smart contracts are bulletproof.",
+        "feature1": "Code Review & Analysis",
+        "feature2": "Vulnerability Assessment",
+        "feature3": "Gas Optimization",
+        "feature4": "Audit Report & Fixes",
+        "price": "From $3,000",
+        "timeline": "1-2 weeks"
+      },
+
+      "multisig": {
+        "title": "Multi-Signature Wallets",
+        "description": "Secure multi-signature wallet contracts with customizable approval thresholds and advanced security features.",
+        "feature1": "Custom Approval Logic",
+        "feature2": "Time-locked Transactions",
+        "feature3": "Role-based Permissions",
+        "feature4": "Emergency Functions",
+        "price": "From $4,000",
+        "timeline": "2-4 weeks"
+      },
+
+      "custom": {
+        "title": "Custom Solutions",
+        "description": "Tailored smart contract solutions for unique business requirements and complex blockchain applications.",
+        "feature1": "Business Logic Implementation",
+        "feature2": "Integration Solutions",
+        "feature3": "Performance Optimization",
+        "feature4": "Ongoing Support",
+        "price": "Quote Based",
+        "timeline": "Varies"
+      }
+    },
+
+    "tech": {
+      "title": "Technologies & Platforms",
+      "subtitle": "We leverage the most advanced blockchain technologies and development tools to build secure, efficient smart contracts.",
+
+      "blockchains": {
+        "title": "Blockchains",
+        "ethereum": "Ethereum",
+        "bsc": "Binance Smart Chain",
+        "polygon": "Polygon (Matic)",
+        "solana": "Solana",
+        "avalanche": "Avalanche",
+        "fantom": "Fantom",
+        "arbitrum": "Arbitrum",
+        "optimism": "Optimism"
+      },
+
+      "languages": {
+        "title": "Languages",
+        "solidity": "Solidity",
+        "vyper": "Vyper",
+        "rust": "Rust",
+        "javascript": "JavaScript",
+        "typescript": "TypeScript"
+      },
+
+      "tools": {
+        "title": "Dev Tools",
+        "hardhat": "Hardhat",
+        "truffle": "Truffle",
+        "foundry": "Foundry",
+        "remix": "Remix IDE",
+        "ganache": "Ganache"
+      },
+
+      "security": {
+        "title": "Security",
+        "mythril": "Mythril",
+        "slither": "Slither",
+        "echidna": "Echidna",
+        "manticore": "Manticore",
+        "certora": "Certora"
+      }
+    },
+
+    "process": {
+      "title": "Our Development Process",
+      "subtitle": "Proven methodology ensuring secure, efficient, and reliable smart contract development from concept to deployment.",
+
+      "step1": {
+        "title": "Requirements Analysis",
+        "description": "Deep dive into your project requirements, business logic, and technical specifications."
+      },
+
+      "step2": {
+        "title": "Architecture Design", 
+        "description": "Design secure and efficient contract architecture with gas optimization in mind."
+      },
+
+      "step3": {
+        "title": "Development & Testing",
+        "description": "Code implementation with comprehensive testing and security vulnerability assessment."
+      },
+
+      "step4": {
+        "title": "Audit & Deployment",
+        "description": "Security audit, mainnet deployment, and post-launch monitoring and support."
+      }
+    },
+
+    "portfolio": {
+      "title": "Featured Smart Contracts",
+      "subtitle": "Successful smart contracts we've developed and deployed across multiple blockchain networks.",
+
+      "pancakeswap": {
+        "title": "PancakeSwap DEX Protocol",
+        "description": "Decentralized exchange protocol with AMM, yield farming, and cross-chain bridge functionality.",
+        "status": "Live",
+        "network": "BSC & Ethereum",
+        "tvl": "$1.8B TVL"
+      },
+
+      "nft": {
+        "title": "NFT Marketplace Contract",
+        "description": "Complete NFT marketplace with minting, trading, auctions, and royalty management.",
+        "status": "Live", 
+        "network": "Polygon",
+        "volume": "$800K Volume"
+      },
+
+      "defi": {
+        "title": "DeFi Yield Farm Protocol",
+        "description": "Advanced yield farming protocol with auto-compounding and cross-chain compatibility.",
+        "status": "Live",
+        "network": "Multi-chain",
+        "apy": "150% APY"
+      }
+    },
+
+    "pricing": {
+      "title": "Transparent Pricing",
+      "subtitle": "Clear, fixed-price packages for different smart contract development needs.",
+
+      "starter": {
+        "title": "Starter Package",
+        "price": "$1,500 - $5,000",
+        "description": "Perfect for simple tokens and basic contracts",
+        "badge": "Basic",
+        "feature1": "ERC-20/721/1155 Token",
+        "feature2": "Basic Security Audit",
+        "feature3": "Testnet Deployment",
+        "feature4": "Source Code & Documentation",
+        "cta": "Get Started"
+      },
+
+      "professional": {
+        "title": "Professional Package",
+        "price": "$5,000 - $25,000",
+        "description": "Ideal for DeFi protocols and complex systems",
+        "badge": "Most Popular",
+        "feature1": "Complex Smart Contract System",
+        "feature2": "Comprehensive Security Audit",
+        "feature3": "Multi-chain Deployment",
+        "feature4": "Frontend Integration",
+        "feature5": "3 Months Support",
+        "cta": "Choose Professional"
+      },
+
+      "enterprise": {
+        "title": "Enterprise Package",
+        "price": "$25,000+",
+        "description": "Complete blockchain ecosystems and custom solutions",
+        "badge": "Enterprise",
+        "feature1": "Full DeFi Ecosystem",
+        "feature2": "Multiple Security Audits",
+        "feature3": "Custom Tokenomics",
+        "feature4": "Governance & DAO Systems",
+        "feature5": "12 Months Support",
+        "cta": "Contact for Quote"
+      }
+    },
+
+    "cta": {
+      "title": "Ready to Build Your Smart Contract?",
+      "subtitle": "Get expert guidance on your smart contract project with our free consultation. Let's discuss your requirements and create a bulletproof solution together.",
+
+      "benefit1": {
+        "title": "Free Consultation",
+        "description": "30-60 minutes technical discussion"
+      },
+
+      "benefit2": {
+        "title": "24h Response",
+        "description": "Quick project assessment and quote"
+      },
+
+      "benefit3": {
+        "title": "Security First",
+        "description": "Audit-ready secure code"
+      },
+
+      "primary_btn": "Schedule Free Consultation",
+      "secondary_btn": "View More Projects"
+    }
+  }
+}

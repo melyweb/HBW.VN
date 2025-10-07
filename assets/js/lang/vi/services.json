@@ -1,0 +1,353 @@
+{
+  "meta": {
+    "title": "Dịch Vụ Công Nghệ Toàn Diện | HBW Technology Solutions",
+    "description": "Blockchain Development, Web Development, Digital Marketing với SimilarWeb & Hypestat ranking boost. Dịch vụ công nghệ chuyên nghiệp từ $500-$50K.",
+    "keywords": "blockchain development, web development, digital marketing, similarweb boost, hypestat ranking, smart contracts, defi, web3",
+    "og_title": "Dịch Vụ Công Nghệ Toàn Diện | HBW Technology Solutions",
+    "og_description": "Blockchain, Web Development, Digital Marketing với SimilarWeb & Hypestat ranking boost"
+  },
+  "services": {
+    "badge": "Dịch Vụ Công Nghệ Chuyên Nghiệp",
+    "headline": "Giải Pháp Công Nghệ",
+    "highlight": " Hiệu Quả",
+    "categories": "Phát Triển Blockchain • Phát Triển Web • Digital Marketing",
+    "description": "Từ concept đến deployment - chúng tôi cung cấp giải pháp công nghệ toàn diện cho mọi quy mô doanh nghiệp"
+  },
+  "hero_stats": {
+    "projects": {
+      "number": "500+",
+      "label": "Dự Án Đã Triển Khai"
+    },
+    "tvl": {
+      "number": "$50M+",
+      "label": "TVL Quản Lý"
+    },
+    "satisfaction": {
+      "number": "98%",
+      "label": "Hài Lòng Khách Hàng"
+    },
+    "support": {
+      "number": "24/7",
+      "label": "Hỗ Trợ Kỹ Thuật"
+    }
+  },
+  "blockchain": {
+    "badge": "Cấp Doanh Nghiệp",
+    "title": "Phát Triển Blockchain",
+    "subtitle": "Smart Contracts & Giải Pháp DeFi",
+    "description": "Phát triển DEX cấp doanh nghiệp, kiểm toán smart contracts và giải pháp DeFi protocols với multi-chain integration",
+    "features": {
+      "smart_contracts": {
+        "title": "Phát Triển Smart Contracts",
+        "description": "Smart contracts được audit với gas optimization và security-first approach"
+      },
+      "defi_protocols": {
+        "title": "Kiến Trúc DeFi Protocol",
+        "description": "Hệ sinh thái DeFi hoàn chỉnh với yield farming, staking, và governance systems"
+      },
+      "multichain": {
+        "title": "Multi-chain Integration",
+        "description": "Tương thích cross-chain với Ethereum, BSC, Polygon, và Solana networks"
+      },
+      "tokenomics": {
+        "title": "Thiết Kế Tokenomics",
+        "description": "Mô hình kinh tế, chiến lược phân phối token, và burn mechanisms"
+      }
+    },
+    "pricing": {
+      "smart_contract": {
+        "name": "Smart Contract",
+        "price": "$2,500",
+        "features": [
+          "Phát Triển Contract",
+          "Kiểm Toán Bảo Mật",
+          "Tối Ưu Gas",
+          "Hỗ Trợ Deploy"
+        ]
+      },
+      "defi_protocol": {
+        "name": "DeFi Protocol",
+        "price": "$15,000",
+        "features": [
+          "Hệ Sinh Thái DeFi Hoàn Chỉnh",
+          "Yield Farming",
+          "Governance Token",
+          "Analytics Dashboard"
+        ]
+      },
+      "enterprise": {
+        "name": "Giải Pháp Doanh Nghiệp",
+        "price": "$50,000+",
+        "features": [
+          "Blockchain Tùy Chỉnh",
+          "Multi-chain Integration",
+          "Bảo Mật Doanh Nghiệp",
+          "Hỗ Trợ Kỹ Thuật 24/7"
+        ]
+      }
+    },
+    "cta": "Bắt Đầu Dự Án Blockchain"
+  },
+  "web_development": {
+    "badge": "Hiệu Suất Cao",
+    "title": "Phát Triển Website",
+    "subtitle": "Website Responsive Hiện Đại",
+    "description": "Website chuyên nghiệp với PageSpeed Score 98+, tối ưu SEO, và thiết kế tập trung conversion",
+    "features": {
+      "responsive": {
+        "title": "Thiết Kế Responsive",
+        "description": "Phương pháp mobile-first với hiển thị hoàn hảo trên mọi thiết bị và kích thước màn hình"
+      },
+      "performance": {
+        "title": "Tối Ưu Performance",
+        "description": "PageSpeed Score 98+ với advanced caching, CDN integration, và image optimization"
+      },
+      "seo": {
+        "title": "Tối Ưu SEO",
+        "description": "Technical SEO, meta optimization, schema markup, và khả năng hiển thị search engine"
+      },
+      "conversion": {
+        "title": "Tối Ưu Conversion",
+        "description": "A/B testing, phân tích hành vi người dùng, và tối ưu conversion funnel"
+      }
+    },
+    "pricing": {
+      "landing": {
+        "name": "Landing Page",
+        "price": "$800",
+        "features": [
+          "Thiết Kế Responsive",
+          "Tối Ưu SEO",
+          "Form Liên Hệ",
+          "Tích Hợp Analytics"
+        ]
+      },
+      "business": {
+        "name": "Website Doanh Nghiệp",
+        "price": "$2,500",
+        "features": [
+          "Website Đa Trang",
+          "Tích Hợp CMS",
+          "Sẵn Sàng E-commerce",
+          "Tối Ưu Performance"
+        ]
+      },
+      "enterprise": {
+        "name": "Portal Doanh Nghiệp",
+        "price": "$8,000+",
+        "features": [
+          "Phát Triển Tùy Chỉnh",
+          "Tích Hợp Database",
+          "Quản Lý Người Dùng",
+          "Analytics Nâng Cao"
+        ]
+      }
+    },
+    "cta": "Bắt Đầu Dự Án Web"
+  },
+  "digital_marketing": {
+    "badge": "DỊCH VỤ FLAGSHIP",
+    "title": "Tiếp Thị Số",
+    "highlight": "Tăng Ranking",
+    "subtitle": "Tối Ưu SimilarWeb & Hypestat",
+    "description": "Tăng ranking SimilarWeb, metrics Hypestat, và domain authority với chiến lược tăng trưởng traffic đã được chứng minh",
+    "flagship_features": {
+      "similarweb": {
+        "title": "SimilarWeb Ranking Boost",
+        "description": "Tăng global ranking SimilarWeb từ unranked lên top 500K-100K trong 3-6 tháng",
+        "metrics": [
+          "Cải Thiện Global Ranking",
+          "Boost Traffic Analytics", 
+          "Engagement Metrics",
+          "Category Ranking"
+        ]
+      },
+      "hypestat": {
+        "title": "Tối Ưu Hypestat",
+        "description": "Cải thiện giá trị domain Hypestat, daily visitors, và revenue estimates",
+        "metrics": [
+          "Tăng Giá Trị Domain",
+          "Tăng Trưởng Daily Visitors",
+          "Revenue Estimates", 
+          "SEO Metrics"
+        ]
+      },
+      "traffic_growth": {
+        "title": "Tăng Trưởng Organic Traffic",
+        "description": "Tăng trưởng traffic bền vững thông qua advanced SEO, content marketing, và link building",
+        "metrics": [
+          "Tăng Traffic 300-500%",
+          "Boost Keyword Ranking",
+          "Backlink Portfolio",
+          "Chiến Lược Content"
+        ]
+      }
+    },
+    "services_included": {
+      "seo": {
+        "title": "Advanced SEO",
+        "items": [
+          "Technical SEO Audit",
+          "Nghiên Cứu & Chiến Lược Keyword",
+          "Tối Ưu On-page",
+          "Chiến Dịch Link Building"
+        ]
+      },
+      "content": {
+        "title": "Content Marketing",
+        "items": [
+          "Tạo SEO Content",
+          "Chiến Lược & Viết Blog",
+          "Social Media Content",
+          "Video Marketing"
+        ]
+      },
+      "ads": {
+        "title": "Quảng Cáo Trả Phí",
+        "items": [
+          "Quản Lý Google Ads",
+          "Facebook/Instagram Ads",
+          "LinkedIn B2B Campaigns",
+          "Chiến Lược Retargeting"
+        ]
+      },
+      "analytics": {
+        "title": "Analytics & Báo Cáo",
+        "items": [
+          "Dashboard Realtime",
+          "Theo Dõi SimilarWeb",
+          "Giám Sát Hypestat",
+          "Phân Tích ROI"
+        ]
+      }
+    },
+    "pricing": {
+      "starter": {
+        "name": "Ranking Starter",
+        "price": "$1,500/tháng",
+        "duration": "Tối thiểu 3 tháng",
+        "features": [
+          "SimilarWeb Ranking Boost",
+          "Tối Ưu SEO Cơ Bản",
+          "Content Marketing",
+          "Báo Cáo Hàng Tháng"
+        ],
+        "results": "Đạt top 500K ranking"
+      },
+      "professional": {
+        "name": "Growth Accelerator", 
+        "price": "$3,500/tháng",
+        "duration": "Tối thiểu 6 tháng",
+        "features": [
+          "Advanced SimilarWeb Boost",
+          "Tối Ưu Hypestat",
+          "SEO Toàn Diện",
+          "Quản Lý Paid Ads",
+          "Báo Cáo Hàng Tuần"
+        ],
+        "results": "Đạt top 100K ranking"
+      },
+      "enterprise": {
+        "name": "Market Domination",
+        "price": "$7,500/tháng",
+        "duration": "Tối thiểu 12 tháng",
+        "features": [
+          "Phân Tích Thị Trường Hoàn Chỉnh",
+          "Competitor Intelligence",
+          "Chiến Dịch Đa Kênh",
+          "Account Manager Chuyên Biệt",
+          "Dashboard Realtime"
+        ],
+        "results": "Top 50K ranking + dẫn đầu thị trường"
+      }
+    },
+    "guarantee": {
+      "title": "Cam Kết Performance",
+      "description": "Chúng tôi cam kết cải thiện có thể đo lường trong SimilarWeb ranking và traffic growth trong 90 ngày, hoặc tiếp tục làm việc đến khi đạt mục tiêu.",
+      "metrics": [
+        "Cải thiện SimilarWeb ranking",
+        "Tăng trưởng organic traffic 300%+",
+        "Tăng giá trị Hypestat", 
+        "Tối ưu conversion rate"
+      ]
+    },
+    "cta": "Tăng Ranking Của Tôi"
+  },
+  "additional_services": {
+    "title": "Dịch Vụ Bổ Sung",
+    "mobile_apps": {
+      "title": "Phát Triển Mobile App",
+      "description": "Ứng dụng iOS/Android native với UI/UX chuyên nghiệp, tích hợp analytics, và engagement cao",
+      "price": "Từ $5,000"
+    },
+    "business_setup": {
+      "title": "Thành Lập Doanh Nghiệp & Pháp Lý",
+      "description": "Đăng ký công ty, giấy phép kinh doanh, và tư vấn pháp lý cho startup công nghệ",
+      "price": "Từ $800"
+    },
+    "hosting": {
+      "title": "Domain & Hosting",
+      "description": "Premium SSD hosting, đăng ký domain, SSL certificates, và giám sát 24/7",
+      "price": "Từ $200/năm"
+    }
+  },
+  "why_choose": {
+    "title": "Tại Sao Chọn HBW Technology Solutions?",
+    "reasons": {
+      "proven_results": {
+        "title": "Kết Quả Đã Chứng Minh",
+        "description": "500+ dự án thành công với ROI có thể đo lường và tỷ lệ hài lòng khách hàng 98%"
+      },
+      "technical_expertise": {
+        "title": "Chuyên Môn Kỹ Thuật",
+        "description": "Chuyên sâu về blockchain, DeFi, và công nghệ web tiên tiến với phương pháp security-first"
+      },
+      "transparency": {
+        "title": "Minh Bạch Hoàn Toàn",
+        "description": "Theo dõi dự án realtime, báo cáo chi tiết, và truy cập hoàn toàn vào analytics dashboards"
+      },
+      "support": {
+        "title": "Hỗ Trợ 24/7",
+        "description": "Đội ngũ hỗ trợ kỹ thuật chuyên biệt sẵn sàng phục vụ 24/7 cho mọi nhu cầu của bạn"
+      }
+    }
+  },
+  "technology_platform": {
+    "badge": "Nền Tảng Công Nghệ",
+    "title": "Sức Mạnh",
+    "highlight": "Nền Tảng Công Nghệ",
+    "description": "Infrastructure hiện đại với cloud computing, AI/ML frameworks và security protocols enterprise-grade",
+    "stats": {
+      "uptime": {
+        "value": "99.9%",
+        "label": "Platform Uptime"
+      },
+      "load_time": {
+        "value": "2.1s",
+        "label": "Thời Gian Tải Trung Bình"
+      },
+      "security": {
+        "value": "A+",
+        "label": "Cấp Độ Bảo Mật"
+      },
+      "support": {
+        "value": "24/7",
+        "label": "Hỗ Trợ Toàn Diện"
+      }
+    }
+  },
+  "cta_section": {
+    "badge": "Sẵn Sàng Bắt Đầu Dự Án?",
+    "title": "Biến Đổi Doanh Nghiệp",
+    "highlight": " Hôm Nay",
+    "description": "Tham gia cùng 500+ doanh nghiệp thành công đã scale với HBW technology solutions. Từ concept đến thống trị thị trường - chúng tôi biến điều đó thành hiện thực.",
+    "urgency": "Slot Có Hạn - Chỉ 3 Dự Án Tháng Này",
+    "primary_cta": "Bắt Đầu Dự Án",
+    "secondary_cta": "Xem Case Studies",
+    "consultation": {
+      "title": "Tư Vấn Chiến Lược Miễn Phí",
+      "description": "Nhận recommendations cá nhân hóa cho mục tiêu kinh doanh của bạn",
+      "duration": "Cuộc gọi 30 phút"
+    }
+  }
+}

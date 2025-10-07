@@ -1,0 +1,309 @@
+{
+  "about": {
+    "title": "Về HBW - Công Ty Blockchain & Web Development Hàng Đầu",
+    "meta_description": "Tìm hiểu về hành trình của HBW, chuyên môn trong blockchain development, DeFi protocols và các giải pháp web sáng tạo. Gặp gỡ đội ngũ developers giàu kinh nghiệm.",
+    "og_title": "Về HBW - Blockchain Development Xuất Sắc", 
+    "og_description": "Khám phá câu chuyện của HBW, sứ mệnh và đội ngũ chuyên gia đằng sau các giải pháp blockchain và web development tiên tiến.",
+    "twitter_title": "Về HBW - Chuyên Gia Blockchain",
+    "twitter_description": "Gặp gỡ đội ngũ đằng sau các giải pháp blockchain sáng tạo và web development xuất sắc.",
+    
+    "hero": {
+      "badge": "Công Ty Blockchain Development Hàng Đầu",
+      "title_prefix": "Về",
+      "description_part1": "Chúng tôi là những",
+      "description_highlight1": "tiên phong blockchain",
+      "description_part2": "và",
+      "description_highlight2": "nhà đổi mới số",
+      "description_part3": ", chuyển đổi doanh nghiệp thông qua công nghệ tiên tiến và giải pháp chiến lược mang lại tác động thực tế.",
+      "cta_mission": "Sứ Mệnh & Tầm Nhìn", 
+      "cta_journey": "Hành Trình Công Ty",
+      "scroll_text": "Khám Phá Câu Chuyện"
+    },
+    
+    "mission": {
+      "section_title_prefix": "Sứ Mệnh &",
+      "section_title_highlight": "Tầm Nhìn",
+      "mission_title": "Sứ Mệnh Của Chúng Tôi",
+      "mission_text": "Dân chủ hóa công nghệ blockchain bằng cách tạo ra các giải pháp sáng tạo, an toàn và thân thiện với người dùng, giúp doanh nghiệp và cá nhân tham gia vào nền kinh tế phi tập trung với sự tự tin và dễ dàng.",
+      "mission_point1": "Dân chủ hóa quyền truy cập blockchain",
+      "mission_point2": "Đảm bảo tính bảo mật & thân thiện người dùng", 
+      "mission_point3": "Trao quyền tham gia toàn cầu",
+      
+      "vision_title": "Tầm Nhìn Của Chúng Tôi", 
+      "vision_text": "Trở thành nhà cung cấp giải pháp blockchain và web development hàng đầu toàn cầu, kết nối khoảng cách giữa công nghệ phức tạp và ứng dụng kinh doanh thực tế cho tương lai phi tập trung.",
+      "vision_point1": "Dẫn đầu công nghệ toàn cầu",
+      "vision_point2": "Kết nối khoảng cách công nghệ-doanh nghiệp", 
+      "vision_point3": "Tạo điều kiện cho tương lai phi tập trung",
+      
+      "tagline": "Xây Dựng Công Nghệ Tương Lai Hôm Nay",
+      "years_range": "2015 - 2024",
+      "stats_projects": "Dự Án",
+      "stats_projects_value": "500+",
+      "stats_tvl": "TVL Quản Lý",
+      "stats_tvl_value": "$50M+"
+    },
+    
+    "story": {
+      "section_badge": "Đằng Sau Sự Đổi Mới",
+      "section_title_prefix": "Câu Chuyện",
+      "section_title_highlight": "Của Chúng Tôi", 
+      "section_description": "Từ một ý tưởng tầm nhìn đến dẫn đầu blockchain - khám phá đam mê, sự đổi mới và quyết tâm đã định hình HBW thành công ty tiên phong trong ngành như ngày hôm nay.",
+      
+      "chapter1_label": "Chương 1",
+      "chapter1_title": "Tia Lửa",
+      "chapter1_desc_part1": "Tất cả bắt đầu với một tầm nhìn đơn giản nhưng mạnh mẽ:",
+      "chapter1_desc_highlight": "làm cho công nghệ blockchain trở nên dễ tiếp cận với mọi người",
+      "chapter1_desc_part2": ". Vào năm 2015, khi thế giới crypto vẫn còn phức tạp và đáng sợ, chúng tôi thấy cơ hội để kết nối khoảng cách giữa công nghệ tiên tiến và ứng dụng thực tế.",
+      "founder_text": "Người sáng lập của chúng tôi, <strong>Brian Nguyen</strong>, đã kết hợp niềm đam mê đổi mới blockchain với nhiều năm kinh nghiệm phát triển full-stack để tạo ra các giải pháp thực sự hoạt động cho doanh nghiệp và cá nhân.",
+      "chapter1_point1": "Lãnh Đạo Tầm Nhìn",
+      "chapter1_point2": "Smart Contract Đầu Tiên",
+      "chapter1_point3": "Thúc Đẩy Bởi Đam Mê",
+      "chapter1_point4": "Tiếp Cận Người Dùng Đầu Tiên",
+      "founded_label": "Thành Lập",
+      "founded_year": "2015",
+      "chapter3_stat_value": "98%",
+      
+      "chapter2_label": "Chương 2",
+      "chapter2_title": "Tăng Trưởng Vượt Bậc",
+      "chapter2_desc1_part1": "Điều bắt đầu như một đội ngũ nhỏ các developers đam mê đã nhanh chóng phát triển thành điều gì đó phi thường. Đến năm 2022, chúng tôi đã",
+      "chapter2_desc1_highlight1": "mở rộng ra nhiều mạng blockchain",
+      "chapter2_desc1_part2": ", ra mắt các giao thức DeFi đột phá, và đạt được hơn",
+      "chapter2_desc1_highlight2": "$50M Tổng Giá Trị Khóa",
+      "chapter2_desc1_part3": ".",
+      "chapter2_desc2_part1": "Việc giới thiệu",
+      "chapter2_desc2_highlight": "AIBOT IYI Protocol",
+      "chapter2_desc2_part2": "đánh dấu một bước ngoặt - kết hợp trí tuệ nhân tạo với tài chính phi tập trung theo cách mà ngành công nghiệp chưa từng thấy trước đây.",
+      "chapter2_metric1": "$50M+ TVL",
+      "chapter2_metric2": "Đa Chuỗi",
+      "chapter2_metric3": "Tích Hợp AI",
+      "chapter2_metric4": "Tầm Với Toàn Cầu",
+      "chapter2_stat_label": "TVL",
+      
+      "chapter3_label": "Chương 3", 
+      "chapter3_title": "Dẫn Đầu Ngành",
+      "chapter3_desc1_part1": "Hôm nay, HBW đứng vững như một",
+      "chapter3_desc1_highlight1": "nhà lãnh đạo được công nhận trong đổi mới blockchain",
+      "chapter3_desc1_part2": ". Với",
+      "chapter3_desc1_highlight2": "500+ dự án thành công",
+      "chapter3_desc1_part3": ",",
+      "chapter3_desc1_highlight3": "98% hài lòng khách hàng",
+      "chapter3_desc1_part4": ", và các giải pháp tiên tiến đặt ra tiêu chuẩn ngành, chúng tôi đã chuyển đổi từ tầm nhìn startup thành một cường quốc công nghệ toàn cầu.",
+      "chapter3_desc2_part1": "Cam kết của chúng tôi với",
+      "chapter3_desc2_highlight": "đổi mới, chính trực và xuất sắc",
+      "chapter3_desc2_part2": "tiếp tục thúc đẩy chúng tôi tiến lên phía trước khi chúng tôi định hình tương lai của công nghệ phi tập trung và xây dựng các giải pháp sẽ định nghĩa thế hệ tiếp theo của tài chính số.",
+      "chapter3_metric1": "Giải Thưởng Ngành",
+      "chapter3_metric2": "500+ Dự Án",
+      "chapter3_metric3": "98% Hài Lòng",
+      "chapter3_metric4": "Công Nhận Toàn Cầu",
+      "chapter3_stat_label": "Hài Lòng",
+      
+      "cta_text": "Tham Gia Câu Chuyện - Cùng Xây Dựng Tương Lai"
+    },
+    
+    "journey": {
+      "section_badge": "Hành Trình Của Chúng Tôi Từ 2015",
+      "section_title_prefix": "Xây Dựng Tương Lai Của",
+      "section_title_highlight": "Đổi Mới Số", 
+      "section_description": "Từ một startup nhỏ đến đối tác công nghệ hàng đầu, chúng tôi đã liên tục cung cấp các giải pháp tiên tiến biến đổi doanh nghiệp và thúc đẩy chuyển đổi số trong các ngành công nghiệp.",
+      "stat1_label": "Năm Xuất Sắc",
+      "stat2_label": "Khách Hàng Toàn Cầu", 
+      "stat3_label": "Giải Thưởng & Công Nhận",
+      "stat1_value": "4+",
+      "stat2_value": "150+",
+      "stat3_value": "25+",
+      "stat4_value": "50+",
+      "stat4_label": "Công Nghệ Thành Thạo",
+      
+      "milestone_2020_year": "2015",
+      "milestone_2021_year": "2021",
+      "milestone_2022_year": "2022",
+      "milestone_2023_year": "2023",
+      "milestone_2024_year": "2024 & Xa Hơn",
+      
+      "milestone_2020_title": "Thành Lập & Tầm Nhìn",
+      "milestone_2020_description": "Bắt đầu với tầm nhìn cách mạng để kết nối doanh nghiệp truyền thống với công nghệ blockchain. Smart contract đầu tiên của chúng tôi đánh dấu sự khởi đầu của một hành trình phi thường.",
+      "milestone_2020_achievement1": "Smart Contract Đầu Tiên",
+      "milestone_2020_achievement2": "Hình Thành Đội Ngũ", 
+      "milestone_2020_achievement3": "Tầm Nhìn Cốt Lõi",
+      "milestone_2020_achievement4": "Khách Hàng Đầu Tiên",
+      
+      "milestone_2021_title": "Mở Rộng Nhanh Chóng",
+      "milestone_2021_description": "Mở rộng hoạt động trên nhiều mạng blockchain. Ra mắt giao thức DeFi cách mạng đầu tiên với TVL $10M+ và thiết lập quan hệ đối tác chiến lược trên khắp khu vực châu Á-Thái Bình Dương.",
+      "milestone_2021_achievement1": "$10M+ TVL",
+      "milestone_2021_achievement2": "Đa Chuỗi",
+      "milestone_2021_achievement3": "Châu Á-Thái Bình Dương",
+      "milestone_2021_achievement4": "DeFi Đầu Tiên",
+      
+      "milestone_2022_title": "Tích Hợp AI",
+      "milestone_2022_description": "Tiên phong trong các hệ thống giao dịch AI đột phá và ra mắt AIBOT IYI Protocol cách mạng. Đạt được $50M+ tài sản được quản lý và mở rộng ra thị trường quốc tế.",
+      "milestone_2022_achievement1": "AIBOT IYI",
+      "milestone_2022_achievement2": "$50M+ Tài Sản",
+      "milestone_2022_achievement3": "Quốc Tế",
+      "milestone_2022_achievement4": "Giao Dịch AI",
+      
+      "milestone_2023_title": "Dẫn Đầu Ngành",
+      "milestone_2023_description": "Được công nhận là \"Công Ty Phát Triển Blockchain Hàng Đầu\" và đạt được mức độ hài lòng khách hàng xuất sắc 98%. Thành công giao hàng 500+ dự án chuyển đổi trên toàn cầu.",
+      "milestone_2023_achievement1": "Công Ty Hàng Đầu",
+      "milestone_2023_achievement2": "98% Hài Lòng",
+      "milestone_2023_achievement3": "500+ Dự Án",
+      "milestone_2023_achievement4": "Tác Động Toàn Cầu",
+      
+      "milestone_2024_title": "Đổi Mới Thế Hệ Tiếp Theo",
+      "milestone_2024_description": "Tiên phong tương lai của Web3 với AI tiên tiến, bảo mật kháng lượng tử và các giải pháp DeFi cách mạng sẽ định hình lại bối cảnh tài chính toàn cầu.",
+      "milestone_2024_achievement1": "Bảo Mật Lượng Tử",
+      "milestone_2024_achievement2": "AI Tiên Tiến", 
+      "milestone_2024_achievement3": "Giao Thức Web3",
+      "milestone_2024_achievement4": "Tài Chính Toàn Cầu",
+      "title": "Hành Trình Công Ty",
+      "subtitle": "Từ giấc mơ startup đến thực tế blockchain",
+      "description": "Được thành lập với tầm nhìn làm cho công nghệ blockchain trở nên dễ tiếp cận với mọi người, HBW đã phát triển từ một đội ngũ nhỏ các developer đam mê thành công ty công nghệ hàng đầu phục vụ khách hàng trên toàn thế giới.",
+      
+      "milestones": {
+        "2020": {
+          "title": "Thành Lập",
+          "description": "HBW được thành lập với sứ mệnh dân chủ hóa công nghệ blockchain"
+        },
+        "2021": {
+          "title": "Dự Án Lớn Đầu Tiên", 
+          "description": "Giao hàng các DeFi protocols và smart contract solutions đầu tiên"
+        },
+        "2022": {
+          "title": "Mở Rộng Toàn Cầu",
+          "description": "Mở rộng dịch vụ quốc tế với multi-chain integrations"
+        },
+        "2023": {
+          "title": "Tích Hợp AI",
+          "description": "Tiên phong trong AI-powered trading systems và automated solutions"
+        },
+        "2024": {
+          "title": "Dẫn Đầu Đổi Mới",
+          "description": "Khẳng định vị thế công ty blockchain development hàng đầu"
+        }
+      }
+    },
+    
+    "team": {
+      "title": "Gặp Gỡ Đội Ngũ Chuyên Gia",
+      "subtitle": "Các chuyên gia đam mê cống hiến cho sự xuất sắc blockchain",
+      
+      "members": {
+        "ceo": {
+          "name": "Brian Chen",
+          "position": "CEO & Blockchain Architect", 
+          "description": "Chuyên gia blockchain với 8+ năm kinh nghiệm trong DeFi, smart contracts và AI trading systems",
+          "skills": ["Blockchain Architecture", "DeFi Protocols", "AI Trading", "Project Management"]
+        },
+        "cto": {
+          "name": "Alex Nguyen",
+          "position": "CTO & Lead Developer",
+          "description": "Full-stack developer chuyên về multi-chain integrations và scalable solutions", 
+          "skills": ["Smart Contracts", "Multi-chain", "System Architecture", "Security"]
+        },
+        "lead_dev": {
+          "name": "Sarah Kim", 
+          "position": "Lead Frontend Developer",
+          "description": "Chuyên gia UI/UX tạo ra các giao diện trực quan cho ứng dụng blockchain phức tạp",
+          "skills": ["React/Vue.js", "Web3 Integration", "UI/UX Design", "Mobile Development"]
+        }
+      }
+    },
+    
+    "stats": {
+      "projects": {
+        "value": "200+",
+        "label": "Dự Án Đã Giao Hàng"
+      },
+      "clients": {
+        "value": "150+", 
+        "label": "Khách Hàng Hài Lòng"
+      },
+      "tvl": {
+        "value": "$50M+",
+        "label": "Tổng Giá Trị Khóa"
+      },
+      "uptime": {
+        "value": "99.9%",
+        "label": "Thời Gian Hoạt Động"
+      }
+    },
+    
+    "values": {
+      "section_badge": "Giá Trị Cốt Lõi Của Chúng Tôi",
+      "section_title_prefix": "Giá Trị &",
+      "section_title_highlight": "Văn Hóa",
+      "section_description": "Các nguyên tắc cơ bản hướng dẫn quyết định của chúng tôi, định hình các mối quan hệ và thúc đẩy cam kết xuất sắc trong mọi việc chúng tôi làm.",
+      "title": "Giá Trị Cốt Lõi",
+      "subtitle": "Nguyên tắc dẫn dắt mọi dự án chúng tôi thực hiện",
+      
+      "innovation": {
+        "title": "Đổi Mới",
+        "desc": "Liên tục đẩy lùi các ranh giới và khám phá công nghệ mới để cung cấp các giải pháp tiên tiến định hình lại các ngành công nghiệp.",
+        "description": "Chúng tôi đón nhận các công nghệ tiên tiến và vượt qua giới hạn để mang lại giải pháp cách mạng"
+      },
+      "integrity": {
+        "title": "Chính Trực",
+        "desc": "Xây dựng niềm tin thông qua minh bạch, trung thực và thực hành kinh doanh đạo đức trong mọi tương tác và quyết định."
+      },
+      "security": {
+        "title": "Bảo Mật Theo Thiết Kế", 
+        "description": "Mọi giải pháp được xây dựng với bảo mật làm nền tảng, đảm bảo tin cậy và độ tin cậy"
+      },
+      "transparency": {
+        "title": "Minh Bạch Hoàn Toàn",
+        "description": "Giao tiếp cởi mở và thực hành trung thực trong mọi mối quan hệ khách hàng và dự án"
+      },
+      "excellence": {
+        "title": "Xuất Sắc",
+        "desc": "Phấn đấu hướng tới sự hoàn hảo trong mọi dự án, từ chất lượng code đến sự hài lòng của khách hàng và cải tiến liên tục.",
+        "description": "Mang lại chất lượng đặc biệt trong từng dòng code và từng tương tác với khách hàng"
+      },
+      "collaboration": {
+        "title": "Hợp Tác",
+        "desc": "Thúc đẩy tinh thần đội nhóm, giao tiếp cở mở và quan hệ đối tác để đạt được các mục tiêu chung và thành công cùng nhau."
+      }
+    },
+    
+    "cta": {
+      "badge": "Sẵn Sàng Bắt Đầu Dự Án Của Bạn?",
+      "title_part1": "Hãy Cùng Xây Dựng Điều Gì Đó",
+      "title_part2": "Tuyệt Vời Bên Nhau",
+      "description": "Từ ý tưởng đến triển khai, chúng tôi ở đây để biến tầm nhìn của bạn thành hiện thực với các giải pháp blockchain và web tiên tiến.",
+      "button_contact": "Liên Hệ",
+      "button_services": "Khám Phá Dịch Vụ",
+      "title": "Sẵn Sàng Hợp Tác?",
+      "subtitle": "Hãy thảo luận về cách chúng tôi có thể giúp biến tầm nhìn blockchain của bạn thành hiện thực",
+      "contact_btn": "Nhận Tư Vấn Miễn Phí", 
+      "services_btn": "Xem Dịch Vụ Của Chúng Tôi"
+    },
+    
+    "global": {
+      "badge": "Hoạt Động Toàn Cầu",
+      "title_part1": "Sự Hiện Diện Toàn Cầu",
+      "title_part2": "Của Chúng Tôi",
+      "description": "Trụ sở tại Thành phố Đà Nẵng với các đội ngũ phân tán trên toàn thế giới, chúng tôi cung cấp hỗ trợ 24/7 và cộng tác liền mạch qua tất cả các múi giờ.",
+      
+      "headquarters_title": "Trụ Sở Chính",
+      "headquarters_location": "Thành phố Đà Nẵng, Việt Nam",
+      "headquarters_timezone": "GMT+7 Hoạt Động Chính",
+      "headquarters_team": "Đội Ngũ Phát Triển Cốt Lõi",
+      
+      "support_title": "Hỗ Trợ 24/7",
+      "support_description": "Hỗ trợ suốt ngày đêm",
+      "support_availability": "Luôn Sẵn Có",
+      "support_languages": "Tiếng Anh & Tiếng Việt",
+      
+      "reach_title": "Tầm Với Toàn Cầu",
+      "reach_description": "Phủ sóng khách hàng trên toàn thế giới",
+      "reach_regions": "Châu Á-Thái Bình Dương • Châu Mỹ • Châu Âu",
+      "reach_clients": "150+ Khách Hàng Quốc Tế",
+      
+      "connected_title": "Kết Nối Toàn Thế Giới",
+      "connected_description": "Phục vụ khách hàng trên các châu lục với chuyên môn địa phương và tiêu chuẩn toàn cầu",
+      
+      "countries_label": "Quốc Gia",
+      "continents_label": "Châu Lục",
+      "timezones_label": "Múi Giờ",
+      "uptime_label": "Thời Gian Hoạt Động"
+    }
+  }
+}

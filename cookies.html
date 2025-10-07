@@ -1,0 +1,1345 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary SEO Meta Tags -->
+    <title data-i18n="cookies.title">Cookie Policy - HBW Technology Solutions Vietnam | Privacy & Tracking</title>
+    <meta name="description" data-i18n="cookies.meta_description" content="HBW Technology Solutions Cookie Policy - How we use cookies and tracking technologies to improve your experience on our blockchain development website. GDPR compliant practices.">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="HBW Technology Solutions">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://hbw.vn/cookies.html">
+    <meta property="og:title" data-i18n="cookies.og_title" content="Cookie Policy - HBW Technology Solutions Vietnam">
+    <meta property="og:description" data-i18n="cookies.og_description" content="Learn about HBW's cookie usage and GDPR compliant privacy practices.">
+    <meta property="og:image" content="https://hbw.vn/assets/images/hbw-og-homepage.jpg">
+    <meta property="og:site_name" content="HBW Technology Solutions">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@hbw_tech">
+    <meta name="twitter:title" data-i18n="cookies.twitter_title" content="Cookie Policy - HBW Technology Solutions">
+    <meta name="twitter:description" data-i18n="cookies.twitter_description" content="GDPR compliant cookie usage and privacy practices.">
+    
+    <!-- Canonical & Language -->
+    <link rel="canonical" href="https://hbw.vn/cookies.html">
+    <link rel="alternate" hreflang="vi" href="https://hbw.vn/cookies.html">
+    <link rel="alternate" hreflang="en" href="https://hbw.vn/cookies.html?lang=en">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
+    <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        primary: {
+                            50: '#f0f9ff', 100: '#e0f2fe', 200: '#bae6fd', 300: '#7dd3fc',
+                            400: '#38bdf8', 500: '#0ea5e9', 600: '#0284c7', 700: '#0369a1',
+                            800: '#075985', 900: '#0c4a6e'
+                        },
+                        secondary: {
+                            50: '#fdf4ff', 100: '#fae8ff', 200: '#f5d0fe', 300: '#f0abfc',
+                            400: '#e879f9', 500: '#d946ef', 600: '#c026d3', 700: '#a21caf',
+                            800: '#86198f', 900: '#701a75'
+                        }
+                    },
+                    fontFamily: {
+                        'inter': ['Inter', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <!-- ES6 Modules -->
+    <script type="module">
+        import { loadHBWComponents } from './components/templates.js';
+        import HBWi18n from './assets/js/i18n.js';
+        
+        // Initialize i18n
+        const i18n = new HBWi18n();
+        
+        // Initialize cookies app with i18n system
+        async function initializeCookiesApp() {
+            // Load components first
+            await loadHBWComponents();
+            
+            // Load translations for cookies page
+            await i18n.loadLanguage('en');
+            
+            // Get saved language preference or use default
+            const savedLang = localStorage.getItem('hbw_language') || 'en';
+            
+            // Set language if different from default
+            if (savedLang !== 'en') {
+                await i18n.switchLanguage(savedLang);
+            }
+            
+            // Setup language switcher after components are loaded
+            setupLanguageSwitcher(i18n);
+            
+            console.log('✅ Loaded EN translations for cookies page');
+        }
+        
+        // Language switching function
+        function setupLanguageSwitcher(i18nInstance) {
+            // Use event delegation on document for dynamically loaded buttons
+            document.addEventListener('click', async (e) => {
+                if (e.target.matches('.lang-btn') || e.target.closest('.lang-btn')) {
+                    e.preventDefault();
+                    const button = e.target.matches('.lang-btn') ? e.target : e.target.closest('.lang-btn');
+                    const targetLang = button.getAttribute('data-lang');
+                    
+                    if (targetLang && targetLang !== i18nInstance.getCurrentLanguage()) {
+                        console.log(`🔄 Switching language to: ${targetLang}`);
+                        await i18nInstance.switchLanguage(targetLang);
+                        
+                        // Update button states manually
+                        document.querySelectorAll('.lang-btn').forEach(btn => {
+                            btn.classList.remove('active', 'bg-blue-500', 'text-white');
+                            btn.classList.add('text-slate-600');
+                            if (btn.getAttribute('data-lang') === targetLang) {
+                                btn.classList.add('active', 'bg-blue-500', 'text-white');
+                                btn.classList.remove('text-slate-600');
+                            }
+                        });
+                    }
+                }
+            });
+        }
+        
+        // Initialize on DOM ready
+        document.addEventListener('DOMContentLoaded', async () => {
+            console.log('🌐 Initializing HBW cookies page...');
+            
+            try {
+                await initializeCookiesApp();
+                console.log('✅ Cookies page initialized successfully');
+            } catch (error) {
+                console.error('❌ Failed to initialize cookies page:', error);
+            }
+        });
+    </script>
+</head>
+<body class="font-inter bg-gray-50">
+    <!-- Header Placeholder - Loaded via ES6 Modules -->
+    <div id="header-placeholder"></div>
+
+    <!-- Main Content -->
+    <main class="pt-10">
+        <!-- Hero Section -->
+        <section class="bg-gradient-to-r from-green-600 to-teal-700 py-16">
+            <div class="container mx-auto px-6">
+                <div class="max-w-4xl mx-auto text-center text-white">
+                    <div class="mb-6">
+                        <i class="fas fa-cookie-bite text-6xl mb-4 opacity-80"></i>
+                    </div>
+                    <h1 class="text-4xl md:text-5xl font-bold mb-6" data-i18n="cookies.hero.title">Cookie Policy</h1>
+                    <p class="text-xl text-green-100 mb-4" data-i18n="cookies.hero.subtitle">
+                        How we use cookies and similar technologies to enhance your experience while protecting your privacy.
+                    </p>
+                    <div class="flex items-center justify-center space-x-4 text-sm">
+                        <span class="bg-white/20 px-3 py-1 rounded-full" data-i18n="cookies.hero.last_updated">Last updated: October 1, 2024</span>
+                        <span class="bg-white/20 px-3 py-1 rounded-full">GDPR Compliant</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Content Section -->
+        <section class="py-16">
+            <div class="container mx-auto px-6">
+                <div class="max-w-4xl mx-auto">
+                    <div class="bg-white rounded-2xl shadow-lg p-8 md:p-12">
+                        
+                        <!-- Cookie Consent Notice -->
+                        <div class="bg-gradient-to-r from-green-50 to-teal-50 border border-green-200 rounded-xl p-6 mb-10">
+                            <div class="flex items-start space-x-4">
+                                <div class="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center flex-shrink-0">
+                                    <i class="fas fa-info-circle text-green-600"></i>
+                                </div>
+                                <div class="flex-1">
+                                    <h3 class="font-semibold text-green-900 mb-3" data-i18n="cookies.consent.title">Your Cookie Preferences Matter</h3>
+                                    <p class="text-green-800 text-sm mb-4" data-i18n="cookies.consent.description">
+                                        We respect your privacy choices. You can manage your cookie preferences at any time using our cookie management tool or by adjusting your browser settings.
+                                    </p>
+                                    <div class="flex flex-wrap gap-3">
+                                        <button id="accept-all-cookies" class="bg-green-600 text-white px-4 py-2 rounded-lg text-sm font-semibold hover:bg-green-700 transition-colors">
+                                            <i class="fas fa-check mr-2"></i><span data-i18n="cookies.consent.accept_all">Accept All Cookies</span>
+                                        </button>
+                                        <button id="manage-cookies" class="bg-white text-green-600 border border-green-300 px-4 py-2 rounded-lg text-sm font-semibold hover:bg-green-50 transition-colors">
+                                            <i class="fas fa-cog mr-2"></i><span data-i18n="cookies.consent.manage_preferences">Manage Preferences</span>
+                                        </button>
+                                        <button id="reject-optional" class="bg-gray-200 text-gray-700 px-4 py-2 rounded-lg text-sm font-semibold hover:bg-gray-300 transition-colors">
+                                            <i class="fas fa-times mr-2"></i><span data-i18n="cookies.consent.reject_optional">Reject Optional</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Table of Contents -->
+                        <div class="bg-gray-50 rounded-xl p-6 mb-10">
+                            <h2 class="text-xl font-bold text-gray-900 mb-4">
+                                <i class="fas fa-list mr-2 text-green-600"></i>
+                                <span data-i18n="cookies.toc.title">Table of Contents</span>
+                            </h2>
+                            <nav class="grid md:grid-cols-2 gap-2 text-sm">
+                                <a href="#what-are-cookies" class="text-green-600 hover:text-green-800 py-1" data-i18n="cookies.toc.what_are">1. What Are Cookies?</a>
+                                <a href="#why-we-use-cookies" class="text-green-600 hover:text-green-800 py-1" data-i18n="cookies.toc.why_use">2. Why We Use Cookies</a>
+                                <a href="#types-of-cookies" class="text-green-600 hover:text-green-800 py-1" data-i18n="cookies.toc.types">3. Types of Cookies We Use</a>
+                                <a href="#third-party-cookies" class="text-green-600 hover:text-green-800 py-1" data-i18n="cookies.toc.third_party">4. Third-Party Cookies</a>
+                                <a href="#cookie-management" class="text-green-600 hover:text-green-800 py-1" data-i18n="cookies.toc.management">5. Managing Your Cookies</a>
+                                <a href="#browser-settings" class="text-green-600 hover:text-green-800 py-1" data-i18n="cookies.toc.browser_settings">6. Browser Settings</a>
+                                <a href="#updates" class="text-green-600 hover:text-green-800 py-1" data-i18n="cookies.toc.updates">7. Policy Updates</a>
+                                <a href="#contact" class="text-green-600 hover:text-green-800 py-1" data-i18n="cookies.toc.contact">8. Contact Us</a>
+                            </nav>
+                        </div>
+
+                        <!-- 1. What Are Cookies -->
+                        <section id="what-are-cookies" class="mb-10">
+                            <h2 class="text-2xl font-bold text-gray-900 mb-6">
+                                <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm mr-3">1</span>
+                                What Are Cookies?
+                            </h2>
+                            
+                            <div class="space-y-6">
+                                <p class="text-gray-700 leading-relaxed">
+                                    Cookies are small text files that are placed on your computer or mobile device when you visit a website. They are widely used to make websites work more efficiently and provide information to website owners about user behavior and preferences.
+                                </p>
+
+                                <div class="grid md:grid-cols-2 gap-6">
+                                    <div class="bg-blue-50 rounded-xl p-6">
+                                        <h3 class="font-semibold text-blue-900 mb-3">
+                                            <i class="fas fa-file-alt text-blue-600 mr-2"></i>
+                                            Technical Details
+                                        </h3>
+                                        <ul class="text-blue-800 text-sm space-y-2">
+                                            <li>• Small text files (typically 4KB or less)</li>
+                                            <li>• Stored locally on your device</li>
+                                            <li>• Contain information about your visit</li>
+                                            <li>• Have expiration dates and security settings</li>
+                                            <li>• Can be session-based or persistent</li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="bg-green-50 rounded-xl p-6">
+                                        <h3 class="font-semibold text-green-900 mb-3">
+                                            <i class="fas fa-shield-alt text-green-600 mr-2"></i>
+                                            Security & Privacy
+                                        </h3>
+                                        <ul class="text-green-800 text-sm space-y-2">
+                                            <li>• Cannot access personal files on your device</li>
+                                            <li>• Cannot install malware or viruses</li>
+                                            <li>• Only readable by the website that created them</li>
+                                            <li>• Subject to browser security policies</li>
+                                            <li>• Can be deleted at any time by users</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="bg-gray-50 rounded-xl p-6">
+                                    <h3 class="font-semibold text-gray-900 mb-4">Similar Technologies</h3>
+                                    <p class="text-gray-700 text-sm mb-4">
+                                        In addition to cookies, we may also use other similar technologies such as:
+                                    </p>
+                                    <div class="grid md:grid-cols-4 gap-4 text-sm">
+                                        <div class="bg-white rounded-lg p-3 text-center">
+                                            <i class="fas fa-database text-blue-600 mb-2 text-lg"></i>
+                                            <h4 class="font-semibold text-gray-900">Local Storage</h4>
+                                            <p class="text-gray-600 text-xs">HTML5 local storage</p>
+                                        </div>
+                                        <div class="bg-white rounded-lg p-3 text-center">
+                                            <i class="fas fa-user-tag text-purple-600 mb-2 text-lg"></i>
+                                            <h4 class="font-semibold text-gray-900">Web Beacons</h4>
+                                            <p class="text-gray-600 text-xs">Pixel tracking</p>
+                                        </div>
+                                        <div class="bg-white rounded-lg p-3 text-center">
+                                            <i class="fas fa-fingerprint text-orange-600 mb-2 text-lg"></i>
+                                            <h4 class="font-semibold text-gray-900">Fingerprinting</h4>
+                                            <p class="text-gray-600 text-xs">Device identification</p>
+                                        </div>
+                                        <div class="bg-white rounded-lg p-3 text-center">
+                                            <i class="fas fa-code text-green-600 mb-2 text-lg"></i>
+                                            <h4 class="font-semibold text-gray-900">Scripts</h4>
+                                            <p class="text-gray-600 text-xs">JavaScript tracking</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- 2. Why We Use Cookies -->
+                        <section id="why-we-use-cookies" class="mb-10">
+                            <h2 class="text-2xl font-bold text-gray-900 mb-6">
+                                <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm mr-3">2</span>
+                                Why We Use Cookies
+                            </h2>
+                            
+                            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                                <div class="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-xl p-6">
+                                    <div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mb-4">
+                                        <i class="fas fa-cogs text-blue-600"></i>
+                                    </div>
+                                    <h3 class="font-semibold text-gray-900 mb-3">Website Functionality</h3>
+                                    <ul class="text-gray-700 text-sm space-y-1">
+                                        <li>• Remember your preferences</li>
+                                        <li>• Maintain login sessions</li>
+                                        <li>• Store shopping cart contents</li>
+                                        <li>• Enable interactive features</li>
+                                        <li>• Support form submissions</li>
+                                    </ul>
+                                </div>
+
+                                <div class="bg-gradient-to-br from-green-50 to-teal-50 rounded-xl p-6">
+                                    <div class="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mb-4">
+                                        <i class="fas fa-chart-line text-green-600"></i>
+                                    </div>
+                                    <h3 class="font-semibold text-gray-900 mb-3">Analytics & Insights</h3>
+                                    <ul class="text-gray-700 text-sm space-y-1">
+                                        <li>• Understand visitor behavior</li>
+                                        <li>• Measure website performance</li>
+                                        <li>• Track popular content</li>
+                                        <li>• Improve user experience</li>
+                                        <li>• Identify technical issues</li>
+                                    </ul>
+                                </div>
+
+                                <div class="bg-gradient-to-br from-purple-50 to-pink-50 rounded-xl p-6">
+                                    <div class="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center mb-4">
+                                        <i class="fas fa-bullhorn text-purple-600"></i>
+                                    </div>
+                                    <h3 class="font-semibold text-gray-900 mb-3">Marketing & Advertising</h3>
+                                    <ul class="text-gray-700 text-sm space-y-1">
+                                        <li>• Show relevant advertisements</li>
+                                        <li>• Measure campaign effectiveness</li>
+                                        <li>• Prevent ad fraud</li>
+                                        <li>• Personalize content</li>
+                                        <li>• Retarget interested visitors</li>
+                                    </ul>
+                                </div>
+
+                                <div class="bg-gradient-to-br from-orange-50 to-red-50 rounded-xl p-6">
+                                    <div class="w-12 h-12 bg-orange-100 rounded-full flex items-center justify-center mb-4">
+                                        <i class="fas fa-shield-alt text-orange-600"></i>
+                                    </div>
+                                    <h3 class="font-semibold text-gray-900 mb-3">Security & Protection</h3>
+                                    <ul class="text-gray-700 text-sm space-y-1">
+                                        <li>• Prevent fraudulent activity</li>
+                                        <li>• Detect suspicious behavior</li>
+                                        <li>• Protect against spam</li>
+                                        <li>• Secure user sessions</li>
+                                        <li>• Enforce security policies</li>
+                                    </ul>
+                                </div>
+
+                                <div class="bg-gradient-to-br from-teal-50 to-cyan-50 rounded-xl p-6">
+                                    <div class="w-12 h-12 bg-teal-100 rounded-full flex items-center justify-center mb-4">
+                                        <i class="fas fa-user-check text-teal-600"></i>
+                                    </div>
+                                    <h3 class="font-semibold text-gray-900 mb-3">Personalization</h3>
+                                    <ul class="text-gray-700 text-sm space-y-1">
+                                        <li>• Customize content display</li>
+                                        <li>• Remember language preferences</li>
+                                        <li>• Adapt to user preferences</li>
+                                        <li>• Suggest relevant services</li>
+                                        <li>• Improve navigation experience</li>
+                                    </ul>
+                                </div>
+
+                                <div class="bg-gradient-to-br from-indigo-50 to-purple-50 rounded-xl p-6">
+                                    <div class="w-12 h-12 bg-indigo-100 rounded-full flex items-center justify-center mb-4">
+                                        <i class="fas fa-link text-indigo-600"></i>
+                                    </div>
+                                    <h3 class="font-semibold text-gray-900 mb-3">Third-Party Integration</h3>
+                                    <ul class="text-gray-700 text-sm space-y-1">
+                                        <li>• Social media integration</li>
+                                        <li>• Payment processing</li>
+                                        <li>• Live chat functionality</li>
+                                        <li>• Video embedding</li>
+                                        <li>• API connections</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- 3. Types of Cookies We Use -->
+                        <section id="types-of-cookies" class="mb-10">
+                            <h2 class="text-2xl font-bold text-gray-900 mb-6">
+                                <span class="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm mr-3">3</span>
+                                Types of Cookies We Use
+                            </h2>
+                            
+                            <div class="space-y-8">
+                                <!-- Essential Cookies -->
+                                <div class="border border-red-200 rounded-xl overflow-hidden">
+                                    <div class="bg-red-50 px-6 py-4 border-b border-red-200">
+                                        <div class="flex items-center justify-between">
+                                            <h3 class="font-semibold text-red-900 flex items-center">
+                                                <i class="fas fa-exclamation-circle text-red-600 mr-3"></i>
+                                                Essential Cookies (Always Active)
+                                            </h3>
+                                            <span class="bg-red-600 text-white px-3 py-1 rounded-full text-xs font-semibold">Required</span>
+                                        </div>
+                                    </div>
+                                    <div class="p-6">
+                                        <p class="text-gray-700 text-sm mb-4">
+                                            These cookies are necessary for the website to function properly and cannot be disabled in our systems. They are usually only set in response to actions you make, such as setting privacy preferences, logging in, or filling in forms.
+                                        </p>
+                                        <div class="grid md:grid-cols-3 gap-4">
+                                            <div class="bg-gray-50 rounded-lg p-4">
+                                                <h4 class="font-semibold text-gray-900 mb-2">Security Cookies</h4>
+                                                <ul class="text-gray-600 text-xs space-y-1">
+                                                    <li>• CSRF protection tokens</li>
+                                                    <li>• Session identifiers</li>
+                                                    <li>• Authentication cookies</li>
+                                                </ul>
+                                            </div>
+                                            <div class="bg-gray-50 rounded-lg p-4">
+                                                <h4 class="font-semibold text-gray-900 mb-2">Functionality Cookies</h4>
+                                                <ul class="text-gray-600 text-xs space-y-1">
+                                                    <li>• Language preferences</li>
+                                                    <li>• Cookie consent choices</li>
+                                                    <li>• Form submission data</li>
+                                                </ul>
+                                            </div>
+                                            <div class="bg-gray-50 rounded-lg p-4">
+                                                <h4 class="font-semibold text-gray-900 mb-2">Load Balancing</h4>
+                                                <ul class="text-gray-600 text-xs space-y-1">
+                                                    <li>• Server routing cookies</li>
+                                                    <li>• CDN optimization</li>
+                                                    <li>• Performance cookies</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Analytics Cookies -->
+                                <div class="border border-blue-200 rounded-xl overflow-hidden">
+                                    <div class="bg-blue-50 px-6 py-4 border-b border-blue-200">
+                                        <div class="flex items-center justify-between">
+                                            <h3 class="font-semibold text-blue-900 flex items-center">
+                                                <i class="fas fa-chart-bar text-blue-600 mr-3"></i>
+                                                Analytics Cookies
+                                            </h3>
+                                            <div class="flex items-center space-x-2">
+                                                <label class="relative inline-flex items-center cursor-pointer">
+                                                    <input type="checkbox" class="sr-only peer" id="analytics-cookies" checked>
+                                                    <div class="w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-blue-600"></div>
+                                                </label>
+                                                <span class="text-blue-600 text-sm font-semibold">Optional</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="p-6">
+                                        <p class="text-gray-700 text-sm mb-4">
+                                            These cookies help us understand how visitors interact with our website by collecting and reporting information anonymously. This data helps us improve the user experience and website performance.
+                                        </p>
+                                        <div class="grid md:grid-cols-2 gap-6">
+                                            <div>
+                                                <h4 class="font-semibold text-gray-900 mb-3">What We Track:</h4>
+                                                <ul class="text-gray-700 text-sm space-y-1">
+                                                    <li>• Page views and sessions</li>
+                                                    <li>• User flow and navigation patterns</li>
+                                                    <li>• Popular content and features</li>
+                                                    <li>• Device and browser information</li>
+                                                    <li>• Geographic location (country/city)</li>
+                                                    <li>• Traffic sources and referrers</li>
+                                                </ul>
+                                            </div>
+                                            <div>
+                                                <h4 class="font-semibold text-gray-900 mb-3">Analytics Providers:</h4>
+                                                <div class="space-y-3">
+                                                    <div class="bg-gray-50 rounded-lg p-3">
+                                                        <div class="flex items-center space-x-2 mb-1">
+                                                            <i class="fab fa-google text-blue-600"></i>
+                                                            <span class="font-semibold text-gray-900 text-sm">Google Analytics 4</span>
+                                                        </div>
+                                                        <p class="text-gray-600 text-xs">Website traffic and user behavior analysis</p>
+                                                    </div>
+                                                    <div class="bg-gray-50 rounded-lg p-3">
+                                                        <div class="flex items-center space-x-2 mb-1">
+                                                            <i class="fas fa-chart-line text-purple-600"></i>
+                                                            <span class="font-semibold text-gray-900 text-sm">HotJar</span>
+                                                        </div>
+                                                        <p class="text-gray-600 text-xs">Heatmaps and user session recordings</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Marketing Cookies -->
+                                <div class="border border-green-200 rounded-xl overflow-hidden">
+                                    <div class="bg-green-50 px-6 py-4 border-b border-green-200">
+                                        <div class="flex items-center justify-between">
+                                            <h3 class="font-semibold text-green-900 flex items-center">
+                                                <i class="fas fa-bullhorn text-green-600 mr-3"></i>
+                                                Marketing & Advertising Cookies
+                                            </h3>
+                                            <div class="flex items-center space-x-2">
+                                                <label class="relative inline-flex items-center cursor-pointer">
+                                                    <input type="checkbox" class="sr-only peer" id="marketing-cookies">
+                                                    <div class="w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-green-300 rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-green-600"></div>
+                                                </label>
+                                                <span class="text-green-600 text-sm font-semibold">Optional</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="p-6">
+                                        <p class="text-gray-700 text-sm mb-4">
+                                            These cookies are used to make advertising messages more relevant to you. They perform functions like preventing the same ad from continuously reappearing, ensuring that ads are properly displayed, and in some cases selecting advertisements that are based on your interests.
+                                        </p>
+                                        <div class="grid md:grid-cols-3 gap-4">
+                                            <div class="bg-gray-50 rounded-lg p-4">
+                                                <h4 class="font-semibold text-gray-900 mb-2">
+                                                    <i class="fab fa-google text-red-600 mr-1"></i>
+                                                    Google Ads
+                                                </h4>
+                                                <ul class="text-gray-600 text-xs space-y-1">
+                                                    <li>• Conversion tracking</li>
+                                                    <li>• Remarketing audiences</li>
+                                                    <li>• Interest-based advertising</li>
+                                                </ul>
+                                            </div>
+                                            <div class="bg-gray-50 rounded-lg p-4">
+                                                <h4 class="font-semibold text-gray-900 mb-2">
+                                                    <i class="fab fa-facebook text-blue-600 mr-1"></i>
+                                                    Facebook Pixel
+                                                </h4>
+                                                <ul class="text-gray-600 text-xs space-y-1">
+                                                    <li>• Social media advertising</li>
+                                                    <li>• Custom audience creation</li>
+                                                    <li>• Lookalike audience building</li>
+                                                </ul>
+                                            </div>
+                                            <div class="bg-gray-50 rounded-lg p-4">
+                                                <h4 class="font-semibold text-gray-900 mb-2">
+                                                    <i class="fab fa-linkedin text-blue-700 mr-1"></i>
+                                                    LinkedIn Insight
+                                                </h4>
+                                                <ul class="text-gray-600 text-xs space-y-1">
+                                                    <li>• Professional network targeting</li>
+                                                    <li>• B2B lead generation</li>
+                                                    <li>• Career-focused advertising</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Personalization Cookies -->
+                                <div class="border border-purple-200 rounded-xl overflow-hidden">
+                                    <div class="bg-purple-50 px-6 py-4 border-b border-purple-200">
+                                        <div class="flex items-center justify-between">
+                                            <h3 class="font-semibold text-purple-900 flex items-center">
+                                                <i class="fas fa-user-cog text-purple-600 mr-3"></i>
+                                                Personalization Cookies
+                                            </h3>
+                                            <div class="flex items-center space-x-2">
+                                                <label class="relative inline-flex items-center cursor-pointer">
+                                                    <input type="checkbox" class="sr-only peer" id="personalization-cookies">
+                                                    <div class="w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-purple-300 rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-purple-600"></div>
+                                                </label>
+                                                <span class="text-purple-600 text-sm font-semibold">Optional</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="p-6">
+                                        <p class="text-gray-700 text-sm mb-4">
+                                            These cookies enable us to provide enhanced functionality and personalization, such as remembering your preferences, displaying relevant content, and customizing your experience based on your interactions with our website.
+                                        </p>
+                                        <div class="grid md:grid-cols-2 gap-6">
+                                            <div>
+                                                <h4 class="font-semibold text-gray-900 mb-3">Personalization Features:</h4>
+                                                <ul class="text-gray-700 text-sm space-y-1">
+                                                    <li>• Language and region preferences</li>
+                                                    <li>• Theme and display settings</li>
+                                                    <li>• Content recommendations</li>
+                                                    <li>• Recently viewed services</li>
+                                                    <li>• Saved preferences and filters</li>
+                                                </ul>
+                                            </div>
+                                            <div>
+                                                <h4 class="font-semibold text-gray-900 mb-3">User Experience Enhancements:</h4>
+                                                <ul class="text-gray-700 text-sm space-y-1">
+                                                    <li>• Faster page loading</li>
+                                                    <li>• Customized navigation</li>
+                                                    <li>• Relevant service suggestions</li>
+                                                    <li>• Improved search functionality</li>
+                                                    <li>• Adaptive interface elements</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- 4. Third-Party Cookies -->
+                        <section id="third-party-cookies" class="mb-10">
+                            <h2 class="text-2xl font-bold text-gray-900 mb-6">
+                                <span class="bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full text-sm mr-3">4</span>
+                                Third-Party Cookies and Services
+                            </h2>
+                            
+                            <div class="bg-yellow-50 border-l-4 border-yellow-400 p-6 rounded-r-lg mb-6">
+                                <h3 class="font-semibold text-yellow-900 mb-3">
+                                    <i class="fas fa-external-link-alt mr-2"></i>
+                                    Third-Party Integration Notice
+                                </h3>
+                                <p class="text-yellow-800 text-sm">
+                                    Our website integrates with various third-party services to enhance functionality and provide better user experiences. These services may set their own cookies and have their own privacy policies that govern their data collection and use practices.
+                                </p>
+                            </div>
+
+                            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                                <!-- Google Services -->
+                                <div class="bg-gradient-to-br from-red-50 to-orange-50 rounded-xl p-6 border border-red-200">
+                                    <div class="flex items-center space-x-3 mb-4">
+                                        <div class="w-12 h-12 bg-white rounded-full flex items-center justify-center shadow-sm">
+                                            <i class="fab fa-google text-red-600 text-xl"></i>
+                                        </div>
+                                        <div>
+                                            <h3 class="font-semibold text-gray-900">Google Services</h3>
+                                            <p class="text-gray-600 text-sm">Analytics & Advertising</p>
+                                        </div>
+                                    </div>
+                                    <ul class="text-gray-700 text-sm space-y-2 mb-4">
+                                        <li>• Google Analytics 4</li>
+                                        <li>• Google Ads & AdSense</li>
+                                        <li>• Google Tag Manager</li>
+                                        <li>• reCAPTCHA</li>
+                                        <li>• Google Maps</li>
+                                    </ul>
+                                    <div class="text-xs">
+                                        <a href="https://policies.google.com/privacy" target="_blank" class="text-red-600 hover:text-red-800 transition-colors">
+                                            <i class="fas fa-external-link-alt mr-1"></i>Google Privacy Policy
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <!-- Social Media -->
+                                <div class="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-xl p-6 border border-blue-200">
+                                    <div class="flex items-center space-x-3 mb-4">
+                                        <div class="w-12 h-12 bg-white rounded-full flex items-center justify-center shadow-sm">
+                                            <i class="fas fa-share-alt text-blue-600 text-xl"></i>
+                                        </div>
+                                        <div>
+                                            <h3 class="font-semibold text-gray-900">Social Media</h3>
+                                            <p class="text-gray-600 text-sm">Sharing & Integration</p>
+                                        </div>
+                                    </div>
+                                    <ul class="text-gray-700 text-sm space-y-2 mb-4">
+                                        <li>• Facebook Pixel & SDK</li>
+                                        <li>• LinkedIn Insight Tag</li>
+                                        <li>• Twitter Analytics</li>
+                                        <li>• YouTube embedded videos</li>
+                                        <li>• Social sharing buttons</li>
+                                    </ul>
+                                    <div class="text-xs space-y-1">
+                                        <a href="https://www.facebook.com/privacy/explanation" target="_blank" class="block text-blue-600 hover:text-blue-800 transition-colors">
+                                            <i class="fas fa-external-link-alt mr-1"></i>Facebook Privacy
+                                        </a>
+                                        <a href="https://www.linkedin.com/legal/privacy-policy" target="_blank" class="block text-blue-600 hover:text-blue-800 transition-colors">
+                                            <i class="fas fa-external-link-alt mr-1"></i>LinkedIn Privacy
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <!-- Communication Tools -->
+                                <div class="bg-gradient-to-br from-green-50 to-teal-50 rounded-xl p-6 border border-green-200">
+                                    <div class="flex items-center space-x-3 mb-4">
+                                        <div class="w-12 h-12 bg-white rounded-full flex items-center justify-center shadow-sm">
+                                            <i class="fas fa-comments text-green-600 text-xl"></i>
+                                        </div>
+                                        <div>
+                                            <h3 class="font-semibold text-gray-900">Communication</h3>
+                                            <p class="text-gray-600 text-sm">Chat & Support</p>
+                                        </div>
+                                    </div>
+                                    <ul class="text-gray-700 text-sm space-y-2 mb-4">
+                                        <li>• Intercom live chat</li>
+                                        <li>• Zendesk support system</li>
+                                        <li>• Calendly scheduling</li>
+                                        <li>• Mailchimp newsletters</li>
+                                        <li>• HubSpot CRM</li>
+                                    </ul>
+                                    <div class="text-xs">
+                                        <a href="https://www.intercom.com/legal/privacy" target="_blank" class="text-green-600 hover:text-green-800 transition-colors">
+                                            <i class="fas fa-external-link-alt mr-1"></i>Third-party Privacy Policies
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <!-- Analytics Tools -->
+                                <div class="bg-gradient-to-br from-purple-50 to-pink-50 rounded-xl p-6 border border-purple-200">
+                                    <div class="flex items-center space-x-3 mb-4">
+                                        <div class="w-12 h-12 bg-white rounded-full flex items-center justify-center shadow-sm">
+                                            <i class="fas fa-chart-line text-purple-600 text-xl"></i>
+                                        </div>
+                                        <div>
+                                            <h3 class="font-semibold text-gray-900">Analytics Tools</h3>
+                                            <p class="text-gray-600 text-sm">User Behavior</p>
+                                        </div>
+                                    </div>
+                                    <ul class="text-gray-700 text-sm space-y-2 mb-4">
+                                        <li>• Hotjar heatmaps</li>
+                                        <li>• Mixpanel analytics</li>
+                                        <li>• Amplitude tracking</li>
+                                        <li>• Crazy Egg optimization</li>
+                                        <li>• Fullstory recordings</li>
+                                    </ul>
+                                    <div class="text-xs">
+                                        <a href="https://www.hotjar.com/legal/policies/privacy/" target="_blank" class="text-purple-600 hover:text-purple-800 transition-colors">
+                                            <i class="fas fa-external-link-alt mr-1"></i>Analytics Privacy Policies
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <!-- Payment Providers -->
+                                <div class="bg-gradient-to-br from-orange-50 to-red-50 rounded-xl p-6 border border-orange-200">
+                                    <div class="flex items-center space-x-3 mb-4">
+                                        <div class="w-12 h-12 bg-white rounded-full flex items-center justify-center shadow-sm">
+                                            <i class="fas fa-credit-card text-orange-600 text-xl"></i>
+                                        </div>
+                                        <div>
+                                            <h3 class="font-semibold text-gray-900">Payment Processors</h3>
+                                            <p class="text-gray-600 text-sm">Secure Transactions</p>
+                                        </div>
+                                    </div>
+                                    <ul class="text-gray-700 text-sm space-y-2 mb-4">
+                                        <li>• Stripe payments</li>
+                                        <li>• PayPal checkout</li>
+                                        <li>• Wise transfers</li>
+                                        <li>• Coinbase Commerce</li>
+                                        <li>• Bank transfer gateways</li>
+                                    </ul>
+                                    <div class="text-xs">
+                                        <a href="https://stripe.com/privacy" target="_blank" class="text-orange-600 hover:text-orange-800 transition-colors">
+                                            <i class="fas fa-external-link-alt mr-1"></i>Payment Privacy Policies
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <!-- CDN & Performance -->
+                                <div class="bg-gradient-to-br from-cyan-50 to-blue-50 rounded-xl p-6 border border-cyan-200">
+                                    <div class="flex items-center space-x-3 mb-4">
+                                        <div class="w-12 h-12 bg-white rounded-full flex items-center justify-center shadow-sm">
+                                            <i class="fas fa-rocket text-cyan-600 text-xl"></i>
+                                        </div>
+                                        <div>
+                                            <h3 class="font-semibold text-gray-900">Performance & CDN</h3>
+                                            <p class="text-gray-600 text-sm">Speed Optimization</p>
+                                        </div>
+                                    </div>
+                                    <ul class="text-gray-700 text-sm space-y-2 mb-4">
+                                        <li>• Cloudflare CDN</li>
+                                        <li>• AWS CloudFront</li>
+                                        <li>• jsDelivr CDN</li>
+                                        <li>• Font loading services</li>
+                                        <li>• Image optimization</li>
+                                    </ul>
+                                    <div class="text-xs">
+                                        <a href="https://www.cloudflare.com/privacy/" target="_blank" class="text-cyan-600 hover:text-cyan-800 transition-colors">
+                                            <i class="fas fa-external-link-alt mr-1"></i>CDN Privacy Policies
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="bg-gray-50 rounded-xl p-6 mt-6">
+                                <h3 class="font-semibold text-gray-900 mb-3">
+                                    <i class="fas fa-info-circle text-blue-600 mr-2"></i>
+                                    Managing Third-Party Cookies
+                                </h3>
+                                <p class="text-gray-700 text-sm mb-3">
+                                    You can control third-party cookies through:
+                                </p>
+                                <div class="grid md:grid-cols-3 gap-4 text-sm">
+                                    <ul class="text-gray-700 space-y-1">
+                                        <li>• Our cookie preference center</li>
+                                        <li>• Browser privacy settings</li>
+                                        <li>• Third-party opt-out tools</li>
+                                    </ul>
+                                    <ul class="text-gray-700 space-y-1">
+                                        <li>• Industry opt-out programs</li>
+                                        <li>• Ad blocking extensions</li>
+                                        <li>• Privacy-focused browsers</li>
+                                    </ul>
+                                    <ul class="text-gray-700 space-y-1">
+                                        <li>• Cookie management tools</li>
+                                        <li>• Platform-specific settings</li>
+                                        <li>• Account privacy controls</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- 5. Cookie Management -->
+                        <section id="cookie-management" class="mb-10">
+                            <h2 class="text-2xl font-bold text-gray-900 mb-6">
+                                <span class="bg-orange-100 text-orange-800 px-3 py-1 rounded-full text-sm mr-3">5</span>
+                                Managing Your Cookie Preferences
+                            </h2>
+                            
+                            <div class="space-y-6">
+                                <!-- Cookie Preference Center -->
+                                <div class="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-xl p-8 border border-blue-200">
+                                    <h3 class="font-semibold text-gray-900 mb-6 text-center">
+                                        <i class="fas fa-cog text-blue-600 mr-2"></i>
+                                        Cookie Preference Center
+                                    </h3>
+                                    
+                                    <div class="space-y-6">
+                                        <!-- Essential Cookies (Non-toggleable) -->
+                                        <div class="bg-white rounded-lg p-4 border border-gray-200">
+                                            <div class="flex items-center justify-between mb-3">
+                                                <div>
+                                                    <h4 class="font-semibold text-gray-900">Essential Cookies</h4>
+                                                    <p class="text-gray-600 text-sm">Required for basic website functionality</p>
+                                                </div>
+                                                <div class="flex items-center space-x-2">
+                                                    <span class="text-gray-500 text-sm">Always Active</span>
+                                                    <div class="w-11 h-6 bg-gray-400 rounded-full relative">
+                                                        <div class="w-5 h-5 bg-white rounded-full absolute top-0.5 right-0.5"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <p class="text-gray-700 text-sm">These cookies are necessary for the website to function and cannot be switched off.</p>
+                                        </div>
+
+                                        <!-- Analytics Cookies -->
+                                        <div class="bg-white rounded-lg p-4 border border-gray-200">
+                                            <div class="flex items-center justify-between mb-3">
+                                                <div>
+                                                    <h4 class="font-semibold text-gray-900">Analytics Cookies</h4>
+                                                    <p class="text-gray-600 text-sm">Help us understand website usage and improve performance</p>
+                                                </div>
+                                                <label class="relative inline-flex items-center cursor-pointer">
+                                                    <input type="checkbox" class="sr-only peer cookie-toggle" id="toggle-analytics" data-category="analytics" checked>
+                                                    <div class="w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-blue-600"></div>
+                                                </label>
+                                            </div>
+                                            <p class="text-gray-700 text-sm">Google Analytics, user behavior tracking, performance monitoring.</p>
+                                        </div>
+
+                                        <!-- Marketing Cookies -->
+                                        <div class="bg-white rounded-lg p-4 border border-gray-200">
+                                            <div class="flex items-center justify-between mb-3">
+                                                <div>
+                                                    <h4 class="font-semibold text-gray-900">Marketing Cookies</h4>
+                                                    <p class="text-gray-600 text-sm">Used for targeted advertising and marketing campaigns</p>
+                                                </div>
+                                                <label class="relative inline-flex items-center cursor-pointer">
+                                                    <input type="checkbox" class="sr-only peer cookie-toggle" id="toggle-marketing" data-category="marketing">
+                                                    <div class="w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-green-300 rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-green-600"></div>
+                                                </label>
+                                            </div>
+                                            <p class="text-gray-700 text-sm">Google Ads, Facebook Pixel, LinkedIn Insight Tag, retargeting.</p>
+                                        </div>
+
+                                        <!-- Personalization Cookies -->
+                                        <div class="bg-white rounded-lg p-4 border border-gray-200">
+                                            <div class="flex items-center justify-between mb-3">
+                                                <div>
+                                                    <h4 class="font-semibold text-gray-900">Personalization Cookies</h4>
+                                                    <p class="text-gray-600 text-sm">Customize your experience based on your preferences</p>
+                                                </div>
+                                                <label class="relative inline-flex items-center cursor-pointer">
+                                                    <input type="checkbox" class="sr-only peer cookie-toggle" id="toggle-personalization" data-category="personalization">
+                                                    <div class="w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-purple-300 rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-purple-600"></div>
+                                                </label>
+                                            </div>
+                                            <p class="text-gray-700 text-sm">Language preferences, content recommendations, user interface customization.</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="flex flex-wrap gap-4 justify-center mt-8">
+                                        <button id="save-preferences" class="bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
+                                            <i class="fas fa-save mr-2"></i>Save Preferences
+                                        </button>
+                                        <button id="accept-all-prefs" class="bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-700 transition-colors">
+                                            <i class="fas fa-check mr-2"></i>Accept All
+                                        </button>
+                                        <button id="reject-all-prefs" class="bg-gray-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-gray-700 transition-colors">
+                                            <i class="fas fa-times mr-2"></i>Reject Optional
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <!-- Additional Management Options -->
+                                <div class="grid md:grid-cols-3 gap-6">
+                                    <div class="bg-gray-50 rounded-xl p-6">
+                                        <h3 class="font-semibold text-gray-900 mb-3">
+                                            <i class="fas fa-history text-blue-600 mr-2"></i>
+                                            Clear Existing Cookies
+                                        </h3>
+                                        <p class="text-gray-700 text-sm mb-4">
+                                            Remove all cookies currently stored by our website from your browser.
+                                        </p>
+                                        <button id="clear-cookies" class="bg-red-600 text-white px-4 py-2 rounded-lg text-sm font-semibold hover:bg-red-700 transition-colors w-full">
+                                            <i class="fas fa-trash mr-2"></i>Clear All Cookies
+                                        </button>
+                                    </div>
+
+                                    <div class="bg-gray-50 rounded-xl p-6">
+                                        <h3 class="font-semibold text-gray-900 mb-3">
+                                            <i class="fas fa-download text-green-600 mr-2"></i>
+                                            Export Cookie Data
+                                        </h3>
+                                        <p class="text-gray-700 text-sm mb-4">
+                                            Download a report of all cookies and data we have stored for you.
+                                        </p>
+                                        <button id="export-data" class="bg-green-600 text-white px-4 py-2 rounded-lg text-sm font-semibold hover:bg-green-700 transition-colors w-full">
+                                            <i class="fas fa-download mr-2"></i>Export Data
+                                        </button>
+                                    </div>
+
+                                    <div class="bg-gray-50 rounded-xl p-6">
+                                        <h3 class="font-semibold text-gray-900 mb-3">
+                                            <i class="fas fa-undo text-purple-600 mr-2"></i>
+                                            Reset to Defaults
+                                        </h3>
+                                        <p class="text-gray-700 text-sm mb-4">
+                                            Restore cookie preferences to our recommended default settings.
+                                        </p>
+                                        <button id="reset-preferences" class="bg-purple-600 text-white px-4 py-2 rounded-lg text-sm font-semibold hover:bg-purple-700 transition-colors w-full">
+                                            <i class="fas fa-undo mr-2"></i>Reset Defaults
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- 6. Browser Settings -->
+                        <section id="browser-settings" class="mb-10">
+                            <h2 class="text-2xl font-bold text-gray-900 mb-6">
+                                <span class="bg-cyan-100 text-cyan-800 px-3 py-1 rounded-full text-sm mr-3">6</span>
+                                Browser Cookie Settings
+                            </h2>
+                            
+                            <p class="text-gray-700 mb-6">
+                                You can also manage cookies directly through your web browser settings. Here's how to do it in popular browsers:
+                            </p>
+
+                            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                                <!-- Chrome -->
+                                <div class="bg-gradient-to-br from-red-50 to-orange-50 rounded-xl p-6 border border-red-200">
+                                    <div class="text-center mb-4">
+                                        <i class="fab fa-chrome text-4xl text-red-600 mb-3"></i>
+                                        <h3 class="font-semibold text-gray-900">Google Chrome</h3>
+                                    </div>
+                                    <ol class="text-gray-700 text-sm space-y-2">
+                                        <li>1. Click three dots menu (⋮)</li>
+                                        <li>2. Go to Settings</li>
+                                        <li>3. Privacy and security</li>
+                                        <li>4. Site Settings</li>
+                                        <li>5. Cookies and site data</li>
+                                    </ol>
+                                    <div class="mt-4 text-center">
+                                        <a href="https://support.google.com/chrome/answer/95647" target="_blank" class="text-red-600 hover:text-red-800 text-sm transition-colors">
+                                            <i class="fas fa-external-link-alt mr-1"></i>Chrome Help
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <!-- Firefox -->
+                                <div class="bg-gradient-to-br from-orange-50 to-yellow-50 rounded-xl p-6 border border-orange-200">
+                                    <div class="text-center mb-4">
+                                        <i class="fab fa-firefox-browser text-4xl text-orange-600 mb-3"></i>
+                                        <h3 class="font-semibold text-gray-900">Mozilla Firefox</h3>
+                                    </div>
+                                    <ol class="text-gray-700 text-sm space-y-2">
+                                        <li>1. Click hamburger menu (☰)</li>
+                                        <li>2. Select Settings</li>
+                                        <li>3. Privacy & Security</li>
+                                        <li>4. Cookies and Site Data</li>
+                                        <li>5. Manage Data</li>
+                                    </ol>
+                                    <div class="mt-4 text-center">
+                                        <a href="https://support.mozilla.org/en-US/kb/enhanced-tracking-protection-firefox-desktop" target="_blank" class="text-orange-600 hover:text-orange-800 text-sm transition-colors">
+                                            <i class="fas fa-external-link-alt mr-1"></i>Firefox Help
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <!-- Safari -->
+                                <div class="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-xl p-6 border border-blue-200">
+                                    <div class="text-center mb-4">
+                                        <i class="fab fa-safari text-4xl text-blue-600 mb-3"></i>
+                                        <h3 class="font-semibold text-gray-900">Apple Safari</h3>
+                                    </div>
+                                    <ol class="text-gray-700 text-sm space-y-2">
+                                        <li>1. Safari menu > Preferences</li>
+                                        <li>2. Privacy tab</li>
+                                        <li>3. Manage Website Data</li>
+                                        <li>4. Select sites to remove</li>
+                                        <li>5. Click Remove or Remove All</li>
+                                    </ol>
+                                    <div class="mt-4 text-center">
+                                        <a href="https://support.apple.com/guide/safari/manage-cookies-and-website-data-sfri11471/mac" target="_blank" class="text-blue-600 hover:text-blue-800 text-sm transition-colors">
+                                            <i class="fas fa-external-link-alt mr-1"></i>Safari Help
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <!-- Edge -->
+                                <div class="bg-gradient-to-br from-blue-50 to-cyan-50 rounded-xl p-6 border border-cyan-200">
+                                    <div class="text-center mb-4">
+                                        <i class="fab fa-edge text-4xl text-cyan-600 mb-3"></i>
+                                        <h3 class="font-semibold text-gray-900">Microsoft Edge</h3>
+                                    </div>
+                                    <ol class="text-gray-700 text-sm space-y-2">
+                                        <li>1. Click three dots menu (⋯)</li>
+                                        <li>2. Settings</li>
+                                        <li>3. Cookies and site permissions</li>
+                                        <li>4. Cookies and site data</li>
+                                        <li>5. See all cookies and site data</li>
+                                    </ol>
+                                    <div class="mt-4 text-center">
+                                        <a href="https://support.microsoft.com/en-us/microsoft-edge/delete-cookies-in-microsoft-edge-63947406-40ac-c3b8-57b9-2a946a29ae09" target="_blank" class="text-cyan-600 hover:text-cyan-800 text-sm transition-colors">
+                                            <i class="fas fa-external-link-alt mr-1"></i>Edge Help
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="bg-purple-50 rounded-xl p-6 mt-6">
+                                <h3 class="font-semibold text-purple-900 mb-4">
+                                    <i class="fas fa-mobile-alt text-purple-600 mr-2"></i>
+                                    Mobile Browser Settings
+                                </h3>
+                                <div class="grid md:grid-cols-2 gap-6">
+                                    <div>
+                                        <h4 class="font-semibold text-gray-900 mb-2">iOS Safari</h4>
+                                        <ol class="text-gray-700 text-sm space-y-1">
+                                            <li>1. Settings app > Safari</li>
+                                            <li>2. Advanced > Website Data</li>
+                                            <li>3. Remove All Website Data</li>
+                                        </ol>
+                                    </div>
+                                    <div>
+                                        <h4 class="font-semibold text-gray-900 mb-2">Android Chrome</h4>
+                                        <ol class="text-gray-700 text-sm space-y-1">
+                                            <li>1. Chrome app > Three dots menu</li>
+                                            <li>2. Settings > Privacy and security</li>
+                                            <li>3. Clear browsing data</li>
+                                        </ol>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- 7. Policy Updates -->
+                        <section id="updates" class="mb-10">
+                            <h2 class="text-2xl font-bold text-gray-900 mb-6">
+                                <span class="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-sm mr-3">7</span>
+                                Cookie Policy Updates
+                            </h2>
+                            
+                            <div class="bg-gradient-to-r from-indigo-50 to-purple-50 rounded-xl p-6">
+                                <div class="flex items-start space-x-4">
+                                    <div class="w-12 h-12 bg-indigo-100 rounded-full flex items-center justify-center flex-shrink-0">
+                                        <i class="fas fa-calendar-alt text-indigo-600"></i>
+                                    </div>
+                                    <div class="flex-1">
+                                        <h3 class="font-semibold text-indigo-900 mb-3">Keeping You Informed</h3>
+                                        <p class="text-indigo-800 text-sm mb-4">
+                                            We may update this Cookie Policy from time to time to reflect changes in our practices, technology, legal requirements, or for other operational, legal, or regulatory reasons.
+                                        </p>
+                                        
+                                        <div class="grid md:grid-cols-2 gap-6">
+                                            <div>
+                                                <h4 class="font-semibold text-indigo-900 mb-2">When We Update:</h4>
+                                                <ul class="text-indigo-800 text-sm space-y-1">
+                                                    <li>• New cookie technologies are implemented</li>
+                                                    <li>• Third-party integrations change</li>
+                                                    <li>• Legal or regulatory requirements evolve</li>
+                                                    <li>• User feedback suggests improvements</li>
+                                                    <li>• Business practices are modified</li>
+                                                </ul>
+                                            </div>
+                                            <div>
+                                                <h4 class="font-semibold text-indigo-900 mb-2">How We Notify You:</h4>
+                                                <ul class="text-indigo-800 text-sm space-y-1">
+                                                    <li>• Email notification to registered users</li>
+                                                    <li>• Website banner notification</li>
+                                                    <li>• Updated "Last Modified" date</li>
+                                                    <li>• Blog post announcement for major changes</li>
+                                                    <li>• Social media updates</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+
+                                        <div class="flex flex-wrap gap-3 mt-6">
+                                            <span class="bg-white px-3 py-1 rounded-full text-indigo-800 text-sm">Last Updated: October 2024</span>
+                                            <span class="bg-white px-3 py-1 rounded-full text-indigo-800 text-sm">Version 1.3</span>
+                                            <span class="bg-white px-3 py-1 rounded-full text-indigo-800 text-sm">Next Review: January 2025</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="bg-yellow-50 border-l-4 border-yellow-400 p-6 rounded-r-lg mt-6">
+                                <h4 class="font-semibold text-yellow-900 mb-2">
+                                    <i class="fas fa-bell mr-2"></i>
+                                    Stay Updated
+                                </h4>
+                                <p class="text-yellow-800 text-sm">
+                                    We recommend reviewing this Cookie Policy periodically to stay informed about how we use cookies. 
+                                    Continued use of our website after changes are posted constitutes acceptance of the updated policy.
+                                </p>
+                            </div>
+                        </section>
+
+                        <!-- 8. Contact Us -->
+                        <section id="contact" class="mb-8">
+                            <h2 class="text-2xl font-bold text-gray-900 mb-6">
+                                <span class="bg-pink-100 text-pink-800 px-3 py-1 rounded-full text-sm mr-3">8</span>
+                                Contact Us About Cookies
+                            </h2>
+                            
+                            <div class="bg-gradient-to-r from-green-600 to-teal-700 rounded-xl p-8 text-white">
+                                <h3 class="text-xl font-bold mb-6 text-center">Questions About Our Cookie Policy?</h3>
+                                
+                                <div class="grid md:grid-cols-2 gap-8">
+                                    <div>
+                                        <h4 class="font-semibold mb-4">
+                                            <i class="fas fa-envelope mr-2"></i>
+                                            Privacy & Cookies Team
+                                        </h4>
+                                        <div class="space-y-3">
+                                            <p>
+                                                <strong>Email:</strong> 
+                                                <a href="mailto:cookies@hbw.com" class="text-green-200 hover:text-white transition-colors">
+                                                    cookies@hbw.com
+                                                </a>
+                                            </p>
+                                            <p>
+                                                <strong>Privacy Officer:</strong> 
+                                                <a href="mailto:privacy@hbw.com" class="text-green-200 hover:text-white transition-colors">
+                                                    privacy@hbw.com
+                                                </a>
+                                            </p>
+                                            <p class="text-green-200 text-sm">
+                                                We respond to cookie-related inquiries within 72 hours
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <h4 class="font-semibold mb-4">
+                                            <i class="fas fa-question-circle mr-2"></i>
+                                            Common Questions We Can Help With
+                                        </h4>
+                                        <ul class="text-green-200 text-sm space-y-2">
+                                            <li>• How to disable specific cookie types</li>
+                                            <li>• Understanding cookie data collection</li>
+                                            <li>• Requesting cookie data deletion</li>
+                                            <li>• Technical issues with cookie settings</li>
+                                            <li>• Third-party cookie management</li>
+                                            <li>• GDPR and privacy compliance questions</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="mt-8 pt-6 border-t border-white/20">
+                                    <div class="text-center">
+                                        <h4 class="font-semibold mb-3">
+                                            <i class="fas fa-building mr-2"></i>
+                                            HBW Technology Solutions
+                                        </h4>
+                                        <p class="mb-2">CEO: Brian Nguyen - Blockchain Expert</p>
+                                        <p class="mb-2">Da Nang City, Vietnam</p>
+                                        <p class="text-green-200 text-sm">
+                                            Specializing in blockchain development, DeFi protocols, and AI trading systems
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Placeholder - Loaded via ES6 Modules -->
+    <div id="footer-placeholder"></div>
+
+    <!-- Cookie Management JavaScript -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Cookie management functionality
+            const cookieToggles = document.querySelectorAll('.cookie-toggle');
+            const acceptAllBtn = document.getElementById('accept-all-cookies');
+            const manageBtn = document.getElementById('manage-cookies');
+            const rejectBtn = document.getElementById('reject-optional');
+            const saveBtn = document.getElementById('save-preferences');
+            const clearBtn = document.getElementById('clear-cookies');
+            const exportBtn = document.getElementById('export-data');
+            const resetBtn = document.getElementById('reset-preferences');
+
+            // Load saved preferences
+            function loadPreferences() {
+                cookieToggles.forEach(toggle => {
+                    const category = toggle.dataset.category;
+                    const saved = localStorage.getItem(`cookie_${category}`);
+                    if (saved !== null) {
+                        toggle.checked = saved === 'true';
+                    }
+                });
+            }
+
+            // Save preferences
+            function savePreferences() {
+                cookieToggles.forEach(toggle => {
+                    const category = toggle.dataset.category;
+                    localStorage.setItem(`cookie_${category}`, toggle.checked);
+                });
+                showNotification('Cookie preferences saved successfully!', 'success');
+            }
+
+            // Show notification
+            function showNotification(message, type = 'info') {
+                const notification = document.createElement('div');
+                notification.className = `fixed top-4 right-4 z-50 p-4 rounded-lg text-white font-semibold ${
+                    type === 'success' ? 'bg-green-600' : 
+                    type === 'error' ? 'bg-red-600' : 'bg-blue-600'
+                }`;
+                notification.textContent = message;
+                document.body.appendChild(notification);
+                
+                setTimeout(() => {
+                    notification.remove();
+                }, 3000);
+            }
+
+            // Event listeners
+            acceptAllBtn?.addEventListener('click', () => {
+                cookieToggles.forEach(toggle => toggle.checked = true);
+                savePreferences();
+            });
+
+            document.getElementById('accept-all-prefs')?.addEventListener('click', () => {
+                cookieToggles.forEach(toggle => toggle.checked = true);
+                savePreferences();
+            });
+
+            rejectBtn?.addEventListener('click', () => {
+                cookieToggles.forEach(toggle => toggle.checked = false);
+                savePreferences();
+            });
+
+            document.getElementById('reject-all-prefs')?.addEventListener('click', () => {
+                cookieToggles.forEach(toggle => toggle.checked = false);
+                savePreferences();
+            });
+
+            saveBtn?.addEventListener('click', savePreferences);
+
+            clearBtn?.addEventListener('click', () => {
+                if (confirm('Are you sure you want to clear all cookies? This action cannot be undone.')) {
+                    // Clear all localStorage
+                    localStorage.clear();
+                    // Clear all sessionStorage
+                    sessionStorage.clear();
+                    showNotification('All cookies and local data cleared!', 'success');
+                    setTimeout(() => location.reload(), 1500);
+                }
+            });
+
+            exportBtn?.addEventListener('click', () => {
+                const data = {
+                    preferences: {},
+                    timestamp: new Date().toISOString(),
+                    website: 'hbw.com'
+                };
+                
+                cookieToggles.forEach(toggle => {
+                    const category = toggle.dataset.category;
+                    data.preferences[category] = toggle.checked;
+                });
+
+                const blob = new Blob([JSON.stringify(data, null, 2)], {type: 'application/json'});
+                const url = URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = 'hbw-cookie-preferences.json';
+                a.click();
+                URL.revokeObjectURL(url);
+                
+                showNotification('Cookie data exported successfully!', 'success');
+            });
+
+            resetBtn?.addEventListener('click', () => {
+                if (confirm('Reset to default cookie preferences?')) {
+                    // Reset to defaults (analytics on, others off)
+                    cookieToggles.forEach(toggle => {
+                        toggle.checked = toggle.dataset.category === 'analytics';
+                    });
+                    savePreferences();
+                }
+            });
+
+            // Load preferences on page load
+            loadPreferences();
+        });
+    </script>
+
+    <!-- ES6 Modules Component System -->
+    <script type="module">
+        import { loadHBWComponents } from './components/templates.js';
+        
+        // Load components when DOM is ready
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', loadHBWComponents);
+        } else {
+            loadHBWComponents();
+        }
+    </script>
+
+    <!-- Smooth Scrolling for Anchor Links -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Smooth scrolling for table of contents links
+            const links = document.querySelectorAll('a[href^="#"]');
+            
+            links.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    
+                    const targetId = this.getAttribute('href').substring(1);
+                    const targetSection = document.getElementById(targetId);
+                    
+                    if (targetSection) {
+                        targetSection.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

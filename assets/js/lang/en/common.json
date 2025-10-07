@@ -1,0 +1,102 @@
+{
+  "navigation": {
+    "home": "Home",
+    "services": "Services",
+    "portfolio": "Portfolio", 
+    "about": "About",
+    "contact": "Contact",
+    "blog": "Blog",
+    "cta": "Free Consultation",
+    "mega_menu": {
+      "blockchain": {
+        "title": "Blockchain Development",
+        "smart_contracts": "Smart Contracts",
+        "smart_contracts_desc": "DeFi, NFT, AI Trading",
+        "defi": "DeFi Protocols", 
+        "defi_desc": "BSC, ETH, Sol, ...",
+        "ai_trading": "AI Trading Bots",
+        "ai_trading_desc": "Algorithmic Trading"
+      },
+      "web": {
+        "title": "Web Development",
+        "web_development": "Web Development",
+        "web_development_desc": "React, Vue.js, Next.js",
+        "modern_apps": "Modern Web Apps",
+        "modern_apps_desc": "PWA, WebAssembly, AI",
+        "ecommerce": "E-commerce Solutions",
+        "ecommerce_desc": "Professional Stores"
+      },
+      "mobile": {
+        "title": "Mobile & AI Solutions",
+        "mobile_apps": "Mobile Apps",
+        "mobile_apps_desc": "iOS & Android",
+        "ai_solutions": "AI Solutions",
+        "ai_solutions_desc": "Machine Learning"
+      },
+      "consultation": {
+        "title": "Need Free Consultation?",
+        "subtitle": "Contact us for detailed project quotes",
+        "cta": "Contact Now"
+      }
+    }
+  },
+  "meta": {
+    "title": "HBW - Comprehensive Technology Partner | Web Development, Blockchain Solutions",
+    "description": "HBW - Trusted technology partner for businesses. From traditional websites to blockchain solutions. Projects from $1k-$50k. Free 24/7 consultation.",
+    "keywords": "web development, blockchain, mobile apps, digital marketing, business setup, domain hosting, vietnam technology",
+    "og_title": "HBW - Comprehensive Technology Partner",
+    "og_description": "From traditional websites to blockchain solutions - Comprehensive technology solutions for businesses"
+  },
+  "footer": {
+    "company": {
+      "tagline": "Technology Solutions",
+      "description": "Leading blockchain development company with 9+ years of expertise in building enterprise-grade DeFi protocols, sophisticated AI trading systems, and cutting-edge web applications. We've successfully delivered 200+ projects across multiple industries, specializing in smart contract development, multi-chain integration, and automated trading algorithms. Our team combines deep technical knowledge with proven business acumen to create scalable, secure, and high-performance solutions that drive measurable ROI for clients worldwide."
+    },
+    "services": {
+      "core_title": "Core Services",
+      "blockchain": "Blockchain Development",
+      "web": "Web Development",
+      "mobile": "Mobile Apps",
+      "ai_trading": "AI Trading Bots",
+      "defi": "DeFi Protocols"
+    },
+    "solutions": {
+      "title": "Solutions & Support",
+      "consulting": "Technical Consulting",
+      "modern_apps": "Modern Web Apps",
+      "ecommerce": "E-commerce Solutions",
+      "portfolio": "Portfolio",
+      "blog": "Tech Blog"
+    },
+    "contact": {
+      "title": "Contact & Legal",
+      "email": "hello@hbw.com",
+      "phone": "+84 768 931 999",
+      "location": "Da Nang City, Vietnam",
+      "support": "24/7 Support Available"
+    },
+    "legal": {
+      "copyright": "© 2015 HBW Technology Solutions. All rights reserved.",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "contact": "Contact Us",
+      "cookies": "Cookie Policy"
+    },
+    "ozi": {
+      "company_title": "Operating Company",
+      "company_name": "OZI NETWORK MEDIA & TECHNOLOGY COMPANY LIMITED",
+      "tax_code": "Tax Code: 0401702133",
+      "address": "Da Nang City, Vietnam", 
+      "established": "Established: 20/10/2015"
+    }
+  },
+  "contact_bubble": {
+    "title": "Contact Now",
+    "header": "Direct Contact",
+    "subtitle": "Choose your preferred contact method",
+    "footer": "24/7 Support - Fast Response",
+    "zalo": "Zalo",
+    "whatsapp": "WhatsApp", 
+    "telegram": "Telegram"
+  }
+}

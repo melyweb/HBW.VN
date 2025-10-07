@@ -1,0 +1,129 @@
+{
+  "privacy": {
+    "title": "Chính Sách Bảo Mật - HBW Technology Solutions Vietnam | Bảo Vệ & Bảo Mật Dữ Liệu",
+    "meta_description": "Chính Sách Bảo Mật của HBW Technology Solutions - Cách chúng tôi thu thập, sử dụng và bảo vệ thông tin cá nhân của bạn. Thực tiễn bảo vệ dữ liệu tuân thủ GDPR cho dịch vụ phát triển blockchain tại Việt Nam.",
+    "og_title": "Chính Sách Bảo Mật - HBW Technology Solutions Vietnam",
+    "og_description": "Tìm hiểu về thực tiễn bảo mật và chính sách bảo vệ dữ liệu tuân thủ GDPR của HBW.",
+    "twitter_title": "Chính Sách Bảo Mật - HBW Technology Solutions", 
+    "twitter_description": "Thực tiễn bảo mật tuân thủ GDPR và chính sách bảo vệ dữ liệu.",
+    
+    "hero": {
+      "title": "Chính Sách Bảo Mật",
+      "subtitle": "Quyền riêng tư của bạn rất quan trọng với chúng tôi. Chính sách này giải thích cách chúng tôi thu thập, sử dụng và bảo vệ thông tin cá nhân của bạn.",
+      "last_updated": "Cập nhật lần cuối: 1 tháng 10, 2024"
+    },
+    
+    "intro": {
+      "title": "Cam Kết Bảo Mật Của Chúng Tôi",
+      "description": "Tại HBW Technology Solutions, chúng tôi cam kết bảo vệ quyền riêng tư và đảm bảo an toàn thông tin cá nhân của bạn. Chính Sách Bảo Mật này giải thích cách chúng tôi thu thập, sử dụng, tiết lộ và bảo vệ thông tin của bạn khi sử dụng dịch vụ.",
+      "company_info": {
+        "company": "HBW Technology Solutions",
+        "ceo": "Brian Nguyen - Chuyên Gia Blockchain",
+        "location": "Thành phố Đà Nẵng, Việt Nam",
+        "email": "privacy@hbw.com",
+        "specialization": "Phát Triển Blockchain, Giao Thức DeFi, Hệ Thống AI Trading"
+      }
+    },
+    
+    "toc": {
+      "title": "Mục Lục",
+      "info_collection": "1. Thông Tin Chúng Tôi Thu Thập",
+      "how_use": "2. Cách Sử Dụng Thông Tin",
+      "info_sharing": "3. Chia Sẻ Thông Tin",
+      "data_security": "4. Bảo Mật Dữ Liệu",
+      "your_rights": "5. Quyền Của Bạn",
+      "cookies": "6. Cookie & Theo Dõi",
+      "retention": "7. Chuyển Giao Quốc Tế",
+      "contact": "8. Thông Tin Liên Hệ"
+    },
+    
+    "collection": {
+      "title": "Thông Tin Chúng Tôi Thu Thập",
+      "description": "Chúng tôi thu thập thông tin bạn cung cấp trực tiếp và thông tin được thu thập tự động khi bạn sờ dụng dịch vụ:",
+      "personal": {
+        "title": "Thông Tin Cá Nhân",
+        "items": [
+          "Tên, địa chỉ email, số điện thoại",
+          "Tên công ty và chức danh",
+          "Yêu cầu dự án và đặc tả kỹ thuật",
+          "Sở thích giao tiếp",
+          "Thông tin thanh toán và hóa đơn"
+        ]
+      },
+      "automatic": {
+        "title": "Thông Tin Thu Thập Tự Động",
+        "items": [
+          "Địa chỉ IP và dữ liệu vị trí",
+          "Loại trình duyệt, phiên bản và hệ điều hành",
+          "Thông tin thiết bị và độ phân giải màn hình",
+          "Mô hình sử dụng website và phân tích",
+          "Cookie và các công nghệ theo dõi tương tự"
+        ]
+      }
+    },
+    
+    "usage": {
+      "title": "Cách Sử Dụng Thông Tin",
+      "description": "Chúng tôi sử dụng thông tin thu thập được cho các mục đích sau:",
+      "items": [
+        "Cung cấp và cải thiện dịch vụ phát triển blockchain",
+        "Giao tiếp về dự án và hỗ trợ",
+        "Xử lý thanh toán và quản lý hóa đơn",
+        "Gửi cập nhật quan trọng và thông báo bảo mật",
+        "Phân tích hiệu suất website và trải nghiệm người dùng",
+        "Tuân thủ nghĩa vụ pháp lý và bảo vệ quyền lợi"
+      ]
+    },
+    
+    "sharing": {
+      "title": "Chia Sẻ Thông Tin",
+      "description": "Chúng tôi không bán thông tin cá nhân của bạn. Chúng tôi chỉ chia sẻ thông tin trong những trường hợp hạn chế này:",
+      "items": [
+        "Với sự đồng ý rõ ràng của bạn hoặc theo chỉ dẫn",
+        "Với nhà cung cấp dịch vụ đáng tin cậy hỗ trợ hoạt động",
+        "Để tuân thủ yêu cầu pháp lý hoặc lệnh tòa án",
+        "Để bảo vệ quyền lợi, tài sản hoặc an toàn",
+        "Liên quan đến chuyển nhượng hoặc sáp nhập doanh nghiệp"
+      ]
+    },
+    
+    "security": {
+      "title": "Bảo Mật Dữ Liệu",
+      "description": "Chúng tôi triển khai các biện pháp bảo mật toàn diện để bảo vệ thông tin:",
+      "technical": {
+        "title": "Biện Pháp Kỹ Thuật",
+        "items": [
+          "Mã hóa đầu cuối cho truyền dữ liệu",
+          "Lưu trữ đám mây an toàn với hệ thống sao lưu",
+          "Kiểm toán bảo mật và đánh giá lỗ hổng định kỳ",
+          "Xác thực đa yếu tố cho truy cập hệ thống",
+          "Phát hiện và ngăn chặn mối đe dọa tự động"
+        ]
+      },
+      "organizational": {
+        "title": "Biện Pháp Tổ Chức",
+        "items": [
+          "Đào tạo nhân viên về thực tiễn bảo vệ dữ liệu",
+          "Kiểm soát truy cập nghiêm ngặt theo nguyên tắc cần biết",
+          "Xem xét và cập nhật chính sách bảo mật định kỳ",
+          "Quy trình ứng phó sự cố và thông báo vi phạm",
+          "Tuân thủ các tiêu chuẩn bảo mật quốc tế"
+        ]
+      }
+    },
+    
+    "rights": {
+      "title": "Quyền Riêng Tư Của Bạn",
+      "description": "Bạn có một số quyền liên quan đến thông tin cá nhân:",
+      "items": [
+        "Truy cập: Yêu cầu bản sao thông tin cá nhân",
+        "Chỉnh sửa: Yêu cầu sửa chữa dữ liệu không chính xác",
+        "Xóa: Yêu cầu xóa thông tin cá nhân",
+        "Chuyển dữ liệu: Yêu cầu chuyển dữ liệu sang dịch vụ khác",
+        "Hạn chế: Yêu cầu giới hạn hoạt động xử lý",
+        "Phản đối: Phản đối một số loại xử lý dữ liệu nhất định"
+      ],
+      "exercise": "Để thực hiện các quyền này, vui lòng liên hệ với chúng tôi bằng thông tin được cung cấp trong phần Liên Hệ."
+    }
+  }
+}

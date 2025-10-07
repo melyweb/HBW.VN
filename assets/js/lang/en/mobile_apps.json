@@ -1,0 +1,250 @@
+{
+  "meta": {
+    "title": "Mobile App Development - HBW Technology Solutions",
+    "description": "Professional mobile app development for iOS and Android. Native, cross-platform, and hybrid solutions with modern frameworks like React Native and Flutter.",
+    "og_title": "Mobile App Development | HBW Technology",
+    "og_description": "Expert mobile app development services for iOS, Android, and cross-platform solutions."
+  },
+  "hero": {
+    "badge": "Mobile App Excellence",
+    "title": "Professional Mobile Apps",
+    "description": "Build exceptional mobile experiences with our expert development team. Native iOS & Android apps, cross-platform solutions, and cutting-edge mobile technologies for your business success.",
+    "cta_primary": "Start Development",
+    "cta_secondary": "View Portfolio",
+    "stats": {
+      "apps": "200+",
+      "apps_label": "Apps Delivered",
+      "downloads": "2M+",
+      "downloads_label": "Total Downloads",
+      "rating": "4.8★",
+      "rating_label": "Average Rating"
+    }
+  },
+  "platforms": {
+    "title": "Multi-Platform Excellence",
+    "description": "We deliver exceptional mobile experiences across all platforms with native performance and optimized user interfaces.",
+    "ios": {
+      "title": "iOS Development",
+      "description": "Native iOS apps with Swift and Objective-C, optimized for iPhone and iPad with latest iOS features.",
+      "feature1": "Swift & Objective-C",
+      "feature2": "App Store Optimization",
+      "feature3": "iOS 17+ Support",
+      "price": "From $8,000"
+    },
+    "android": {
+      "title": "Android Development",
+      "description": "Native Android apps with Kotlin and Java, supporting multiple device sizes and Android versions.",
+      "feature1": "Kotlin & Java",
+      "feature2": "Play Store Publishing",
+      "feature3": "Material Design 3",
+      "price": "From $7,500"
+    },
+    "cross_platform": {
+      "title": "Cross-Platform Apps",
+      "badge": "Most Popular",
+      "description": "Single codebase for iOS and Android using React Native, Flutter, or other modern frameworks.",
+      "feature1": "React Native & Flutter",
+      "feature2": "50% Cost Reduction",
+      "feature3": "Faster Time-to-Market",
+      "price": "From $12,000"
+    },
+    "pwa": {
+      "title": "Progressive Web Apps",
+      "description": "Web-based apps with native-like experience, offline functionality, and cross-platform compatibility.",
+      "feature1": "Offline Support",
+      "feature2": "Push Notifications",
+      "feature3": "App Store Ready",
+      "price": "From $5,000"
+    }
+  },
+  "tech_stack": {
+    "title": "Modern Mobile Technologies",
+    "description": "We leverage the latest mobile development technologies and frameworks to build fast, scalable, and maintainable applications.",
+    "native": {
+      "title": "Native Development",
+      "swift": "Swift",
+      "objective_c": "Objective-C",
+      "kotlin": "Kotlin",
+      "java": "Java",
+      "xcode": "Xcode",
+      "android_studio": "Android Studio",
+      "swiftui": "SwiftUI",
+      "jetpack": "Jetpack Compose"
+    },
+    "cross_platform": {
+      "title": "Cross-Platform Frameworks",
+      "react_native": {
+        "title": "React Native",
+        "description": "Facebook's cross-platform framework"
+      },
+      "flutter": {
+        "title": "Flutter",
+        "description": "Google's UI toolkit for mobile"
+      },
+      "xamarin": {
+        "title": "Xamarin",
+        "description": "Microsoft's .NET framework"
+      },
+      "ionic": {
+        "title": "Ionic",
+        "description": "Hybrid app development platform"
+      }
+    },
+    "backend": {
+      "title": "Backend & Cloud Services",
+      "firebase": "Firebase",
+      "aws": "AWS",
+      "gcp": "Google Cloud",
+      "azure": "Azure",
+      "node": "Node.js",
+      "python": "Python"
+    }
+  },
+  "services": {
+    "title": "Comprehensive Mobile Services",
+    "description": "From concept to app store deployment, we provide end-to-end mobile app development services with ongoing support and maintenance.",
+    "design": {
+      "title": "UI/UX Design",
+      "description": "User-centered design with modern interfaces, intuitive navigation, and platform-specific design guidelines.",
+      "feature1": "Wireframing & Prototyping",
+      "feature2": "Design Systems",
+      "feature3": "Usability Testing"
+    },
+    "native": {
+      "title": "Native Development",
+      "description": "High-performance native apps leveraging platform-specific features and optimized user experiences.",
+      "feature1": "Platform Optimization",
+      "feature2": "Hardware Integration",
+      "feature3": "Performance Optimization"
+    },
+    "backend": {
+      "title": "Backend Integration",
+      "description": "Robust backend systems with APIs, databases, cloud services, and real-time synchronization.",
+      "feature1": "RESTful APIs",
+      "feature2": "Database Design",
+      "feature3": "Cloud Integration"
+    },
+    "testing": {
+      "title": "Testing & QA",
+      "description": "Comprehensive testing across devices, platforms, and scenarios to ensure quality and reliability.",
+      "feature1": "Automated Testing",
+      "feature2": "Device Testing",
+      "feature3": "Performance Testing"
+    },
+    "deployment": {
+      "title": "App Store Deployment",
+      "description": "Complete app store submission process with optimization for better visibility and downloads.",
+      "feature1": "Store Optimization",
+      "feature2": "Submission Support",
+      "feature3": "Review Management"
+    },
+    "maintenance": {
+      "title": "Maintenance & Support",
+      "description": "Ongoing maintenance, updates, bug fixes, and feature enhancements to keep your app current.",
+      "feature1": "Regular Updates",
+      "feature2": "Bug Fixes",
+      "feature3": "24/7 Support"
+    }
+  },
+  "performance": {
+    "title": "App Performance Excellence",
+    "description": "Our mobile apps consistently deliver superior performance metrics and user experiences across all platforms.",
+    "load_time": {
+      "value": "1.2s",
+      "label": "Avg Load Time",
+      "description": "Optimized for fast startup and smooth performance"
+    },
+    "rating": {
+      "value": "4.8★",
+      "label": "Store Rating",
+      "description": "High user satisfaction and positive reviews"
+    },
+    "crash_rate": {
+      "value": "0.1%",
+      "label": "Crash Rate",
+      "description": "Stable and reliable app performance"
+    },
+    "retention": {
+      "value": "78%",
+      "label": "30-day Retention",
+      "description": "High user engagement and return rates"
+    }
+  },
+  "success_stories": {
+    "title": "Mobile App Success Stories",
+    "description": "Real projects showcasing our mobile app development expertise with measurable business impact and user success.",
+    "fitness_app": {
+      "title": "FitTracker Pro",
+      "category": "Health & Fitness App",
+      "description": "Cross-platform fitness tracking app with workout plans, nutrition tracking, and social features. Built with React Native for iOS and Android.",
+      "downloads": "500K+",
+      "downloads_label": "Downloads",
+      "rating": "4.7★",
+      "rating_label": "App Store Rating",
+      "retention": "82%",
+      "retention_label": "User Retention",
+      "tech1": "React Native",
+      "tech2": "Firebase",
+      "tech3": "Node.js",
+      "tech4": "MongoDB"
+    },
+    "ecommerce_app": {
+      "title": "ShopEasy Mobile",
+      "category": "E-commerce Mobile App",
+      "description": "Native iOS and Android e-commerce apps with AR product visualization, one-click checkout, and personalized recommendations.",
+      "revenue": "$1.2M",
+      "revenue_label": "Monthly Revenue",
+      "conversion": "3.8%",
+      "conversion_label": "Conversion Rate",
+      "orders": "50K+",
+      "orders_label": "Monthly Orders",
+      "tech1": "Swift",
+      "tech2": "Kotlin",
+      "tech3": "ARKit",
+      "tech4": "AWS"
+    }
+  },
+  "process": {
+    "title": "Mobile Development Process",
+    "description": "Our proven development methodology ensures successful mobile app delivery with quality, performance, and user satisfaction.",
+    "step1": {
+      "title": "Discovery & Planning",
+      "description": "Requirements analysis, platform selection, and technical architecture planning.",
+      "duration": "Week 1-2"
+    },
+    "step2": {
+      "title": "UI/UX Design",
+      "description": "Wireframes, mockups, prototypes, and user experience optimization.",
+      "duration": "Week 2-4"
+    },
+    "step3": {
+      "title": "App Development",
+      "description": "Frontend and backend development, API integration, and core functionality implementation.",
+      "duration": "Week 4-12"
+    },
+    "step4": {
+      "title": "Testing & QA",
+      "description": "Comprehensive testing, bug fixes, performance optimization, and quality assurance.",
+      "duration": "Week 10-14"
+    },
+    "step5": {
+      "title": "Launch & Support",
+      "description": "App store deployment, marketing support, and ongoing maintenance.",
+      "duration": "Week 14+"
+    }
+  },
+  "cta": {
+    "title": "Ready to Build Your Mobile App?",
+    "description": "Transform your idea into a successful mobile application with our expert development team. Get professional consultation and custom development services.",
+    "primary": "Start App Development",
+    "secondary": "Get Cost Estimate",
+    "guarantee": {
+      "consultation": "Free",
+      "consultation_label": "Initial Consultation",
+      "timeline": "16 weeks",
+      "timeline_label": "Average Delivery",
+      "support": "1 year",
+      "support_label": "Free Support"
+    }
+  }
+}

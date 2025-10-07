@@ -1,0 +1,268 @@
+{
+  "meta": {
+    "title": "AI Trading Bots - HBW Technology Solutions",
+    "description": "Phát triển AI trading bot chuyên nghiệp cho thị trường cryptocurrency, forex và chứng khoán. Thuật toán tiên tiến, machine learning và hệ thống giao dịch tự động.",
+    "og_title": "Phát Triển AI Trading Bots | HBW Technology",
+    "og_description": "Phát triển AI trading bot chuyên gia với thuật toán tiên tiến và machine learning cho thành công giao dịch tự động."
+  },
+  "hero": {
+    "badge": "Xuất Sắc AI Trading",
+    "title": "Trading Bot Thông Minh",
+    "description": "AI trading bot tiên tiến cho thị trường cryptocurrency, forex và chứng khoán. Chiến lược tự động với thuật toán machine learning và quản lý rủi ro để có lợi nhuận ổn định.",
+    "cta_primary": "Khám Phá Chiến Lược",
+    "cta_secondary": "Demo Trực Tiếp",
+    "stats": {
+      "roi": "187%",
+      "roi_label": "ROI Hàng Năm Trung Bình",
+      "accuracy": "94.7%",
+      "accuracy_label": "Độ Chính Xác Dự Đoán",
+      "trades": "50M+",
+      "trades_label": "Giao Dịch Thành Công"
+    },
+    "dashboard": {
+      "status": "AI Bot Hoạt Động",
+      "profit": "+$12,847.50",
+      "win_rate": "87.3%",
+      "win_rate_label": "Tỷ Lệ Thắng",
+      "trades_today": "156",
+      "trades_today_label": "Giao Dịch Hôm Nay",
+      "avg_profit": "$82.45",
+      "avg_profit_label": "Lợi Nhuận TB",
+      "risk_score": "Thấp",
+      "risk_score_label": "Mức Rủi Ro"
+    }
+  },
+  "strategies": {
+    "title": "Chiến Lược Trading Tiên Tiến",
+    "description": "AI trading bot của chúng tôi sử dụng thuật toán phức tạp và mô hình machine learning để thực hiện các chiến lược trading có lợi nhuận trên nhiều thị trường.",
+    "momentum": {
+      "title": "Momentum Trading",
+      "type": "Theo Dõi Xu Hướng",
+      "description": "Xác định và theo đuổi các xu hướng thị trường mạnh sử dụng chỉ báo momentum tiên tiến và nhận dạng mẫu machine learning.",
+      "success_rate": "Tỷ Lệ Thành Công:",
+      "success_rate_value": "89.2%",
+      "avg_return": "Lợi Nhuận TB:",
+      "avg_return_value": "+12.4%",
+      "max_drawdown": "Sụt Giảm Tối Đa:",
+      "max_drawdown_value": "-3.2%",
+      "feature1": "Phân Tích RSI",
+      "feature2": "Tín Hiệu MACD",
+      "feature3": "Nhận Dạng Mẫu ML"
+    },
+    "arbitrage": {
+      "title": "Arbitrage Trading",
+      "type": "Trung Lập Thị Trường",
+      "description": "Khai thác chênh lệch giá giữa các sàn giao dịch và cặp trading để có lợi nhuận không rủi ro với thực thi siêu nhanh.",
+      "success_rate": "Tỷ Lệ Thành Công:",
+      "success_rate_value": "96.8%",
+      "avg_return": "Lợi Nhuận TB:",
+      "avg_return_value": "+8.7%",
+      "execution_speed": "Tốc Độ Thực Thi:",
+      "execution_speed_value": "< 50ms",
+      "feature1": "Đa Sàn Giao Dịch",
+      "feature2": "Arbitrage Tam Giác",
+      "feature3": "Arbitrage Thống Kê"
+    },
+    "market_making": {
+      "title": "Market Making",
+      "type": "Nhà Cung Cấp Thanh Khoản",
+      "description": "Cung cấp thanh khoản bằng cách đặt lệnh mua và bán xung quanh giá thị trường hiện tại, kiếm lời từ chênh lệch bid-ask.",
+      "success_rate": "Tỷ Lệ Thành Công:",
+      "success_rate_value": "91.5%",
+      "avg_return": "Lợi Nhuận TB:",
+      "avg_return_value": "+15.3%",
+      "daily_volume": "Khối Lượng Hàng Ngày:",
+      "daily_volume_value": "$2.5M",
+      "feature1": "Spread Động",
+      "feature2": "Quản Lý Tồn Kho",
+      "feature3": "Kiểm Soát Rủi Ro"
+    },
+    "defi_yield": {
+      "title": "DeFi Yield Farming",
+      "type": "Tối Ưu Yield",
+      "description": "Tự động tối ưu hóa vị thế yield farming trên các giao thức DeFi để có APY tối đa với quản lý rủi ro.",
+      "apy": "APY Trung Bình:",
+      "apy_value": "142.6%",
+      "protocols": "Giao Thức:",
+      "protocols_value": "25+",
+      "auto_compound": "Tự Động Ghép:",
+      "auto_compound_value": "Hàng Ngày",
+      "feature1": "Đa Giao Thức",
+      "feature2": "Bảo Vệ Impermanent Loss",
+      "feature3": "Tối Ưu Gas"
+    },
+    "scalping": {
+      "title": "Scalping Tần Số Cao",
+      "type": "Trading Siêu Nhanh",
+      "description": "Thực hiện hàng trăm vi giao dịch hàng ngày, nắm bắt các biến động giá nhỏ với thuật toán tiên tiến và độ trễ thấp.",
+      "trades_per_day": "Giao Dịch/Ngày:",
+      "trades_per_day_value": "500+",
+      "avg_trade": "Thời Gian GD TB:",
+      "avg_trade_value": "2.3 phút",
+      "profit_factor": "Hệ Số Lợi Nhuận:",
+      "profit_factor_value": "2.14",
+      "feature1": "Độ Trễ Thấp",
+      "feature2": "Phân Tích Order Book",
+      "feature3": "Vi Biến Động"
+    },
+    "sentiment": {
+      "title": "AI Sentiment Trading",
+      "type": "Phân Tích Tin Tức & Mạng Xã Hội",
+      "description": "Phân tích tin tức, mạng xã hội và tâm lý thị trường sử dụng NLP và machine learning để dự đoán biến động giá.",
+      "data_sources": "Nguồn Dữ Liệu:",
+      "data_sources_value": "1000+",
+      "accuracy": "Độ Chính Xác Dự Đoán:",
+      "accuracy_value": "87.9%",
+      "response_time": "Thời Gian Phản Hồi:",
+      "response_time_value": "< 1 giây",
+      "feature1": "Phân Tích NLP",
+      "feature2": "Giám Sát Mạng Xã Hội",
+      "feature3": "Tích Hợp Tin Tức"
+    }
+  },
+  "algorithms": {
+    "title": "Thuật Toán AI Tiên Tiến",
+    "description": "Trading bot của chúng tôi tận dụng thuật toán machine learning tiên tiến và mạng neural sâu để phân tích thị trường và ra quyết định vượt trội.",
+    "flow": {
+      "title": "Quy Trình Quyết Định AI",
+      "step1": {
+        "title": "Thu Thập Dữ Liệu",
+        "description": "Dữ liệu thị trường thời gian thực, order book, nguồn tin tức và tổng hợp tâm lý mạng xã hội từ nhiều nguồn."
+      },
+      "step2": {
+        "title": "Xử Lý Dữ Liệu",
+        "description": "Tiền xử lý tiên tiến với lọc nhiễu, chuẩn hóa và kỹ thuật đặc trưng sử dụng các kỹ thuật ML."
+      },
+      "step3": {
+        "title": "Phân Tích AI",
+        "description": "Mạng neural sâu và mô hình ensemble phân tích mẫu và dự đoán cơ hội trading tối ưu."
+      },
+      "step4": {
+        "title": "Đánh Giá Rủi Ro",
+        "description": "Quản lý rủi ro đa lớp với định kích thước vị thế, tối ưu stop-loss và phân tích tương quan danh mục."
+      },
+      "step5": {
+        "title": "Thực Thi",
+        "description": "Thực thi lệnh siêu nhanh với định tuyến thông minh và thuật toán giảm thiểu trượt giá."
+      }
+    },
+    "code": {
+      "title": "Thuật Toán AI Trading"
+    }
+  },
+  "performance": {
+    "title": "Kết Quả Hiệu Suất Đặc Biệt",
+    "description": "Chỉ số hiệu suất thực tế từ AI trading bot của chúng tôi trong môi trường trading trực tiếp trên nhiều thị trường và khung thời gian.",
+    "total_profit": {
+      "value": "$2.8M+",
+      "label": "Tổng Lợi Nhuận",
+      "description": "Được tạo ra trên tất cả chiến lược bot và khung thời gian"
+    },
+    "win_rate": {
+      "value": "92.4%",
+      "label": "Tỷ Lệ Thắng Trung Bình",
+      "description": "Quyết định trading có lợi nhuận ổn định"
+    },
+    "drawdown": {
+      "value": "-2.1%",
+      "label": "Sụt Giảm Tối Đa",
+      "description": "Quản lý rủi ro vượt trội và bảo vệ vốn"
+    },
+    "sharpe": {
+      "value": "3.47",
+      "label": "Tỷ Số Sharpe",
+      "description": "Lợi nhuận điều chỉnh rủi ro xuất sắc"
+    }
+  },
+  "services": {
+    "title": "Dịch Vụ AI Trading Bot",
+    "description": "Dịch vụ phát triển và triển khai AI trading bot chuyên nghiệp được thiết kế riêng cho yêu cầu trading cụ thể và khả năng chấp nhận rủi ro của bạn.",
+    "custom": {
+      "title": "Phát Triển Bot Tùy Chỉnh",
+      "duration": "8-16 tuần",
+      "price": "Từ $25,000",
+      "price_note": "Giải pháp AI trading hoàn toàn tùy chỉnh",
+      "feature1": "Phát Triển Thuật Toán Tùy Chỉnh",
+      "feature2": "Tích Hợp Đa Sàn Giao Dịch",
+      "feature3": "Quản Lý Rủi Ro Tiên Tiến",
+      "feature4": "Giám Sát Thời Gian Thực",
+      "feature5": "Phân Tích Hiệu Suất",
+      "cta": "Bắt Đầu Phát Triển Tùy Chỉnh"
+    },
+    "ready_made": {
+      "title": "Bot Có Sẵn",
+      "duration": "1-2 tuần",
+      "badge": "Phổ Biến Nhất",
+      "price": "Từ $8,500",
+      "price_note": "Chiến lược đã được chứng minh sẵn sàng",
+      "feature1": "6 Chiến Lược Đã Chứng Minh",
+      "feature2": "Hiệu Suất Đã Được Backtest",
+      "feature3": "Triển Khai Nhanh",
+      "feature4": "Tối Ưu Tham Số",
+      "feature5": "Hỗ Trợ 24/7",
+      "cta": "Triển Khai Bot Ngay"
+    },
+    "management": {
+      "title": "Quản Lý Bot",
+      "duration": "Liên Tục",
+      "price": "Từ $2,500/tháng",
+      "price_note": "Dịch vụ quản lý bot hoàn chỉnh",
+      "feature1": "Giám Sát Hiệu Suất",
+      "feature2": "Tối Ưu Chiến Lược",
+      "feature3": "Điều Chỉnh Rủi Ro",
+      "feature4": "Báo Cáo Hàng Tháng",
+      "feature5": "Hỗ Trợ Chuyên Gia",
+      "cta": "Bắt Đầu Quản Lý"
+    }
+  },
+  "case_studies": {
+    "title": "Câu Chuyện Thành Công Trading Bot",
+    "description": "Câu chuyện thành công thực tế từ các khách hàng đã đạt được lợi nhuận đặc biệt với giải pháp AI trading bot của chúng tôi.",
+    "crypto_fund": {
+      "title": "CryptoMax Fund",
+      "type": "Quỹ Đầu Tư Cryptocurrency",
+      "description": "Triển khai bot trading arbitrage và momentum tùy chỉnh trên 15 sàn giao dịch cryptocurrency, quản lý tài sản $50M với chiến lược tự động.",
+      "annual_return": "+234%",
+      "annual_return_label": "Lợi Nhuận Hàng Năm",
+      "aum": "$50M",
+      "aum_label": "Tài Sản Được Quản Lý",
+      "max_dd": "-4.2%",
+      "max_dd_label": "Sụt Giảm Tối Đa",
+      "testimonial": "AI trading bot đã biến đổi hiệu suất quỹ của chúng tôi. Chúng tôi đã đạt được alpha ổn định với phơi nhiễm rủi ro giảm đáng kể.",
+      "client": "- David Chen, Quản Lý Quỹ",
+      "strategy1": "Arbitrage Đa Sàn Giao Dịch",
+      "strategy2": "Momentum Trading",
+      "strategy3": "Quản Lý Rủi Ro"
+    },
+    "forex_trader": {
+      "title": "Elite Forex Trading",
+      "type": "Trader Forex Chuyên Nghiệp",
+      "description": "Trader cá nhân sử dụng AI scalping và bot phân tích tâm lý cho các cặp EUR/USD, GBP/USD và USD/JPY với giao dịch tự động 24/7.",
+      "monthly_return": "+18.7%",
+      "monthly_return_label": "Trung Bình Hàng Tháng",
+      "win_rate": "91.3%",
+      "win_rate_label": "Tỷ Lệ Thắng",
+      "trades": "2,400+",
+      "trades_label": "Giao Dịch Hàng Tháng",
+      "testimonial": "AI bot giao dịch 24/7 không có cảm xúc và thực hiện chiến lược của tôi một cách hoàn hảo. Lợi nhuận của tôi đã tăng 300% kể từ khi triển khai.",
+      "client": "- Sarah Martinez, Trader Chuyên Nghiệp",
+      "strategy1": "Thuật Toán Scalping",
+      "strategy2": "Phân Tích Tâm Lý",
+      "strategy3": "Tự Động 24/7"
+    }
+  },
+  "cta": {
+    "title": "Sẵn Sàng Thống Trị Thị Trường?",
+    "description": "Tham gia cùng các trader ưu tú sử dụng tự động hóa hỗ trợ AI để có lợi nhuận ổn định. Nhận trading bot tùy chỉnh được phát triển bởi đội ngũ chuyên gia của chúng tôi.",
+    "primary": "Bắt Đầu Phát Triển Bot",
+    "secondary": "Xem Hiệu Suất Trực Tiếp",
+    "guarantee": {
+      "consultation": "Miễn Phí",
+      "consultation_label": "Tư Vấn Chiến Lược",
+      "backtest": "30 ngày",
+      "backtest_label": "Backtest Miễn Phí",
+      "success": "95%+",
+      "success_label": "Tỷ Lệ Thành Công"
+    }
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "meta": {
+    "title": "E-commerce Solutions - HBW Technology Solutions"
+  },
+  "hero": {
+    "badge": "Complete E-commerce Solutions",
+    "title_line1": "Build Your",
+    "title_line2": "Online Empire",
+    "subtitle": "From Shopify Plus to custom platforms, we create scalable e-commerce solutions that drive sales, enhance customer experience, and grow your business globally.",
+    "metrics": {
+      "stores": "500+",
+      "stores_label": "Stores Built",
+      "revenue": "$50M+", 
+      "revenue_label": "Revenue Generated",
+      "conversion": "3.8%",
+      "conversion_label": "Avg Conversion",
+      "countries": "25+",
+      "countries_label": "Countries"
+    },
+    "cta_primary": "Explore Platforms",
+    "cta_secondary": "View Store Demo"
+  },
+  "platforms": {
+    "title": "E-commerce Platforms",
+    "subtitle": "Choose the perfect platform for your online store. From enterprise solutions to custom builds, we have expertise across all major e-commerce technologies.",
+    "shopify": {
+      "title": "Shopify Plus",
+      "description": "Enterprise-grade Shopify solutions with advanced customization, multi-store management, and high-volume capabilities for scaling businesses.",
+      "feature1": "Advanced Theme Development",
+      "feature2": "Custom App Integration",
+      "feature3": "Multi-Store Management", 
+      "feature4": "Enterprise API Integration",
+      "price": "From $15,000",
+      "timeline": "6-12 weeks"
+    },
+    "woocommerce": {
+      "title": "WooCommerce",
+      "description": "Flexible WordPress-based e-commerce with custom plugins, unlimited customization, and complete control over your online store.",
+      "feature1": "Custom Plugin Development",
+      "feature2": "Payment Gateway Integration",
+      "feature3": "Inventory Management",
+      "feature4": "SEO Optimization",
+      "price": "From $8,000",
+      "timeline": "4-8 weeks"
+    },
+    "medusa": {
+      "title": "Medusa.js",
+      "description": "Modern headless commerce platform with microservices architecture, API-first approach, and unlimited customization possibilities.",
+      "feature1": "Headless Architecture",
+      "feature2": "API-First Development",
+      "feature3": "Microservices Architecture",
+      "feature4": "Multi-Channel Commerce",
+      "price": "From $20,000",
+      "timeline": "8-16 weeks"
+    },
+    "custom": {
+      "title": "Custom Platforms",
+      "description": "Bespoke e-commerce solutions built from scratch with unique requirements, advanced integrations, and scalable architecture.",
+      "feature1": "Tailored Architecture",
+      "feature2": "Enterprise Integrations",
+      "feature3": "Advanced Security",
+      "feature4": "Unlimited Scalability",
+      "price": "From $50,000",
+      "timeline": "12-24 weeks"
+    },
+    "saleor": {
+      "title": "Saleor",
+      "description": "Open-source headless commerce platform with GraphQL API, advanced product management, and built-in internationalization.",
+      "feature1": "GraphQL API",
+      "feature2": "Multi-currency Support",
+      "feature3": "Advanced Analytics",
+      "feature4": "Open Source Flexibility",
+      "price": "From $12,000",
+      "timeline": "6-10 weeks"
+    },
+    "bigcommerce": {
+      "title": "BigCommerce",
+      "description": "Enterprise SaaS platform with built-in features, API-first architecture, and seamless third-party integrations for growing businesses.",
+      "feature1": "Stencil Framework",
+      "feature2": "Headless Commerce",
+      "feature3": "Multi-Channel Selling",
+      "feature4": "B2B Capabilities",
+      "price": "From $10,000",
+      "timeline": "4-10 weeks"
+    }
+  },
+  "payments": {
+    "title": "Payment Solutions",
+    "subtitle": "Secure, fast, and flexible payment processing with support for all major gateways and emerging payment methods",
+    "features": {
+      "title": "Payment Features",
+      "security": {
+        "title": "PCI Compliance",
+        "description": "Bank-level security standards"
+      },
+      "global": {
+        "title": "Global Reach",
+        "description": "190+ countries supported"
+      },
+      "currency": {
+        "title": "Multi-Currency",
+        "description": "135+ currencies available"
+      },
+      "speed": {
+        "title": "Instant Processing",
+        "description": "Sub-second response times"
+      }
+    }
+  },
+  "advanced_features": {
+    "title": "Advanced E-commerce Features",
+    "subtitle": "Go beyond basic online stores with intelligent inventory management, advanced analytics, marketing automation, and AI-powered personalization features.",
+    "inventory": {
+      "title": "Smart Inventory Management",
+      "description": "Real-time stock tracking, automated reordering, multi-warehouse management, and predictive analytics to prevent stockouts and overstock situations.",
+      "feature1": "Demand Forecasting",
+      "feature2": "Multi-Warehouse",
+      "feature3": "Auto Reordering", 
+      "feature4": "SKU Management"
+    },
+    "analytics": {
+      "title": "Business Intelligence & Analytics",
+      "description": "Deep customer insights, sales performance tracking, conversion optimization, and predictive analytics to drive data-driven decision making.",
+      "feature1": "Customer Segmentation",
+      "feature2": "Conversion Funnels",
+      "feature3": "A/B Testing",
+      "feature4": "Predictive Insights"
+    },
+    "marketing": {
+      "title": "Marketing Automation & AI",
+      "description": "Automated email campaigns, personalized product recommendations, abandoned cart recovery, and AI-powered customer journey optimization.",
+      "feature1": "Email Automation",
+      "feature2": "AI Recommendations",
+      "feature3": "Cart Recovery",
+      "feature4": "Personalization"
+    }
+  },
+  "case_studies": {
+    "title": "Success Case Studies",
+    "subtitle": "Real results from real businesses. See how our e-commerce solutions have transformed companies across industries and driven measurable growth.",
+    "techgear": {
+      "title": "TechGear Electronics",
+      "platform": "Shopify Plus + Custom Apps",
+      "status": "Live",
+      "challenge_title": "Challenge",
+      "challenge": "Mid-sized electronics retailer struggling with inventory management across 3 warehouses, slow checkout process, and limited mobile experience resulting in 68% cart abandonment rate.",
+      "solution_title": "Solution",
+      "solution": "Implemented Shopify Plus with custom inventory management app, optimized mobile checkout flow, integrated advanced analytics, and developed AI-powered product recommendations.",
+      "results_title": "Results After 12 Months",
+      "result1": "Revenue Growth",
+      "result2": "Cart Abandonment",
+      "result3": "Mobile Conversion",
+      "result4": "Customer Rating"
+    },
+    "fashion": {
+      "title": "Fashion Forward Boutique",
+      "platform": "Custom Medusa.js Platform",
+      "status": "Live",
+      "challenge_title": "Challenge",
+      "challenge": "Luxury fashion brand needed headless commerce solution to integrate with existing PIM system, support multiple currencies, and provide personalized shopping experiences across 15 countries.",
+      "solution_title": "Solution",
+      "solution": "Built custom headless commerce platform using Medusa.js with microservices architecture, integrated advanced PIM system, implemented multi-currency support, and developed AI-powered style recommendations.",
+      "results_title": "Results After 18 Months",
+      "result1": "International Sales",
+      "result2": "Monthly Revenue",
+      "result3": "Repeat Customers",
+      "result4": "Page Load Time"
+    },
+    "overall": {
+      "title": "Overall Portfolio Performance",
+      "subtitle": "Cumulative results across all our e-commerce projects in the last 3 years",
+      "revenue": "$127M+",
+      "revenue_label": "Total Revenue Generated",
+      "stores": "847",
+      "stores_label": "Stores Launched", 
+      "conversion": "4.7%",
+      "conversion_label": "Average Conversion",
+      "satisfaction": "98.2%",
+      "satisfaction_label": "Client Satisfaction"
+    }
+  },
+  "cta": {
+    "title": "Ready to Launch Your Store?",
+    "subtitle": "Let's build an e-commerce platform that drives sales, delights customers, and scales with your business. From concept to launch and beyond.",
+    "primary": "Start Your Store",
+    "secondary": "View Live Demo"
+  }
+}

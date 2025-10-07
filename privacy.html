@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary SEO Meta Tags -->
+    <title data-i18n="privacy.title">Privacy Policy - HBW Technology Solutions Vietnam | Data Protection & Security</title>
+    <meta name="description" data-i18n="privacy.meta_description" content="HBW Technology Solutions Privacy Policy - How we collect, use, and protect your personal information. GDPR compliant data protection practices for blockchain development services in Vietnam.">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="HBW Technology Solutions">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://hbw.vn/privacy.html">
+    <meta property="og:title" data-i18n="privacy.og_title" content="Privacy Policy - HBW Technology Solutions Vietnam">
+    <meta property="og:description" data-i18n="privacy.og_description" content="Learn about HBW's privacy practices and GDPR compliant data protection policies.">
+    <meta property="og:image" content="https://hbw.vn/assets/images/hbw-og-homepage.jpg">
+    <meta property="og:site_name" content="HBW Technology Solutions">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@hbw_tech">
+    <meta name="twitter:title" data-i18n="privacy.twitter_title" content="Privacy Policy - HBW Technology Solutions">
+    <meta name="twitter:description" data-i18n="privacy.twitter_description" content="GDPR compliant privacy practices and data protection policies.">
+    
+    <!-- Canonical & Language -->
+    <link rel="canonical" href="https://hbw.vn/privacy.html">
+    <link rel="alternate" hreflang="vi" href="https://hbw.vn/privacy.html">
+    <link rel="alternate" hreflang="en" href="https://hbw.vn/privacy.html?lang=en">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
+    <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        primary: {
+                            50: '#f0f9ff', 100: '#e0f2fe', 200: '#bae6fd', 300: '#7dd3fc',
+                            400: '#38bdf8', 500: '#0ea5e9', 600: '#0284c7', 700: '#0369a1',
+                            800: '#075985', 900: '#0c4a6e'
+                        },
+                        secondary: {
+                            50: '#fdf4ff', 100: '#fae8ff', 200: '#f5d0fe', 300: '#f0abfc',
+                            400: '#e879f9', 500: '#d946ef', 600: '#c026d3', 700: '#a21caf',
+                            800: '#86198f', 900: '#701a75'
+                        }
+                    },
+                    fontFamily: {
+                        'inter': ['Inter', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <!-- ES6 Modules -->
+    <script type="module">
+        import { loadHBWComponents } from './components/templates.js';
+        import HBWi18n from './assets/js/i18n.js';
+        
+        // Initialize i18n
+        const i18n = new HBWi18n();
+        
+        // Initialize privacy app with i18n system
+        async function initializePrivacyApp() {
+            // Load components first
+            await loadHBWComponents();
+            
+            // Load translations for privacy page
+            await i18n.loadLanguage('en');
+            
+            // Get saved language preference or use default
+            const savedLang = localStorage.getItem('hbw_language') || 'en';
+            
+            // Set language if different from default
+            if (savedLang !== 'en') {
+                await i18n.switchLanguage(savedLang);
+            }
+            
+            // Setup language switcher after components are loaded
+            setupLanguageSwitcher(i18n);
+            
+            console.log('✅ Loaded EN translations for privacy page');
+        }
+        
+        // Language switching function
+        function setupLanguageSwitcher(i18nInstance) {
+            // Use event delegation on document for dynamically loaded buttons
+            document.addEventListener('click', async (e) => {
+                if (e.target.matches('.lang-btn') || e.target.closest('.lang-btn')) {
+                    e.preventDefault();
+                    const button = e.target.matches('.lang-btn') ? e.target : e.target.closest('.lang-btn');
+                    const targetLang = button.getAttribute('data-lang');
+                    
+                    if (targetLang && targetLang !== i18nInstance.getCurrentLanguage()) {
+                        console.log(`🔄 Switching language to: ${targetLang}`);
+                        console.log(`🌐 Current language: ${i18nInstance.getCurrentLanguage()}`);
+                        try {
+                            await i18nInstance.switchLanguage(targetLang);
+                            console.log(`✅ Language switched successfully to: ${targetLang}`);
+                        } catch (error) {
+                            console.error(`❌ Language switching failed:`, error);
+                        }
+                        
+                        // Update button states manually
+                        document.querySelectorAll('.lang-btn').forEach(btn => {
+                            btn.classList.remove('active', 'bg-blue-500', 'text-white');
+                            btn.classList.add('text-slate-600');
+                            if (btn.getAttribute('data-lang') === targetLang) {
+                                btn.classList.add('active', 'bg-blue-500', 'text-white');
+                                btn.classList.remove('text-slate-600');
+                            }
+                        });
+                    }
+                }
+            });
+        }
+        
+        // Initialize on DOM ready
+        document.addEventListener('DOMContentLoaded', async () => {
+            console.log('🌐 Initializing HBW privacy page...');
+            
+            try {
+                await initializePrivacyApp();
+                console.log('✅ Privacy page initialized successfully');
+            } catch (error) {
+                console.error('❌ Failed to initialize privacy page:', error);
+            }
+        });
+    </script>
+</head>
+<body class="font-inter bg-gray-50">
+    <!-- Header Placeholder - Loaded via ES6 Modules -->
+    <div id="header-placeholder"></div>
+
+    <!-- Main Content -->
+    <main class="pt-10">
+        <!-- Hero Section -->
+        <section class="bg-gradient-to-r from-blue-600 to-purple-700 py-16">
+            <div class="container mx-auto px-6">
+                <div class="max-w-4xl mx-auto text-center text-white">
+                    <h1 class="text-4xl md:text-5xl font-bold mb-6" data-i18n="privacy.hero.title">Privacy Policy</h1>
+                    <p class="text-xl text-blue-100 mb-4" data-i18n="privacy.hero.subtitle">
+                        Your privacy is important to us. This policy explains how we collect, use, and protect your personal information.
+                    </p>
+                    <div class="flex items-center justify-center space-x-4 text-sm">
+                        <span class="bg-white/20 px-3 py-1 rounded-full" data-i18n="privacy.hero.last_updated">Last updated: October 1, 2024</span>
+                        <span class="bg-white/20 px-3 py-1 rounded-full">GDPR Compliant</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Content Section -->
+        <section class="py-16">
+            <div class="container mx-auto px-6">
+                <div class="max-w-4xl mx-auto">
+                    <div class="bg-white rounded-2xl shadow-lg p-8 md:p-12">
+                        
+                        <!-- Table of Contents -->
+                        <div class="bg-gray-50 rounded-xl p-6 mb-10">
+                            <h2 class="text-xl font-bold text-gray-900 mb-4">
+                                <i class="fas fa-list mr-2 text-blue-600"></i>
+                                <span data-i18n="privacy.toc.title">Table of Contents</span>
+                            </h2>
+                            <nav class="grid md:grid-cols-2 gap-2 text-sm">
+                                <a href="#information-collection" class="text-blue-600 hover:text-blue-800 py-1" data-i18n="privacy.toc.info_collection">1. Information We Collect</a>
+                                <a href="#information-use" class="text-blue-600 hover:text-blue-800 py-1" data-i18n="privacy.toc.how_use">2. How We Use Information</a>
+                                <a href="#information-sharing" class="text-blue-600 hover:text-blue-800 py-1" data-i18n="privacy.toc.info_sharing">3. Information Sharing</a>
+                                <a href="#data-security" class="text-blue-600 hover:text-blue-800 py-1" data-i18n="privacy.toc.data_security">4. Data Security</a>
+                                <a href="#your-rights" class="text-blue-600 hover:text-blue-800 py-1" data-i18n="privacy.toc.your_rights">5. Your Rights</a>
+                                <a href="#cookies" class="text-blue-600 hover:text-blue-800 py-1" data-i18n="privacy.toc.cookies">6. Cookies & Tracking</a>
+                                <a href="#international-transfers" class="text-blue-600 hover:text-blue-800 py-1" data-i18n="privacy.toc.retention">7. International Transfers</a>
+                                <a href="#contact-us" class="text-blue-600 hover:text-blue-800 py-1" data-i18n="privacy.toc.contact">8. Contact Information</a>
+                            </nav>
+                        </div>
+
+                        <!-- Company Information -->
+                        <div class="mb-10">
+                            <h2 class="text-2xl font-bold text-gray-900 mb-4" data-i18n="privacy.intro.title">Our Commitment to Privacy</h2>
+                            <div class="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-r-lg">
+                                <p class="text-gray-700 mb-2"><strong>Company:</strong> <span data-i18n="privacy.intro.company_info.company">HBW Technology Solutions</span></p>
+                                <p class="text-gray-700 mb-2"><strong>CEO:</strong> <span data-i18n="privacy.intro.company_info.ceo">Brian Nguyen - Blockchain Expert</span></p>
+                                <p class="text-gray-700 mb-2"><strong>Location:</strong> <span data-i18n="privacy.intro.company_info.location">Da Nang City, Vietnam</span></p>
+                                <p class="text-gray-700 mb-2"><strong>Email:</strong> <span data-i18n="privacy.intro.company_info.email">privacy@hbw.com</span></p>
+                                <p class="text-gray-700"><strong>Specialization:</strong> <span data-i18n="privacy.intro.company_info.specialization">Blockchain Development, DeFi Protocols, AI Trading Systems</span></p>
+                            </div>
+                        </div>
+
+                        <!-- 1. Information We Collect -->
+                        <section id="information-collection" class="mb-10">
+                            <h2 class="text-2xl font-bold text-gray-900 mb-6">
+                                <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm mr-3">1</span>
+                                <span data-i18n="privacy.collection.title">Information We Collect</span>
+                            </h2>
+                            
+                            <div class="space-y-6">
+                                <div>
+                                    <h3 class="text-xl font-semibold text-gray-900 mb-3" data-i18n="privacy.collection.personal.title">Personal Information</h3>
+                                    <ul class="list-disc list-inside text-gray-700 space-y-2 ml-4">
+                                        <li>Name, email address, phone number</li>
+                                        <li>Company name and job title</li>
+                                        <li>Project requirements and technical specifications</li>
+                                        <li>Communication preferences</li>
+                                        <li>Billing and payment information</li>
+                                    </ul>
+                                </div>
+
+                                <div>
+                                    <h3 class="text-xl font-semibold text-gray-900 mb-3" data-i18n="privacy.collection.automatic.title">Automatically Collected Information</h3>
+                                    <ul class="list-disc list-inside text-gray-700 space-y-2 ml-4">
+                                        <li>IP address and location data</li>
+                                        <li>Browser type, version, and operating system</li>
+                                        <li>Device information and screen resolution</li>
+                                        <li>Website usage patterns and analytics</li>
+                                        <li>Cookies and similar tracking technologies</li>
+                                    </ul>
+                                </div>
+
+                                <div>
+                                    <h3 class="text-xl font-semibold text-gray-900 mb-3">Blockchain-Related Data</h3>
+                                    <ul class="list-disc list-inside text-gray-700 space-y-2 ml-4">
+                                        <li>Wallet addresses (when provided for project development)</li>
+                                        <li>Smart contract requirements and specifications</li>
+                                        <li>DeFi protocol configurations</li>
+                                        <li>Tokenomics and economic model parameters</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- 2. How We Use Information -->
+                        <section id="information-use" class="mb-10">
+                            <h2 class="text-2xl font-bold text-gray-900 mb-6">
+                                <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm mr-3">2</span>
+                                <span data-i18n="privacy.usage.title">How We Use Your Information</span>
+                            </h2>
+                            
+                            <div class="grid md:grid-cols-2 gap-6">
+                                <div class="bg-gray-50 rounded-xl p-6">
+                                    <h3 class="text-lg font-semibold text-gray-900 mb-3 flex items-center">
+                                        <i class="fas fa-cogs text-blue-600 mr-2"></i>
+                                        Service Delivery
+                                    </h3>
+                                    <ul class="text-gray-700 space-y-1 text-sm">
+                                        <li>• Develop blockchain solutions and smart contracts</li>
+                                        <li>• Provide technical support and maintenance</li>
+                                        <li>• Process payments and manage billing</li>
+                                        <li>• Communicate project updates and deliverables</li>
+                                    </ul>
+                                </div>
+
+                                <div class="bg-gray-50 rounded-xl p-6">
+                                    <h3 class="text-lg font-semibold text-gray-900 mb-3 flex items-center">
+                                        <i class="fas fa-chart-line text-green-600 mr-2"></i>
+                                        Business Operations
+                                    </h3>
+                                    <ul class="text-gray-700 space-y-1 text-sm">
+                                        <li>• Improve our services and user experience</li>
+                                        <li>• Conduct market research and analytics</li>
+                                        <li>• Send relevant marketing communications</li>
+                                        <li>• Comply with legal and regulatory requirements</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- 3. Information Sharing -->
+                        <section id="information-sharing" class="mb-10">
+                            <h2 class="text-2xl font-bold text-gray-900 mb-6">
+                                <span class="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm mr-3">3</span>
+                                <span data-i18n="privacy.sharing.title">Information Sharing</span>
+                            </h2>
+                            
+                            <div class="bg-red-50 border-l-4 border-red-500 p-6 rounded-r-lg mb-6">
+                                <h3 class="font-semibold text-red-900 mb-2">
+                                    <i class="fas fa-shield-alt mr-2"></i>
+                                    We DO NOT Sell Your Personal Information
+                                </h3>
+                                <p class="text-red-800 text-sm">
+                                    HBW never sells, rents, or trades your personal information to third parties for marketing purposes.
+                                </p>
+                            </div>
+
+                            <div class="space-y-4">
+                                <div class="border border-gray-200 rounded-lg p-4">
+                                    <h4 class="font-semibold text-gray-900 mb-2">Service Providers</h4>
+                                    <p class="text-gray-700 text-sm">We may share information with trusted partners who help us deliver our services (cloud hosting, payment processing, analytics).</p>
+                                </div>
+
+                                <div class="border border-gray-200 rounded-lg p-4">
+                                    <h4 class="font-semibold text-gray-900 mb-2">Legal Requirements</h4>
+                                    <p class="text-gray-700 text-sm">We may disclose information when required by law, court order, or to protect our rights and safety.</p>
+                                </div>
+
+                                <div class="border border-gray-200 rounded-lg p-4">
+                                    <h4 class="font-semibold text-gray-900 mb-2">Business Transfers</h4>
+                                    <p class="text-gray-700 text-sm">In case of merger, acquisition, or sale of assets, your information may be transferred to the new entity.</p>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- 4. Data Security -->
+                        <section id="data-security" class="mb-10">
+                            <h2 class="text-2xl font-bold text-gray-900 mb-6">
+                                <span class="bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full text-sm mr-3">4</span>
+                                <span data-i18n="privacy.security.title">Data Security</span>
+                            </h2>
+                            
+                            <div class="grid md:grid-cols-3 gap-6">
+                                <div class="text-center p-6 bg-blue-50 rounded-xl">
+                                    <i class="fas fa-lock text-3xl text-blue-600 mb-4"></i>
+                                    <h3 class="font-semibold text-gray-900 mb-2">Encryption</h3>
+                                    <p class="text-gray-700 text-sm">All data is encrypted in transit and at rest using industry-standard protocols.</p>
+                                </div>
+
+                                <div class="text-center p-6 bg-green-50 rounded-xl">
+                                    <i class="fas fa-server text-3xl text-green-600 mb-4"></i>
+                                    <h3 class="font-semibold text-gray-900 mb-2">Secure Infrastructure</h3>
+                                    <p class="text-gray-700 text-sm">Our systems are hosted on secure, compliant cloud infrastructure with regular backups.</p>
+                                </div>
+
+                                <div class="text-center p-6 bg-purple-50 rounded-xl">
+                                    <i class="fas fa-users-cog text-3xl text-purple-600 mb-4"></i>
+                                    <h3 class="font-semibold text-gray-900 mb-2">Access Control</h3>
+                                    <p class="text-gray-700 text-sm">Strict access controls and regular security audits protect your information.</p>
+                                </div>
+                            </div>
+
+                            <div class="mt-6 bg-gray-50 rounded-xl p-6">
+                                <h3 class="font-semibold text-gray-900 mb-3">Security Measures Include:</h3>
+                                <div class="grid md:grid-cols-2 gap-4 text-sm text-gray-700">
+                                    <ul class="space-y-1">
+                                        <li>• TLS/SSL encryption for all communications</li>
+                                        <li>• Regular security assessments and penetration testing</li>
+                                        <li>• Multi-factor authentication for team access</li>
+                                        <li>• Data minimization and retention policies</li>
+                                    </ul>
+                                    <ul class="space-y-1">
+                                        <li>• Blockchain-grade cryptographic security</li>
+                                        <li>• Regular security training for all team members</li>
+                                        <li>• Incident response and breach notification procedures</li>
+                                        <li>• Compliance with international security standards</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- 5. Your Rights -->
+                        <section id="your-rights" class="mb-10">
+                            <h2 class="text-2xl font-bold text-gray-900 mb-6">
+                                <span class="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-sm mr-3">5</span>
+                                <span data-i18n="privacy.rights.title">Your Privacy Rights</span>
+                            </h2>
+                            
+                            <div class="bg-blue-50 rounded-xl p-6 mb-6">
+                                <h3 class="font-semibold text-blue-900 mb-3">
+                                    <i class="fas fa-balance-scale mr-2"></i>
+                                    GDPR & Privacy Rights
+                                </h3>
+                                <p class="text-blue-800 text-sm">
+                                    Under GDPR and other privacy laws, you have specific rights regarding your personal data. We are committed to respecting these rights.
+                                </p>
+                            </div>
+
+                            <div class="grid md:grid-cols-2 gap-6">
+                                <div class="space-y-4">
+                                    <div class="flex items-start space-x-3">
+                                        <div class="w-8 h-8 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0 mt-1">
+                                            <i class="fas fa-eye text-blue-600 text-sm"></i>
+                                        </div>
+                                        <div>
+                                            <h4 class="font-semibold text-gray-900">Right to Access</h4>
+                                            <p class="text-gray-700 text-sm">Request a copy of the personal data we hold about you.</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="flex items-start space-x-3">
+                                        <div class="w-8 h-8 bg-green-100 rounded-lg flex items-center justify-center flex-shrink-0 mt-1">
+                                            <i class="fas fa-edit text-green-600 text-sm"></i>
+                                        </div>
+                                        <div>
+                                            <h4 class="font-semibold text-gray-900">Right to Rectification</h4>
+                                            <p class="text-gray-700 text-sm">Request correction of inaccurate or incomplete data.</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="flex items-start space-x-3">
+                                        <div class="w-8 h-8 bg-red-100 rounded-lg flex items-center justify-center flex-shrink-0 mt-1">
+                                            <i class="fas fa-trash text-red-600 text-sm"></i>
+                                        </div>
+                                        <div>
+                                            <h4 class="font-semibold text-gray-900">Right to Erasure</h4>
+                                            <p class="text-gray-700 text-sm">Request deletion of your personal data in certain circumstances.</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="flex items-start space-x-3">
+                                        <div class="w-8 h-8 bg-yellow-100 rounded-lg flex items-center justify-center flex-shrink-0 mt-1">
+                                            <i class="fas fa-pause text-yellow-600 text-sm"></i>
+                                        </div>
+                                        <div>
+                                            <h4 class="font-semibold text-gray-900">Right to Restrict Processing</h4>
+                                            <p class="text-gray-700 text-sm">Limit how we use your data in certain situations.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="space-y-4">
+                                    <div class="flex items-start space-x-3">
+                                        <div class="w-8 h-8 bg-purple-100 rounded-lg flex items-center justify-center flex-shrink-0 mt-1">
+                                            <i class="fas fa-download text-purple-600 text-sm"></i>
+                                        </div>
+                                        <div>
+                                            <h4 class="font-semibold text-gray-900">Right to Data Portability</h4>
+                                            <p class="text-gray-700 text-sm">Receive your data in a machine-readable format.</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="flex items-start space-x-3">
+                                        <div class="w-8 h-8 bg-orange-100 rounded-lg flex items-center justify-center flex-shrink-0 mt-1">
+                                            <i class="fas fa-hand-paper text-orange-600 text-sm"></i>
+                                        </div>
+                                        <div>
+                                            <h4 class="font-semibold text-gray-900">Right to Object</h4>
+                                            <p class="text-gray-700 text-sm">Object to processing for direct marketing or legitimate interests.</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="flex items-start space-x-3">
+                                        <div class="w-8 h-8 bg-teal-100 rounded-lg flex items-center justify-center flex-shrink-0 mt-1">
+                                            <i class="fas fa-robot text-teal-600 text-sm"></i>
+                                        </div>
+                                        <div>
+                                            <h4 class="font-semibold text-gray-900">Automated Decision Making</h4>
+                                            <p class="text-gray-700 text-sm">Rights regarding automated processing and profiling.</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="flex items-start space-x-3">
+                                        <div class="w-8 h-8 bg-pink-100 rounded-lg flex items-center justify-center flex-shrink-0 mt-1">
+                                            <i class="fas fa-unsubscribe text-pink-600 text-sm"></i>
+                                        </div>
+                                        <div>
+                                            <h4 class="font-semibold text-gray-900">Withdraw Consent</h4>
+                                            <p class="text-gray-700 text-sm">Withdraw consent for data processing at any time.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="mt-6 bg-gradient-to-r from-blue-50 to-purple-50 rounded-xl p-6">
+                                <h3 class="font-semibold text-gray-900 mb-3">How to Exercise Your Rights</h3>
+                                <p class="text-gray-700 mb-3">To exercise any of these rights, please contact us at <a href="mailto:privacy@hbw.com" class="text-blue-600 hover:text-blue-800 font-semibold">privacy@hbw.com</a>. We will respond to your request within 30 days.</p>
+                                <div class="flex items-center space-x-4 text-sm">
+                                    <span class="bg-white px-3 py-1 rounded-full text-gray-700">Response Time: 30 days</span>
+                                    <span class="bg-white px-3 py-1 rounded-full text-gray-700">No Fee Required</span>
+                                    <span class="bg-white px-3 py-1 rounded-full text-gray-700">Identity Verification Required</span>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- 6. Cookies -->
+                        <section id="cookies" class="mb-10">
+                            <h2 class="text-2xl font-bold text-gray-900 mb-6">
+                                <span class="bg-orange-100 text-orange-800 px-3 py-1 rounded-full text-sm mr-3">6</span>
+                                Cookies and Tracking Technologies
+                            </h2>
+                            
+                            <p class="text-gray-700 mb-6">
+                                We use cookies and similar technologies to enhance your experience, analyze usage, and improve our services. For detailed information, please see our <a href="/cookies.html" class="text-blue-600 hover:text-blue-800 font-semibold">Cookie Policy</a>.
+                            </p>
+
+                            <div class="grid md:grid-cols-3 gap-4">
+                                <div class="bg-blue-50 rounded-lg p-4">
+                                    <h4 class="font-semibold text-blue-900 mb-2">Essential Cookies</h4>
+                                    <p class="text-blue-800 text-sm">Required for basic website functionality and security.</p>
+                                </div>
+
+                                <div class="bg-green-50 rounded-lg p-4">
+                                    <h4 class="font-semibold text-green-900 mb-2">Analytics Cookies</h4>
+                                    <p class="text-green-800 text-sm">Help us understand how visitors interact with our website.</p>
+                                </div>
+
+                                <div class="bg-purple-50 rounded-lg p-4">
+                                    <h4 class="font-semibold text-purple-900 mb-2">Marketing Cookies</h4>
+                                    <p class="text-purple-800 text-sm">Used to show relevant ads and measure campaign effectiveness.</p>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- 7. International Transfers -->
+                        <section id="international-transfers" class="mb-10">
+                            <h2 class="text-2xl font-bold text-gray-900 mb-6">
+                                <span class="bg-cyan-100 text-cyan-800 px-3 py-1 rounded-full text-sm mr-3">7</span>
+                                International Data Transfers
+                            </h2>
+                            
+                            <div class="bg-gradient-to-r from-cyan-50 to-blue-50 rounded-xl p-6">
+                                <p class="text-gray-700 mb-4">
+                                    As a global blockchain development company, we may transfer your data internationally to provide our services effectively. All transfers are protected by appropriate safeguards.
+                                </p>
+                                
+                                <div class="grid md:grid-cols-2 gap-6">
+                                    <div>
+                                        <h3 class="font-semibold text-gray-900 mb-3">
+                                            <i class="fas fa-shield-alt text-blue-600 mr-2"></i>
+                                            Protection Measures
+                                        </h3>
+                                        <ul class="text-gray-700 text-sm space-y-1">
+                                            <li>• Adequacy decisions by data protection authorities</li>
+                                            <li>• Standard Contractual Clauses (SCCs)</li>
+                                            <li>• Binding Corporate Rules where applicable</li>
+                                            <li>• Additional technical and organizational measures</li>
+                                        </ul>
+                                    </div>
+
+                                    <div>
+                                        <h3 class="font-semibold text-gray-900 mb-3">
+                                            <i class="fas fa-globe text-green-600 mr-2"></i>
+                                            Blockchain Considerations
+                                        </h3>
+                                        <ul class="text-gray-700 text-sm space-y-1">
+                                            <li>• Blockchain data may be distributed globally</li>
+                                            <li>• Smart contracts may process data across networks</li>
+                                            <li>• DeFi protocols may involve multiple jurisdictions</li>
+                                            <li>• We ensure compliance with all applicable laws</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- 8. Contact Information -->
+                        <section id="contact-us" class="mb-10">
+                            <h2 class="text-2xl font-bold text-gray-900 mb-6">
+                                <span class="bg-pink-100 text-pink-800 px-3 py-1 rounded-full text-sm mr-3">8</span>
+                                Contact Information
+                            </h2>
+                            
+                            <div class="bg-gradient-to-r from-blue-600 to-purple-700 rounded-xl p-8 text-white">
+                                <h3 class="text-xl font-bold mb-6">Get in Touch About Privacy</h3>
+                                
+                                <div class="grid md:grid-cols-2 gap-6">
+                                    <div>
+                                        <h4 class="font-semibold mb-3">
+                                            <i class="fas fa-envelope mr-2"></i>
+                                            Privacy Officer
+                                        </h4>
+                                        <p class="mb-2">Email: <a href="mailto:privacy@hbw.com" class="text-blue-200 hover:text-white transition-colors">privacy@hbw.com</a></p>
+                                        <p class="mb-2">Response Time: Within 30 days</p>
+                                        <p class="text-blue-200 text-sm">For privacy-related inquiries and requests</p>
+                                    </div>
+
+                                    <div>
+                                        <h4 class="font-semibold mb-3">
+                                            <i class="fas fa-user-tie mr-2"></i>
+                                            Data Protection Officer
+                                        </h4>
+                                        <p class="mb-2">CEO: Brian Nguyen</p>
+                                        <p class="mb-2">Email: <a href="mailto:dpo@hbw.com" class="text-blue-200 hover:text-white transition-colors">dpo@hbw.com</a></p>
+                                        <p class="text-blue-200 text-sm">Blockchain expert ensuring data protection compliance</p>
+                                    </div>
+                                </div>
+
+                                <div class="mt-6 pt-6 border-t border-white/20">
+                                    <h4 class="font-semibold mb-3">
+                                        <i class="fas fa-building mr-2"></i>
+                                        Company Address
+                                    </h4>
+                                    <p class="mb-2">HBW Technology Solutions</p>
+                                    <p class="mb-2">Da Nang City, Vietnam</p>
+                                    <p class="text-blue-200 text-sm">Specialized in blockchain development and DeFi protocols</p>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- Updates and Changes -->
+                        <section class="mb-8">
+                            <div class="bg-yellow-50 border-l-4 border-yellow-400 p-6 rounded-r-lg">
+                                <h3 class="font-semibold text-yellow-900 mb-3">
+                                    <i class="fas fa-bell mr-2"></i>
+                                    Policy Updates
+                                </h3>
+                                <p class="text-yellow-800 mb-3">
+                                    We may update this Privacy Policy from time to time to reflect changes in our practices, technology, or legal requirements. We will notify you of any material changes through email or website notice.
+                                </p>
+                                <div class="flex items-center space-x-4 text-sm">
+                                    <span class="bg-white px-3 py-1 rounded-full text-yellow-800">Last Updated: October 2024</span>
+                                    <span class="bg-white px-3 py-1 rounded-full text-yellow-800">Version 1.2</span>
+                                    <span class="bg-white px-3 py-1 rounded-full text-yellow-800">Next Review: January 2025</span>
+                                </div>
+                            </div>
+                        </section>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Placeholder - Loaded via ES6 Modules -->
+    <div id="footer-placeholder"></div>
+
+    <!-- ES6 Modules Component System -->
+    <script type="module">
+        import { loadHBWComponents } from './components/templates.js';
+        
+        // Load components when DOM is ready
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', loadHBWComponents);
+        } else {
+            loadHBWComponents();
+        }
+    </script>
+
+    <!-- Smooth Scrolling for Anchor Links -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Smooth scrolling for table of contents links
+            const links = document.querySelectorAll('a[href^="#"]');
+            
+            links.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    
+                    const targetId = this.getAttribute('href').substring(1);
+                    const targetSection = document.getElementById(targetId);
+                    
+                    if (targetSection) {
+                        targetSection.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,151 @@
+{
+  "cookies": {
+    "title": "Cookie Policy - HBW Technology Solutions Vietnam | Privacy & Tracking",
+    "meta_description": "HBW Technology Solutions Cookie Policy - How we use cookies and tracking technologies to improve your experience on our blockchain development website. GDPR compliant practices.",
+    "og_title": "Cookie Policy - HBW Technology Solutions Vietnam",
+    "og_description": "Learn about HBW's cookie usage and GDPR compliant privacy practices.",
+    "twitter_title": "Cookie Policy - HBW Technology Solutions",
+    "twitter_description": "GDPR compliant cookie usage and privacy practices.",
+    
+    "hero": {
+      "title": "Cookie Policy",
+      "subtitle": "How we use cookies and similar technologies to enhance your experience while protecting your privacy.",
+      "last_updated": "Last updated: October 1, 2024"
+    },
+    
+    "consent": {
+      "title": "Your Cookie Preferences Matter",
+      "description": "We respect your privacy choices. You can manage your cookie preferences at any time using our cookie management tool or by adjusting your browser settings.",
+      "accept_all": "Accept All Cookies",
+      "manage_preferences": "Manage Preferences", 
+      "reject_optional": "Reject Optional"
+    },
+    
+    "toc": {
+      "title": "Table of Contents",
+      "what_are": "1. What Are Cookies?",
+      "why_use": "2. Why We Use Cookies",
+      "types": "3. Types of Cookies We Use",
+      "third_party": "4. Third-Party Cookies",
+      "management": "5. Managing Your Cookies",
+      "browser_settings": "6. Browser Settings",
+      "updates": "7. Policy Updates",
+      "contact": "8. Contact Us"
+    },
+    
+    "what_are": {
+      "title": "What Are Cookies?",
+      "description": "Cookies are small text files that are placed on your computer or mobile device when you visit a website. They are widely used to make websites work more efficiently and provide information to website owners about user behavior and preferences.",
+      "technical": {
+        "title": "Technical Details",
+        "items": [
+          "Small text files (typically 4KB or less)",
+          "Stored locally on your device", 
+          "Contain information about your visit",
+          "Have expiration dates and security settings",
+          "Can be session-based or persistent"
+        ]
+      },
+      "security": {
+        "title": "Security & Privacy",
+        "items": [
+          "Cannot access personal files on your device",
+          "Cannot install malware or viruses",
+          "Only readable by the website that created them",
+          "Subject to browser security policies",
+          "Can be deleted at any time by users"
+        ]
+      },
+      "similar_tech": {
+        "title": "Similar Technologies",
+        "description": "In addition to cookies, we may also use other similar technologies such as:",
+        "local_storage": "Local Storage",
+        "local_storage_desc": "HTML5 local storage",
+        "web_beacons": "Web Beacons", 
+        "web_beacons_desc": "Tracking pixels",
+        "fingerprinting": "Fingerprinting",
+        "fingerprinting_desc": "Device identification",
+        "scripts": "Scripts",
+        "scripts_desc": "JavaScript tracking"
+      }
+    },
+    
+    "why_use": {
+      "title": "Why We Use Cookies",
+      "description": "We use cookies for several important purposes to improve your experience and our services:",
+      "functionality": {
+        "title": "Website Functionality",
+        "items": [
+          "Remember your language preferences and settings",
+          "Maintain your login session securely",
+          "Store items in your shopping cart or form data",
+          "Enable website features and interactive elements",
+          "Provide seamless navigation experience"
+        ]
+      },
+      "analytics": {
+        "title": "Analytics & Insights", 
+        "items": [
+          "Understand how visitors use our website",
+          "Identify popular content and pages",
+          "Monitor website performance and errors",
+          "Analyze user behavior patterns",
+          "Improve our services based on data insights"
+        ]
+      },
+      "marketing": {
+        "title": "Marketing & Advertising",
+        "items": [
+          "Show relevant content and advertisements",
+          "Measure effectiveness of marketing campaigns",
+          "Prevent repetitive ads and improve targeting",
+          "Track conversion and attribution data",
+          "Personalize your experience across our platforms"
+        ]
+      }
+    }
+  },
+  
+  "privacy": {
+    "title": "Privacy Policy - HBW Technology Solutions Vietnam | Data Protection & Security",
+    "meta_description": "HBW Technology Solutions Privacy Policy - How we collect, use, and protect your personal information. GDPR compliant data protection practices for blockchain development services in Vietnam.",
+    "og_title": "Privacy Policy - HBW Technology Solutions Vietnam",
+    "og_description": "Learn about HBW's privacy practices and GDPR compliant data protection policies.",
+    "twitter_title": "Privacy Policy - HBW Technology Solutions", 
+    "twitter_description": "GDPR compliant privacy practices and data protection policies.",
+    
+    "hero": {
+      "title": "Privacy Policy",
+      "subtitle": "Your privacy is important to us. This policy explains how we collect, use, and protect your personal information.",
+      "last_updated": "Last updated: October 1, 2024"
+    }
+  },
+  
+  "terms": {
+    "title": "Terms of Service - HBW Technology Solutions Vietnam | Legal Agreement",
+    "meta_description": "HBW Technology Solutions Terms of Service - Legal terms and conditions for using our blockchain development, DeFi, and web development services in Vietnam.",
+    "og_title": "Terms of Service - HBW Technology Solutions Vietnam", 
+    "og_description": "Legal terms and conditions for HBW's blockchain development and technology services.",
+    "twitter_title": "Terms of Service - HBW Technology Solutions",
+    "twitter_description": "Legal terms and conditions for blockchain development services.",
+    
+    "hero": {
+      "title": "Terms of Service",
+      "subtitle": "Legal terms and conditions governing the use of our services and website.",
+      "last_updated": "Last updated: October 1, 2024"
+    }
+  },
+  
+  "common": {
+    "breadcrumb_home": "Home",
+    "scroll_to_top": "Scroll to Top",
+    "quick_links": "Quick Links",
+    "legal_notice": "Legal Notice",
+    "effective_date": "Effective Date",
+    "contact_us": "Contact Us",
+    "read_more": "Read More",
+    "collapse": "Collapse",
+    "important": "Important",
+    "note": "Note"
+  }
+}

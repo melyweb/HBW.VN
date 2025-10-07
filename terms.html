@@ -1,0 +1,985 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary SEO Meta Tags -->
+    <title data-i18n="terms.title">Terms of Service - HBW Technology Solutions Vietnam | Legal Agreement</title>
+    <meta name="description" data-i18n="terms.meta_description" content="HBW Technology Solutions Terms of Service - Legal terms and conditions for using our blockchain development, DeFi, and web development services in Vietnam.">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="HBW Technology Solutions">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://hbw.vn/terms.html">
+    <meta property="og:title" data-i18n="terms.og_title" content="Terms of Service - HBW Technology Solutions Vietnam">
+    <meta property="og:description" data-i18n="terms.og_description" content="Legal terms and conditions for HBW's blockchain development and technology services.">
+    <meta property="og:image" content="https://hbw.vn/assets/images/hbw-og-homepage.jpg">
+    <meta property="og:site_name" content="HBW Technology Solutions">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@hbw_tech">
+    <meta name="twitter:title" data-i18n="terms.twitter_title" content="Terms of Service - HBW Technology Solutions">
+    <meta name="twitter:description" data-i18n="terms.twitter_description" content="Legal terms and conditions for blockchain development services.">
+    
+    <!-- Canonical & Language -->
+    <link rel="canonical" href="https://hbw.vn/terms.html">
+    <link rel="alternate" hreflang="vi" href="https://hbw.vn/terms.html">
+    <link rel="alternate" hreflang="en" href="https://hbw.vn/terms.html?lang=en">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
+    <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        primary: {
+                            50: '#f0f9ff', 100: '#e0f2fe', 200: '#bae6fd', 300: '#7dd3fc',
+                            400: '#38bdf8', 500: '#0ea5e9', 600: '#0284c7', 700: '#0369a1',
+                            800: '#075985', 900: '#0c4a6e'
+                        },
+                        secondary: {
+                            50: '#fdf4ff', 100: '#fae8ff', 200: '#f5d0fe', 300: '#f0abfc',
+                            400: '#e879f9', 500: '#d946ef', 600: '#c026d3', 700: '#a21caf',
+                            800: '#86198f', 900: '#701a75'
+                        }
+                    },
+                    fontFamily: {
+                        'inter': ['Inter', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <!-- ES6 Modules -->
+    <script type="module">
+        import { loadHBWComponents } from './components/templates.js';
+        import HBWi18n from './assets/js/i18n.js';
+        
+        // Initialize i18n
+        const i18n = new HBWi18n();
+        
+        // Initialize terms app with i18n system
+        async function initializeTermsApp() {
+            // Load components first
+            await loadHBWComponents();
+            
+            // Load translations for terms page
+            await i18n.loadLanguage('en');
+            
+            // Get saved language preference or use default
+            const savedLang = localStorage.getItem('hbw_language') || 'en';
+            
+            // Set language if different from default
+            if (savedLang !== 'en') {
+                await i18n.switchLanguage(savedLang);
+            }
+            
+            // Setup language switcher after components are loaded
+            setupLanguageSwitcher(i18n);
+            
+            console.log('✅ Loaded EN translations for terms page');
+        }
+        
+        // Language switching function
+        function setupLanguageSwitcher(i18nInstance) {
+            // Use event delegation on document for dynamically loaded buttons
+            document.addEventListener('click', async (e) => {
+                if (e.target.matches('.lang-btn') || e.target.closest('.lang-btn')) {
+                    e.preventDefault();
+                    const button = e.target.matches('.lang-btn') ? e.target : e.target.closest('.lang-btn');
+                    const targetLang = button.getAttribute('data-lang');
+                    
+                    if (targetLang && targetLang !== i18nInstance.getCurrentLanguage()) {
+                        console.log(`🔄 Switching language to: ${targetLang}`);
+                        await i18nInstance.switchLanguage(targetLang);
+                        
+                        // Update button states manually
+                        document.querySelectorAll('.lang-btn').forEach(btn => {
+                            btn.classList.remove('active', 'bg-blue-500', 'text-white');
+                            btn.classList.add('text-slate-600');
+                            if (btn.getAttribute('data-lang') === targetLang) {
+                                btn.classList.add('active', 'bg-blue-500', 'text-white');
+                                btn.classList.remove('text-slate-600');
+                            }
+                        });
+                    }
+                }
+            });
+        }
+        
+        // Initialize on DOM ready
+        document.addEventListener('DOMContentLoaded', async () => {
+            console.log('🌐 Initializing HBW terms page...');
+            
+            try {
+                await initializeTermsApp();
+                console.log('✅ Terms page initialized successfully');
+            } catch (error) {
+                console.error('❌ Failed to initialize terms page:', error);
+            }
+        });
+    </script>
+</head>
+<body class="font-inter bg-gray-50">
+    <!-- Header Placeholder - Loaded via ES6 Modules -->
+    <div id="header-placeholder"></div>
+
+    <!-- Main Content -->
+    <main class="pt-10">
+        <!-- Hero Section -->
+        <section class="bg-gradient-to-r from-purple-600 to-blue-700 py-16">
+            <div class="container mx-auto px-6">
+                <div class="max-w-4xl mx-auto text-center text-white">
+                    <h1 class="text-4xl md:text-5xl font-bold mb-6" data-i18n="terms.hero.title">Terms of Service</h1>
+                    <p class="text-xl text-purple-100 mb-4" data-i18n="terms.hero.subtitle">
+                        Legal terms and conditions governing the use of our services and website.
+                    </p>
+                    <div class="flex items-center justify-center space-x-4 text-sm">
+                        <span class="bg-white/20 px-3 py-1 rounded-full" data-i18n="terms.hero.last_updated">Last updated: October 1, 2024</span>
+                        <span class="bg-white/20 px-3 py-1 rounded-full">Jurisdiction: Vietnam</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Content Section -->
+        <section class="py-16">
+            <div class="container mx-auto px-6">
+                <div class="max-w-4xl mx-auto">
+                    <div class="bg-white rounded-2xl shadow-lg p-8 md:p-12">
+                        
+                        <!-- Table of Contents -->
+                        <div class="bg-gray-50 rounded-xl p-6 mb-10">
+                            <h2 class="text-xl font-bold text-gray-900 mb-4">
+                                <i class="fas fa-list mr-2 text-purple-600"></i>
+                                Table of Contents
+                            </h2>
+                            <nav class="grid md:grid-cols-2 gap-2 text-sm">
+                                <a href="#acceptance" class="text-purple-600 hover:text-purple-800 py-1">1. Acceptance of Terms</a>
+                                <a href="#services" class="text-purple-600 hover:text-purple-800 py-1">2. Our Services</a>
+                                <a href="#user-obligations" class="text-purple-600 hover:text-purple-800 py-1">3. User Obligations</a>
+                                <a href="#intellectual-property" class="text-purple-600 hover:text-purple-800 py-1">4. Intellectual Property</a>
+                                <a href="#payment-terms" class="text-purple-600 hover:text-purple-800 py-1">5. Payment Terms</a>
+                                <a href="#warranties" class="text-purple-600 hover:text-purple-800 py-1">6. Warranties & Disclaimers</a>
+                                <a href="#limitation-liability" class="text-purple-600 hover:text-purple-800 py-1">7. Limitation of Liability</a>
+                                <a href="#termination" class="text-purple-600 hover:text-purple-800 py-1">8. Termination</a>
+                                <a href="#governing-law" class="text-purple-600 hover:text-purple-800 py-1">9. Governing Law</a>
+                                <a href="#contact" class="text-purple-600 hover:text-purple-800 py-1">10. Contact Information</a>
+                            </nav>
+                        </div>
+
+                        <!-- Introduction -->
+                        <div class="mb-10">
+                            <h2 class="text-2xl font-bold text-gray-900 mb-6">Welcome to HBW Technology Solutions</h2>
+                            <div class="bg-gradient-to-r from-purple-50 to-blue-50 border-l-4 border-purple-500 p-6 rounded-r-lg">
+                                <p class="text-gray-700 mb-4">
+                                    These Terms of Service ("Terms") govern your use of HBW Technology Solutions' services, including but not limited to blockchain development, smart contract creation, DeFi protocol development, and AI trading systems.
+                                </p>
+                                <div class="grid md:grid-cols-2 gap-4 text-sm">
+                                    <div>
+                                        <p class="text-gray-700 mb-2"><strong>Company:</strong> HBW Technology Solutions</p>
+                                        <p class="text-gray-700 mb-2"><strong>CEO:</strong> Brian Nguyen</p>
+                                        <p class="text-gray-700"><strong>Specialization:</strong> Blockchain & DeFi Development</p>
+                                    </div>
+                                    <div>
+                                        <p class="text-gray-700 mb-2"><strong>Location:</strong> Da Nang City, Vietnam</p>
+                                        <p class="text-gray-700 mb-2"><strong>Website:</strong> hbw.com</p>
+                                        <p class="text-gray-700"><strong>Email:</strong> legal@hbw.com</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 1. Acceptance of Terms -->
+                        <section id="acceptance" class="mb-10">
+                            <h2 class="text-2xl font-bold text-gray-900 mb-6">
+                                <span class="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm mr-3">1</span>
+                                Acceptance of Terms
+                            </h2>
+                            
+                            <div class="space-y-6">
+                                <p class="text-gray-700 leading-relaxed">
+                                    By accessing or using our services, you agree to be bound by these Terms of Service and all applicable laws and regulations. If you do not agree with any part of these terms, you may not use our services.
+                                </p>
+
+                                <div class="bg-blue-50 rounded-xl p-6">
+                                    <h3 class="font-semibold text-blue-900 mb-3">
+                                        <i class="fas fa-handshake mr-2"></i>
+                                        Agreement Conditions
+                                    </h3>
+                                    <ul class="text-blue-800 space-y-2 text-sm">
+                                        <li>• You must be at least 18 years old or have legal capacity to enter contracts</li>
+                                        <li>• You represent that you have authority to bind your organization (if applicable)</li>
+                                        <li>• You agree to comply with all applicable laws and regulations</li>
+                                        <li>• You acknowledge understanding of blockchain technology risks</li>
+                                    </ul>
+                                </div>
+
+                                <div class="border-l-4 border-yellow-400 bg-yellow-50 p-4 rounded-r-lg">
+                                    <p class="text-yellow-800 text-sm">
+                                        <i class="fas fa-exclamation-triangle mr-2"></i>
+                                        <strong>Important:</strong> These terms may be updated periodically. Continued use of our services constitutes acceptance of any changes.
+                                    </p>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- 2. Our Services -->
+                        <section id="services" class="mb-10">
+                            <h2 class="text-2xl font-bold text-gray-900 mb-6">
+                                <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm mr-3">2</span>
+                                Our Services
+                            </h2>
+                            
+                            <div class="grid md:grid-cols-2 gap-6">
+                                <div class="bg-gradient-to-br from-blue-50 to-purple-50 rounded-xl p-6">
+                                    <h3 class="font-semibold text-gray-900 mb-4 flex items-center">
+                                        <i class="fas fa-cube text-blue-600 mr-3 text-xl"></i>
+                                        Blockchain Development
+                                    </h3>
+                                    <ul class="text-gray-700 space-y-2 text-sm">
+                                        <li>• Smart contract development and auditing</li>
+                                        <li>• Custom blockchain solutions</li>
+                                        <li>• Multi-chain integration and deployment</li>
+                                        <li>• Tokenomics design and implementation</li>
+                                        <li>• DeFi protocol development</li>
+                                    </ul>
+                                </div>
+
+                                <div class="bg-gradient-to-br from-green-50 to-teal-50 rounded-xl p-6">
+                                    <h3 class="font-semibold text-gray-900 mb-4 flex items-center">
+                                        <i class="fas fa-robot text-green-600 mr-3 text-xl"></i>
+                                        AI Trading Systems
+                                    </h3>
+                                    <ul class="text-gray-700 space-y-2 text-sm">
+                                        <li>• AI-powered trading bot development</li>
+                                        <li>• Market analysis algorithms</li>
+                                        <li>• Risk management systems</li>
+                                        <li>• Portfolio optimization tools</li>
+                                        <li>• Integration with DeFi protocols</li>
+                                    </ul>
+                                </div>
+
+                                <div class="bg-gradient-to-br from-purple-50 to-pink-50 rounded-xl p-6">
+                                    <h3 class="font-semibold text-gray-900 mb-4 flex items-center">
+                                        <i class="fas fa-laptop-code text-purple-600 mr-3 text-xl"></i>
+                                        Web Development
+                                    </h3>
+                                    <ul class="text-gray-700 space-y-2 text-sm">
+                                        <li>• DApp frontend development</li>
+                                        <li>• Web3 integration</li>
+                                        <li>• Responsive web applications</li>
+                                        <li>• E-commerce platforms</li>
+                                        <li>• API development and integration</li>
+                                    </ul>
+                                </div>
+
+                                <div class="bg-gradient-to-br from-orange-50 to-red-50 rounded-xl p-6">
+                                    <h3 class="font-semibold text-gray-900 mb-4 flex items-center">
+                                        <i class="fas fa-mobile-alt text-orange-600 mr-3 text-xl"></i>
+                                        Mobile & Consulting
+                                    </h3>
+                                    <ul class="text-gray-700 space-y-2 text-sm">
+                                        <li>• Mobile app development (iOS/Android)</li>
+                                        <li>• Blockchain consulting services</li>
+                                        <li>• Technical architecture review</li>
+                                        <li>• Security audits and assessments</li>
+                                        <li>• Training and support services</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="mt-6 bg-gray-50 rounded-xl p-6">
+                                <h3 class="font-semibold text-gray-900 mb-3">Service Specifications</h3>
+                                <p class="text-gray-700 text-sm mb-4">
+                                    All services are provided according to specifications agreed upon in individual contracts or statements of work. HBW reserves the right to modify service offerings and pricing with appropriate notice.
+                                </p>
+                                <div class="flex flex-wrap gap-2">
+                                    <span class="bg-white px-3 py-1 rounded-full text-xs text-gray-700">Custom Development</span>
+                                    <span class="bg-white px-3 py-1 rounded-full text-xs text-gray-700">Maintenance & Support</span>
+                                    <span class="bg-white px-3 py-1 rounded-full text-xs text-gray-700">Consulting Services</span>
+                                    <span class="bg-white px-3 py-1 rounded-full text-xs text-gray-700">Training Programs</span>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- 3. User Obligations -->
+                        <section id="user-obligations" class="mb-10">
+                            <h2 class="text-2xl font-bold text-gray-900 mb-6">
+                                <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm mr-3">3</span>
+                                User Obligations and Prohibited Uses
+                            </h2>
+                            
+                            <div class="space-y-6">
+                                <div>
+                                    <h3 class="text-lg font-semibold text-gray-900 mb-4">Your Responsibilities</h3>
+                                    <div class="grid md:grid-cols-2 gap-4">
+                                        <div class="bg-green-50 rounded-lg p-4">
+                                            <h4 class="font-semibold text-green-900 mb-2">✅ Required Actions</h4>
+                                            <ul class="text-green-800 text-sm space-y-1">
+                                                <li>• Provide accurate project requirements</li>
+                                                <li>• Make timely payments as agreed</li>
+                                                <li>• Respond to communications promptly</li>
+                                                <li>• Comply with all applicable laws</li>
+                                                <li>• Maintain confidentiality of sensitive information</li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="bg-red-50 rounded-lg p-4">
+                                            <h4 class="font-semibold text-red-900 mb-2">❌ Prohibited Activities</h4>
+                                            <ul class="text-red-800 text-sm space-y-1">
+                                                <li>• Illegal or fraudulent activities</li>
+                                                <li>• Money laundering or terrorist financing</li>
+                                                <li>• Unauthorized access to systems</li>
+                                                <li>• Intellectual property infringement</li>
+                                                <li>• Harmful or malicious software distribution</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="bg-yellow-50 border-l-4 border-yellow-400 p-6 rounded-r-lg">
+                                    <h4 class="font-semibold text-yellow-900 mb-3">
+                                        <i class="fas fa-shield-alt mr-2"></i>
+                                        Compliance Requirements
+                                    </h4>
+                                    <p class="text-yellow-800 text-sm mb-3">
+                                        Users are responsible for ensuring their projects comply with applicable regulations in their jurisdiction, including but not limited to:
+                                    </p>
+                                    <div class="grid md:grid-cols-2 gap-4 text-xs">
+                                        <ul class="text-yellow-800 space-y-1">
+                                            <li>• Securities regulations</li>
+                                            <li>• Anti-money laundering (AML) laws</li>
+                                            <li>• Know Your Customer (KYC) requirements</li>
+                                        </ul>
+                                        <ul class="text-yellow-800 space-y-1">
+                                            <li>• Tax obligations and reporting</li>
+                                            <li>• Consumer protection laws</li>
+                                            <li>• Data protection regulations</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="bg-blue-50 rounded-xl p-6">
+                                    <h4 class="font-semibold text-blue-900 mb-3">
+                                        <i class="fas fa-exclamation-circle mr-2"></i>
+                                        Blockchain-Specific Considerations
+                                    </h4>
+                                    <p class="text-blue-800 text-sm mb-3">
+                                        Given the nature of blockchain technology, users acknowledge and accept:
+                                    </p>
+                                    <ul class="text-blue-800 text-sm space-y-1">
+                                        <li>• Immutability of blockchain transactions and smart contracts</li>
+                                        <li>• Volatility and risks associated with cryptocurrency</li>
+                                        <li>• Potential regulatory changes affecting blockchain projects</li>
+                                        <li>• Technical risks including bugs, vulnerabilities, and network issues</li>
+                                        <li>• Responsibility for private key and wallet security</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- 4. Intellectual Property -->
+                        <section id="intellectual-property" class="mb-10">
+                            <h2 class="text-2xl font-bold text-gray-900 mb-6">
+                                <span class="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm mr-3">4</span>
+                                Intellectual Property Rights
+                            </h2>
+                            
+                            <div class="space-y-6">
+                                <div class="grid md:grid-cols-2 gap-6">
+                                    <div class="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-xl p-6">
+                                        <h3 class="font-semibold text-gray-900 mb-4 flex items-center">
+                                            <i class="fas fa-user-tie text-blue-600 mr-3"></i>
+                                            HBW's Rights
+                                        </h3>
+                                        <ul class="text-gray-700 text-sm space-y-2">
+                                            <li>• Proprietary methodologies and frameworks</li>
+                                            <li>• Pre-existing code libraries and tools</li>
+                                            <li>• Company branding and trademarks</li>
+                                            <li>• General knowledge and experience</li>
+                                            <li>• Right to showcase work (with permission)</li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="bg-gradient-to-br from-green-50 to-emerald-50 rounded-xl p-6">
+                                        <h3 class="font-semibold text-gray-900 mb-4 flex items-center">
+                                            <i class="fas fa-user text-green-600 mr-3"></i>
+                                            Client's Rights
+                                        </h3>
+                                        <ul class="text-gray-700 text-sm space-y-2">
+                                            <li>• Custom code developed specifically for client</li>
+                                            <li>• Project-specific documentation and deliverables</li>
+                                            <li>• Exclusive use rights upon full payment</li>
+                                            <li>• Source code and deployment rights</li>
+                                            <li>• Future modification and enhancement rights</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="bg-gray-50 rounded-xl p-6">
+                                    <h3 class="font-semibold text-gray-900 mb-4">
+                                        <i class="fas fa-balance-scale mr-2 text-purple-600"></i>
+                                        Shared Responsibilities
+                                    </h3>
+                                    <div class="grid md:grid-cols-3 gap-4 text-sm">
+                                        <div class="bg-white rounded-lg p-4">
+                                            <h4 class="font-semibold text-gray-900 mb-2">Open Source Components</h4>
+                                            <p class="text-gray-700">Both parties must comply with open source licenses and attributions.</p>
+                                        </div>
+                                        <div class="bg-white rounded-lg p-4">
+                                            <h4 class="font-semibold text-gray-900 mb-2">Third-Party Integrations</h4>
+                                            <p class="text-gray-700">Respect third-party API terms and licensing agreements.</p>
+                                        </div>
+                                        <div class="bg-white rounded-lg p-4">
+                                            <h4 class="font-semibold text-gray-900 mb-2">Confidential Information</h4>
+                                            <p class="text-gray-700">Mutual protection of proprietary and sensitive information.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="border-l-4 border-orange-400 bg-orange-50 p-6 rounded-r-lg">
+                                    <h4 class="font-semibold text-orange-900 mb-3">
+                                        <i class="fas fa-copyright mr-2"></i>
+                                        Copyright and License Terms
+                                    </h4>
+                                    <p class="text-orange-800 text-sm mb-3">
+                                        Upon full payment, clients receive a perpetual, non-exclusive license to use custom-developed code. HBW retains the right to:
+                                    </p>
+                                    <ul class="text-orange-800 text-sm space-y-1">
+                                        <li>• Use general techniques and methodologies for other projects</li>
+                                        <li>• Reference the project in portfolios and case studies (with permission)</li>
+                                        <li>• Incorporate improvements into our frameworks and libraries</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- 5. Payment Terms -->
+                        <section id="payment-terms" class="mb-10">
+                            <h2 class="text-2xl font-bold text-gray-900 mb-6">
+                                <span class="bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full text-sm mr-3">5</span>
+                                Payment Terms and Conditions
+                            </h2>
+                            
+                            <div class="space-y-6">
+                                <div class="grid md:grid-cols-2 gap-6">
+                                    <div class="bg-green-50 rounded-xl p-6">
+                                        <h3 class="font-semibold text-green-900 mb-4">
+                                            <i class="fas fa-dollar-sign text-green-600 mr-2"></i>
+                                            Payment Structure
+                                        </h3>
+                                        <ul class="text-green-800 text-sm space-y-2">
+                                            <li><strong>Initial Deposit:</strong> 30-50% upfront payment</li>
+                                            <li><strong>Milestone Payments:</strong> Based on deliverables</li>
+                                            <li><strong>Final Payment:</strong> Upon project completion</li>
+                                            <li><strong>Maintenance:</strong> Monthly or annual subscriptions</li>
+                                            <li><strong>Currency:</strong> USD, EUR, or cryptocurrency</li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="bg-blue-50 rounded-xl p-6">
+                                        <h3 class="font-semibold text-blue-900 mb-4">
+                                            <i class="fas fa-credit-card text-blue-600 mr-2"></i>
+                                            Accepted Payment Methods
+                                        </h3>
+                                        <ul class="text-blue-800 text-sm space-y-2">
+                                            <li><strong>Bank Transfer:</strong> International wire transfers</li>
+                                            <li><strong>Cryptocurrency:</strong> BTC, ETH, USDT, USDC</li>
+                                            <li><strong>PayPal:</strong> For smaller amounts</li>
+                                            <li><strong>Wise:</strong> Multi-currency transfers</li>
+                                            <li><strong>Escrow:</strong> Available for large projects</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="bg-gradient-to-r from-yellow-50 to-orange-50 rounded-xl p-6">
+                                    <h3 class="font-semibold text-gray-900 mb-4">
+                                        <i class="fas fa-clock text-orange-600 mr-2"></i>
+                                        Payment Terms and Late Fees
+                                    </h3>
+                                    <div class="grid md:grid-cols-3 gap-4 text-sm">
+                                        <div class="bg-white rounded-lg p-4">
+                                            <h4 class="font-semibold text-gray-900 mb-2">Invoice Terms</h4>
+                                            <ul class="text-gray-700 space-y-1">
+                                                <li>• Net 30 days from invoice date</li>
+                                                <li>• Detailed breakdown provided</li>
+                                                <li>• Multiple currency options</li>
+                                            </ul>
+                                        </div>
+                                        <div class="bg-white rounded-lg p-4">
+                                            <h4 class="font-semibold text-gray-900 mb-2">Late Payment</h4>
+                                            <ul class="text-gray-700 space-y-1">
+                                                <li>• 1.5% monthly interest charge</li>
+                                                <li>• Work suspension after 45 days</li>
+                                                <li>• Collection agency referral</li>
+                                            </ul>
+                                        </div>
+                                        <div class="bg-white rounded-lg p-4">
+                                            <h4 class="font-semibold text-gray-900 mb-2">Disputes</h4>
+                                            <ul class="text-gray-700 space-y-1">
+                                                <li>• 14 days to report issues</li>
+                                                <li>• Good faith resolution efforts</li>
+                                                <li>• Mediation before litigation</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="bg-purple-50 border-l-4 border-purple-500 p-6 rounded-r-lg">
+                                    <h4 class="font-semibold text-purple-900 mb-3">
+                                        <i class="fas fa-coins mr-2"></i>
+                                        Cryptocurrency Payment Considerations
+                                    </h4>
+                                    <p class="text-purple-800 text-sm mb-3">
+                                        When paying with cryptocurrency, please note:
+                                    </p>
+                                    <ul class="text-purple-800 text-sm space-y-1">
+                                        <li>• Exchange rates fixed at invoice generation</li>
+                                        <li>• Client responsible for network transaction fees</li>
+                                        <li>• Payment must be received in full within 24 hours</li>
+                                        <li>• Refunds subject to current market rates and fees</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- 6. Warranties and Disclaimers -->
+                        <section id="warranties" class="mb-10">
+                            <h2 class="text-2xl font-bold text-gray-900 mb-6">
+                                <span class="bg-red-100 text-red-800 px-3 py-1 rounded-full text-sm mr-3">6</span>
+                                Warranties and Disclaimers
+                            </h2>
+                            
+                            <div class="space-y-6">
+                                <div class="bg-green-50 rounded-xl p-6">
+                                    <h3 class="font-semibold text-green-900 mb-4">
+                                        <i class="fas fa-check-circle text-green-600 mr-2"></i>
+                                        Our Warranties
+                                    </h3>
+                                    <div class="grid md:grid-cols-2 gap-4">
+                                        <div>
+                                            <h4 class="font-semibold text-green-900 mb-2">Code Quality</h4>
+                                            <ul class="text-green-800 text-sm space-y-1">
+                                                <li>• Industry best practices followed</li>
+                                                <li>• Comprehensive testing performed</li>
+                                                <li>• Security audits conducted</li>
+                                                <li>• Documentation provided</li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <h4 class="font-semibold text-green-900 mb-2">Support Period</h4>
+                                            <ul class="text-green-800 text-sm space-y-1">
+                                                <li>• 90 days bug fix warranty</li>
+                                                <li>• Technical support included</li>
+                                                <li>• Minor updates and patches</li>
+                                                <li>• Documentation updates</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="bg-red-50 border-2 border-red-200 rounded-xl p-6">
+                                    <h3 class="font-semibold text-red-900 mb-4">
+                                        <i class="fas fa-exclamation-triangle text-red-600 mr-2"></i>
+                                        Important Disclaimers
+                                    </h3>
+                                    <div class="space-y-4">
+                                        <div class="bg-white rounded-lg p-4">
+                                            <h4 class="font-semibold text-red-900 mb-2">Blockchain Technology Risks</h4>
+                                            <p class="text-red-800 text-sm">
+                                                HBW cannot guarantee the performance, security, or profitability of blockchain applications. Users acknowledge the inherent risks of cryptocurrency and DeFi protocols.
+                                            </p>
+                                        </div>
+                                        <div class="bg-white rounded-lg p-4">
+                                            <h4 class="font-semibold text-red-900 mb-2">Third-Party Dependencies</h4>
+                                            <p class="text-red-800 text-sm">
+                                                Services may depend on third-party platforms, APIs, and blockchain networks. HBW is not responsible for third-party service interruptions or changes.
+                                            </p>
+                                        </div>
+                                        <div class="bg-white rounded-lg p-4">
+                                            <h4 class="font-semibold text-red-900 mb-2">Regulatory Compliance</h4>
+                                            <p class="text-red-800 text-sm">
+                                                Clients are solely responsible for ensuring compliance with applicable laws and regulations in their jurisdiction.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="bg-yellow-50 border-l-4 border-yellow-400 p-6 rounded-r-lg">
+                                    <h4 class="font-semibold text-yellow-900 mb-3">AS IS BASIS</h4>
+                                    <p class="text-yellow-800 text-sm">
+                                        EXCEPT AS EXPRESSLY SET FORTH HEREIN, ALL SERVICES ARE PROVIDED "AS IS" AND "AS AVAILABLE" WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
+                                    </p>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- 7. Limitation of Liability -->
+                        <section id="limitation-liability" class="mb-10">
+                            <h2 class="text-2xl font-bold text-gray-900 mb-6">
+                                <span class="bg-orange-100 text-orange-800 px-3 py-1 rounded-full text-sm mr-3">7</span>
+                                Limitation of Liability
+                            </h2>
+                            
+                            <div class="bg-red-50 border-2 border-red-300 rounded-xl p-6 mb-6">
+                                <h3 class="font-bold text-red-900 mb-4 text-center">
+                                    <i class="fas fa-shield-alt text-2xl mr-2"></i>
+                                    LIMITATION OF LIABILITY CLAUSE
+                                </h3>
+                                <p class="text-red-800 text-sm text-center mb-4">
+                                    IN NO EVENT SHALL HBW TECHNOLOGY SOLUTIONS BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, INCLUDING BUT NOT LIMITED TO LOSS OF PROFITS, DATA, OR USE, INCURRED BY YOU OR ANY THIRD PARTY.
+                                </p>
+                                <div class="text-center">
+                                    <span class="bg-red-200 px-4 py-2 rounded-full text-red-900 font-semibold text-sm">
+                                        MAXIMUM LIABILITY: TOTAL FEES PAID FOR THE SERVICE
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="grid md:grid-cols-2 gap-6">
+                                <div class="bg-gray-50 rounded-xl p-6">
+                                    <h3 class="font-semibold text-gray-900 mb-4">
+                                        <i class="fas fa-ban text-red-600 mr-2"></i>
+                                        Excluded Damages
+                                    </h3>
+                                    <ul class="text-gray-700 text-sm space-y-2">
+                                        <li>• Lost profits or revenue</li>
+                                        <li>• Business interruption losses</li>
+                                        <li>• Loss of data or information</li>
+                                        <li>• Third-party claims and damages</li>
+                                        <li>• Cryptocurrency value fluctuations</li>
+                                        <li>• Smart contract vulnerabilities</li>
+                                        <li>• Network congestion or failures</li>
+                                    </ul>
+                                </div>
+
+                                <div class="bg-blue-50 rounded-xl p-6">
+                                    <h3 class="font-semibold text-blue-900 mb-4">
+                                        <i class="fas fa-info-circle text-blue-600 mr-2"></i>
+                                        Exceptions
+                                    </h3>
+                                    <ul class="text-blue-800 text-sm space-y-2">
+                                        <li>• Gross negligence or willful misconduct</li>
+                                        <li>• Breach of confidentiality obligations</li>
+                                        <li>• Intellectual property infringement</li>
+                                        <li>• Violations of applicable law</li>
+                                        <li>• Death or personal injury</li>
+                                    </ul>
+                                    <p class="text-blue-800 text-xs mt-4">
+                                        <strong>Note:</strong> Some jurisdictions do not allow limitation of liability for certain types of damages.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="bg-purple-50 rounded-xl p-6 mt-6">
+                                <h3 class="font-semibold text-purple-900 mb-3">
+                                    <i class="fas fa-hourglass-half text-purple-600 mr-2"></i>
+                                    Time Limitations
+                                </h3>
+                                <p class="text-purple-800 text-sm">
+                                    Any claims arising from our services must be brought within one (1) year after the cause of action arose. This limitation applies regardless of the form of action, whether in contract, tort, or otherwise.
+                                </p>
+                            </div>
+                        </section>
+
+                        <!-- 8. Termination -->
+                        <section id="termination" class="mb-10">
+                            <h2 class="text-2xl font-bold text-gray-900 mb-6">
+                                <span class="bg-cyan-100 text-cyan-800 px-3 py-1 rounded-full text-sm mr-3">8</span>
+                                Termination of Services
+                            </h2>
+                            
+                            <div class="space-y-6">
+                                <div class="grid md:grid-cols-2 gap-6">
+                                    <div class="bg-yellow-50 rounded-xl p-6">
+                                        <h3 class="font-semibold text-yellow-900 mb-4">
+                                            <i class="fas fa-user-times text-yellow-600 mr-2"></i>
+                                            Client Termination Rights
+                                        </h3>
+                                        <ul class="text-yellow-800 text-sm space-y-2">
+                                            <li>• 30 days written notice for ongoing services</li>
+                                            <li>• Immediate termination for cause</li>
+                                            <li>• Payment for completed work required</li>
+                                            <li>• Delivery of completed deliverables</li>
+                                            <li>• Return of confidential materials</li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="bg-red-50 rounded-xl p-6">
+                                        <h3 class="font-semibold text-red-900 mb-4">
+                                            <i class="fas fa-building text-red-600 mr-2"></i>
+                                            HBW Termination Rights
+                                        </h3>
+                                        <ul class="text-red-800 text-sm space-y-2">
+                                            <li>• Non-payment of invoices (30+ days overdue)</li>
+                                            <li>• Breach of terms and conditions</li>
+                                            <li>• Illegal or unethical use of services</li>
+                                            <li>• Failure to provide required information</li>
+                                            <li>• Violation of intellectual property rights</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="bg-gradient-to-r from-gray-50 to-slate-50 rounded-xl p-6">
+                                    <h3 class="font-semibold text-gray-900 mb-4">
+                                        <i class="fas fa-list-check text-gray-600 mr-2"></i>
+                                        Post-Termination Obligations
+                                    </h3>
+                                    <div class="grid md:grid-cols-3 gap-4">
+                                        <div class="bg-white rounded-lg p-4">
+                                            <h4 class="font-semibold text-gray-900 mb-2">Data Return</h4>
+                                            <p class="text-gray-700 text-sm">Client data returned within 30 days in agreed format.</p>
+                                        </div>
+                                        <div class="bg-white rounded-lg p-4">
+                                            <h4 class="font-semibold text-gray-900 mb-2">Final Payment</h4>
+                                            <p class="text-gray-700 text-sm">All outstanding invoices become immediately due.</p>
+                                        </div>
+                                        <div class="bg-white rounded-lg p-4">
+                                            <h4 class="font-semibold text-gray-900 mb-2">Confidentiality</h4>
+                                            <p class="text-gray-700 text-sm">Confidentiality obligations survive termination indefinitely.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-r-lg">
+                                    <h4 class="font-semibold text-blue-900 mb-3">
+                                        <i class="fas fa-undo mr-2"></i>
+                                        Refund Policy
+                                    </h4>
+                                    <p class="text-blue-800 text-sm mb-3">
+                                        Refunds are handled on a case-by-case basis:
+                                    </p>
+                                    <ul class="text-blue-800 text-sm space-y-1">
+                                        <li>• Completed work is non-refundable</li>
+                                        <li>• Unused portion of pre-paid services may be refunded</li>
+                                        <li>• Refund processing may take 30-60 days</li>
+                                        <li>• Cryptocurrency refunds subject to market rates and fees</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- 9. Governing Law -->
+                        <section id="governing-law" class="mb-10">
+                            <h2 class="text-2xl font-bold text-gray-900 mb-6">
+                                <span class="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-sm mr-3">9</span>
+                                Governing Law and Dispute Resolution
+                            </h2>
+                            
+                            <div class="space-y-6">
+                                <div class="bg-gradient-to-r from-indigo-50 to-purple-50 rounded-xl p-6">
+                                    <h3 class="font-semibold text-gray-900 mb-4">
+                                        <i class="fas fa-gavel text-indigo-600 mr-2"></i>
+                                        Jurisdiction and Applicable Law
+                                    </h3>
+                                    <div class="grid md:grid-cols-2 gap-6">
+                                        <div>
+                                            <h4 class="font-semibold text-gray-900 mb-2">Governing Law</h4>
+                                            <p class="text-gray-700 text-sm mb-3">
+                                                These Terms shall be governed by and construed in accordance with the laws of Vietnam, without regard to conflict of law principles.
+                                            </p>
+                                            <ul class="text-gray-700 text-sm space-y-1">
+                                                <li>• Vietnamese Civil Code</li>
+                                                <li>• Commercial Law of Vietnam</li>
+                                                <li>• Applicable international treaties</li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <h4 class="font-semibold text-gray-900 mb-2">Jurisdiction</h4>
+                                            <p class="text-gray-700 text-sm mb-3">
+                                                Courts of Da Nang City, Vietnam shall have exclusive jurisdiction over any disputes arising from these Terms.
+                                            </p>
+                                            <ul class="text-gray-700 text-sm space-y-1">
+                                                <li>• Da Nang City People's Court</li>
+                                                <li>• Vietnam International Arbitration Centre</li>
+                                                <li>• Alternative dispute resolution preferred</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="bg-green-50 rounded-xl p-6">
+                                    <h3 class="font-semibold text-green-900 mb-4">
+                                        <i class="fas fa-handshake text-green-600 mr-2"></i>
+                                        Dispute Resolution Process
+                                    </h3>
+                                    <div class="grid md:grid-cols-4 gap-4">
+                                        <div class="text-center">
+                                            <div class="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-3">
+                                                <span class="text-green-600 font-bold">1</span>
+                                            </div>
+                                            <h4 class="font-semibold text-green-900 mb-2">Direct Negotiation</h4>
+                                            <p class="text-green-800 text-xs">30 days good faith discussion</p>
+                                        </div>
+                                        <div class="text-center">
+                                            <div class="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-3">
+                                                <span class="text-green-600 font-bold">2</span>
+                                            </div>
+                                            <h4 class="font-semibold text-green-900 mb-2">Mediation</h4>
+                                            <p class="text-green-800 text-xs">Neutral third-party mediator</p>
+                                        </div>
+                                        <div class="text-center">
+                                            <div class="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-3">
+                                                <span class="text-green-600 font-bold">3</span>
+                                            </div>
+                                            <h4 class="font-semibold text-green-900 mb-2">Arbitration</h4>
+                                            <p class="text-green-800 text-xs">Binding arbitration if required</p>
+                                        </div>
+                                        <div class="text-center">
+                                            <div class="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-3">
+                                                <span class="text-green-600 font-bold">4</span>
+                                            </div>
+                                            <h4 class="font-semibold text-green-900 mb-2">Court Action</h4>
+                                            <p class="text-green-800 text-xs">Last resort litigation</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-r-lg">
+                                    <h4 class="font-semibold text-blue-900 mb-3">
+                                        <i class="fas fa-globe text-blue-600 mr-2"></i>
+                                        International Considerations
+                                    </h4>
+                                    <p class="text-blue-800 text-sm mb-3">
+                                        For international clients, we may agree to alternative dispute resolution mechanisms:
+                                    </p>
+                                    <ul class="text-blue-800 text-sm space-y-1">
+                                        <li>• International Chamber of Commerce (ICC) Arbitration</li>
+                                        <li>• Singapore International Arbitration Centre (SIAC)</li>
+                                        <li>• Online dispute resolution platforms</li>
+                                        <li>• Applicable international commercial law</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- 10. Contact Information -->
+                        <section id="contact" class="mb-8">
+                            <h2 class="text-2xl font-bold text-gray-900 mb-6">
+                                <span class="bg-pink-100 text-pink-800 px-3 py-1 rounded-full text-sm mr-3">10</span>
+                                Contact Information
+                            </h2>
+                            
+                            <div class="bg-gradient-to-r from-purple-600 to-blue-700 rounded-xl p-8 text-white">
+                                <h3 class="text-xl font-bold mb-6 text-center">Legal and Contractual Inquiries</h3>
+                                
+                                <div class="grid md:grid-cols-3 gap-6">
+                                    <div class="text-center">
+                                        <div class="w-16 h-16 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center mx-auto mb-4">
+                                            <i class="fas fa-envelope text-2xl"></i>
+                                        </div>
+                                        <h4 class="font-semibold mb-2">Legal Department</h4>
+                                        <p class="mb-2"><a href="mailto:legal@hbw.com" class="text-purple-200 hover:text-white transition-colors">legal@hbw.com</a></p>
+                                        <p class="text-purple-200 text-sm">Terms & Contract Questions</p>
+                                    </div>
+
+                                    <div class="text-center">
+                                        <div class="w-16 h-16 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center mx-auto mb-4">
+                                            <i class="fas fa-user-tie text-2xl"></i>
+                                        </div>
+                                        <h4 class="font-semibold mb-2">CEO & Founder</h4>
+                                        <p class="mb-2">Brian Nguyen</p>
+                                        <p class="text-purple-200 text-sm">Blockchain Expert & Project Manager</p>
+                                    </div>
+
+                                    <div class="text-center">
+                                        <div class="w-16 h-16 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center mx-auto mb-4">
+                                            <i class="fas fa-building text-2xl"></i>
+                                        </div>
+                                        <h4 class="font-semibold mb-2">Company Address</h4>
+                                        <p class="mb-2">Da Nang City, Vietnam</p>
+                                        <p class="text-purple-200 text-sm">Business Registration Available</p>
+                                    </div>
+                                </div>
+
+                                <div class="mt-8 pt-6 border-t border-white/20 text-center">
+                                    <p class="text-purple-200 text-sm">
+                                        For urgent legal matters, please mark your email as "URGENT - LEGAL" in the subject line.
+                                        We aim to respond to all legal inquiries within 2 business days.
+                                    </p>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- Effective Date and Updates -->
+                        <section class="mb-8">
+                            <div class="bg-yellow-50 border-l-4 border-yellow-400 p-6 rounded-r-lg">
+                                <h3 class="font-semibold text-yellow-900 mb-3">
+                                    <i class="fas fa-calendar-alt mr-2"></i>
+                                    Effective Date and Updates
+                                </h3>
+                                <p class="text-yellow-800 mb-3">
+                                    These Terms of Service are effective as of October 2024 and may be updated from time to time. Significant changes will be communicated via email and website notification at least 30 days before taking effect.
+                                </p>
+                                <div class="flex flex-wrap gap-2 text-sm">
+                                    <span class="bg-white px-3 py-1 rounded-full text-yellow-800">Effective: October 2024</span>
+                                    <span class="bg-white px-3 py-1 rounded-full text-yellow-800">Version: 2.1</span>
+                                    <span class="bg-white px-3 py-1 rounded-full text-yellow-800">Next Review: January 2025</span>
+                                    <span class="bg-white px-3 py-1 rounded-full text-yellow-800">Language: English (Authoritative)</span>
+                                </div>
+                            </div>
+                        </section>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Placeholder - Loaded via ES6 Modules -->
+    <div id="footer-placeholder"></div>
+
+    <!-- ES6 Modules Component System -->
+    <script type="module">
+        import { loadHBWComponents } from './components/templates.js';
+        
+        // Load components when DOM is ready
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', loadHBWComponents);
+        } else {
+            loadHBWComponents();
+        }
+    </script>
+
+    <!-- Smooth Scrolling for Anchor Links -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Smooth scrolling for table of contents links
+            const links = document.querySelectorAll('a[href^="#"]');
+            
+            links.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    
+                    const targetId = this.getAttribute('href').substring(1);
+                    const targetSection = document.getElementById(targetId);
+                    
+                    if (targetSection) {
+                        targetSection.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

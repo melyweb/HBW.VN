@@ -1,0 +1,162 @@
+{
+  "terms": {
+    "title": "Terms of Service - HBW Technology Solutions Vietnam | Legal Agreement",
+    "meta_description": "HBW Technology Solutions Terms of Service - Legal terms and conditions for using our blockchain development, DeFi, and web development services in Vietnam.",
+    "og_title": "Terms of Service - HBW Technology Solutions Vietnam", 
+    "og_description": "Legal terms and conditions for HBW's blockchain development and technology services.",
+    "twitter_title": "Terms of Service - HBW Technology Solutions",
+    "twitter_description": "Legal terms and conditions for blockchain development services.",
+    
+    "hero": {
+      "title": "Terms of Service",
+      "subtitle": "Legal terms and conditions governing the use of our services and website.",
+      "last_updated": "Last updated: October 1, 2024"
+    },
+    
+    "intro": {
+      "title": "Agreement to Terms",
+      "description": "These Terms of Service constitute a legally binding agreement made between you and HBW Technology Solutions regarding your access to and use of our services. Please read these terms carefully before using our services."
+    },
+    
+    "toc": {
+      "title": "Table of Contents",
+      "acceptance": "1. Acceptance of Terms",
+      "services": "2. Our Services",
+      "user_obligations": "3. User Obligations",
+      "payment": "4. Payment Terms",
+      "intellectual_property": "5. Intellectual Property",
+      "confidentiality": "6. Confidentiality",
+      "warranties": "7. Warranties and Disclaimers",
+      "limitation": "8. Limitation of Liability",
+      "termination": "9. Termination",
+      "governing_law": "10. Governing Law",
+      "changes": "11. Changes to Terms",
+      "contact": "12. Contact Information"
+    },
+    
+    "acceptance": {
+      "title": "Acceptance of Terms",
+      "description": "By accessing or using our services, you agree to be bound by these Terms of Service and our Privacy Policy. If you do not agree to these terms, please do not use our services.",
+      "items": [
+        "You must be at least 18 years old to use our services",
+        "You represent that you have the legal authority to enter into this agreement",
+        "Your use of our services constitutes acceptance of these terms",
+        "These terms may be updated periodically with notice to users"
+      ]
+    },
+    
+    "services": {
+      "title": "Our Services",
+      "description": "HBW Technology Solutions provides professional blockchain development and technology services:",
+      "blockchain": {
+        "title": "Blockchain Development",
+        "items": [
+          "Smart contract development and auditing",
+          "DeFi protocol design and implementation",
+          "Custom blockchain solutions",
+          "Token development and deployment"
+        ]
+      },
+      "web": {
+        "title": "Web Development",
+        "items": [
+          "Modern web applications and websites",
+          "E-commerce and marketplace platforms",
+          "Mobile-responsive design and development",
+          "Web3 integration and dApp development"
+        ]
+      },
+      "consulting": {
+        "title": "Technology Consulting",
+        "items": [
+          "Blockchain strategy and advisory",
+          "Technical architecture planning",
+          "Code review and security auditing",
+          "Training and technical support"
+        ]
+      }
+    },
+    
+    "user_obligations": {
+      "title": "User Obligations",
+      "description": "When using our services, you agree to:",
+      "items": [
+        "Provide accurate and complete information",
+        "Use our services only for lawful purposes",
+        "Respect intellectual property rights",
+        "Maintain confidentiality of sensitive information",
+        "Pay all fees and charges on time",
+        "Cooperate in good faith during project development"
+      ]
+    },
+    
+    "payment": {
+      "title": "Payment Terms",
+      "description": "Our payment terms are designed to be fair and transparent:",
+      "general": {
+        "title": "General Terms",
+        "items": [
+          "Payment schedules are agreed upon before project commencement",
+          "Invoices are payable within 30 days of receipt",
+          "Late payments may incur additional charges",
+          "All prices are quoted in USD unless otherwise specified"
+        ]
+      },
+      "project": {
+        "title": "Project-Based Services",
+        "items": [
+          "Milestone-based payment structure for larger projects",
+          "50% deposit required before work begins",
+          "Final payment due upon project completion and delivery",
+          "Change requests may affect pricing and timeline"
+        ]
+      }
+    },
+    
+    "intellectual_property": {
+      "title": "Intellectual Property Rights",
+      "description": "Intellectual property ownership is clearly defined:",
+      "client": {
+        "title": "Client-Owned IP",
+        "items": [
+          "Custom code developed specifically for your project",
+          "Unique business logic and proprietary algorithms",
+          "Project-specific documentation and specifications",
+          "Branding and design elements created for your use"
+        ]
+      },
+      "hbw": {
+        "title": "HBW-Retained IP",
+        "items": [
+          "General methodologies and development frameworks",
+          "Reusable code libraries and components",
+          "Technical know-how and expertise",
+          "Tools and utilities developed for internal use"
+        ]
+      }
+    },
+    
+    "warranties": {
+      "title": "Warranties and Disclaimers",
+      "description": "We provide our services with professional care and industry best practices:",
+      "warranties": {
+        "title": "Our Warranties",
+        "items": [
+          "Services will be performed with professional skill and care",
+          "Code will be developed according to agreed specifications",
+          "We will address bugs and issues identified during warranty period",
+          "Services will comply with applicable laws and regulations"
+        ]
+      },
+      "disclaimers": {
+        "title": "Disclaimers",
+        "items": [
+          "Services are provided 'as is' without warranty of specific outcomes",
+          "We do not guarantee market success or financial returns",
+          "Blockchain and cryptocurrency markets are volatile and unpredictable",
+          "Users are responsible for regulatory compliance in their jurisdiction"
+        ]
+      }
+    }
+  }
+}

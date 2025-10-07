@@ -1,0 +1,234 @@
+{
+  "blockchain": {
+    "title": "Blockchain Development Services - Smart Contracts & DeFi | HBW",
+    "meta_description": "Expert blockchain development services including smart contracts, DeFi protocols, multi-chain integration, and AI trading systems. Professional blockchain solutions by HBW.",
+    "og_title": "Professional Blockchain Development Services | HBW", 
+    "og_description": "Comprehensive blockchain solutions: smart contracts, DeFi protocols, tokenomics design, and multi-chain integration.",
+    "twitter_title": "Blockchain Development Services | HBW",
+    "twitter_description": "Expert smart contracts, DeFi protocols, and blockchain solutions development.",
+    
+    "hero": {
+      "badge": "Blockchain Development Experts",
+      "title": "Blockchain Development Services",
+      "subtitle": "Transform your business with cutting-edge blockchain solutions. From smart contracts to complete DeFi ecosystems, we deliver secure, scalable, and innovative blockchain applications.",
+      "cta_primary": "Get Free Consultation",
+      "cta_secondary": "View Portfolio",
+      "trust_indicators": {
+        "contracts": "500+ Smart Contracts Deployed",
+        "tvl": "$50M+ Total Value Locked",
+        "networks": "15+ Blockchain Networks"
+      }
+    },
+    
+    "services": {
+      "title": "Blockchain Development Services",
+      "subtitle": "Comprehensive blockchain solutions for modern businesses",
+      
+      "smart_contracts": {
+        "title": "Smart Contract Development",
+        "description": "Custom smart contracts built with security, efficiency, and scalability in mind. From simple tokens to complex DeFi protocols.",
+        "features": [
+          "ERC-20, ERC-721, ERC-1155 Token Standards",
+          "Multi-signature Wallet Contracts", 
+          "Automated Market Makers (AMM)",
+          "Governance & Voting Systems",
+          "Security Audits & Testing"
+        ],
+        "price_range": "Starting from $2,000",
+        "timeline": "2-8 weeks"
+      },
+      
+      "defi_protocols": {
+        "title": "DeFi Protocol Development",
+        "description": "Complete decentralized finance ecosystems with yield farming, staking, lending, and advanced tokenomics.",
+        "features": [
+          "Yield Farming & Liquidity Mining",
+          "Staking & Rewards Systems",
+          "Lending & Borrowing Protocols",
+          "Cross-chain Bridge Development",
+          "Advanced Tokenomics Design"
+        ],
+        "price_range": "$15,000 - $100,000+",
+        "timeline": "3-6 months"
+      },
+      
+      "nft_platforms": {
+        "title": "NFT Marketplace Development",
+        "description": "Full-featured NFT marketplaces with minting, trading, auctions, and royalty management systems.",
+        "features": [
+          "NFT Minting & Trading Platform",
+          "Auction & Bidding Systems",
+          "Royalty Management",
+          "Multi-chain NFT Support", 
+          "IPFS Integration"
+        ],
+        "price_range": "$10,000 - $50,000",
+        "timeline": "2-4 months"
+      },
+      
+      "ai_trading": {
+        "title": "AI Trading Systems",
+        "description": "Intelligent trading bots with machine learning algorithms, risk management, and automated strategy execution.",
+        "features": [
+          "Machine Learning Trading Algorithms",
+          "Real-time Market Analysis",
+          "Risk Management Systems",
+          "Multi-exchange Integration",
+          "Performance Analytics Dashboard"
+        ],
+        "price_range": "$20,000 - $100,000+",
+        "timeline": "3-8 months"
+      }
+    },
+    
+    "technologies": {
+      "title": "Technologies & Platforms",
+      "subtitle": "We work with the latest blockchain technologies and networks",
+      
+      "blockchains": {
+        "title": "Supported Blockchains",
+        "ethereum": "Ethereum - The leading smart contract platform",
+        "bsc": "Binance Smart Chain - Fast & low-cost transactions",
+        "polygon": "Polygon - Scalable Ethereum Layer 2", 
+        "solana": "Solana - High-performance blockchain",
+        "avalanche": "Avalanche - Highly scalable platform",
+        "arbitrum": "Arbitrum - Ethereum scaling solution"
+      },
+      
+      "tools": {
+        "title": "Development Tools",
+        "solidity": "Solidity - Smart contract programming",
+        "hardhat": "Hardhat - Development environment",
+        "web3": "Web3.js/Ethers.js - Blockchain integration",
+        "ipfs": "IPFS - Decentralized storage",
+        "metamask": "MetaMask - Wallet integration",
+        "chainlink": "Chainlink - Oracle services"
+      }
+    },
+    
+    "process": {
+      "title": "Our Development Process",
+      "subtitle": "Proven methodology for successful blockchain projects",
+      
+      "discovery": {
+        "title": "Discovery & Planning",
+        "description": "Requirements analysis, technical feasibility study, and project roadmap creation",
+        "deliverables": ["Technical specification", "Project timeline", "Cost estimation"]
+      },
+      
+      "design": {
+        "title": "Architecture & Design", 
+        "description": "System architecture design, smart contract planning, and security considerations",
+        "deliverables": ["System architecture", "Smart contract design", "Security framework"]
+      },
+      
+      "development": {
+        "title": "Development & Testing",
+        "description": "Agile development with continuous testing, code reviews, and security audits",
+        "deliverables": ["Smart contracts", "Frontend/Backend", "Test coverage reports"]
+      },
+      
+      "deployment": {
+        "title": "Deployment & Launch",
+        "description": "Mainnet deployment, monitoring setup, and post-launch support",
+        "deliverables": ["Live deployment", "Monitoring dashboard", "Documentation"]
+      }
+    },
+    
+    "portfolio": {
+      "title": "Featured Blockchain Projects",
+      "subtitle": "Successful blockchain solutions we've delivered",
+      
+      "pancakeswap_dex": {
+        "title": "PancakeSwap DEX Protocol",
+        "description": "Leading decentralized exchange with $1.8B+ TVL and 4.2M+ active users",
+        "stats": {
+          "tvl": "$1.8B+ TVL",
+          "users": "4.2M+ Users",
+          "volume": "$890M Daily Volume"
+        }
+      },
+      
+      "yield_farm": {
+        "title": "Advanced Yield Farming Protocol",
+        "description": "Multi-chain yield farming platform with up to 150% APY and automated strategies",
+        "stats": {
+          "apy": "150% Max APY",
+          "farmers": "850+ Farmers", 
+          "locked": "$5M+ Locked"
+        }
+      },
+      
+      "nft_marketplace": {
+        "title": "Premium NFT Marketplace",
+        "description": "Full-featured NFT platform with $800K+ trading volume and 50+ collections",
+        "stats": {
+          "volume": "$800K+ Volume",
+          "collections": "50+ Collections",
+          "nfts": "15K+ NFTs"
+        }
+      }
+    },
+    
+    "pricing": {
+      "title": "Transparent Pricing",
+      "subtitle": "Clear, fixed-price packages for different project sizes",
+      
+      "starter": {
+        "title": "Starter Package",
+        "price": "$2,000 - $5,000",
+        "description": "Perfect for simple smart contracts and token creation",
+        "features": [
+          "ERC-20/ERC-721 Token Contract",
+          "Basic Smart Contract Development",
+          "Testnet Deployment & Testing", 
+          "Source Code & Documentation",
+          "1 Month Support"
+        ],
+        "timeline": "2-4 weeks"
+      },
+      
+      "professional": {
+        "title": "Professional Package",
+        "price": "$10,000 - $25,000",
+        "description": "Ideal for DeFi applications and NFT marketplaces",
+        "features": [
+          "Complex Smart Contract System",
+          "Frontend Web3 Integration",
+          "Multi-chain Deployment",
+          "Security Audit & Testing",
+          "3 Months Support"
+        ],
+        "timeline": "2-3 months"
+      },
+      
+      "enterprise": {
+        "title": "Enterprise Package", 
+        "price": "$50,000+",
+        "description": "Complete blockchain ecosystems with advanced features",
+        "features": [
+          "Full DeFi Protocol Development",
+          "AI Trading System Integration",
+          "Custom Tokenomics Design",
+          "Ongoing Development Support",
+          "12 Months Support & Updates"
+        ],
+        "timeline": "6+ months"
+      }
+    },
+    
+    "consultation": {
+      "title": "Free Blockchain Consultation",
+      "subtitle": "Get expert advice on your blockchain project",
+      "benefits": [
+        "Technical feasibility assessment",
+        "Architecture recommendations", 
+        "Cost estimation & timeline",
+        "Technology stack selection",
+        "Security considerations"
+      ],
+      "cta": "Schedule Free Consultation",
+      "guarantee": "100% free, no obligations"
+    }
+  }
+}

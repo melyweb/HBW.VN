@@ -1,0 +1,285 @@
+{
+  "portfolio": {
+    "meta": {
+    "title": "Portfolio Của Chúng Tôi - Dự Án Blockchain & Web Development | HBW",
+    "description": "Khám phá các dự án blockchain, DeFi và web development thành công của HBW. Từ smart contracts đến AI trading systems và multi-chain integrations.",
+    "og_title": "HBW Portfolio - Blockchain & Web Development Xuất Sắc",
+    "og_description": "Khám phá các dự án blockchain thành công, DeFi protocols, AI trading systems và innovative web applications.",
+    "twitter_title": "HBW Portfolio - Blockchain Excellence", 
+    "twitter_description": "Dự án blockchain & web development chuyên nghiệp của HBW team."
+  },
+  "hero": {
+    "title": "Portfolio Của Chúng Tôi",
+    "subtitle": "Trình bày chuyên môn của chúng tôi trong blockchain development, DeFi protocols và cutting-edge web applications",
+    "tag1": "50+ Dự Án Đã Triển Khai",
+    "tag2": "$10M+ TVL Được Bảo Mật", 
+    "tag3": "15+ Blockchain Networks"
+  },
+  "filters": {
+    "all": "Tất Cả Dự Án",
+    "blockchain": "Blockchain & DeFi",
+    "ai_trading": "AI Trading Systems",
+    "web_app": "Ứng Dụng Web",
+    "mobile": "Mobile Apps"
+  },
+  "featured": {
+    "title": "Dự Án Nổi Bật",
+    "subtitle": "Khám phá các dự án có tác động mạnh nhất và innovative nhất của chúng tôi trong blockchain, AI trading và web development"
+  },
+  "projects": {
+    "pancakeswap": {
+      "title": "PancakeSwap DEX",
+      "subtitle": "Sàn Giao Dịch Phi Tập Trung Hàng Đầu",
+      "description": "Sàn giao dịch phi tập trung phổ biến nhất trên Binance Smart Chain với AMM functionality, yield farming và cross-chain capabilities.",
+      "stats": {
+        "volume": "$890M",
+        "volume_label": "Khối Lượng 24h",
+        "tvl": "$1.8B",
+        "tvl_label": "Tổng TVL",
+        "users": "4.2M",
+        "users_label": "Người Dùng Hoạt Động",
+        "pairs": "8,500+",
+        "pairs_label": "Cặp Giao Dịch"
+      },
+      "features": [
+        "Automated Market Making (AMM)",
+        "Cross-chain bridge integration", 
+        "Yield farming & staking pools",
+        "Governance token (CAKE)",
+        "Advanced trading analytics"
+      ],
+      "tech_stack": ["Solidity", "JavaScript", "React", "Web3.js", "Node.js"],
+      "tvl": "$1.8B+ TVL",
+      "users": "4.2M+ Người Dùng Hoạt Động",
+      "view_details": "Xem Chi Tiết"
+    },
+    "yieldfarm": {
+      "title": "Nền Tảng Yield Farming Tiên Tiến",
+      "subtitle": "Advanced Yield Farming Protocol", 
+      "description": "Nền tảng DeFi hiệu suất cao với automated yield optimization, liquidity mining và cross-chain staking capabilities.",
+      "stats": {
+        "apy": "156%",
+        "apy_label": "APY Tối Đa",
+        "pools": "25",
+        "pools_label": "Pool Hoạt Động",
+        "farmers": "850",
+        "farmers_label": "Nông Dân",
+        "secured": "$8.2M",
+        "secured_label": "Tài Sản Được Bảo Mật"
+      },
+      "features": [
+        "Dynamic APY optimization",
+        "Impermanent loss protection",
+        "Auto-compound strategies",
+        "Cross-protocol farming",
+        "Liquidity mining rewards"
+      ],
+      "tech_stack": ["Solidity", "Hardhat", "Ethers.js", "Vue.js", "Web3.js"],
+      "apy": "Lên Đến 150% APY",
+      "locked": "$5M+ Đã Khóa",
+      "audited": "Kiểm Toán Bảo Mật"
+    },
+    "nft": {
+      "title": "NFT Marketplace Cao Cấp",
+      "subtitle": "NFT Trading & Gaming Platform",
+      "description": "NFT marketplace đầy đủ tính năng với advanced filtering, auction system và cross-chain compatibility. Xây dựng với công nghệ Web3 hiện đại.",
+      "stats": {
+        "nfts": "15.2K",
+        "nfts_label": "NFT Đã Giao Dịch",
+        "volume": "$12.5M",
+        "volume_label": "Khối Lượng Giao Dịch", 
+        "artists": "340",
+        "artists_label": "Nghệ Sĩ",
+        "games": "8",
+        "games_label": "P2E Games"
+      },
+      "features": [
+        "Multi-chain NFT support",
+        "Integrated P2E gaming",
+        "Royalty management system",
+        "Lazy minting technology",
+        "Cross-chain NFT bridge"
+      ],
+      "tech_stack": ["Solidity", "IPFS", "Next.js", "MongoDB", "Polygon"],
+      "volume": "$800K+ Khối Lượng Giao Dịch",
+      "collections": "50+ Collections"
+    },
+    "ai_trader": {
+      "title": "AI Trading Dashboard",
+      "subtitle": "Machine Learning Trading Engine",
+      "description": "Dashboard trading real-time với AI-powered market analysis, risk management tools và automated strategy execution.",
+      "stats": {
+        "accuracy": "94.2%",
+        "accuracy_label": "Độ Chính Xác Dự Đoán",
+        "volume": "$125M",
+        "volume_label": "Khối Lượng Hàng Tháng",
+        "signals": "1,250",
+        "signals_label": "Tín Hiệu Hàng Ngày",
+        "latency": "12ms",
+        "latency_label": "Độ Trễ Trung Bình"
+      },
+      "features": [
+        "Quantum-inspired algorithms",
+        "Deep learning models",
+        "Real-time market analysis", 
+        "Multi-exchange integration",
+        "Institutional-grade security"
+      ],
+      "tech_stack": ["Python", "TensorFlow", "Kubernetes", "Redis", "PostgreSQL"],
+      "accuracy": "92% Độ Chính Xác",
+      "realtime": "Phân Tích Realtime"
+    },
+    "ecommerce": {
+      "title": "Nền Tảng E-commerce Hiện Đại",
+      "subtitle": "Next-Gen E-commerce Platform",
+      "description": "Giải pháp e-commerce đầy đủ tính năng với mobile app, admin dashboard, payment integration và inventory management.",
+      "stats": {
+        "products": "50K+",
+        "products_label": "Sản Phẩm",
+        "orders": "25K",
+        "orders_label": "Đơn Hàng Hàng Tháng",
+        "conversion": "4.2%",
+        "conversion_label": "Tỷ Lệ Chuyển Đổi",
+        "revenue": "$2.8M",
+        "revenue_label": "Doanh Thu Hàng Tháng"
+      },
+      "features": [
+        "AI product recommendations",
+        "Blockchain payment system",
+        "Advanced inventory management",
+        "Multi-vendor marketplace",
+        "Real-time analytics"
+      ],
+      "tech_stack": ["React", "Node.js", "MongoDB", "Stripe", "AWS"],
+      "responsive": "Mobile First",
+      "payments": "Nhiều Phương Thức Thanh Toán",
+      "performance": "99.9% Thời Gian Hoạt Động"
+    },
+    "fintech": {
+      "title": "FinTech Banking App",
+      "subtitle": "Telemedicine & Health Records",
+      "description": "Ứng dụng mobile banking bảo mật với biometric authentication, real-time transactions và advanced fraud detection.",
+      "stats": {
+        "consultations": "10K+",
+        "consultations_label": "Tư Vấn",
+        "doctors": "500+",
+        "doctors_label": "Bác Sĩ",
+        "patients": "15K+", 
+        "patients_label": "Bệnh Nhân",
+        "rating": "4.9★",
+        "rating_label": "Đánh Giá"
+      },
+      "features": [
+        "Secure video consultations",
+        "Digital prescription system",
+        "Blockchain medical records",
+        "AI symptom checker",
+        "Appointment scheduling"
+      ],
+      "tech_stack": ["React Native", "WebRTC", "Hyperledger", "Node.js", "PostgreSQL"],
+      "biometric": "Biometric Auth",
+      "security": "Bảo Mật Cấp Ngân Hàng",
+      "users": "100K+ Người Dùng"
+    }
+  },
+  "technologies": {
+    "title": "Công Nghệ Chúng Tôi Sử Dụng",
+    "subtitle": "Công cụ và framework tiên tiến hỗ trợ các dự án của chúng tôi",
+    "categories": {
+      "blockchain": {
+        "title": "Blockchain",
+        "items": ["Solidity", "Ethereum", "Polygon", "BSC", "Web3.js"]
+      },
+      "ai_ml": {
+        "title": "AI & ML",
+        "items": ["Python", "TensorFlow", "PyTorch", "Scikit-learn", "OpenAI"]
+      },
+      "frontend": {
+        "title": "Frontend",
+        "items": ["React", "Vue.js", "Next.js", "Tailwind CSS", "TypeScript"]
+      },
+      "backend": {
+        "title": "Backend", 
+        "items": ["Node.js", "Python", "PostgreSQL", "MongoDB", "Redis"]
+      },
+      "cloud": {
+        "title": "Cloud & DevOps",
+        "items": ["AWS", "Docker", "Kubernetes", "CI/CD", "Monitoring"]
+      }
+    }
+  },
+  "stats": {
+    "title": "Thống Kê Portfolio",
+    "metrics": {
+      "projects": {
+        "value": "50+",
+        "label": "Dự Án Hoàn Thành"
+      },
+      "tvl": {
+        "value": "$25M+",
+        "label": "Tổng Giá Trị Khóa"
+      },
+      "users": {
+        "value": "100K+", 
+        "label": "Người Dùng Hoạt Động"
+      },
+      "uptime": {
+        "value": "99.9%",
+        "label": "Thời Gian Hoạt Động Trung Bình"
+      }
+    }
+  },
+  "tech": {
+    "title": "Công Nghệ & Chuyên Môn",
+    "subtitle": "Các dự án của chúng tôi tận dụng công nghệ tiên tiến để mang lại kết quả xuất sắc",
+    "blockchain": {
+      "title": "Blockchain",
+      "desc": "Ethereum, BSC, Polygon, Solana"
+    },
+    "ai": {
+      "title": "AI & ML",
+      "desc": "TensorFlow, PyTorch, OpenAI"
+    },
+    "frontend": {
+      "title": "Frontend",
+      "desc": "React, Vue.js, Next.js, TypeScript"
+    },
+    "backend": {
+      "title": "Backend",
+      "desc": "Node.js, Python, PostgreSQL, MongoDB"
+    }
+  },
+  "stats": {
+    "projects": "Dự Án Hoàn Thành",
+    "tvl": "Tổng Giá Trị Khóa",
+    "networks": "Blockchain Networks",
+    "uptime": "Thời Gian Hoạt Động Trung Bình"
+  },
+  "process": {
+    "title": "Quy Trình Phát Triển Của Chúng Tôi",
+    "subtitle": "Phương pháp đã được chứng minh đảm bảo thành công dự án từ concept đến deployment",
+    "step1": {
+      "title": "Khám Phá & Phân Tích",
+      "desc": "Tìm hiểu sâu về yêu cầu, nghiên cứu thị trường và đánh giá tính khả thi kỹ thuật"
+    },
+    "step2": {
+      "title": "Thiết Kế & Kiến Trúc",
+      "desc": "Thiết kế UI/UX, kiến trúc hệ thống và lên kế hoạch smart contract"
+    },
+    "step3": {
+      "title": "Phát Triển & Kiểm Thử",
+      "desc": "Phát triển Agile với kiểm thử liên tục và kiểm toán bảo mật"
+    },
+    "step4": {
+      "title": "Triển Khai & Hỗ Trợ",
+      "desc": "Triển khai, giám sát và bảo trì liên tục với hỗ trợ 24/7"
+    }
+  },
+  "cta": {
+    "title": "Sẵn Sàng Bắt Đầu Dự Án Của Bạn?",
+    "subtitle": "Hãy thảo luận về cách chúng tôi có thể biến tầm nhìn blockchain hoặc web development của bạn thành hiện thực",
+    "contact": "Nhận Tư Vấn Miễn Phí",
+    "services": "Xem Tất Cả Dịch Vụ"
+    }
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "meta": {
+    "title": "Ứng Dụng Web Hiện Đại - HBW Technology Solutions"
+  },
+  "hero": {
+    "badge": "Ứng Dụng Web Thế Hệ Mới",
+    "title_line1": "Tương Lai của",
+    "title_line2": "Web Apps",
+    "subtitle": "Khai thác các công nghệ tiên tiến như Next.js 14, React Server Components, WebAssembly, và tích hợp AI để xây dựng ứng dụng web thông minh, siêu nhanh, thiết lập chuẩn mực mới cho ngành công nghiệp.",
+    "tech": {
+      "react": "React 18+",
+      "react_desc": "Server Components",
+      "wasm": "WebAssembly", 
+      "wasm_desc": "Hiệu Suất Native",
+      "ai": "Tích Hợp AI",
+      "ai_desc": "Tính Năng Thông Minh",
+      "pwa": "Progressive PWA",
+      "pwa_desc": "Hoạt Động Offline"
+    },
+    "cta_primary": "Khám Phá Công Nghệ",
+    "cta_secondary": "Xem Demo"
+  },
+  "technologies": {
+    "title": "Công Nghệ Tiên Tiến",
+    "subtitle": "Chúng tôi tận dụng các công nghệ web tiến tiến nhất để xây dựng ứng dụng vượt qua giới hạn của những gì có thể làm được trong trình duyệt.",
+    "nextjs": {
+      "title": "Next.js 14 & App Router",
+      "description": "Next.js mới nhất với App Router, React Server Components, và Turbopack cho phát triển siêu nhanh và hiệu suất tối ưu.",
+      "feature1": "Server & Client Components",
+      "feature2": "Kiến Trúc App Router", 
+      "feature3": "Tích Hợp Turbopack",
+      "feature4": "Hỗ Trợ Edge Runtime",
+      "performance": "Nhanh Hơn 50% Build"
+    },
+    "rsc": {
+      "title": "React Server Components",
+      "description": "Kiến trúc cách mạng render components trên server, giảm bundle sizes và cải thiện hiệu suất đáng kể.",
+      "feature1": "Zero Bundle Impact",
+      "feature2": "Truy Cập Dữ Liệu Server-Side",
+      "feature3": "Code Splitting Tự Động", 
+      "feature4": "Streaming Rendering",
+      "performance": "Giảm 70% Bundle Size"
+    },
+    "wasm": {
+      "title": "WebAssembly (WASM)",
+      "description": "Hiệu suất gần native cho các tác vụ tính toán phức tạp, cho phép ứng dụng trước đây không thể thực hiện được trong trình duyệt.",
+      "feature1": "Thực Thi Tốc Độ Native",
+      "feature2": "Hỗ Trợ Đa Ngôn Ngữ",
+      "feature3": "Sandboxing Bảo Mật",
+      "feature4": "Binary Đa Nền Tảng",
+      "performance": "Hiệu Suất 10x"
+    },
+    "ai": {
+      "title": "Tích Hợp AI & Vercel AI SDK",
+      "description": "Tích hợp liền mạch khả năng AI với streaming responses, function calling, và giao diện người dùng thông minh được hỗ trợ bởi LLMs mới nhất.",
+      "feature1": "Streaming AI Responses",
+      "feature2": "Function Calling",
+      "feature3": "Hỗ Trợ Multi-Modal",
+      "feature4": "Edge AI Processing",
+      "performance": "Giao Diện Thông Minh"
+    },
+    "web_components": {
+      "title": "Web Components & Custom Elements", 
+      "description": "Components tái sử dụng độc lập framework sử dụng chuẩn trình duyệt native cho khả năng tương thích và hiệu suất tối đa.",
+      "feature1": "Shadow DOM Encapsulation",
+      "feature2": "HTML Templates",
+      "feature3": "Custom Elements API",
+      "feature4": "Framework Agnostic",
+      "performance": "Tương Thích Toàn Diện"
+    },
+    "pwa": {
+      "title": "Progressive Web Apps (PWA)",
+      "description": "Trải nghiệm giống app với chức năng offline, push notifications, và giao diện có thể cài đặt hoạt động trên mọi thiết bị.",
+      "feature1": "Service Workers",
+      "feature2": "Hỗ Trợ Offline", 
+      "feature3": "Push Notifications",
+      "feature4": "Cài Đặt Ứng Dụng",
+      "performance": "UX Giống Native"
+    }
+  },
+  "apis": {
+    "title": "APIs Trình Duyệt Hiện Đại",
+    "subtitle": "Tận dụng khả năng trình duyệt tiên tiến để tạo ra trải nghiệm web mạnh mẽ và hấp dẫn",
+    "webrtc": {
+      "title": "WebRTC",
+      "description": "Giao tiếp video/audio thời gian thực"
+    },
+    "webgpu": {
+      "title": "WebGPU", 
+      "description": "Đồ họa và tính toán hiệu suất cao"
+    },
+    "web_locks": {
+      "title": "Web Locks",
+      "description": "Điều phối tài nguyên giữa các tab"
+    },
+    "intersection": {
+      "title": "Intersection Observer",
+      "description": "Giám sát viewport hiệu quả"
+    },
+    "payment": {
+      "title": "Payment Request",
+      "description": "Luồng thanh toán được tối ưu"
+    },
+    "web_share": {
+      "title": "Web Share",
+      "description": "Giao diện chia sẻ native"
+    },
+    "background_sync": {
+      "title": "Background Sync",
+      "description": "Đồng bộ dữ liệu offline"
+    },
+    "web_workers": {
+      "title": "Web Workers",
+      "description": "JavaScript đa luồng"
+    }
+  },
+  "demo": {
+    "title": "Demo Công Nghệ Tương Tác",
+    "subtitle": "Trải nghiệm sức mạnh của công nghệ web hiện đại qua các demo tương tác của chúng tôi",
+    "metrics": {
+      "title": "Hiệu Suất Thời Gian Thực",
+      "lighthouse": "Điểm Lighthouse",
+      "bundle": "Kích Thước Bundle",
+      "load_time": "Thời Gian Load",
+      "ai_response": "Phản Hồi AI",
+      "stack": "Tech Stack"
+    }
+  },
+  "cta": {
+    "title": "Sẵn Sàng Xây Dựng Tương Lai?",
+    "subtitle": "Hãy tạo ra những ứng dụng web tiên tiến tận dụng công nghệ mới nhất và thiết lập chuẩn mực mới cho hiệu suất và trải nghiệm người dùng.",
+    "primary": "Bắt Đầu Dự Án",
+    "secondary": "Xem Case Studies"
+  }
+}

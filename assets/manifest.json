@@ -1,0 +1,117 @@
+{
+  "name": "HBW Technology Solutions - Enterprise Blockchain & Web Development",
+  "short_name": "HBW Tech",
+  "description": "Leading blockchain development company in Vietnam. Specialized in DeFi protocols, AI trading bots, smart contracts, and modern web applications.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#0ea5e9",
+  "background_color": "#0f172a",
+  "categories": ["business", "productivity", "technology"],
+  "lang": ["vi", "en"],
+  "dir": "ltr",
+  "icons": [
+    {
+      "src": "/images/favicon-16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/favicon-32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/favicon-40.png",
+      "sizes": "40x40",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/favicon-80.png",
+      "sizes": "80x80",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/favicon-96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/favicon-100.png",
+      "sizes": "100x100",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Dịch Vụ",
+      "short_name": "Services",
+      "description": "Xem tất cả dịch vụ của HBW",
+      "url": "/services.html",
+      "icons": [
+        {
+          "src": "/images/favicon-96.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Portfolio",
+      "short_name": "Portfolio",
+      "description": "Khám phá các dự án đã hoàn thành",
+      "url": "/portfolio.html",
+      "icons": [
+        {
+          "src": "/images/favicon-96.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Liên Hệ",
+      "short_name": "Contact",
+      "description": "Liên hệ với HBW ngay hôm nay",
+      "url": "/contact.html",
+      "icons": [
+        {
+          "src": "/images/favicon-96.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/assets/images/screenshot-desktop.png",
+      "sizes": "1920x1080",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "/assets/images/screenshot-mobile.png",
+      "sizes": "390x844",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ],
+  "prefer_related_applications": false,
+  "related_applications": [
+    {
+      "platform": "web",
+      "url": "https://hbw.vn"
+    }
+  ]
+}

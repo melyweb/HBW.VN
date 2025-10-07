@@ -1,0 +1,256 @@
+{
+  "smart_contracts": {
+    "title": "Dịch Vụ Smart Contract Development - An Toàn & Được Audit | HBW",
+    "meta_description": "Dịch vụ smart contract development chuyên nghiệp bao gồm ERC-20/721/1155 tokens, DeFi protocols, governance systems và multi-sig wallets. Được audit bảo mật bởi chuyên gia HBW.",
+    "og_title": "Smart Contract Development Chuyên Nghiệp | HBW",
+    "og_description": "Smart contract development an toàn: ERC tokens, DeFi protocols, governance systems và giải pháp blockchain tùy chỉnh.",
+    "twitter_title": "Smart Contract Development | HBW",
+    "twitter_description": "Smart contract development chuyên gia với security audits và best practices.",
+
+    "hero": {
+      "badge": "Chuyên Gia Smart Contract Development",
+      "title": "Smart Contract Development",
+      "subtitle": "Xây dựng smart contracts an toàn, được audit để cung cấp sức mạnh cho tương lai của ứng dụng phi tập trung. Từ ERC tokens đến DeFi protocols phức tạp, chúng tôi mang lại giải pháp blockchain không thể xuyên thủng.",
+      "trust1": "500+ Contracts Đã Deploy",
+      "trust2": "Không Vi Phạm Bảo Mật", 
+      "trust3": "15+ Blockchains Được Hỗ Trợ",
+      "cta_primary": "Bắt Đầu Dự Án",
+      "cta_secondary": "Xem Portfolio"
+    },
+
+    "services": {
+      "title": "Dịch Vụ Smart Contract Development",
+      "subtitle": "Giải pháp smart contract toàn diện cho mọi nhu cầu blockchain của bạn, từ tokens đơn giản đến hệ sinh thái DeFi phức tạp.",
+
+      "tokens": {
+        "title": "ERC Token Development",
+        "description": "Tạo ERC-20, ERC-721 và ERC-1155 tokens với các tính năng nâng cao như burning, minting, staking và governance.",
+        "feature1": "ERC-20 Utility Tokens",
+        "feature2": "ERC-721 NFT Collections",
+        "feature3": "ERC-1155 Multi-Token",
+        "feature4": "Advanced Tokenomics",
+        "price": "Từ $1,500",
+        "timeline": "1-3 tuần"
+      },
+
+      "defi": {
+        "title": "DeFi Protocol Development",
+        "description": "Xây dựng hệ sinh thái DeFi hoàn chỉnh với yield farming, staking, lending, AMM và cơ chế governance.",
+        "feature1": "Yield Farming Protocols",
+        "feature2": "AMM & DEX Development",
+        "feature3": "Lending & Borrowing",
+        "feature4": "Cross-chain Bridges",
+        "price": "Từ $15,000",
+        "timeline": "2-6 tháng"
+      },
+
+      "governance": {
+        "title": "Governance & DAO Systems",
+        "description": "Triển khai hệ thống governance phi tập trung với cơ chế voting, proposals và treasury management.",
+        "feature1": "Voting Mechanisms",
+        "feature2": "Proposal Systems",
+        "feature3": "Treasury Management",
+        "feature4": "Multi-sig Integration",
+        "price": "Từ $8,000",
+        "timeline": "3-8 tuần"
+      },
+
+      "audit": {
+        "title": "Security Auditing",
+        "description": "Audit bảo mật toàn diện để xác định lỗ hổng và đảm bảo smart contracts của bạn không thể xuyên thủng.",
+        "feature1": "Code Review & Analysis",
+        "feature2": "Vulnerability Assessment",
+        "feature3": "Gas Optimization",
+        "feature4": "Audit Report & Fixes",
+        "price": "Từ $3,000",
+        "timeline": "1-2 tuần"
+      },
+
+      "multisig": {
+        "title": "Multi-Signature Wallets",
+        "description": "Smart contracts ví multi-signature an toàn với approval thresholds tùy chỉnh và tính năng bảo mật nâng cao.",
+        "feature1": "Custom Approval Logic",
+        "feature2": "Time-locked Transactions",
+        "feature3": "Role-based Permissions",
+        "feature4": "Emergency Functions",
+        "price": "Từ $4,000",
+        "timeline": "2-4 tuần"
+      },
+
+      "custom": {
+        "title": "Giải Pháp Tùy Chỉnh",
+        "description": "Giải pháp smart contract được thiết kế riêng cho yêu cầu kinh doanh độc đáo và ứng dụng blockchain phức tạp.",
+        "feature1": "Business Logic Implementation",
+        "feature2": "Integration Solutions",
+        "feature3": "Performance Optimization",
+        "feature4": "Ongoing Support",
+        "price": "Báo Giá Theo Yêu Cầu",
+        "timeline": "Tùy Thuộc"
+      }
+    },
+
+    "tech": {
+      "title": "Công Nghệ & Nền Tảng",
+      "subtitle": "Chúng tôi tận dụng công nghệ blockchain và công cụ phát triển tiên tiến nhất để xây dựng smart contracts an toàn, hiệu quả.",
+
+      "blockchains": {
+        "title": "Blockchains",
+        "ethereum": "Ethereum",
+        "bsc": "Binance Smart Chain",
+        "polygon": "Polygon (Matic)",
+        "solana": "Solana",
+        "avalanche": "Avalanche",
+        "fantom": "Fantom",
+        "arbitrum": "Arbitrum",
+        "optimism": "Optimism"
+      },
+
+      "languages": {
+        "title": "Ngôn Ngữ Lập Trình",
+        "solidity": "Solidity",
+        "vyper": "Vyper",
+        "rust": "Rust",
+        "javascript": "JavaScript",
+        "typescript": "TypeScript"
+      },
+
+      "tools": {
+        "title": "Công Cụ Dev",
+        "hardhat": "Hardhat",
+        "truffle": "Truffle",
+        "foundry": "Foundry",
+        "remix": "Remix IDE",
+        "ganache": "Ganache"
+      },
+
+      "security": {
+        "title": "Bảo Mật",
+        "mythril": "Mythril",
+        "slither": "Slither",
+        "echidna": "Echidna",
+        "manticore": "Manticore",
+        "certora": "Certora"
+      }
+    },
+
+    "process": {
+      "title": "Quy Trình Development Của Chúng Tôi",
+      "subtitle": "Phương pháp đã được chứng minh đảm bảo smart contract development an toàn, hiệu quả và đáng tin cậy từ ý tưởng đến deployment.",
+
+      "step1": {
+        "title": "Phân Tích Yêu Cầu",
+        "description": "Đi sâu vào yêu cầu dự án, business logic và thông số kỹ thuật của bạn."
+      },
+
+      "step2": {
+        "title": "Thiết Kế Kiến Trúc", 
+        "description": "Thiết kế kiến trúc contract an toàn và hiệu quả với tối ưu hóa gas trong tâm trí."
+      },
+
+      "step3": {
+        "title": "Development & Testing",
+        "description": "Triển khai code với testing toàn diện và đánh giá lỗ hổng bảo mật."
+      },
+
+      "step4": {
+        "title": "Audit & Deployment",
+        "description": "Security audit, mainnet deployment và monitoring và support sau launch."
+      }
+    },
+
+    "portfolio": {
+      "title": "Smart Contracts Nổi Bật",
+      "subtitle": "Smart contracts thành công chúng tôi đã phát triển và deploy trên nhiều blockchain networks.",
+
+      "pancakeswap": {
+        "title": "PancakeSwap DEX Protocol",
+        "description": "Giao thức sàn giao dịch phi tập trung với AMM, yield farming và chức năng cross-chain bridge.",
+        "status": "Đang Live",
+        "network": "BSC & Ethereum",
+        "tvl": "$1.8B TVL"
+      },
+
+      "nft": {
+        "title": "NFT Marketplace Contract",
+        "description": "NFT marketplace hoàn chỉnh với minting, trading, auctions và royalty management.",
+        "status": "Đang Live", 
+        "network": "Polygon",
+        "volume": "$800K Volume"
+      },
+
+      "defi": {
+        "title": "DeFi Yield Farm Protocol",
+        "description": "Yield farming protocol nâng cao với auto-compounding và khả năng tương thích cross-chain.",
+        "status": "Đang Live",
+        "network": "Multi-chain",
+        "apy": "150% APY"
+      }
+    },
+
+    "pricing": {
+      "title": "Giá Cả Minh Bạch",
+      "subtitle": "Gói giá cố định rõ ràng cho các nhu cầu smart contract development khác nhau.",
+
+      "starter": {
+        "title": "Gói Starter",
+        "price": "$1,500 - $5,000",
+        "description": "Hoàn hảo cho tokens đơn giản và contracts cơ bản",
+        "badge": "Cơ Bản",
+        "feature1": "ERC-20/721/1155 Token",
+        "feature2": "Basic Security Audit",
+        "feature3": "Testnet Deployment",
+        "feature4": "Source Code & Documentation",
+        "cta": "Bắt Đầu"
+      },
+
+      "professional": {
+        "title": "Gói Professional",
+        "price": "$5,000 - $25,000",
+        "description": "Lý tưởng cho DeFi protocols và hệ thống phức tạp",
+        "badge": "Phổ Biến Nhất",
+        "feature1": "Complex Smart Contract System",
+        "feature2": "Comprehensive Security Audit",
+        "feature3": "Multi-chain Deployment",
+        "feature4": "Frontend Integration",
+        "feature5": "Hỗ trợ 3 tháng",
+        "cta": "Chọn Professional"
+      },
+
+      "enterprise": {
+        "title": "Gói Enterprise",
+        "price": "$25,000+",
+        "description": "Hệ sinh thái blockchain hoàn chỉnh và giải pháp tùy chỉnh",
+        "badge": "Doanh Nghiệp",
+        "feature1": "Full DeFi Ecosystem",
+        "feature2": "Multiple Security Audits",
+        "feature3": "Custom Tokenomics",
+        "feature4": "Governance & DAO Systems",
+        "feature5": "Hỗ trợ 12 tháng",
+        "cta": "Liên Hệ Báo Giá"
+      }
+    },
+
+    "cta": {
+      "title": "Sẵn Sàng Xây Dựng Smart Contract?",
+      "subtitle": "Nhận hướng dẫn chuyên gia cho dự án smart contract với tư vấn miễn phí. Hãy thảo luận yêu cầu và tạo giải pháp không thể xuyên thủng cùng nhau.",
+
+      "benefit1": {
+        "title": "Tư Vấn Miễn Phí",
+        "description": "Thảo luận kỹ thuật 30-60 phút"
+      },
+
+      "benefit2": {
+        "title": "Phản Hồi 24h",
+        "description": "Đánh giá dự án và báo giá nhanh chóng"
+      },
+
+      "benefit3": {
+        "title": "Bảo Mật Đầu Tiên",
+        "description": "Code an toàn sẵn sàng cho audit"
+      },
+
+      "primary_btn": "Đặt Lịch Tư Vấn Miễn Phí",
+      "secondary_btn": "Xem Thêm Dự Án"
+    }
+  }
+}

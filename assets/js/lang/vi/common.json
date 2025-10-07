@@ -1,0 +1,102 @@
+{
+  "navigation": {
+    "home": "Trang Chủ",
+    "services": "Dịch Vụ",
+    "portfolio": "Portfolio", 
+    "about": "Giới Thiệu",
+    "contact": "Liên Hệ",
+    "blog": "Blog",
+    "cta": "Tư Vấn Miễn Phí",
+    "mega_menu": {
+      "blockchain": {
+        "title": "Phát Triển Blockchain",
+        "smart_contracts": "Smart Contracts",
+        "smart_contracts_desc": "DeFi, NFT, AI Trading",
+        "defi": "DeFi Protocols", 
+        "defi_desc": "BSC, ETH, Sol, ...",
+        "ai_trading": "AI Trading Bots",
+        "ai_trading_desc": "Thuật Toán Tự Động"
+      },
+      "web": {
+        "title": "Phát Triển Web",
+        "web_development": "Phát Triển Web",
+        "web_development_desc": "React, Vue.js, Next.js",
+        "modern_apps": "Ứng Dụng Web Hiện Đại",
+        "modern_apps_desc": "PWA, WebAssembly, AI",
+        "ecommerce": "Giải Pháp E-commerce",
+        "ecommerce_desc": "Cửa Hàng Chuyên Nghiệp"
+      },
+      "mobile": {
+        "title": "Mobile & AI Solutions",
+        "mobile_apps": "Ứng Dụng Mobile",
+        "mobile_apps_desc": "iOS & Android",
+        "ai_solutions": "Giải Pháp AI",
+        "ai_solutions_desc": "Machine Learning"
+      },
+      "consultation": {
+        "title": "Cần Tư Vấn Miễn Phí?",
+        "subtitle": "Liên hệ để được báo giá dự án chi tiết",
+        "cta": "Liên Hệ Ngay"
+      }
+    }
+  },
+  "meta": {
+    "title": "HBW - Đối Tác Công Nghệ Toàn Diện | Web Development, Blockchain Solutions",
+    "description": "HBW - Đối tác công nghệ đáng tin cậy cho doanh nghiệp. Từ Website truyền thống đến Blockchain Solutions. Dự án từ $1k-$50k. Tư vấn miễn phí 24/7.",
+    "keywords": "phát triển web, blockchain, ứng dụng di động, digital marketing, thành lập doanh nghiệp, hosting domain, công nghệ vietnam",
+    "og_title": "HBW - Đối Tác Công Nghệ Toàn Diện",
+    "og_description": "Từ Website truyền thống đến Blockchain Solutions - Giải pháp công nghệ toàn diện cho doanh nghiệp"
+  },
+  "footer": {
+    "company": {
+      "tagline": "Giải Pháp Công Nghệ",
+      "description": "Công ty phát triển blockchain hàng đầu với hơn 9 năm kinh nghiệm chuyên sâu trong xây dựng các giao thức DeFi cấp doanh nghiệp, hệ thống AI trading tinh vi và ứng dụng web tiên tiến. Chúng tôi đã thành công triển khai 200+ dự án trên nhiều ngành công nghiệp, chuyên môn hóa trong phát triển smart contract, tích hợp đa chuỗi và thuật toán trading tự động. Đội ngũ của chúng tôi kết hợp kiến thức kỹ thuật sâu rộng với kinh nghiệm kinh doanh đã được chứng minh để tạo ra các giải pháp có thể mở rộng, an toàn và hiệu suất cao, mang lại ROI có thể đo lường được cho khách hàng trên toàn thế giới."
+    },
+    "services": {
+      "core_title": "Dịch Vụ Cốt Lõi",
+      "blockchain": "Phát Triển Blockchain",
+      "web": "Phát Triển Web",
+      "mobile": "Ứng Dụng Di Động",
+      "ai_trading": "Bot Trading AI",
+      "defi": "Giao Thức DeFi"
+    },
+    "solutions": {
+      "title": "Giải Pháp & Hỗ Trợ",
+      "consulting": "Tư Vấn Kỹ Thuật",
+      "modern_apps": "Ứng Dụng Web Hiện Đại",
+      "ecommerce": "Giải Pháp Thương Mại Điện Tử",
+      "portfolio": "Portfolio",
+      "blog": "Blog Công Nghệ"
+    },
+    "contact": {
+      "title": "Liên Hệ & Pháp Lý",
+      "email": "hello@hbw.com",
+      "phone": "+84 768 931 999",
+      "location": "TP Đà Nẵng, Việt Nam",
+      "support": "Hỗ Trợ 24/7"
+    },
+    "legal": {
+      "copyright": "© 2015 HBW Technology Solutions. Tất cả quyền được bảo lưu.",
+      "privacy": "Chính Sách Bảo Mật",
+      "terms": "Điều Khoản Dịch Vụ",
+      "contact": "Liên Hệ Chúng Tôi",
+      "cookies": "Chính Sách Cookie"
+    },
+    "ozi": {
+      "company_title": "Công Ty Vận Hành",
+      "company_name": "CÔNG TY TNHH CÔNG NGHỆ & TRUYỀN THÔNG OZI NETWORK",
+      "tax_code": "Mã số thuế: 0401702133",
+      "address": "TP Đà Nẵng, Việt Nam",
+      "established": "Thành lập: 20/10/2015"
+    }
+  },
+  "contact_bubble": {
+    "title": "Liên hệ ngay",
+    "header": "Liên hệ trực tiếp", 
+    "subtitle": "Chọn phương thức liên hệ phù hợp",
+    "footer": "Hỗ trợ 24/7 - Phản hồi nhanh chóng",
+    "zalo": "Zalo",
+    "whatsapp": "WhatsApp",
+    "telegram": "Telegram"
+  }
+}

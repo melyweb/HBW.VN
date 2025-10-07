@@ -1,0 +1,188 @@
+{
+  "meta": {
+    "title": "Giải Pháp Thương Mại Điện Tử - HBW Technology Solutions"
+  },
+  "hero": {
+    "badge": "Giải Pháp E-commerce Toàn Diện",
+    "title_line1": "Xây Dựng",
+    "title_line2": "Đế Chế Online",
+    "subtitle": "Từ Shopify Plus đến các nền tảng tùy chỉnh, chúng tôi tạo ra các giải pháp thương mại điện tử có thể mở rộng, thúc đẩy doanh số, nâng cao trải nghiệm khách hàng và phát triển doanh nghiệp toàn cầu.",
+    "metrics": {
+      "stores": "500+",
+      "stores_label": "Cửa Hàng Đã Xây",
+      "revenue": "$50M+", 
+      "revenue_label": "Doanh Thu Tạo Ra",
+      "conversion": "3.8%",
+      "conversion_label": "Tỷ Lệ Chuyển Đổi TB",
+      "countries": "25+",
+      "countries_label": "Quốc Gia"
+    },
+    "cta_primary": "Khám Phá Nền Tảng",
+    "cta_secondary": "Xem Demo Cửa Hàng"
+  },
+  "platforms": {
+    "title": "Nền Tảng Thương Mại Điện Tử",
+    "subtitle": "Chọn nền tảng hoàn hảo cho cửa hàng trực tuyến của bạn. Từ giải pháp doanh nghiệp đến xây dựng tùy chỉnh, chúng tôi có chuyên môn trên tất cả các công nghệ thương mại điện tử chính.",
+    "shopify": {
+      "title": "Shopify Plus",
+      "description": "Giải pháp Shopify cấp doanh nghiệp với tùy chỉnh nâng cao, quản lý đa cửa hàng và khả năng xử lý khối lượng lớn cho doanh nghiệp mở rộng.",
+      "feature1": "Phát Triển Theme Nâng Cao",
+      "feature2": "Tích Hợp App Tùy Chỉnh",
+      "feature3": "Quản Lý Đa Cửa Hàng", 
+      "feature4": "Tích Hợp API Doanh Nghiệp",
+      "price": "Từ $15,000",
+      "timeline": "6-12 tuần"
+    },
+    "woocommerce": {
+      "title": "WooCommerce",
+      "description": "Thương mại điện tử linh hoạt dựa trên WordPress với plugin tùy chỉnh, tùy chỉnh không giới hạn và kiểm soát hoàn toàn cửa hàng trực tuyến.",
+      "feature1": "Phát Triển Plugin Tùy Chỉnh",
+      "feature2": "Tích Hợp Cổng Thanh Toán",
+      "feature3": "Quản Lý Hàng Tồn Kho",
+      "feature4": "Tối Ưu SEO",
+      "price": "Từ $8,000",
+      "timeline": "4-8 tuần"
+    },
+    "medusa": {
+      "title": "Medusa.js",
+      "description": "Nền tảng thương mại headless hiện đại với kiến trúc microservices, phương pháp API-first và khả năng tùy chỉnh không giới hạn.",
+      "feature1": "Kiến Trúc Headless",
+      "feature2": "Phát Triển API-First",
+      "feature3": "Kiến Trúc Microservices",
+      "feature4": "Thương Mại Đa Kênh",
+      "price": "Từ $20,000",
+      "timeline": "8-16 tuần"
+    },
+    "custom": {
+      "title": "Nền Tảng Tùy Chỉnh",
+      "description": "Giải pháp thương mại điện tử được xây dựng từ đầu với yêu cầu độc đáo, tích hợp nâng cao và kiến trúc có thể mở rộng.",
+      "feature1": "Kiến Trúc Được Tùy Chỉnh",
+      "feature2": "Tích Hợp Doanh Nghiệp",
+      "feature3": "Bảo Mật Nâng Cao",
+      "feature4": "Khả Năng Mở Rộng Không Giới Hạn",
+      "price": "Từ $50,000",
+      "timeline": "12-24 tuần"
+    },
+    "saleor": {
+      "title": "Saleor",
+      "description": "Nền tảng thương mại headless mã nguồn mở với GraphQL API, quản lý sản phẩm nâng cao và quốc tế hóa tích hợp sẵn.",
+      "feature1": "GraphQL API",
+      "feature2": "Hỗ Trợ Đa Tiền Tệ",
+      "feature3": "Phân Tích Nâng Cao",
+      "feature4": "Tính Linh Hoạt Mã Nguồn Mở",
+      "price": "Từ $12,000",
+      "timeline": "6-10 tuần"
+    },
+    "bigcommerce": {
+      "title": "BigCommerce",
+      "description": "Nền tảng SaaS doanh nghiệp với tính năng tích hợp sẵn, kiến trúc API-first và tích hợp bên thứ ba liền mạch cho doanh nghiệp đang phát triển.",
+      "feature1": "Stencil Framework",
+      "feature2": "Headless Commerce",
+      "feature3": "Bán Hàng Đa Kênh",
+      "feature4": "Khả Năng B2B",
+      "price": "Từ $10,000",
+      "timeline": "4-10 tuần"
+    }
+  },
+  "payments": {
+    "title": "Giải Pháp Thanh Toán",
+    "subtitle": "Xử lý thanh toán an toàn, nhanh chóng và linh hoạt với hỗ trợ tất cả các cổng thanh toán chính và phương thức thanh toán mới nổi",
+    "features": {
+      "title": "Tính Năng Thanh Toán",
+      "security": {
+        "title": "Tuân Thủ PCI",
+        "description": "Tiêu chuẩn bảo mật cấp ngân hàng"
+      },
+      "global": {
+        "title": "Phạm Vi Toàn Cầu",
+        "description": "Hỗ trợ 190+ quốc gia"
+      },
+      "currency": {
+        "title": "Đa Tiền Tệ",
+        "description": "135+ loại tiền tệ có sẵn"
+      },
+      "speed": {
+        "title": "Xử Lý Tức Thì",
+        "description": "Thời gian phản hồi dưới giây"
+      }
+    }
+  },
+  "advanced_features": {
+    "title": "Tính Năng Thương Mại Điện Tử Nâng Cao",
+    "subtitle": "Vượt xa các cửa hàng trực tuyến cơ bản với quản lý hàng tồn kho thông minh, phân tích nâng cao, tự động hóa marketing và các tính năng cá nhân hóa được hỗ trợ bởi AI.",
+    "inventory": {
+      "title": "Quản Lý Hàng Tồn Kho Thông Minh",
+      "description": "Theo dõi kho hàng thời gian thực, tự động đặt hàng lại, quản lý đa kho và phân tích dự đoán để ngăn chặn tình trạng hết hàng và tồn kho dư thừa.",
+      "feature1": "Dự Báo Nhu Cầu",
+      "feature2": "Đa Kho Hàng",
+      "feature3": "Tự Động Đặt Hàng", 
+      "feature4": "Quản Lý SKU"
+    },
+    "analytics": {
+      "title": "Thông Tin Kinh Doanh & Phân Tích",
+      "description": "Hiểu sâu về khách hàng, theo dõi hiệu suất bán hàng, tối ưu hóa chuyển đổi và phân tích dự đoán để thúc đẩy quyết định dựa trên dữ liệu.",
+      "feature1": "Phân Đoạn Khách Hàng",
+      "feature2": "Phễu Chuyển Đổi",
+      "feature3": "Kiểm Thử A/B",
+      "feature4": "Thông Tin Dự Đoán"
+    },
+    "marketing": {
+      "title": "Tự Động Hóa Marketing & AI",
+      "description": "Chiến dịch email tự động, đề xuất sản phẩm cá nhân hóa, khôi phục giỏ hàng bỏ rơi và tối ưu hóa hành trình khách hàng được hỗ trợ bởi AI.",
+      "feature1": "Tự Động Email",
+      "feature2": "Đề Xuất AI",
+      "feature3": "Khôi Phục Giỏ Hàng",
+      "feature4": "Cá Nhân Hóa"
+    }
+  },
+  "case_studies": {
+    "title": "Nghiên Cứu Tình Huống Thành Công",
+    "subtitle": "Kết quả thực từ các doanh nghiệp thực. Xem cách các giải pháp thương mại điện tử của chúng tôi đã biến đổi các công ty qua nhiều ngành và thúc đẩy tăng trưởng có thể đo lường.",
+    "techgear": {
+      "title": "TechGear Electronics",
+      "platform": "Shopify Plus + Custom Apps",
+      "status": "Đang Hoạt Động",
+      "challenge_title": "Thách Thức",
+      "challenge": "Nhà bán lẻ điện tử quy mô trung bình gặp khó khăn với quản lý hàng tồn kho trên 3 kho, quy trình thanh toán chậm và trải nghiệm di động hạn chế dẫn đến tỷ lệ bỏ giỏ hàng 68%.",
+      "solution_title": "Giải Pháp",
+      "solution": "Triển khai Shopify Plus với ứng dụng quản lý hàng tồn kho tùy chỉnh, tối ưu hóa luồng thanh toán di động, tích hợp phân tích nâng cao và phát triển đề xuất sản phẩm được hỗ trợ bởi AI.",
+      "results_title": "Kết Quả Sau 12 Tháng",
+      "result1": "Tăng Trưởng Doanh Thu",
+      "result2": "Bỏ Giỏ Hàng",
+      "result3": "Chuyển Đổi Di Động",
+      "result4": "Đánh Giá Khách Hàng"
+    },
+    "fashion": {
+      "title": "Fashion Forward Boutique",
+      "platform": "Nền Tảng Medusa.js Tùy Chỉnh",
+      "status": "Đang Hoạt Động",
+      "challenge_title": "Thách Thức",
+      "challenge": "Thương hiệu thời trang cao cấp cần giải pháp thương mại headless để tích hợp với hệ thống PIM hiện có, hỗ trợ đa tiền tệ và cung cấp trải nghiệm mua sắm cá nhân hóa trên 15 quốc gia.",
+      "solution_title": "Giải Pháp",
+      "solution": "Xây dựng nền tảng thương mại headless tùy chỉnh bằng Medusa.js với kiến trúc microservices, tích hợp hệ thống PIM nâng cao, triển khai hỗ trợ đa tiền tệ và phát triển đề xuất phong cách được hỗ trợ bởi AI.",
+      "results_title": "Kết Quả Sau 18 Tháng",
+      "result1": "Bán Hàng Quốc Tế",
+      "result2": "Doanh Thu Hàng Tháng",
+      "result3": "Khách Hàng Quay Lại",
+      "result4": "Thời Gian Tải Trang"
+    },
+    "overall": {
+      "title": "Hiệu Suất Portfolio Tổng Thể",
+      "subtitle": "Kết quả tích lũy trên tất cả các dự án thương mại điện tử của chúng tôi trong 3 năm qua",
+      "revenue": "$127M+",
+      "revenue_label": "Tổng Doanh Thu Tạo Ra",
+      "stores": "847",
+      "stores_label": "Cửa Hàng Ra Mắt", 
+      "conversion": "4.7%",
+      "conversion_label": "Chuyển Đổi Trung Bình",
+      "satisfaction": "98.2%",
+      "satisfaction_label": "Hài Lòng Khách Hàng"
+    }
+  },
+  "cta": {
+    "title": "Sẵn Sàng Ra Mắt Cửa Hàng?",
+    "subtitle": "Hãy xây dựng nền tảng thương mại điện tử thúc đẩy doanh số, làm hài lòng khách hàng và mở rộng cùng doanh nghiệp của bạn. Từ ý tưởng đến ra mắt và hơn thế nữa.",
+    "primary": "Bắt Đầu Cửa Hàng",
+    "secondary": "Xem Demo Trực Tiếp"
+  }
+}

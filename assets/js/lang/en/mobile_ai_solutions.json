@@ -1,0 +1,247 @@
+{
+  "meta": {
+    "title": "Mobile & AI Solutions - HBW Technology Solutions",
+    "description": "Advanced mobile app development with AI integration. Cross-platform solutions, native performance, AI-powered features, and intelligent user experiences.",
+    "og_title": "Mobile & AI Solutions | HBW Technology",
+    "og_description": "Professional mobile app development with cutting-edge AI integration for intelligent user experiences."
+  },
+  "hero": {
+    "badge": "Mobile & AI Innovation",
+    "title": "Intelligent Mobile Solutions",
+    "description": "Advanced mobile app development powered by cutting-edge AI technology. Create intelligent user experiences with machine learning, natural language processing, and computer vision integration.",
+    "cta_primary": "Start Your AI Project",
+    "cta_secondary": "View AI Demos",
+    "stats": {
+      "apps": "50+",
+      "apps_label": "AI-Powered Apps",
+      "accuracy": "98%",
+      "accuracy_label": "AI Accuracy Rate",
+      "performance": "3x",
+      "performance_label": "Faster Processing"
+    }
+  },
+  "capabilities": {
+    "title": "AI-Powered Mobile Capabilities",
+    "description": "Integrate cutting-edge AI technologies into your mobile applications for intelligent user experiences and enhanced functionality.",
+    "computer_vision": {
+      "title": "Computer Vision",
+      "description": "Advanced image recognition, object detection, facial recognition, and AR experiences powered by machine learning models.",
+      "feature1": "Real-time Object Detection",
+      "feature2": "Facial Recognition & Analysis",
+      "feature3": "Augmented Reality Integration"
+    },
+    "nlp": {
+      "title": "Natural Language Processing",
+      "description": "Intelligent chatbots, voice assistants, language translation, and sentiment analysis for enhanced user communication.",
+      "feature1": "Intelligent Chatbots",
+      "feature2": "Voice Recognition & Commands",
+      "feature3": "Real-time Translation"
+    },
+    "ml": {
+      "title": "Machine Learning Models",
+      "description": "Custom ML models for predictive analytics, recommendation engines, and personalized user experiences.",
+      "feature1": "Predictive Analytics",
+      "feature2": "Recommendation Engines",
+      "feature3": "Behavioral Analysis"
+    },
+    "iot": {
+      "title": "Edge AI & IoT",
+      "description": "On-device AI processing, IoT device integration, and smart sensor data analysis for real-time insights.",
+      "feature1": "On-Device Processing",
+      "feature2": "Smart Sensor Integration",
+      "feature3": "Real-time Analytics"
+    },
+    "blockchain_ai": {
+      "title": "Blockchain AI",
+      "description": "AI-powered DeFi applications, smart contract automation, and decentralized AI model training.",
+      "feature1": "DeFi AI Trading",
+      "feature2": "Smart Contract Automation",
+      "feature3": "Decentralized ML Models"
+    },
+    "ar_vr": {
+      "title": "AR/VR Intelligence",
+      "description": "Immersive AR/VR experiences with AI-powered interactions, spatial computing, and intelligent virtual assistants.",
+      "feature1": "Spatial Computing",
+      "feature2": "Virtual AI Assistants",
+      "feature3": "Immersive Interactions"
+    }
+  },
+  "tech_stack": {
+    "title": "Advanced Technology Stack",
+    "description": "Cutting-edge technologies and frameworks for building intelligent mobile applications with AI capabilities.",
+    "mobile_platforms": {
+      "title": "Mobile Development Platforms",
+      "react_native": "React Native",
+      "react_native_desc": "Cross-Platform",
+      "flutter": "Flutter",
+      "flutter_desc": "Google Framework",
+      "ios": "iOS Native",
+      "ios_desc": "Swift & Objective-C",
+      "android": "Android Native",
+      "android_desc": "Kotlin & Java"
+    },
+    "ai_frameworks": {
+      "title": "AI/ML Frameworks",
+      "tensorflow": "TensorFlow",
+      "pytorch": "PyTorch",
+      "coreml": "Core ML",
+      "ml_kit": "ML Kit",
+      "opencv": "OpenCV"
+    },
+    "cloud_backend": {
+      "title": "Cloud & Backend Infrastructure",
+      "aws": "AWS AI Services",
+      "gcp": "Google Cloud AI",
+      "azure": "Azure Cognitive",
+      "firebase": "Firebase ML",
+      "graphql": "GraphQL APIs",
+      "docker": "Docker & K8s"
+    }
+  },
+  "services": {
+    "title": "Mobile AI Development Services",
+    "description": "Comprehensive mobile development services with advanced AI integration for intelligent, feature-rich applications.",
+    "ai_mobile": {
+      "title": "AI Mobile Apps",
+      "duration": "8-16 weeks",
+      "price": "From $15,000",
+      "price_note": "Complete AI-powered mobile solution",
+      "feature1": "Computer Vision Integration",
+      "feature2": "Natural Language Processing",
+      "feature3": "Machine Learning Models",
+      "feature4": "Real-time AI Processing",
+      "feature5": "Cross-platform Deployment",
+      "cta": "Get AI App Quote"
+    },
+    "cv_apps": {
+      "title": "Computer Vision Apps",
+      "duration": "10-20 weeks",
+      "price": "From $25,000",
+      "price_note": "Advanced computer vision solution",
+      "badge": "Most Popular",
+      "feature1": "Object Detection & Recognition",
+      "feature2": "Facial Recognition System",
+      "feature3": "Augmented Reality Features",
+      "feature4": "Image Analysis & Processing",
+      "feature5": "Real-time Video Processing",
+      "feature6": "Custom ML Model Training",
+      "cta": "Start Vision Project"
+    },
+    "chatbot_apps": {
+      "title": "AI Chatbot Apps",
+      "duration": "6-12 weeks",
+      "price": "From $12,000",
+      "price_note": "Intelligent conversational AI",
+      "feature1": "Advanced NLP Integration",
+      "feature2": "Voice Recognition & Synthesis",
+      "feature3": "Multi-language Support",
+      "feature4": "Sentiment Analysis",
+      "feature5": "Integration with Backend APIs",
+      "cta": "Build AI Chatbot"
+    }
+  },
+  "metrics": {
+    "title": "AI Performance Excellence",
+    "description": "Real-world performance metrics from our AI-powered mobile applications in production environments.",
+    "accuracy": {
+      "value": "98.7%",
+      "label": "AI Accuracy",
+      "description": "Average ML model accuracy across computer vision and NLP tasks"
+    },
+    "speed": {
+      "value": "120ms",
+      "label": "Response Time",
+      "description": "Average AI processing time for real-time applications"
+    },
+    "engagement": {
+      "value": "85%",
+      "label": "User Retention",
+      "description": "30-day retention rate for AI-enabled mobile apps"
+    },
+    "battery": {
+      "value": "92%",
+      "label": "Battery Efficiency",
+      "description": "Optimized AI processing with minimal battery impact"
+    }
+  },
+  "success_stories": {
+    "title": "AI Success Stories",
+    "description": "Real projects showcasing the power of AI integration in mobile applications with measurable business results.",
+    "medical_app": {
+      "title": "MedScan AI",
+      "category": "Medical Imaging App",
+      "description": "AI-powered mobile app for medical professionals to analyze X-rays and CT scans with computer vision technology, providing instant diagnostic assistance.",
+      "accuracy": "96.5%",
+      "accuracy_label": "Diagnostic Accuracy",
+      "time_saved": "70%",
+      "time_saved_label": "Time Saved",
+      "users": "15K+",
+      "users_label": "Medical Users",
+      "tech1": "TensorFlow",
+      "tech2": "Computer Vision",
+      "tech3": "React Native",
+      "tech4": "AWS AI"
+    },
+    "retail_app": {
+      "title": "ShopSmart AI",
+      "category": "Retail Intelligence App",
+      "description": "Intelligent shopping assistant with product recognition, price comparison, and personalized recommendations using machine learning algorithms.",
+      "conversion": "45%",
+      "conversion_label": "Conversion Boost",
+      "engagement": "3.2x",
+      "engagement_label": "User Engagement",
+      "downloads": "250K+",
+      "downloads_label": "App Downloads",
+      "tech1": "ML Kit",
+      "tech2": "Recommendation Engine",
+      "tech3": "Flutter",
+      "tech4": "Firebase AI"
+    }
+  },
+  "process": {
+    "title": "AI Development Process",
+    "description": "Our systematic approach to integrating AI capabilities into mobile applications with proven methodologies and best practices.",
+    "step1": {
+      "title": "AI Strategy & Planning",
+      "description": "Define AI use cases, select appropriate models, and design the intelligent features architecture for your mobile app.",
+      "deliverable1": "AI Requirements Analysis",
+      "deliverable2": "Model Selection & Architecture",
+      "deliverable3": "Technical Feasibility Study"
+    },
+    "step2": {
+      "title": "Model Training & Optimization",
+      "description": "Train custom ML models, optimize for mobile performance, and implement edge AI capabilities for efficient processing.",
+      "deliverable1": "Custom Model Training",
+      "deliverable2": "Mobile Optimization",
+      "deliverable3": "Performance Testing"
+    },
+    "step3": {
+      "title": "Mobile App Integration",
+      "description": "Integrate AI models into mobile apps with optimized user interfaces and seamless real-time processing capabilities.",
+      "deliverable1": "AI SDK Integration",
+      "deliverable2": "UI/UX Implementation",
+      "deliverable3": "Cross-platform Deployment"
+    },
+    "step4": {
+      "title": "Deployment & AI Monitoring",
+      "description": "Deploy to app stores with continuous AI model monitoring, performance analytics, and automated model updates.",
+      "deliverable1": "App Store Deployment",
+      "deliverable2": "AI Performance Monitoring",
+      "deliverable3": "Continuous Improvement"
+    }
+  },
+  "cta": {
+    "title": "Ready to Build AI-Powered Mobile Apps?",
+    "description": "Transform your mobile app idea with cutting-edge AI technology. Get expert consultation and custom development from our experienced AI and mobile development team.",
+    "primary": "Start AI Project",
+    "secondary": "Schedule Consultation",
+    "guarantee": {
+      "consultation": "Free",
+      "consultation_label": "AI Strategy Consultation",
+      "response": "24h",
+      "response_label": "Response Time",
+      "support": "100%",
+      "support_label": "Project Success Rate"
+    }
+  }
+}

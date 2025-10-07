@@ -1,0 +1,162 @@
+{
+  "terms": {
+    "title": "Điều Khoản Dịch Vụ - HBW Technology Solutions Vietnam | Thỏa Thuận Pháp Lý",
+    "meta_description": "Điều Khoản Dịch Vụ của HBW Technology Solutions - Các điều khoản và điều kiện pháp lý cho việc sử dụng dịch vụ phát triển blockchain, DeFi và web development tại Việt Nam.",
+    "og_title": "Điều Khoản Dịch Vụ - HBW Technology Solutions Vietnam", 
+    "og_description": "Các điều khoản và điều kiện pháp lý cho dịch vụ phát triển blockchain và công nghệ của HBW.",
+    "twitter_title": "Điều Khoản Dịch Vụ - HBW Technology Solutions",
+    "twitter_description": "Các điều khoản và điều kiện pháp lý cho dịch vụ phát triển blockchain.",
+    
+    "hero": {
+      "title": "Điều Khoản Dịch Vụ",
+      "subtitle": "Các điều khoản và điều kiện pháp lý chi phối việc sử dụng dịch vụ và trang web của chúng tôi.",
+      "last_updated": "Cập nhật lần cuối: 1 tháng 10, 2024"
+    },
+    
+    "intro": {
+      "title": "Thỏa Thuận Điều Khoản",
+      "description": "Các Điều Khoản Dịch Vụ này tạo thành một thỏa thuận ràng buộc về mặt pháp lý được thực hiện giữa bạn và HBW Technology Solutions liên quan đến việc truy cập và sử dụng dịch vụ của chúng tôi. Vui lòng đọc kỹ các điều khoản này trước khi sử dụng dịch vụ."
+    },
+    
+    "toc": {
+      "title": "Mục Lục",
+      "acceptance": "1. Chấp Nhận Điều Khoản",
+      "services": "2. Dịch Vụ Của Chúng Tôi",
+      "user_obligations": "3. Nghĩa Vụ Người Dùng",
+      "payment": "4. Điều Khoản Thanh Toán",
+      "intellectual_property": "5. Quyền Sở Hữu Trí Tuệ",
+      "confidentiality": "6. Bảo Mật",
+      "warranties": "7. Bảo Hành và Tuyên Bố Từ Chối",
+      "limitation": "8. Giới Hạn Trách Nhiệm",
+      "termination": "9. Chấm Dứt",
+      "governing_law": "10. Luật Điều Chỉnh",
+      "changes": "11. Thay Đổi Điều Khoản",
+      "contact": "12. Thông Tin Liên Hệ"
+    },
+    
+    "acceptance": {
+      "title": "Chấp Nhận Điều Khoản",
+      "description": "Bằng cách truy cập hoặc sử dụng dịch vụ của chúng tôi, bạn đồng ý bị ràng buộc bởi các Điều Khoản Dịch Vụ này và Chính Sách Bảo Mật của chúng tôi. Nếu bạn không đồng ý với các điều khoản này, vui lòng không sử dụng dịch vụ của chúng tôi.",
+      "items": [
+        "Bạn phải từ 18 tuổi trở lên để sử dụng dịch vụ của chúng tôi",
+        "Bạn tuyên bố rằng bạn có thẩm quyền pháp lý để tham gia thỏa thuận này",
+        "Việc sử dụng dịch vụ của chúng tôi cấu thành việc chấp nhận các điều khoản này",
+        "Các điều khoản này có thể được cập nhật định kỳ với thông báo cho người dùng"
+      ]
+    },
+    
+    "services": {
+      "title": "Dịch Vụ Của Chúng Tôi",
+      "description": "HBW Technology Solutions cung cấp dịch vụ phát triển blockchain và công nghệ chuyên nghiệp:",
+      "blockchain": {
+        "title": "Phát Triển Blockchain",
+        "items": [
+          "Phát triển và kiểm toán smart contract",
+          "Thiết kế và triển khai giao thức DeFi",
+          "Giải pháp blockchain tùy chỉnh",
+          "Phát triển và triển khai token"
+        ]
+      },
+      "web": {
+        "title": "Phát Triển Web",
+        "items": [
+          "Ứng dụng web và website hiện đại",
+          "Nền tảng thương mại điện tử và marketplace",
+          "Thiết kế và phát triển responsive mobile",
+          "Tích hợp Web3 và phát triển dApp"
+        ]
+      },
+      "consulting": {
+        "title": "Tư Vấn Công Nghệ",
+        "items": [
+          "Chiến lược và tư vấn blockchain",
+          "Lập kế hoạch kiến trúc kỹ thuật",
+          "Đánh giá code và kiểm toán bảo mật",
+          "Đào tạo và hỗ trợ kỹ thuật"
+        ]
+      }
+    },
+    
+    "user_obligations": {
+      "title": "Nghĩa Vụ Người Dùng",
+      "description": "Khi sử dụng dịch vụ của chúng tôi, bạn đồng ý:",
+      "items": [
+        "Cung cấp thông tin chính xác và đầy đủ",
+        "Chỉ sử dụng dịch vụ cho mục đích hợp pháp",
+        "Tôn trọng quyền sở hữu trí tuệ",
+        "Duy trì tính bảo mật của thông tin nhạy cảm",
+        "Thanh toán tất cả phí và chi phí đúng hạn",
+        "Hợp tác thiện chí trong quá trình phát triển dự án"
+      ]
+    },
+    
+    "payment": {
+      "title": "Điều Khoản Thanh Toán",
+      "description": "Các điều khoản thanh toán của chúng tôi được thiết kế để công bằng và minh bạch:",
+      "general": {
+        "title": "Điều Khoản Chung",
+        "items": [
+          "Lịch thanh toán được thỏa thuận trước khi bắt đầu dự án",
+          "Hóa đơn phải thanh toán trong vòng 30 ngày kể từ khi nhận",
+          "Thanh toán chậm có thể phát sinh phí bổ sung",
+          "Tất cả giá được báo bằng USD trừ khi có quy định khác"
+        ]
+      },
+      "project": {
+        "title": "Dịch Vụ Theo Dự Án",
+        "items": [
+          "Cấu trúc thanh toán theo milestone cho các dự án lớn",
+          "Yêu cầu đặt cọc 50% trước khi bắt đầu công việc",
+          "Thanh toán cuối cùng đến hạn khi hoàn thành và giao dự án",
+          "Yêu cầu thay đổi có thể ảnh hưởng đến giá cả và timeline"
+        ]
+      }
+    },
+    
+    "intellectual_property": {
+      "title": "Quyền Sở Hữu Trí Tuệ",
+      "description": "Quyền sở hữu trí tuệ được xác định rõ ràng:",
+      "client": {
+        "title": "IP Thuộc Sở Hữu Khách Hàng",
+        "items": [
+          "Code tùy chỉnh được phát triển cụ thể cho dự án của bạn",
+          "Logic kinh doanh độc nhất và thuật toán độc quyền",
+          "Tài liệu và đặc tả cụ thể của dự án",
+          "Yếu tố thương hiệu và thiết kế được tạo cho việc sử dụng của bạn"
+        ]
+      },
+      "hbw": {
+        "title": "IP HBW Giữ Lại",
+        "items": [
+          "Phương pháp luận chung và framework phát triển",
+          "Thư viện code có thể tái sử dụng và components",
+          "Kiến thức kỹ thuật và chuyên môn",
+          "Công cụ và tiện ích được phát triển cho sử dụng nội bộ"
+        ]
+      }
+    },
+    
+    "warranties": {
+      "title": "Bảo Hành và Tuyên Bố Từ Chối",
+      "description": "Chúng tôi cung cấp dịch vụ với sự chăm sóc chuyên nghiệp và thực tiễn tốt nhất trong ngành:",
+      "warranties": {
+        "title": "Bảo Hành Của Chúng Tôi",
+        "items": [
+          "Dịch vụ sẽ được thực hiện với kỹ năng và sự chăm sóc chuyên nghiệp",
+          "Code sẽ được phát triển theo đặc tả đã thỏa thuận",
+          "Chúng tôi sẽ giải quyết bugs và issues được xác định trong thời gian bảo hành",
+          "Dịch vụ sẽ tuân thủ các luật và quy định áp dụng"
+        ]
+      },
+      "disclaimers": {
+        "title": "Tuyên Bố Từ Chối",
+        "items": [
+          "Dịch vụ được cung cấp 'như hiện tại' mà không bảo đảm kết quả cụ thể",
+          "Chúng tôi không đảm bảo thành công thị trường hoặc lợi nhuận tài chính",
+          "Thị trường blockchain và cryptocurrency biến động và không thể dự đoán",
+          "Người dùng có tr책nhiệm tuân thủ quy định trong phạm vi quyền hạn của họ"
+        ]
+      }
+    }
+  }
+}

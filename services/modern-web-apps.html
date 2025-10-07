@@ -1,0 +1,921 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary SEO Meta Tags -->
+    <title data-i18n="modern_web_apps.meta.title">Modern Web Applications Development Vietnam | Next.js 14, WebAssembly, AI - HBW</title>
+    <meta name="description" content="Cutting-edge modern web application development in Vietnam. Next.js 14, React Server Components, WebAssembly, Progressive Web Apps, AI integration. Enterprise-grade performance with 50% faster builds." data-i18n="modern_web_apps.meta.description">
+    <meta name="keywords" content="modern web applications Vietnam, Next.js 14 development, React Server Components, WebAssembly development, PWA development Vietnam, AI web integration, Web Components development, edge computing Vietnam">
+    <meta name="author" content="HBW Technology Solutions">
+    <meta name="robots" content="index, follow, max-image-preview:large">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="service">
+    <meta property="og:url" content="https://hbw.vn/services/modern-web-apps.html">
+    <meta property="og:title" content="Modern Web Applications Development Vietnam | Next.js 14 & AI - HBW" data-i18n="modern_web_apps.og_title">
+    <meta property="og:description" content="Cutting-edge web applications with Next.js 14, WebAssembly, AI integration. 50% faster builds, 70% smaller bundles." data-i18n="modern_web_apps.og_description">
+    <meta property="og:image" content="https://hbw.vn/assets/images/hbw-og-homepage.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:site_name" content="HBW Technology Solutions">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@hbw_tech">
+    <meta name="twitter:title" content="Modern Web Applications Vietnam | Next.js 14 - HBW" data-i18n="modern_web_apps.twitter_title">
+    <meta name="twitter:description" content="Next-generation web apps with WebAssembly, AI integration, 50% faster performance." data-i18n="modern_web_apps.twitter_description">
+    <meta name="twitter:image" content="https://hbw.vn/assets/images/hbw-og-homepage.jpg">
+    
+    <!-- Canonical & Language -->
+    <link rel="canonical" href="https://hbw.vn/services/modern-web-apps.html">
+    <link rel="alternate" hreflang="vi" href="https://hbw.vn/services/modern-web-apps.html">
+    <link rel="alternate" hreflang="en" href="https://hbw.vn/services/modern-web-apps.html?lang=en">
+    
+    <!-- Favicons -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
+    <meta name="theme-color" content="#06b6d4">
+    
+    <!-- Preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": "Modern Web Applications Development",
+        "description": "Cutting-edge web application development with Next.js 14, WebAssembly, and AI integration",
+        "provider": {
+            "@type": "Organization",
+            "name": "HBW Technology Solutions",
+            "url": "https://hbw.vn"
+        },
+        "serviceType": "Modern Web Application Development",
+        "areaServed": "Vietnam",
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Modern Web App Services",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Next.js 14 Applications",
+                        "description": "Server Components with 50% faster builds and Turbopack"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "WebAssembly Integration",
+                        "description": "Native-speed execution with 10x performance boost"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "AI-Powered Applications",
+                        "description": "Vercel AI SDK with streaming responses and edge processing"
+                    }
+                }
+            ]
+        },
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5.0",
+            "reviewCount": "15"
+        }
+    }
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind Configuration -->
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'sans': ['Inter', 'system-ui', 'sans-serif'],
+                    },
+                    animation: {
+                        'pulse-slow': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+                        'bounce-slow': 'bounce 2s infinite',
+                        'float': 'float 6s ease-in-out infinite',
+                        'glow': 'glow 2s ease-in-out infinite alternate',
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <!-- Custom Styles -->
+    <style>
+        .gradient-text {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .hero-gradient {
+            background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 25%, #8b5cf6 50%, #ec4899 75%, #ef4444 100%);
+        }
+        
+        .modern-gradient {
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 25%, #334155 50%, #475569 75%, #64748b 100%);
+        }
+        
+        .card-hover {
+            transition: all 0.3s ease;
+        }
+        
+        .card-hover:hover {
+            transform: translateY(-12px);
+            box-shadow: 0 25px 50px rgba(0,0,0,0.15);
+        }
+        
+        /* Advanced Animations */
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0px) rotate(0deg);
+                opacity: 0.8;
+            }
+            50% {
+                transform: translateY(-20px) rotate(3deg);
+                opacity: 1;
+            }
+        }
+        
+        @keyframes glow {
+            from {
+                box-shadow: 0 0 20px rgba(59, 130, 246, 0.5);
+            }
+            to {
+                box-shadow: 0 0 30px rgba(139, 92, 246, 0.8);
+            }
+        }
+        
+        /* Modern Tech Showcase Styles */
+        .tech-card {
+            background: linear-gradient(135deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.05) 100%);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+        
+        .tech-icon {
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+        
+        .tech-icon:hover {
+            transform: scale(1.2) rotate(10deg);
+        }
+        
+        /* Code Animation */
+        .code-line {
+            opacity: 0;
+            animation: typewriter 0.5s ease-in-out forwards;
+        }
+        
+        @keyframes typewriter {
+            from {
+                opacity: 0;
+                width: 0;
+            }
+            to {
+                opacity: 1;
+                width: 100%;
+            }
+        }
+        
+        /* Modern Browser Features */
+        .browser-mockup {
+            background: linear-gradient(145deg, #f8fafc, #e2e8f0);
+            border: 1px solid #cbd5e1;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        
+        .dark .browser-mockup {
+            background: linear-gradient(145deg, #1e293b, #0f172a);
+            border: 1px solid #334155;
+        }
+        
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .hero-gradient {
+                background: linear-gradient(180deg, #1e3a8a 0%, #3b82f6 50%, #8b5cf6 100%);
+            }
+        }
+    </style>
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": "Modern Web Applications",
+        "provider": {
+            "@type": "Organization",
+            "name": "HBW Technology Solutions",
+            "url": "https://hbwtechnology.com"
+        },
+        "serviceType": "Modern Web Application Development",
+        "description": "Cutting-edge web applications with Next.js 14, React Server Components, WebAssembly, Progressive Web Apps, and AI integration",
+        "offers": [
+            {
+                "@type": "Offer",
+                "name": "Next.js 14 Applications",
+                "description": "Server Components and App Router applications"
+            },
+            {
+                "@type": "Offer", 
+                "name": "Progressive Web Apps",
+                "description": "PWA with offline functionality and native app features"
+            },
+            {
+                "@type": "Offer",
+                "name": "AI Integration",
+                "description": "Intelligent web applications with machine learning"
+            }
+        ]
+    }
+    </script>
+</head>
+<body class="font-sans bg-gray-50 dark:bg-slate-900 text-gray-900 dark:text-white">
+    
+    <!-- Header Placeholder -->
+    <div id="header-placeholder"></div>
+    
+    <!-- Hero Section -->
+    <section class="hero-gradient relative min-h-screen flex items-center justify-center overflow-hidden">
+        <!-- Animated Background Elements -->
+        <div class="absolute inset-0 overflow-hidden">
+            <!-- Floating Tech Icons -->
+            <div class="absolute top-20 left-10 w-20 h-20 bg-blue-500 bg-opacity-20 rounded-full flex items-center justify-center animate-float" style="animation-delay: 0s;">
+                <i class="fab fa-react text-2xl text-white"></i>
+            </div>
+            <div class="absolute top-40 right-20 w-16 h-16 bg-purple-500 bg-opacity-20 rounded-full flex items-center justify-center animate-float" style="animation-delay: 1s;">
+                <i class="fab fa-js-square text-xl text-white"></i>
+            </div>
+            <div class="absolute bottom-40 left-20 w-18 h-18 bg-green-500 bg-opacity-20 rounded-full flex items-center justify-center animate-float" style="animation-delay: 2s;">
+                <i class="fab fa-node-js text-xl text-white"></i>
+            </div>
+            <div class="absolute bottom-20 right-10 w-14 h-14 bg-pink-500 bg-opacity-20 rounded-full flex items-center justify-center animate-float" style="animation-delay: 3s;">
+                <i class="fas fa-brain text-lg text-white"></i>
+            </div>
+            
+            <!-- Grid Pattern -->
+            <div class="absolute inset-0 opacity-10">
+                <div class="absolute inset-0" style="background-image: radial-gradient(circle at 2px 2px, white 1px, transparent 0); background-size: 50px 50px;"></div>
+            </div>
+        </div>
+
+        <div class="container mx-auto px-6 py-24 relative z-10">
+            <div class="text-center max-w-6xl mx-auto">
+                <!-- Badge -->
+                <div class="inline-flex items-center px-6 py-3 bg-white bg-opacity-20 backdrop-blur-sm rounded-full text-white text-sm font-medium mb-8 animate-glow">
+                    <div class="w-3 h-3 bg-green-400 rounded-full mr-3 animate-pulse"></div>
+                    <span data-i18n="modern_web_apps.hero.badge">Next-Generation Web Applications</span>
+                </div>
+                
+                <!-- Main Heading -->
+                <h1 class="text-5xl md:text-7xl lg:text-8xl font-bold text-white mb-8 leading-tight">
+                    <span data-i18n="modern_web_apps.hero.title_line1">The Future of</span><br>
+                    <span class="bg-gradient-to-r from-cyan-300 via-blue-300 to-purple-300 bg-clip-text text-transparent animate-pulse-slow" data-i18n="modern_web_apps.hero.title_line2">Web Apps</span>
+                </h1>
+                
+                <!-- Subtitle -->
+                <p class="text-xl md:text-2xl text-white text-opacity-90 mb-12 max-w-4xl mx-auto leading-relaxed" data-i18n="modern_web_apps.hero.subtitle">
+                    Harness cutting-edge technologies like Next.js 14, React Server Components, WebAssembly, and AI integration to build lightning-fast, intelligent web applications that set new industry standards.
+                </p>
+                
+                <!-- Tech Highlights -->
+                <div class="grid grid-cols-2 lg:grid-cols-4 gap-6 mb-12 max-w-4xl mx-auto">
+                    <div class="tech-card rounded-2xl p-4 text-center">
+                        <div class="w-12 h-12 bg-gradient-to-br from-blue-400 to-blue-600 rounded-xl flex items-center justify-center mx-auto mb-3 tech-icon">
+                            <i class="fab fa-react text-white text-xl"></i>
+                        </div>
+                        <div class="text-white font-semibold text-sm" data-i18n="modern_web_apps.hero.tech.react">React 18+</div>
+                        <div class="text-blue-200 text-xs" data-i18n="modern_web_apps.hero.tech.react_desc">Server Components</div>
+                    </div>
+                    <div class="tech-card rounded-2xl p-4 text-center">
+                        <div class="w-12 h-12 bg-gradient-to-br from-purple-400 to-purple-600 rounded-xl flex items-center justify-center mx-auto mb-3 tech-icon">
+                            <i class="fas fa-cube text-white text-xl"></i>
+                        </div>
+                        <div class="text-white font-semibold text-sm" data-i18n="modern_web_apps.hero.tech.wasm">WebAssembly</div>
+                        <div class="text-purple-200 text-xs" data-i18n="modern_web_apps.hero.tech.wasm_desc">Native Performance</div>
+                    </div>
+                    <div class="tech-card rounded-2xl p-4 text-center">
+                        <div class="w-12 h-12 bg-gradient-to-br from-green-400 to-green-600 rounded-xl flex items-center justify-center mx-auto mb-3 tech-icon">
+                            <i class="fas fa-brain text-white text-xl"></i>
+                        </div>
+                        <div class="text-white font-semibold text-sm" data-i18n="modern_web_apps.hero.tech.ai">AI Integration</div>
+                        <div class="text-green-200 text-xs" data-i18n="modern_web_apps.hero.tech.ai_desc">Smart Features</div>
+                    </div>
+                    <div class="tech-card rounded-2xl p-4 text-center">
+                        <div class="w-12 h-12 bg-gradient-to-br from-pink-400 to-pink-600 rounded-xl flex items-center justify-center mx-auto mb-3 tech-icon">
+                            <i class="fas fa-mobile-alt text-white text-xl"></i>
+                        </div>
+                        <div class="text-white font-semibold text-sm" data-i18n="modern_web_apps.hero.tech.pwa">Progressive PWA</div>
+                        <div class="text-pink-200 text-xs" data-i18n="modern_web_apps.hero.tech.pwa_desc">Offline Ready</div>
+                    </div>
+                </div>
+                
+                <!-- CTA Buttons -->
+                <div class="flex flex-col sm:flex-row gap-6 justify-center items-center">
+                    <a href="#technologies" class="group inline-flex items-center px-10 py-5 bg-white text-blue-600 font-bold rounded-full hover:bg-gray-100 transition-all duration-300 transform hover:scale-105 shadow-2xl">
+                        <span data-i18n="modern_web_apps.hero.cta_primary">Explore Technologies</span>
+                        <i class="fas fa-rocket ml-3 group-hover:translate-x-2 transition-transform duration-300"></i>
+                    </a>
+                    <a href="#showcase" class="inline-flex items-center px-10 py-5 border-2 border-white text-white font-bold rounded-full hover:bg-white hover:text-blue-600 transition-all duration-300">
+                        <i class="fas fa-play mr-3"></i>
+                        <span data-i18n="modern_web_apps.hero.cta_secondary">View Demo</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modern Technologies Section -->
+    <section id="technologies" class="py-24 bg-white dark:bg-slate-900">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-20">
+                <h2 class="text-4xl md:text-6xl font-bold text-gray-900 dark:text-white mb-6" data-i18n="modern_web_apps.technologies.title">
+                    Cutting-Edge Technologies
+                </h2>
+                <p class="text-xl text-gray-600 dark:text-gray-300 max-w-4xl mx-auto" data-i18n="modern_web_apps.technologies.subtitle">
+                    We leverage the most advanced web technologies to build applications that push the boundaries of what's possible in the browser.
+                </p>
+            </div>
+
+            <!-- Technologies Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+                
+                <!-- Next.js 14 & App Router -->
+                <div class="group bg-gradient-to-br from-slate-50 to-gray-100 dark:from-slate-800 dark:to-slate-700 rounded-3xl p-8 card-hover border border-gray-200 dark:border-slate-600">
+                    <div class="flex items-center justify-center w-20 h-20 mb-6 bg-gradient-to-br from-slate-900 to-gray-700 rounded-2xl shadow-lg group-hover:scale-110 transition-transform duration-300">
+                        <svg class="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M11.572 0c-.176 0-.31.001-.358.007a19.76 19.76 0 0 1-.364.033C7.443.346 4.25 2.185 2.228 5.012a11.875 11.875 0 0 0-2.119 5.243c-.096.659-.108.854-.108 1.747s.012 1.089.108 1.748c.652 4.506 3.86 8.292 8.209 9.695.779.25 1.6.422 2.534.525.363.04 1.935.04 2.299 0 1.611-.178 2.977-.577 4.323-1.264.207-.106.247-.134.219-.158-.02-.013-.9-.1200-1.954-.239a384.03 384.03 0 0 1-1.955-.239l-.027-.013-.247 2.134c-.17 1.47-.32 2.664-.335 2.654-.024-.016-.08-.95-.125-2.08a496.49 496.49 0 0 1-.123-2.005l.002-.013.41-.051c.8-.101 1.503-.203 1.73-.25l.036-.007.044-.382c.048-.41.191-1.734.317-2.942.197-1.89.226-2.205.226-2.4 0-.165-.013-.305-.028-.305-.016 0-.838.114-1.827.254l-1.8.254-.013.002-.205-1.77a385.09 385.09 0 0 1-.208-1.791c-.002-.013.32-.057.715-.097.715-.072 1.555-.168 1.847-.211l.105-.016.044-.382c.048-.411.191-1.734.317-2.942.133-1.28.168-1.584.193-1.727a.32.32 0 0 0-.023-.17c-.013-.04-.962.108-2.235.341zm4.869 15.177c.13.957.235 1.746.235 1.753 0 .007-.802.127-1.781.266l-1.781.254-.013.002-.235-2.027a90.21 90.21 0 0 1-.258-2.174l-.002-.013.41-.051c.8-.101 1.503-.203 1.73-.25l.036-.007.059.247z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 dark:text-white mb-4" data-i18n="modern_web_apps.technologies.nextjs.title">
+                        Next.js 14 & App Router
+                    </h3>
+                    <p class="text-gray-600 dark:text-gray-300 mb-6" data-i18n="modern_web_apps.technologies.nextjs.description">
+                        Latest Next.js with App Router, React Server Components, and Turbopack for blazing-fast development and optimal performance.
+                    </p>
+                    <ul class="space-y-3 mb-6">
+                        <li class="flex items-center text-gray-600 dark:text-gray-300">
+                            <i class="fas fa-check-circle text-green-500 mr-3"></i>
+                            <span data-i18n="modern_web_apps.technologies.nextjs.feature1">Server & Client Components</span>
+                        </li>
+                        <li class="flex items-center text-gray-600 dark:text-gray-300">
+                            <i class="fas fa-check-circle text-green-500 mr-3"></i>
+                            <span data-i18n="modern_web_apps.technologies.nextjs.feature2">App Router Architecture</span>
+                        </li>
+                        <li class="flex items-center text-gray-600 dark:text-gray-300">
+                            <i class="fas fa-check-circle text-green-500 mr-3"></i>
+                            <span data-i18n="modern_web_apps.technologies.nextjs.feature3">Turbopack Integration</span>
+                        </li>
+                        <li class="flex items-center text-gray-600 dark:text-gray-300">
+                            <i class="fas fa-check-circle text-green-500 mr-3"></i>
+                            <span data-i18n="modern_web_apps.technologies.nextjs.feature4">Edge Runtime Support</span>
+                        </li>
+                    </ul>
+                    <div class="text-2xl font-bold text-slate-700 dark:text-slate-300" data-i18n="modern_web_apps.technologies.nextjs.performance">50% Faster Builds</div>
+                </div>
+
+                <!-- React Server Components -->
+                <div class="group bg-gradient-to-br from-blue-50 to-cyan-50 dark:from-slate-800 dark:to-slate-700 rounded-3xl p-8 card-hover border border-blue-200 dark:border-slate-600">
+                    <div class="flex items-center justify-center w-20 h-20 mb-6 bg-gradient-to-br from-blue-500 to-cyan-600 rounded-2xl shadow-lg group-hover:scale-110 transition-transform duration-300">
+                        <i class="fab fa-react text-3xl text-white group-hover:rotate-180 transition-transform duration-500"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 dark:text-white mb-4" data-i18n="modern_web_apps.technologies.rsc.title">
+                        React Server Components
+                    </h3>
+                    <p class="text-gray-600 dark:text-gray-300 mb-6" data-i18n="modern_web_apps.technologies.rsc.description">
+                        Revolutionary architecture that renders components on the server, reducing bundle sizes and improving performance dramatically.
+                    </p>
+                    <ul class="space-y-3 mb-6">
+                        <li class="flex items-center text-gray-600 dark:text-gray-300">
+                            <i class="fas fa-check-circle text-green-500 mr-3"></i>
+                            <span data-i18n="modern_web_apps.technologies.rsc.feature1">Zero Bundle Impact</span>
+                        </li>
+                        <li class="flex items-center text-gray-600 dark:text-gray-300">
+                            <i class="fas fa-check-circle text-green-500 mr-3"></i>
+                            <span data-i18n="modern_web_apps.technologies.rsc.feature2">Server-Side Data Access</span>
+                        </li>
+                        <li class="flex items-center text-gray-600 dark:text-gray-300">
+                            <i class="fas fa-check-circle text-green-500 mr-3"></i>
+                            <span data-i18n="modern_web_apps.technologies.rsc.feature3">Automatic Code Splitting</span>
+                        </li>
+                        <li class="flex items-center text-gray-600 dark:text-gray-300">
+                            <i class="fas fa-check-circle text-green-500 mr-3"></i>
+                            <span data-i18n="modern_web_apps.technologies.rsc.feature4">Streaming Rendering</span>
+                        </li>
+                    </ul>
+                    <div class="text-2xl font-bold text-blue-600 dark:text-blue-400" data-i18n="modern_web_apps.technologies.rsc.performance">70% Smaller Bundles</div>
+                </div>
+
+                <!-- WebAssembly (WASM) -->
+                <div class="group bg-gradient-to-br from-purple-50 to-indigo-50 dark:from-slate-800 dark:to-slate-700 rounded-3xl p-8 card-hover border border-purple-200 dark:border-slate-600">
+                    <div class="flex items-center justify-center w-20 h-20 mb-6 bg-gradient-to-br from-purple-500 to-indigo-600 rounded-2xl shadow-lg group-hover:scale-110 transition-transform duration-300">
+                        <i class="fas fa-cube text-3xl text-white group-hover:rotate-12 transition-transform duration-500"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 dark:text-white mb-4" data-i18n="modern_web_apps.technologies.wasm.title">
+                        WebAssembly (WASM)
+                    </h3>
+                    <p class="text-gray-600 dark:text-gray-300 mb-6" data-i18n="modern_web_apps.technologies.wasm.description">
+                        Near-native performance for computationally intensive tasks, enabling complex applications previously impossible in browsers.
+                    </p>
+                    <ul class="space-y-3 mb-6">
+                        <li class="flex items-center text-gray-600 dark:text-gray-300">
+                            <i class="fas fa-check-circle text-green-500 mr-3"></i>
+                            <span data-i18n="modern_web_apps.technologies.wasm.feature1">Native-Speed Execution</span>
+                        </li>
+                        <li class="flex items-center text-gray-600 dark:text-gray-300">
+                            <i class="fas fa-check-circle text-green-500 mr-3"></i>
+                            <span data-i18n="modern_web_apps.technologies.wasm.feature2">Multi-Language Support</span>
+                        </li>
+                        <li class="flex items-center text-gray-600 dark:text-gray-300">
+                            <i class="fas fa-check-circle text-green-500 mr-3"></i>
+                            <span data-i18n="modern_web_apps.technologies.wasm.feature3">Secure Sandboxing</span>
+                        </li>
+                        <li class="flex items-center text-gray-600 dark:text-gray-300">
+                            <i class="fas fa-check-circle text-green-500 mr-3"></i>
+                            <span data-i18n="modern_web_apps.technologies.wasm.feature4">Cross-Platform Binary</span>
+                        </li>
+                    </ul>
+                    <div class="text-2xl font-bold text-purple-600 dark:text-purple-400" data-i18n="modern_web_apps.technologies.wasm.performance">10x Performance</div>
+                </div>
+
+                <!-- AI Integration & Vercel AI SDK -->
+                <div class="group bg-gradient-to-br from-green-50 to-emerald-50 dark:from-slate-800 dark:to-slate-700 rounded-3xl p-8 card-hover border border-green-200 dark:border-slate-600">
+                    <div class="flex items-center justify-center w-20 h-20 mb-6 bg-gradient-to-br from-green-500 to-emerald-600 rounded-2xl shadow-lg group-hover:scale-110 transition-transform duration-300">
+                        <i class="fas fa-brain text-3xl text-white group-hover:pulse transition-transform duration-500"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 dark:text-white mb-4" data-i18n="modern_web_apps.technologies.ai.title">
+                        AI Integration & Vercel AI SDK
+                    </h3>
+                    <p class="text-gray-600 dark:text-gray-300 mb-6" data-i18n="modern_web_apps.technologies.ai.description">
+                        Seamlessly integrate AI capabilities with streaming responses, function calling, and intelligent user interfaces powered by latest LLMs.
+                    </p>
+                    <ul class="space-y-3 mb-6">
+                        <li class="flex items-center text-gray-600 dark:text-gray-300">
+                            <i class="fas fa-check-circle text-green-500 mr-3"></i>
+                            <span data-i18n="modern_web_apps.technologies.ai.feature1">Streaming AI Responses</span>
+                        </li>
+                        <li class="flex items-center text-gray-600 dark:text-gray-300">
+                            <i class="fas fa-check-circle text-green-500 mr-3"></i>
+                            <span data-i18n="modern_web_apps.technologies.ai.feature2">Function Calling</span>
+                        </li>
+                        <li class="flex items-center text-gray-600 dark:text-gray-300">
+                            <i class="fas fa-check-circle text-green-500 mr-3"></i>
+                            <span data-i18n="modern_web_apps.technologies.ai.feature3">Multi-Modal Support</span>
+                        </li>
+                        <li class="flex items-center text-gray-600 dark:text-gray-300">
+                            <i class="fas fa-check-circle text-green-500 mr-3"></i>
+                            <span data-i18n="modern_web_apps.technologies.ai.feature4">Edge AI Processing</span>
+                        </li>
+                    </ul>
+                    <div class="text-2xl font-bold text-green-600 dark:text-green-400" data-i18n="modern_web_apps.technologies.ai.performance">Smart Interfaces</div>
+                </div>
+
+                <!-- Web Components & Custom Elements -->
+                <div class="group bg-gradient-to-br from-orange-50 to-red-50 dark:from-slate-800 dark:to-slate-700 rounded-3xl p-8 card-hover border border-orange-200 dark:border-slate-600">
+                    <div class="flex items-center justify-center w-20 h-20 mb-6 bg-gradient-to-br from-orange-500 to-red-600 rounded-2xl shadow-lg group-hover:scale-110 transition-transform duration-300">
+                        <i class="fas fa-puzzle-piece text-3xl text-white group-hover:-rotate-12 transition-transform duration-500"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 dark:text-white mb-4" data-i18n="modern_web_apps.technologies.web_components.title">
+                        Web Components & Custom Elements
+                    </h3>
+                    <p class="text-gray-600 dark:text-gray-300 mb-6" data-i18n="modern_web_apps.technologies.web_components.description">
+                        Framework-agnostic reusable components using native browser standards for maximum compatibility and performance.
+                    </p>
+                    <ul class="space-y-3 mb-6">
+                        <li class="flex items-center text-gray-600 dark:text-gray-300">
+                            <i class="fas fa-check-circle text-green-500 mr-3"></i>
+                            <span data-i18n="modern_web_apps.technologies.web_components.feature1">Shadow DOM Encapsulation</span>
+                        </li>
+                        <li class="flex items-center text-gray-600 dark:text-gray-300">
+                            <i class="fas fa-check-circle text-green-500 mr-3"></i>
+                            <span data-i18n="modern_web_apps.technologies.web_components.feature2">HTML Templates</span>
+                        </li>
+                        <li class="flex items-center text-gray-600 dark:text-gray-300">
+                            <i class="fas fa-check-circle text-green-500 mr-3"></i>
+                            <span data-i18n="modern_web_apps.technologies.web_components.feature3">Custom Elements API</span>
+                        </li>
+                        <li class="flex items-center text-gray-600 dark:text-gray-300">
+                            <i class="fas fa-check-circle text-green-500 mr-3"></i>
+                            <span data-i18n="modern_web_apps.technologies.web_components.feature4">Framework Agnostic</span>
+                        </li>
+                    </ul>
+                    <div class="text-2xl font-bold text-orange-600 dark:text-orange-400" data-i18n="modern_web_apps.technologies.web_components.performance">Universal Compatibility</div>
+                </div>
+
+                <!-- Progressive Web Apps (PWA) -->
+                <div class="group bg-gradient-to-br from-pink-50 to-rose-50 dark:from-slate-800 dark:to-slate-700 rounded-3xl p-8 card-hover border border-pink-200 dark:border-slate-600">
+                    <div class="flex items-center justify-center w-20 h-20 mb-6 bg-gradient-to-br from-pink-500 to-rose-600 rounded-2xl shadow-lg group-hover:scale-110 transition-transform duration-300">
+                        <i class="fas fa-mobile-alt text-3xl text-white group-hover:bounce transition-transform duration-500"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 dark:text-white mb-4" data-i18n="modern_web_apps.technologies.pwa.title">
+                        Progressive Web Apps (PWA)
+                    </h3>
+                    <p class="text-gray-600 dark:text-gray-300 mb-6" data-i18n="modern_web_apps.technologies.pwa.description">
+                        App-like experiences with offline functionality, push notifications, and installable interfaces that work across all devices.
+                    </p>
+                    <ul class="space-y-3 mb-6">
+                        <li class="flex items-center text-gray-600 dark:text-gray-300">
+                            <i class="fas fa-check-circle text-green-500 mr-3"></i>
+                            <span data-i18n="modern_web_apps.technologies.pwa.feature1">Service Workers</span>
+                        </li>
+                        <li class="flex items-center text-gray-600 dark:text-gray-300">
+                            <i class="fas fa-check-circle text-green-500 mr-3"></i>
+                            <span data-i18n="modern_web_apps.technologies.pwa.feature2">Offline Support</span>
+                        </li>
+                        <li class="flex items-center text-gray-600 dark:text-gray-300">
+                            <i class="fas fa-check-circle text-green-500 mr-3"></i>
+                            <span data-i18n="modern_web_apps.technologies.pwa.feature3">Push Notifications</span>
+                        </li>
+                        <li class="flex items-center text-gray-600 dark:text-gray-300">
+                            <i class="fas fa-check-circle text-green-500 mr-3"></i>
+                            <span data-i18n="modern_web_apps.technologies.pwa.feature4">App Installation</span>
+                        </li>
+                    </ul>
+                    <div class="text-2xl font-bold text-pink-600 dark:text-pink-400" data-i18n="modern_web_apps.technologies.pwa.performance">Native-Like UX</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modern Browser APIs Section -->
+    <section class="py-24 bg-gray-50 dark:bg-slate-800">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-6" data-i18n="modern_web_apps.apis.title">
+                    Modern Browser APIs
+                </h2>
+                <p class="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto" data-i18n="modern_web_apps.apis.subtitle">
+                    Leverage cutting-edge browser capabilities to create immersive and powerful web experiences
+                </p>
+            </div>
+
+            <!-- APIs Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                
+                <!-- WebRTC -->
+                <div class="bg-white dark:bg-slate-700 rounded-2xl p-6 card-hover text-center">
+                    <div class="w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-700 rounded-xl flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-video text-2xl text-white"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900 dark:text-white mb-2" data-i18n="modern_web_apps.apis.webrtc.title">WebRTC</h3>
+                    <p class="text-sm text-gray-600 dark:text-gray-300" data-i18n="modern_web_apps.apis.webrtc.description">Real-time video/audio communication</p>
+                </div>
+
+                <!-- WebGPU -->
+                <div class="bg-white dark:bg-slate-700 rounded-2xl p-6 card-hover text-center">
+                    <div class="w-16 h-16 bg-gradient-to-br from-purple-500 to-purple-700 rounded-xl flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-microchip text-2xl text-white"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900 dark:text-white mb-2" data-i18n="modern_web_apps.apis.webgpu.title">WebGPU</h3>
+                    <p class="text-sm text-gray-600 dark:text-gray-300" data-i18n="modern_web_apps.apis.webgpu.description">High-performance graphics and compute</p>
+                </div>
+
+                <!-- Web Locks API -->
+                <div class="bg-white dark:bg-slate-700 rounded-2xl p-6 card-hover text-center">
+                    <div class="w-16 h-16 bg-gradient-to-br from-green-500 to-green-700 rounded-xl flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-lock text-2xl text-white"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900 dark:text-white mb-2" data-i18n="modern_web_apps.apis.web_locks.title">Web Locks</h3>
+                    <p class="text-sm text-gray-600 dark:text-gray-300" data-i18n="modern_web_apps.apis.web_locks.description">Resource coordination across tabs</p>
+                </div>
+
+                <!-- Intersection Observer -->
+                <div class="bg-white dark:bg-slate-700 rounded-2xl p-6 card-hover text-center">
+                    <div class="w-16 h-16 bg-gradient-to-br from-orange-500 to-orange-700 rounded-xl flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-eye text-2xl text-white"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900 dark:text-white mb-2" data-i18n="modern_web_apps.apis.intersection.title">Intersection Observer</h3>
+                    <p class="text-sm text-gray-600 dark:text-gray-300" data-i18n="modern_web_apps.apis.intersection.description">Efficient viewport monitoring</p>
+                </div>
+
+                <!-- Payment Request API -->
+                <div class="bg-white dark:bg-slate-700 rounded-2xl p-6 card-hover text-center">
+                    <div class="w-16 h-16 bg-gradient-to-br from-red-500 to-red-700 rounded-xl flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-credit-card text-2xl text-white"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900 dark:text-white mb-2" data-i18n="modern_web_apps.apis.payment.title">Payment Request</h3>
+                    <p class="text-sm text-gray-600 dark:text-gray-300" data-i18n="modern_web_apps.apis.payment.description">Streamlined payment flows</p>
+                </div>
+
+                <!-- Web Share API -->
+                <div class="bg-white dark:bg-slate-700 rounded-2xl p-6 card-hover text-center">
+                    <div class="w-16 h-16 bg-gradient-to-br from-pink-500 to-pink-700 rounded-xl flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-share-alt text-2xl text-white"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900 dark:text-white mb-2" data-i18n="modern_web_apps.apis.web_share.title">Web Share</h3>
+                    <p class="text-sm text-gray-600 dark:text-gray-300" data-i18n="modern_web_apps.apis.web_share.description">Native sharing interfaces</p>
+                </div>
+
+                <!-- Background Sync -->
+                <div class="bg-white dark:bg-slate-700 rounded-2xl p-6 card-hover text-center">
+                    <div class="w-16 h-16 bg-gradient-to-br from-teal-500 to-teal-700 rounded-xl flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-sync text-2xl text-white"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900 dark:text-white mb-2" data-i18n="modern_web_apps.apis.background_sync.title">Background Sync</h3>
+                    <p class="text-sm text-gray-600 dark:text-gray-300" data-i18n="modern_web_apps.apis.background_sync.description">Offline data synchronization</p>
+                </div>
+
+                <!-- Web Workers -->
+                <div class="bg-white dark:bg-slate-700 rounded-2xl p-6 card-hover text-center">
+                    <div class="w-16 h-16 bg-gradient-to-br from-indigo-500 to-indigo-700 rounded-xl flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-cogs text-2xl text-white"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900 dark:text-white mb-2" data-i18n="modern_web_apps.apis.web_workers.title">Web Workers</h3>
+                    <p class="text-sm text-gray-600 dark:text-gray-300" data-i18n="modern_web_apps.apis.web_workers.description">Multi-threaded JavaScript</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Demo Section -->
+    <section id="showcase" class="py-24 modern-gradient">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold text-white mb-6" data-i18n="modern_web_apps.demo.title">
+                    Interactive Technology Demo
+                </h2>
+                <p class="text-xl text-gray-300 max-w-3xl mx-auto" data-i18n="modern_web_apps.demo.subtitle">
+                    Experience the power of modern web technologies through our interactive demonstrations
+                </p>
+            </div>
+
+            <!-- Demo Grid -->
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                
+                <!-- Code Editor Demo -->
+                <div class="browser-mockup rounded-2xl p-6">
+                    <div class="flex items-center space-x-2 mb-4">
+                        <div class="w-3 h-3 bg-red-500 rounded-full"></div>
+                        <div class="w-3 h-3 bg-yellow-500 rounded-full"></div>
+                        <div class="w-3 h-3 bg-green-500 rounded-full"></div>
+                        <div class="text-sm text-gray-500 ml-4">modern-app.tsx</div>
+                    </div>
+                    
+                    <div class="bg-slate-900 rounded-lg p-4 font-mono text-sm overflow-hidden">
+                        <div class="code-line" style="animation-delay: 0.1s;">
+                            <span class="text-purple-400">import</span> <span class="text-blue-300">{ Suspense }</span> <span class="text-purple-400">from</span> <span class="text-green-300">'react'</span>
+                        </div>
+                        <div class="code-line" style="animation-delay: 0.3s;">
+                            <span class="text-purple-400">import</span> <span class="text-blue-300">{ AI }</span> <span class="text-purple-400">from</span> <span class="text-green-300">'@vercel/ai/react'</span>
+                        </div>
+                        <div class="code-line" style="animation-delay: 0.5s;">
+                            <span class="text-gray-500">// Server Component with AI</span>
+                        </div>
+                        <div class="code-line" style="animation-delay: 0.7s;">
+                            <span class="text-yellow-400">export default async function</span> <span class="text-blue-300">ModernApp</span>() {
+                        </div>
+                        <div class="code-line" style="animation-delay: 0.9s;">
+                            <span class="text-gray-300 ml-4">const data = await</span> <span class="text-blue-300">fetchData</span>()
+                        </div>
+                        <div class="code-line" style="animation-delay: 1.1s;">
+                            <span class="text-purple-400 ml-4">return</span> (
+                        </div>
+                        <div class="code-line" style="animation-delay: 1.3s;">
+                            <span class="text-gray-300 ml-8">&lt;</span><span class="text-red-400">Suspense</span> <span class="text-blue-300">fallback</span>=<span class="text-green-300">{&lt;Loading /&gt;}</span><span class="text-gray-300">&gt;</span>
+                        </div>
+                        <div class="code-line" style="animation-delay: 1.5s;">
+                            <span class="text-gray-300 ml-12">&lt;</span><span class="text-red-400">AIChat</span> <span class="text-blue-300">data</span>=<span class="text-green-300">{data}</span> <span class="text-gray-300">/&gt;</span>
+                        </div>
+                        <div class="code-line" style="animation-delay: 1.7s;">
+                            <span class="text-gray-300 ml-8">&lt;/</span><span class="text-red-400">Suspense</span><span class="text-gray-300">&gt;</span>
+                        </div>
+                        <div class="code-line" style="animation-delay: 1.9s;">
+                            <span class="text-gray-300 ml-4">)</span>
+                        </div>
+                        <div class="code-line" style="animation-delay: 2.1s;">
+                            <span class="text-gray-300">}</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Performance Metrics -->
+                <div class="bg-white dark:bg-slate-800 rounded-2xl p-8">
+                    <h3 class="text-2xl font-bold text-gray-900 dark:text-white mb-6" data-i18n="modern_web_apps.demo.metrics.title">
+                        Real-time Performance
+                    </h3>
+                    
+                    <div class="space-y-6">
+                        <!-- Lighthouse Score -->
+                        <div>
+                            <div class="flex justify-between items-center mb-2">
+                                <span class="text-gray-700 dark:text-gray-300" data-i18n="modern_web_apps.demo.metrics.lighthouse">Lighthouse Score</span>
+                                <span class="text-green-600 dark:text-green-400 font-bold">100/100</span>
+                            </div>
+                            <div class="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2">
+                                <div class="bg-green-500 h-2 rounded-full animate-pulse" style="width: 100%"></div>
+                            </div>
+                        </div>
+
+                        <!-- Bundle Size -->
+                        <div>
+                            <div class="flex justify-between items-center mb-2">
+                                <span class="text-gray-700 dark:text-gray-300" data-i18n="modern_web_apps.demo.metrics.bundle">Bundle Size</span>
+                                <span class="text-blue-600 dark:text-blue-400 font-bold">45KB</span>
+                            </div>
+                            <div class="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2">
+                                <div class="bg-blue-500 h-2 rounded-full animate-pulse" style="width: 30%"></div>
+                            </div>
+                        </div>
+
+                        <!-- Load Time -->
+                        <div>
+                            <div class="flex justify-between items-center mb-2">
+                                <span class="text-gray-700 dark:text-gray-300" data-i18n="modern_web_apps.demo.metrics.load_time">Load Time</span>
+                                <span class="text-purple-600 dark:text-purple-400 font-bold">0.8s</span>
+                            </div>
+                            <div class="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2">
+                                <div class="bg-purple-500 h-2 rounded-full animate-pulse" style="width: 20%"></div>
+                            </div>
+                        </div>
+
+                        <!-- AI Response Time -->
+                        <div>
+                            <div class="flex justify-between items-center mb-2">
+                                <span class="text-gray-700 dark:text-gray-300" data-i18n="modern_web_apps.demo.metrics.ai_response">AI Response</span>
+                                <span class="text-orange-600 dark:text-orange-400 font-bold">120ms</span>
+                            </div>
+                            <div class="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2">
+                                <div class="bg-orange-500 h-2 rounded-full animate-pulse" style="width: 15%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tech Stack Used -->
+                    <div class="mt-8">
+                        <h4 class="text-lg font-semibold text-gray-900 dark:text-white mb-4" data-i18n="modern_web_apps.demo.metrics.stack">Tech Stack</h4>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3 py-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 text-xs rounded-full">Next.js 14</span>
+                            <span class="px-3 py-1 bg-purple-100 dark:bg-purple-900 text-purple-800 dark:text-purple-200 text-xs rounded-full">React 18</span>
+                            <span class="px-3 py-1 bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200 text-xs rounded-full">Vercel AI</span>
+                            <span class="px-3 py-1 bg-orange-100 dark:bg-orange-900 text-orange-800 dark:text-orange-200 text-xs rounded-full">WebAssembly</span>
+                            <span class="px-3 py-1 bg-pink-100 dark:bg-pink-900 text-pink-800 dark:text-pink-200 text-xs rounded-full">Service Workers</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-24 hero-gradient">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-4xl md:text-6xl font-bold text-white mb-6" data-i18n="modern_web_apps.cta.title">
+                Ready to Build the Future?
+            </h2>
+            <p class="text-xl text-white text-opacity-90 mb-12 max-w-3xl mx-auto" data-i18n="modern_web_apps.cta.subtitle">
+                Let's create cutting-edge web applications that leverage the latest technologies and set new standards for performance and user experience.
+            </p>
+            
+            <div class="flex flex-col sm:flex-row gap-6 justify-center items-center">
+                <a href="/contact.html" class="inline-flex items-center px-10 py-5 bg-white text-blue-600 font-bold rounded-full hover:bg-gray-100 transition-all duration-300 transform hover:scale-105 shadow-2xl">
+                    <i class="fas fa-rocket mr-3"></i>
+                    <span data-i18n="modern_web_apps.cta.primary">Start Your Project</span>
+                </a>
+                <a href="/portfolio.html" class="inline-flex items-center px-10 py-5 border-2 border-white text-white font-bold rounded-full hover:bg-white hover:text-blue-600 transition-all duration-300">
+                    <i class="fas fa-code mr-3"></i>
+                    <span data-i18n="modern_web_apps.cta.secondary">View Case Studies</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Placeholder -->
+    <div id="footer-placeholder"></div>
+
+    <!-- ES6 Modules Component System -->
+    <script type="module">
+        import { loadHBWComponents } from '../components/templates.js';
+        import HBWi18n from '../assets/js/i18n.js';
+        
+        // Initialize modern web apps page with manual i18n control
+        async function initializeModernWebAppsPage() {
+            try {
+                // Load components (header, footer, etc.)
+                await loadHBWComponents();
+                
+                // Manual i18n initialization for full control
+                const i18n = new HBWi18n();
+                
+                // Get saved language preference
+                const savedLang = localStorage.getItem('hbw_language') || 'en';
+                
+                // Load and apply translations manually
+                await i18n.loadLanguage(savedLang);
+                i18n.applyTranslations();
+                
+                // Setup language switcher
+                setupLanguageSwitcher(i18n);
+                
+                // Initialize interactive demo animations
+                initializeDemoAnimations();
+                
+                console.log('🚀 Modern web apps page initialized successfully!');
+                console.log('📝 Page detected as:', i18n.getCurrentPage());
+                console.log('🌐 Current language:', i18n.currentLang);
+                
+            } catch (error) {
+                console.error('❌ Error initializing modern web apps page:', error);
+            }
+        }
+        
+        // Language switcher setup function
+        function setupLanguageSwitcher(i18n) {
+            const langButtons = document.querySelectorAll('.lang-btn');
+            
+            langButtons.forEach(btn => {
+                btn.addEventListener('click', async (e) => {
+                    e.preventDefault();
+                    const targetLang = btn.dataset.lang;
+                    
+                    if (targetLang !== i18n.currentLang) {
+                        try {
+                            // Update button states
+                            langButtons.forEach(b => {
+                                b.classList.remove('active', 'bg-blue-500', 'text-white');
+                                b.classList.add('text-slate-600', 'dark:text-slate-300');
+                            });
+                            btn.classList.remove('text-slate-600', 'dark:text-slate-300');
+                            btn.classList.add('active', 'bg-blue-500', 'text-white');
+                            
+                            // Switch language
+                            await i18n.switchLanguage(targetLang);
+                            console.log('🌐 Language switched to:', targetLang);
+                            
+                        } catch (error) {
+                            console.error('❌ Error switching language:', error);
+                        }
+                    }
+                });
+            });
+            
+            // Set initial active state
+            const currentLangBtn = document.querySelector(`[data-lang="${i18n.currentLang}"]`);
+            if (currentLangBtn) {
+                langButtons.forEach(b => {
+                    b.classList.remove('active', 'bg-blue-500', 'text-white');
+                    b.classList.add('text-slate-600', 'dark:text-slate-300');
+                });
+                currentLangBtn.classList.remove('text-slate-600', 'dark:text-slate-300');
+                currentLangBtn.classList.add('active', 'bg-blue-500', 'text-white');
+            }
+        }
+        
+        // Initialize demo animations
+        function initializeDemoAnimations() {
+            // Animate code lines sequentially
+            const codeLines = document.querySelectorAll('.code-line');
+            codeLines.forEach((line, index) => {
+                setTimeout(() => {
+                    line.style.opacity = '1';
+                    line.style.animation = `typewriter 0.5s ease-in-out ${index * 0.2}s forwards`;
+                }, index * 200);
+            });
+            
+            // Add interactive hover effects for tech icons
+            const techIcons = document.querySelectorAll('.tech-icon');
+            techIcons.forEach(icon => {
+                icon.addEventListener('mouseenter', () => {
+                    icon.style.transform = 'scale(1.2) rotate(10deg)';
+                });
+                icon.addEventListener('mouseleave', () => {
+                    icon.style.transform = 'scale(1) rotate(0deg)';
+                });
+            });
+        }
+        
+        // Load everything when DOM is ready
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', initializeModernWebAppsPage);
+        } else {
+            initializeModernWebAppsPage();
+        }
+    </script>
+</body>
+</html>

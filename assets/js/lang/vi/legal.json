@@ -1,0 +1,151 @@
+{
+  "cookies": {
+    "title": "Chính Sách Cookie - HBW Technology Solutions Vietnam | Bảo Mật & Theo Dõi",
+    "meta_description": "Chính Sách Cookie của HBW Technology Solutions - Cách chúng tôi sử dụng cookie và công nghệ theo dõi để cải thiện trải nghiệm của bạn trên website phát triển blockchain. Tuân thủ GDPR.",
+    "og_title": "Chính Sách Cookie - HBW Technology Solutions Vietnam",
+    "og_description": "Tìm hiểu về việc sử dụng cookie và thực tiễn tuân thủ GDPR của HBW.",
+    "twitter_title": "Chính Sách Cookie - HBW Technology Solutions",
+    "twitter_description": "Việc sử dụng cookie và thực tiễn bảo mật tuân thủ GDPR.",
+    
+    "hero": {
+      "title": "Chính Sách Cookie",
+      "subtitle": "Cách chúng tôi sử dụng cookie và các công nghệ tương tự để nâng cao trải nghiệm của bạn đồng thời bảo vệ quyền riêng tư.",
+      "last_updated": "Cập nhật lần cuối: 1 tháng 10, 2024"
+    },
+    
+    "consent": {
+      "title": "Sở Thích Cookie Của Bạn Quan Trọng",
+      "description": "Chúng tôi tôn trọng lựa chọn riêng tư của bạn. Bạn có thể quản lý sở thích cookie bất cứ lúc nào bằng công cụ quản lý cookie của chúng tôi hoặc điều chỉnh cài đặt trình duyệt.",
+      "accept_all": "Chấp Nhận Tất Cả Cookie",
+      "manage_preferences": "Quản Lý Sở Thích", 
+      "reject_optional": "Từ Chối Tùy Chọn"
+    },
+    
+    "toc": {
+      "title": "Mục Lục",
+      "what_are": "1. Cookie Là Gì?",
+      "why_use": "2. Tại Sao Chúng Tôi Sử Dụng Cookie",
+      "types": "3. Các Loại Cookie Chúng Tôi Sử Dụng",
+      "third_party": "4. Cookie Bên Thứ Ba",
+      "management": "5. Quản Lý Cookie Của Bạn",
+      "browser_settings": "6. Cài Đặt Trình Duyệt",
+      "updates": "7. Cập Nhật Chính Sách",
+      "contact": "8. Liên Hệ"
+    },
+    
+    "what_are": {
+      "title": "Cookie Là Gì?",
+      "description": "Cookie là những tệp văn bản nhỏ được đặt trên máy tính hoặc thiết bị di động của bạn khi bạn truy cập trang web. Chúng được sử dụng rộng rãi để làm cho các trang web hoạt động hiệu quả hơn và cung cấp thông tin cho chủ sở hữu trang web về hành vi và sở thích của người dùng.",
+      "technical": {
+        "title": "Chi Tiết Kỹ Thuật",
+        "items": [
+          "Tệp văn bản nhỏ (thường dưới 4KB)",
+          "Lưu trữ cục bộ trên thiết bị của bạn", 
+          "Chứa thông tin về lượt truy cập của bạn",
+          "Có ngày hết hạn và cài đặt bảo mật",
+          "Có thể là session hoặc persistent"
+        ]
+      },
+      "security": {
+        "title": "Bảo Mật & Quyền Riêng Tư",
+        "items": [
+          "Không thể truy cập tệp cá nhân trên thiết bị của bạn",
+          "Không thể cài đặt malware hoặc virus",
+          "Chỉ có thể đọc bởi trang web đã tạo ra chúng",
+          "Tuân theo chính sách bảo mật của trình duyệt",
+          "Có thể bị xóa bất cứ lúc nào bởi người dùng"
+        ]
+      },
+      "similar_tech": {
+        "title": "Công Nghệ Tương Tự",
+        "description": "Ngoài cookie, chúng tôi cũng có thể sử dụng các công nghệ tương tự khác như:",
+        "local_storage": "Local Storage",
+        "local_storage_desc": "HTML5 local storage",
+        "web_beacons": "Web Beacons", 
+        "web_beacons_desc": "Tracking pixels",
+        "fingerprinting": "Fingerprinting",
+        "fingerprinting_desc": "Nhận diện thiết bị",
+        "scripts": "Scripts",
+        "scripts_desc": "JavaScript tracking"
+      }
+    },
+    
+    "why_use": {
+      "title": "Tại Sao Chúng Tôi Sử Dụng Cookie",
+      "description": "Chúng tôi sử dụng cookie cho một số mục đích quan trọng để cải thiện trải nghiệm và dịch vụ của bạn:",
+      "functionality": {
+        "title": "Chức Năng Website",
+        "items": [
+          "Ghi nhớ sở thích ngôn ngữ và cài đặt của bạn",
+          "Duy trì phiên đăng nhập của bạn một cách an toàn",
+          "Lưu trữ items trong giỏ hàng hoặc dữ liệu form",
+          "Kích hoạt các tính năng và yếu tố tương tác của website",
+          "Cung cấp trải nghiệm điều hướng mượt mà"
+        ]
+      },
+      "analytics": {
+        "title": "Phân Tích & Thông Tin Chi Tiết", 
+        "items": [
+          "Hiểu cách khách truy cập sử dụng website của chúng tôi",
+          "Xác định nội dung và trang phổ biến",
+          "Giám sát hiệu suất website và lỗi",
+          "Phân tích mô hình hành vi của người dùng",
+          "Cải thiện dịch vụ dựa trên insights từ dữ liệu"
+        ]
+      },
+      "marketing": {
+        "title": "Marketing & Quảng Cáo",
+        "items": [
+          "Hiển thị nội dung và quảng cáo có liên quan",
+          "Đo lường hiệu quả của các chiến dịch marketing",
+          "Ngăn chặn quảng cáo lặp đi lặp lại và cải thiện targeting",
+          "Theo dõi dữ liệu chuyển đổi và attribution",
+          "Cá nhân hóa trải nghiệm của bạn trên các nền tảng"
+        ]
+      }
+    }
+  },
+  
+  "privacy": {
+    "title": "Chính Sách Bảo Mật - HBW Technology Solutions Vietnam | Bảo Vệ & Bảo Mật Dữ Liệu",
+    "meta_description": "Chính Sách Bảo Mật của HBW Technology Solutions - Cách chúng tôi thu thập, sử dụng và bảo vệ thông tin cá nhân của bạn. Thực tiễn bảo vệ dữ liệu tuân thủ GDPR cho dịch vụ phát triển blockchain tại Việt Nam.",
+    "og_title": "Chính Sách Bảo Mật - HBW Technology Solutions Vietnam",
+    "og_description": "Tìm hiểu về thực tiễn bảo mật và chính sách bảo vệ dữ liệu tuân thủ GDPR của HBW.",
+    "twitter_title": "Chính Sách Bảo Mật - HBW Technology Solutions", 
+    "twitter_description": "Thực tiễn bảo mật tuân thủ GDPR và chính sách bảo vệ dữ liệu.",
+    
+    "hero": {
+      "title": "Chính Sách Bảo Mật",
+      "subtitle": "Quyền riêng tư của bạn rất quan trọng với chúng tôi. Chính sách này giải thích cách chúng tôi thu thập, sử dụng và bảo vệ thông tin cá nhân của bạn.",
+      "last_updated": "Cập nhật lần cuối: 1 tháng 10, 2024"
+    }
+  },
+  
+  "terms": {
+    "title": "Điều Khoản Dịch Vụ - HBW Technology Solutions Vietnam | Thỏa Thuận Pháp Lý",
+    "meta_description": "Điều Khoản Dịch Vụ của HBW Technology Solutions - Các điều khoản và điều kiện pháp lý cho việc sử dụng dịch vụ phát triển blockchain, DeFi và web development tại Việt Nam.",
+    "og_title": "Điều Khoản Dịch Vụ - HBW Technology Solutions Vietnam", 
+    "og_description": "Các điều khoản và điều kiện pháp lý cho dịch vụ phát triển blockchain và công nghệ của HBW.",
+    "twitter_title": "Điều Khoản Dịch Vụ - HBW Technology Solutions",
+    "twitter_description": "Các điều khoản và điều kiện pháp lý cho dịch vụ phát triển blockchain.",
+    
+    "hero": {
+      "title": "Điều Khoản Dịch Vụ",
+      "subtitle": "Các điều khoản và điều kiện pháp lý chi phối việc sử dụng dịch vụ và trang web của chúng tôi.",
+      "last_updated": "Cập nhật lần cuối: 1 tháng 10, 2024"
+    }
+  },
+  
+  "common": {
+    "breadcrumb_home": "Trang Chủ",
+    "scroll_to_top": "Cuộn Lên Đầu",
+    "quick_links": "Liên Kết Nhanh",
+    "legal_notice": "Thông Báo Pháp Lý",
+    "effective_date": "Ngày Hiệu Lực",
+    "contact_us": "Liên Hệ",
+    "read_more": "Đọc Thêm",
+    "collapse": "Thu Gọn",
+    "important": "Quan Trọng",
+    "note": "Lưu Ý"
+  }
+}

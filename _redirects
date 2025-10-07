@@ -1,0 +1,242 @@
+# HBW Technology Solutions - Netlify Redirects Configuration
+# Updated for current project structure with proper routing
+
+# ========================================
+# LANGUAGE-BASED ROUTING
+# ========================================
+
+# Default Vietnamese routing (no /vi prefix needed)
+/  /index.html  200
+/home  /index.html  301
+/trang-chu  /index.html  301
+
+# English routing with lang parameter
+/en  /index.html?lang=en  200
+/en/  /index.html?lang=en  200
+
+# ========================================
+# MAIN PAGES ROUTING
+# ========================================
+
+# Services pages
+/services  /services.html  200
+/dich-vu  /services.html  200
+/en/services  /services.html?lang=en  200
+
+# About pages
+/about  /about.html  200
+/gioi-thieu  /about.html  200
+/en/about  /about.html?lang=en  200
+
+# Portfolio pages
+/portfolio  /portfolio.html  200
+/du-an  /portfolio.html  200
+/en/portfolio  /portfolio.html?lang=en  200
+
+# Contact pages
+/contact  /contact.html  200
+/lien-he  /contact.html  200
+/en/contact  /contact.html?lang=en  200
+
+# Blog pages
+/blog  /blog.html  200
+/tin-tuc  /blog.html  200
+/bai-viet  /blog.html  200
+/en/blog  /blog.html?lang=en  200
+
+# ========================================
+# SERVICE DETAIL PAGES ROUTING
+# ========================================
+
+# Blockchain Development
+/blockchain-development  /services/blockchain.html  200
+/blockchain  /services/blockchain.html  200
+/phat-trien-blockchain  /services/blockchain.html  200
+/en/blockchain-development  /services/blockchain.html?lang=en  200
+
+# Smart Contracts
+/smart-contracts  /services/smart-contracts.html  200
+/hop-dong-thong-minh  /services/smart-contracts.html  200
+/en/smart-contracts  /services/smart-contracts.html?lang=en  200
+
+# DeFi Protocols
+/defi-development  /services/defi-protocols.html  200
+/defi-protocols  /services/defi-protocols.html  200
+/phat-trien-defi  /services/defi-protocols.html  200
+/en/defi-development  /services/defi-protocols.html?lang=en  200
+
+# Web Development
+/web-development  /services/web-development.html  200
+/phat-trien-web  /services/web-development.html  200
+/en/web-development  /services/web-development.html?lang=en  200
+
+# Modern Web Apps
+/web-apps  /services/modern-web-apps.html  200
+/ung-dung-web  /services/modern-web-apps.html  200
+/en/web-apps  /services/modern-web-apps.html?lang=en  200
+
+# E-commerce Solutions
+/ecommerce  /services/e-commerce-solutions.html  200
+/thuong-mai-dien-tu  /services/e-commerce-solutions.html  200
+/en/ecommerce  /services/e-commerce-solutions.html?lang=en  200
+
+# Mobile & AI Solutions
+/mobile-apps  /services/mobile-apps.html  200
+/ung-dung-mobile  /services/mobile-apps.html  200
+/en/mobile-apps  /services/mobile-apps.html?lang=en  200
+
+/ai-solutions  /services/mobile-ai-solutions.html  200
+/giai-phap-ai  /services/mobile-ai-solutions.html  200
+/en/ai-solutions  /services/mobile-ai-solutions.html?lang=en  200
+
+# AI Trading Bots
+/ai-trading  /services/ai-trading-bots.html  200
+/ai-trading-bots  /services/ai-trading-bots.html  200
+/bot-giao-dich-ai  /services/ai-trading-bots.html  200
+/en/ai-trading  /services/ai-trading-bots.html?lang=en  200
+
+# ========================================
+# BLOG POSTS ROUTING
+# ========================================
+
+# DeFi Trends 2025
+/defi-trends-2025  /blog/the-future-of-defi-trends-2025.html  200
+/xu-huong-defi-2025  /blog/the-future-of-defi-trends-2025.html  200
+/en/defi-trends-2025  /blog/the-future-of-defi-trends-2025.html?lang=en  200
+
+# AI Trading Strategies  
+/ai-trading-2025  /blog/ai-trading-strategies-advanced-algorithms-2025.html  200
+/chien-luoc-ai-trading  /blog/ai-trading-strategies-advanced-algorithms-2025.html  200
+/en/ai-trading-2025  /blog/ai-trading-strategies-advanced-algorithms-2025.html?lang=en  200
+
+# Web3 Development
+/web3-trends  /blog/web3-development-trends-shaping-future-2025.html  200
+/xu-huong-web3  /blog/web3-development-trends-shaping-future-2025.html  200
+/en/web3-trends  /blog/web3-development-trends-shaping-future-2025.html?lang=en  200
+
+# Enterprise Blockchain
+/enterprise-blockchain  /blog/blockchain-integration-enterprise-real-world-applications.html  200
+/blockchain-doanh-nghiep  /blog/blockchain-integration-enterprise-real-world-applications.html  200
+/en/enterprise-blockchain  /blog/blockchain-integration-enterprise-real-world-applications.html?lang=en  200
+
+# Smart Contract Security
+/smart-contract-security  /blog/smart-contract-security-vulnerabilities-solutions-2025.html  200
+/bao-mat-smart-contract  /blog/smart-contract-security-vulnerabilities-solutions-2025.html  200
+/en/smart-contract-security  /blog/smart-contract-security-vulnerabilities-solutions-2025.html?lang=en  200
+
+# Market Outlook Q4 2024
+/market-outlook-2024  /blog/cryptocurrency-market-outlook-q4-2024-analysis.html  200
+/thi-truong-crypto-2024  /blog/cryptocurrency-market-outlook-q4-2024-analysis.html  200
+/en/market-outlook-2024  /blog/cryptocurrency-market-outlook-q4-2024-analysis.html?lang=en  200
+
+# ========================================
+# LEGAL PAGES ROUTING
+# ========================================
+
+# Privacy Policy
+/privacy  /privacy.html  200
+/chinh-sach-bao-mat  /privacy.html  200
+/en/privacy  /privacy.html?lang=en  200
+
+# Terms of Service
+/terms  /terms.html  200
+/dieu-khoan-dich-vu  /terms.html  200
+/en/terms  /terms.html?lang=en  200
+
+# Cookie Policy
+/cookies  /cookies.html  200
+/chinh-sach-cookie  /cookies.html  200
+/en/cookies  /cookies.html?lang=en  200
+
+# ========================================
+# API ENDPOINTS (Netlify Functions)
+# ========================================
+
+# Contact form submission
+/api/contact  /.netlify/functions/contact  200
+/api/newsletter  /.netlify/functions/newsletter  200
+/api/quote  /.netlify/functions/quote  200
+
+# ========================================
+# SEO & LEGACY REDIRECTS
+# ========================================
+
+# Legacy homepage redirects
+/index.html  /  301
+/home.html  /  301
+/index.php  /  301
+
+# Legacy service redirects
+/services.php  /services.html  301
+/about.php  /about.html  301
+/contact.php  /contact.html  301
+/portfolio.php  /portfolio.html  301
+/blog.php  /blog.html  301
+
+# Old blog URLs (if any existed)
+/blog/defi-trends  /blog/the-future-of-defi-trends-2025.html  301
+/blog/ai-trading  /blog/ai-trading-strategies-advanced-algorithms-2025.html  301
+
+# Common misspellings and variations
+/blockchian  /services/blockchain.html  301
+/blockhain  /services/blockchain.html  301
+/smart-contract  /services/smart-contracts.html  301
+/web-dev  /services/web-development.html  301
+/mobile-dev  /services/mobile-apps.html  301
+
+# ========================================
+# SITEMAP & ROBOTS ROUTING
+# ========================================
+
+/sitemap  /sitemap.xml  200
+/robots  /robots.txt  200
+
+# ========================================
+# DOMAIN & SECURITY REDIRECTS
+# ========================================
+
+# Force HTTPS and canonical domain
+http://hbw.vn/*  https://hbw.vn/:splat  301!
+http://www.hbw.vn/*  https://hbw.vn/:splat  301!
+https://www.hbw.vn/*  https://hbw.vn/:splat  301!
+
+# Alternative domain redirects (if you have multiple domains)
+http://hbwtechnology.com/*  https://hbw.vn/:splat  301!
+https://hbwtechnology.com/*  https://hbw.vn/:splat  301!
+
+# ========================================
+# FORM SUCCESS PAGES
+# ========================================
+
+# Contact form success
+/form-success  /contact.html?success=true  200
+/gui-thanh-cong  /contact.html?success=true  200
+
+# Newsletter subscription success
+/newsletter-success  /blog.html?newsletter=success  200
+/dang-ky-thanh-cong  /blog.html?newsletter=success  200
+
+# Quote request success
+/quote-success  /services.html?quote=success  200
+/bao-gia-thanh-cong  /services.html?quote=success  200
+
+# ========================================
+# ERROR PAGES & FALLBACKS
+# ========================================
+
+# 404 fallback - redirect to homepage with error parameter
+/*  /index.html?error=404  404
+
+# ========================================
+# SECURITY HEADERS
+# ========================================
+
+/*
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  X-XSS-Protection: 1; mode=block
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: geolocation=(), microphone=(), camera=()
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.tailwindcss.com https://cdnjs.cloudflare.com https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://cdn.tailwindcss.com https://fonts.googleapis.com https://cdnjs.cloudflare.com; font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com; img-src 'self' data: https:; connect-src 'self' https:
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+  Cache-Control: public, max-age=31536000

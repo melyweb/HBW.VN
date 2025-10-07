@@ -1,0 +1,285 @@
+{
+  "meta": {
+    "title": "Tăng Xếp Hạng SimilarWeb & HypeStat - HBW Technology Solutions",
+    "description": "Dịch vụ tối ưu hóa traffic SEO chuyên nghiệp để tăng xếp hạng website trên SimilarWeb, HypeStat và các nền tảng phân tích khác. Tăng traffic organic, cải thiện độ nhìn thấy và tăng cường domain authority.",
+    "og_title": "Tăng Xếp Hạng SimilarWeb & HypeStat | HBW Technology",
+    "og_description": "Dịch vụ tối ưu hóa traffic SEO chuyên gia để tăng xếp hạng website trên các nền tảng phân tích và tăng độ nhìn thấy organic."
+  },
+  "hero": {
+    "badge": "Xuất Sắc SEO Traffic",
+    "title": "Tăng Xếp Hạng SimilarWeb & HypeStat",
+    "description": "Dịch vụ tối ưu hóa traffic SEO chuyên nghiệp để tăng đáng kể xếp hạng website của bạn trên SimilarWeb, HypeStat và các nền tảng phân tích khác. Thúc đẩy traffic organic, cải thiện domain authority và tăng cường khả năng nhìn thấy trực tuyến.",
+    "cta_primary": "Tăng Xếp Hạng Ngay",
+    "cta_secondary": "Xem Kết Quả",
+    "stats": {
+      "traffic_increase": "+487%",
+      "traffic_increase_label": "Tăng Traffic",
+      "rank_improvement": "Top 10K",
+      "rank_improvement_label": "Xếp Hạng SimilarWeb",
+      "success_rate": "97%",
+      "success_rate_label": "Tỷ Lệ Thành Công"
+    },
+    "dashboard": {
+      "title": "Phân Tích Traffic",
+      "subtitle": "Hiệu Suất Thời Gian Thực",
+      "rank": "#8,547",
+      "rank_label": "Xếp Hạng Toàn Cầu",
+      "visitors": "2.4M",
+      "visitors_label": "Lượt Truy Cập/Tháng",
+      "pages": "4.2",
+      "pages_label": "Trang/Phiên",
+      "duration": "3:45",
+      "duration_label": "Thời Gian TB",
+      "bounce": "28.3%",
+      "bounce_label": "Tỷ Lệ Thoát"
+    }
+  },
+  "platforms": {
+    "title": "Tối Ưu Hóa Nền Tảng Phân Tích",
+    "description": "Chiến lược tối ưu hóa toàn diện cho các nền tảng phân tích traffic và xếp hạng hàng đầu để tối đa hóa khả năng nhìn thấy và uy tín trực tuyến của bạn.",
+    "similarweb": {
+      "title": "SimilarWeb",
+      "description": "Cải thiện xếp hạng SimilarWeb của bạn với tối ưu hóa traffic có mục tiêu và chiến lược engagement.",
+      "metric1": "Xếp Hạng Toàn Cầu",
+      "metric1_value": "Top 50K+",
+      "metric2": "Tăng Trưởng Traffic",
+      "metric2_value": "+350%",
+      "metric3": "Engagement",
+      "metric3_value": "+180%"
+    },
+    "hypestat": {
+      "title": "HypeStat",
+      "description": "Nâng cao các chỉ số HypeStat của bạn với kỹ thuật SEO nâng cao và cải thiện chất lượng traffic.",
+      "metric1": "Lượt Truy Cập Hàng Ngày",
+      "metric1_value": "100K+",
+      "metric2": "Lượt Xem Trang",
+      "metric2_value": "500K+",
+      "metric3": "Ước Tính Giá Trị",
+      "metric3_value": "$2M+"
+    },
+    "alexa": {
+      "title": "Alexa Rank",
+      "description": "Tăng xếp hạng Alexa của bạn với tối ưu hóa traffic toàn diện và mở rộng tầm với toàn cầu.",
+      "metric1": "Xếp Hạng Toàn Cầu",
+      "metric1_value": "Top 100K",
+      "metric2": "Xếp Hạng Quốc Gia",
+      "metric2_value": "Top 10K",
+      "metric3": "Tỷ Lệ Thoát",
+      "metric3_value": "< 30%"
+    },
+    "semrush": {
+      "title": "SEMrush Authority",
+      "description": "Tăng domain authority và xếp hạng từ khóa organic của bạn với chiến lược SEO chuyên nghiệp.",
+      "metric1": "Điểm Authority",
+      "metric1_value": "85+",
+      "metric2": "Từ Khóa Organic",
+      "metric2_value": "50K+",
+      "metric3": "Traffic Organic",
+      "metric3_value": "$500K+"
+    }
+  },
+  "services": {
+    "title": "Dịch Vụ SEO Traffic Toàn Diện",
+    "description": "Phương pháp đã được chứng minh và kỹ thuật tiên tiến của chúng tôi đảm bảo tăng trưởng traffic bền vững và cải thiện xếp hạng trên tất cả nền tảng phân tích.",
+    "organic_growth": {
+      "title": "Tăng Trưởng Traffic Organic",
+      "timeframe": "30-90 ngày",
+      "description": "Tăng traffic organic bền vững thông qua kỹ thuật SEO white-hat, tối ưu hóa nội dung và xây dựng link chiến lược.",
+      "feature1": "Nghiên Cứu & Tối Ưu Từ Khóa",
+      "feature2": "Chiến Lược & Tạo Nội Dung",
+      "feature3": "Tối Ưu Hóa SEO Kỹ Thuật",
+      "feature4": "Xây Dựng Backlink Chất Lượng",
+      "result": "+200-500%",
+      "result_label": "Tăng Traffic"
+    },
+    "analytics_boost": {
+      "title": "Tăng Cường Nền Tảng Phân Tích",
+      "timeframe": "15-45 ngày",
+      "description": "Tối ưu hóa có mục tiêu được thiết kế đặc biệt để cải thiện xếp hạng trên SimilarWeb, HypeStat và các nền tảng phân tích khác.",
+      "feature1": "Tối Ưu Hóa Chuyên Dụng Nền Tảng",
+      "feature2": "Cải Thiện Tỷ Lệ Engagement",
+      "feature3": "Nâng Cao Chất Lượng Traffic",
+      "feature4": "Xếp Hạng Đa Nền Tảng",
+      "result": "Top 50K",
+      "result_label": "Xếp Hạng SimilarWeb"
+    },
+    "domain_authority": {
+      "title": "Xây Dựng Domain Authority",
+      "timeframe": "60-120 ngày",
+      "description": "Xây dựng domain authority và độ tin cậy dài hạn thông qua xây dựng link chiến lược và các chiến dịch content marketing.",
+      "feature1": "Backlinks Chất Lượng Cao",
+      "feature2": "Chiến Lược Content Marketing",
+      "feature3": "Xây Dựng Brand Mention",
+      "feature4": "Tăng Trưởng Điểm Authority",
+      "result": "DA 70+",
+      "result_label": "Domain Authority"
+    },
+    "local_seo": {
+      "title": "Tối Ưu Hóa SEO Địa Phương",
+      "timeframe": "30-60 ngày",
+      "description": "Thống trị kết quả tìm kiếm địa phương và cải thiện phân bố traffic theo khu vực để có hiệu suất phân tích tốt hơn.",
+      "feature1": "Tối Ưu Google My Business",
+      "feature2": "Xây Dựng Citation Địa Phương",
+      "feature3": "Nội Dung Geo-Targeted",
+      "feature4": "Xây Dựng Link Địa Phương",
+      "result": "Top 3",
+      "result_label": "Xếp Hạng Địa Phương"
+    },
+    "technical_seo": {
+      "title": "Audit SEO Kỹ Thuật",
+      "timeframe": "7-14 ngày",
+      "description": "Tối ưu hóa kỹ thuật toàn diện để cải thiện hiệu suất trang web, khả năng crawl và tính thân thiện với công cụ tìm kiếm.",
+      "feature1": "Tối Ưu Tốc Độ Trang Web",
+      "feature2": "Tương Thích Mobile",
+      "feature3": "Triển Khai Schema Markup",
+      "feature4": "Tối Ưu Core Web Vitals",
+      "result": "95+",
+      "result_label": "Điểm PageSpeed"
+    },
+    "content_marketing": {
+      "title": "Content Marketing",
+      "timeframe": "Liên tục",
+      "description": "Tạo nội dung và marketing chiến lược để thúc đẩy engagement, chia sẻ và tăng trưởng backlink tự nhiên.",
+      "feature1": "Nội Dung Tối Ưu SEO",
+      "feature2": "Quảng Bá Social Media",
+      "feature3": "Tiếp Cận Influencer",
+      "feature4": "Chiến Lược Nội Dung Viral",
+      "result": "1M+",
+      "result_label": "Lượt Xem Nội Dung"
+    }
+  },
+  "timeline": {
+    "title": "Timeline Kết Quả Mong Đợi",
+    "description": "Theo dõi tiến độ của bạn với timeline đã được chứng minh để đạt cải thiện đáng kể trong xếp hạng nền tảng phân tích và tăng trưởng traffic organic.",
+    "week1": {
+      "title": "Tuần 1-2: Thiết Lập & Phân Tích",
+      "period": "Giai Đoạn Ban Đầu",
+      "description": "Audit website toàn diện, phân tích đối thủ và phát triển chiến lược để có kết quả tối ưu.",
+      "metric1": "100%",
+      "metric1_label": "Hoàn Thành Audit Trang Web",
+      "metric2": "50+",
+      "metric2_label": "Từ Khóa Được Xác Định"
+    },
+    "week3": {
+      "title": "Tuần 3-4: Tối Ưu Hóa Ban Đầu",
+      "period": "Triển Khai",
+      "description": "Triển khai SEO kỹ thuật, tối ưu hóa nội dung và bắt đầu các hoạt động xây dựng traffic ban đầu.",
+      "metric1": "+25%",
+      "metric1_label": "Tăng Traffic",
+      "metric2": "+15%",
+      "metric2_label": "Cải Thiện Xếp Hạng"
+    },
+    "month2": {
+      "title": "Tháng 2: Xây Dựng Động Lực",
+      "period": "Giai Đoạn Tăng Trưởng",
+      "description": "Cải thiện đáng kể trong xếp hạng nền tảng phân tích và tăng trưởng traffic organic trở nên rõ ràng.",
+      "metric1": "+150%",
+      "metric1_label": "Tăng Trưởng Traffic",
+      "metric2": "Top 100K",
+      "metric2_label": "Xếp Hạng SimilarWeb"
+    },
+    "month3": {
+      "title": "Tháng 3+: Hiệu Suất Đỉnh Cao",
+      "period": "Tối Ưu Hóa",
+      "description": "Đạt được xếp hạng mục tiêu trên tất cả nền tảng phân tích với tăng trưởng traffic bền vững và engagement.",
+      "metric1": "+400%",
+      "metric1_label": "Tổng Tăng Trưởng",
+      "metric2": "Top 50K",
+      "metric2_label": "Xếp Hạng Cuối Cùng"
+    }
+  },
+  "pricing": {
+    "title": "Gói Tăng Cường SEO Traffic",
+    "description": "Chọn gói hoàn hảo để tăng xếp hạng website của bạn trên các nền tảng phân tích và thúc đẩy tăng trưởng traffic organic khổng lồ.",
+    "guarantee": {
+      "title": "Đảm Bảo Hoàn Tiền Trong 60 Ngày",
+      "description": "Nếu bạn không thấy cải thiện đáng kể trong xếp hạng nền tảng phân tích trong vòng 60 ngày, chúng tôi sẽ hoàn lại toàn bộ khoản đầu tư của bạn."
+    },
+    "starter": {
+      "title": "Starter Boost",
+      "price": "$1,497",
+      "period": "Thanh toán một lần",
+      "feature1": "Audit & Tối Ưu SEO Cơ Bản",
+      "feature2": "Cải Thiện Xếp Hạng SimilarWeb",
+      "feature3": "Chiến Dịch Traffic 30 Ngày",
+      "feature4": "Thiết Lập Analytics Cơ Bản",
+      "feature5": "Hỗ Trợ Email",
+      "guarantee": "Kết Quả Mong Đợi:",
+      "result": "+100-200% Traffic",
+      "cta": "Bắt Đầu Basic Boost"
+    },
+    "professional": {
+      "title": "Professional Boost",
+      "price": "$2,997",
+      "period": "Thanh toán một lần",
+      "feature1": "Chiến Lược SEO Nâng Cao",
+      "feature2": "Tối Ưu Hóa Đa Nền Tảng",
+      "feature3": "Chiến Dịch Chuyên Sâu 60 Ngày",
+      "feature4": "Chiến Lược Content Marketing",
+      "feature5": "Xây Dựng Backlink Chất Lượng",
+      "feature6": "Báo Cáo Tiến Độ Hàng Tuần",
+      "feature7": "Hỗ Trợ Ưu Tiên",
+      "guarantee": "Kết Quả Mong Đợi:",
+      "result": "+300-500% Traffic",
+      "cta": "Chọn Professional Boost"
+    },
+    "enterprise": {
+      "title": "Enterprise Boost",
+      "price": "$4,997",
+      "period": "Thanh toán một lần",
+      "feature1": "Thống Trị SEO Hoàn Toàn",
+      "feature2": "Tất Cả Nền Tảng Phân Tích",
+      "feature3": "Chiến Dịch Elite 90 Ngày",
+      "feature4": "Chương Trình Xây Dựng Authority",
+      "feature5": "Portfolio Backlink Premium",
+      "feature6": "Hỗ Trợ Chuyên Dụng 24/7",
+      "feature7": "Cuộc Gọi Chiến Lược Hàng Tháng",
+      "feature8": "Landing Pages Tùy Chỉnh",
+      "guarantee": "Kết Quả Mong Đợi:",
+      "result": "+500-1000% Traffic",
+      "cta": "Chọn Enterprise Boost"
+    }
+  },
+  "faq": {
+    "title": "Câu Hỏi Thường Gặp",
+    "description": "Mọi thứ bạn cần biết về dịch vụ tối ưu hóa traffic SEO và xếp hạng nền tảng phân tích của chúng tôi.",
+    "q1": {
+      "question": "Tôi sẽ thấy cải thiện xếp hạng nhanh như thế nào?",
+      "answer": "Hầu hết khách hàng thấy cải thiện ban đầu trong vòng 2-4 tuần, với sự tăng xếp hạng đáng kể thường đạt được trong vòng 60-90 ngày. Kết quả phụ thuộc vào vị trí xếp hạng hiện tại, mức độ cạnh tranh và gói được chọn."
+    },
+    "q2": {
+      "question": "Bạn tối ưu hóa cho những nền tảng phân tích nào?",
+      "answer": "Chúng tôi tối ưu hóa cho tất cả các nền tảng chính bao gồm SimilarWeb, HypeStat, Alexa Rank, SEMrush, Ahrefs và các dịch vụ phân tích traffic khác theo dõi hiệu suất và xếp hạng website."
+    },
+    "q3": {
+      "question": "Chiến lược tối ưu hóa của bạn có white-hat và an toàn không?",
+      "answer": "Có, chúng tôi chỉ sử dụng các kỹ thuật tối ưu hóa white-hat được Google phê duyệt. Chiến lược của chúng tôi tập trung vào tăng trưởng traffic thực sự, nội dung chất lượng và xây dựng authority hợp pháp để đảm bảo tính bền vững xếp hạng dài hạn."
+    },
+    "q4": {
+      "question": "Bạn có cung cấp báo cáo tiến độ chi tiết không?",
+      "answer": "Tất nhiên! Chúng tôi cung cấp báo cáo toàn diện hiển thị cải thiện xếp hạng, tăng trưởng traffic, chỉ số engagement và phân tích cạnh tranh. Tần suất báo cáo phụ thuộc vào gói đã chọn của bạn."
+    },
+    "q5": {
+      "question": "Nếu tôi không thấy kết quả như đã hứa thì sao?",
+      "answer": "Chúng tôi ủng hộ công việc của mình với các đảm bảo hiệu suất. Nếu bạn không thấy cải thiện xếp hạng đáng kể trong khung thời gian quy định, chúng tôi cung cấp công việc tối ưu hóa bổ sung hoặc đảm bảo hoàn tiền tùy thuộc vào gói của bạn."
+    },
+    "q6": {
+      "question": "Bạn có thể giúp cả website mới và đã thành lập không?",
+      "answer": "Có, các chiến lược tối ưu hóa của chúng tôi hoạt động cho cả website mới muốn thiết lập xếp hạng và các trang web đã thành lập muốn cải thiện vị trí hiện tại của họ trên các nền tảng phân tích."
+    }
+  },
+  "cta": {
+    "title": "Sẵn Sàng Thống Trị Xếp Hạng Phân Tích?",
+    "description": "Tham gia cùng hàng trăm doanh nghiệp thành công đã tăng xếp hạng SimilarWeb, HypeStat và nền tảng phân tích của họ với các chiến lược tối ưu đã được chứng minh của chúng tôi.",
+    "primary": "Bắt Đầu Tăng Xếp Hạng",
+    "secondary": "Đặt Lịch Tư Vấn",
+    "guarantee": {
+      "consultation": "Miễn Phí",
+      "consultation_label": "Tư Vấn Chiến Lược",
+      "audit": "Toàn Diện",
+      "audit_label": "Audit Website",
+      "results": "Đảm Bảo",
+      "results_label": "Kết Quả Xếp Hạng"
+    }
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "contact": {
+    "title": "Contact HBW - Get Free Blockchain Development Consultation",
+    "meta_description": "Contact HBW for professional blockchain development, DeFi protocols, and web solutions. Get free consultation from our expert team. Multiple contact methods available.",
+    "og_title": "Contact HBW - Blockchain Development Experts", 
+    "og_description": "Get in touch with HBW for professional blockchain and web development services. Free consultation available.",
+    "twitter_title": "Contact HBW - Free Consultation",
+    "twitter_description": "Reach out to HBW for blockchain development and web solutions consultation.",
+    
+    "hero": {
+      "badge": "Free Consultation Available",
+      "title": "Let's Build Together",
+      "subtitle": "Ready to transform your blockchain idea into reality? Our expert team is here to help you succeed with professional consultation and development services.",
+      "tag1": "24/7 Support Available",
+      "tag2": "Free Initial Consultation", 
+      "tag3": "Global Client Base"
+    },
+    
+    "form": {
+      "title": "Get Free Consultation",
+      "subtitle": "Tell us about your project and we'll get back to you within 24 hours",
+      "name": "Full Name *",
+      "email": "Email Address *", 
+      "phone": "Phone Number",
+      "company": "Company Name",
+      "service": "Service Interested In",
+      "service_placeholder": "Select a service...",
+      "service_blockchain": "Blockchain Development",
+      "service_web": "Web Development",
+      "service_ai": "AI Trading Systems", 
+      "service_defi": "DeFi Protocols",
+      "service_mobile": "Mobile App Development",
+      "service_consultation": "Consultation Only",
+      "service_other": "Other",
+      "budget": "Project Budget Range",
+      "budget_placeholder": "Select budget range...",
+      "budget_5k": "Under $5,000",
+      "budget_5k_15k": "$5,000 - $15,000",
+      "budget_15k_50k": "$15,000 - $50,000", 
+      "budget_50k_100k": "$50,000 - $100,000",
+      "budget_100k": "Over $100,000",
+      "budget_discuss": "Let's Discuss",
+      "timeline": "Project Timeline",
+      "timeline_placeholder": "Select timeline...",
+      "timeline_asap": "ASAP (Rush)",
+      "timeline_1_3": "1-3 Months",
+      "timeline_3_6": "3-6 Months",
+      "timeline_6plus": "6+ Months",
+      "timeline_flexible": "Flexible",
+      "message": "Project Description *",
+      "message_placeholder": "Tell us about your project requirements, goals, and any specific features you need...",
+      "consultation_request": "Request a free 30-minute consultation call to discuss project details",
+      "privacy_text": "I agree to the",
+      "privacy_link": "Privacy Policy",
+      "privacy_and": "and",
+      "terms_link": "Terms of Service",
+      "submit": "Send Message"
+    },
+    
+    "methods": {
+      "title": "Get In Touch",
+      "subtitle": "Choose your preferred way to reach us. We're available through multiple channels to ensure you get the support you need.",
+      
+      "email": {
+        "title": "Email Us",
+        "desc": "Send us detailed project requirements"
+      },
+      "phone": {
+        "title": "Call Us", 
+        "desc": "Speak directly with our experts"
+      },
+      "chat": {
+        "title": "Live Chat",
+        "desc": "Get instant responses to your questions",
+        "cta": "Start Chat"
+      },
+      "meeting": {
+        "title": "Schedule Meeting",
+        "desc": "Book a consultation call with our team", 
+        "cta": "Book Meeting"
+      }
+    },
+    
+    "office": {
+      "title": "Our Office",
+      "subtitle": "Visit us or schedule a meeting",
+      "address": {
+        "title": "Address",
+        "line1": "123 Nguyen Hue Boulevard",
+        "line2": "District 1, Da Nang City",
+        "line3": "Vietnam 550000"
+      },
+      "hours": {
+        "title": "Business Hours",
+        "weekdays": "Mon - Fri: 9:00 AM - 6:00 PM (GMT+7)",
+        "support": "24/7 Emergency Support Available"
+      },
+      "schedule_btn": "Schedule Meeting"
+    },
+    
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Quick answers to common questions about our services and process",
+      
+      "q1": "How long does a typical blockchain project take?",
+      "a1": "Project timelines vary depending on complexity. Simple smart contracts take 2-4 weeks, while complex DeFi protocols typically require 3-6 months. We provide detailed timelines during our initial consultation.",
+      
+      "q2": "Do you provide post-launch support and maintenance?",
+      "a2": "Yes, we offer comprehensive post-launch support including bug fixes, security updates, feature additions, and 24/7 monitoring. Support packages are customized based on your project needs.",
+      
+      "q3": "What blockchain networks do you support?",
+      "a3": "We specialize in Ethereum, BSC, Polygon, Solana, Avalanche, and Fantom. We also work with other EVM-compatible chains and can recommend the best network based on your project requirements and budget.",
+      
+      "q4": "How do you ensure security in blockchain projects?",
+      "a4": "Security is our top priority. We follow best practices including comprehensive testing, formal verification, third-party audits, and continuous monitoring. All our smart contracts undergo rigorous security reviews before deployment.",
+      
+      "q5": "Can you work with existing blockchain projects?",
+      "a5": "Absolutely! We can audit, optimize, upgrade, or extend existing blockchain projects. We also provide consulting services to help improve performance, security, and functionality of current implementations."
+    },
+    
+    "cta": {
+      "title": "Ready to Start Your Project?",
+      "subtitle": "Don't wait any longer. Let's turn your blockchain vision into reality with our expert development team.",
+      "primary": "Start Your Project",
+      "secondary": "View Our Work"
+    },
+    "success": {
+      "title": "Message Sent Successfully!",
+      "message": "Thank you for contacting us. We'll get back to you within 24 hours."
+    },
+    "quick": {
+      "title": "Need Immediate Assistance?",
+      "subtitle": "For urgent inquiries or time-sensitive projects, reach out to us directly.",
+      "chat": {
+        "title": "Live Chat",
+        "status": "Online Now"
+      }
+    },
+    "social": {
+      "title": "Follow Us",
+      "subtitle": "Stay updated with our latest projects and blockchain insights."
+    }
+  }
+}

@@ -1,0 +1,1123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="portfolio.title">Our Portfolio - Blockchain & Web Development Projects | HBW</title>
+    <meta name="description" data-i18n="portfolio.meta_description" content="Explore HBW's successful blockchain, DeFi, and web development projects. From smart contracts to AI trading systems and multi-chain integrations.">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" data-i18n="portfolio.og_title" content="HBW Portfolio - Blockchain & Web Development Excellence">
+    <meta property="og:description" data-i18n="portfolio.og_description" content="Discover our successful blockchain projects, DeFi protocols, AI trading systems, and innovative web applications.">
+    <meta property="og:image" content="/assets/images/portfolio-og.jpg">
+    <meta property="og:url" content="https://hbw.com/portfolio">
+    <meta property="og:type" content="website">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" data-i18n="portfolio.twitter_title" content="HBW Portfolio - Blockchain Excellence">
+    <meta name="twitter:description" data-i18n="portfolio.twitter_description" content="Professional blockchain & web development projects by HBW team.">
+    <meta name="twitter:image" content="/assets/images/portfolio-og.jpg">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
+    <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous">
+    
+    <!-- Structured Data - Creative Work -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "HBW Technology Portfolio",
+        "description": "Portfolio showcasing 200+ successful blockchain, DeFi, and web development projects",
+        "url": "https://hbw.vn/portfolio.html",
+        "mainEntity": {
+            "@type": "ItemList",
+            "name": "Technology Projects Portfolio",
+            "itemListElement": [
+                {
+                    "@type": "CreativeWork",
+                    "name": "PancakeSwap DEX Protocol",
+                    "description": "Leading DEX on BSC with $1.8B+ TVL and 4.2M+ users",
+                    "creator": {
+                        "@type": "Organization",
+                        "name": "HBW Technology Solutions"
+                    }
+                },
+                {
+                    "@type": "CreativeWork", 
+                    "name": "Advanced Yield Farming Protocol",
+                    "description": "Multi-chain yield farming with 25K+ active users and up to 150% APY",
+                    "creator": {
+                        "@type": "Organization",
+                        "name": "HBW Technology Solutions"
+                    }
+                },
+                {
+                    "@type": "CreativeWork",
+                    "name": "NFT Marketplace Platform",
+                    "description": "Polygon-based NFT marketplace with 15K+ creators and collectors",
+                    "creator": {
+                        "@type": "Organization",
+                        "name": "HBW Technology Solutions"
+                    }
+                }
+            ]
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "HBW Technology Solutions",
+            "url": "https://hbw.vn"
+        }
+    }
+    </script>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        primary: {
+                            50: '#f0f9ff', 100: '#e0f2fe', 200: '#bae6fd', 300: '#7dd3fc',
+                            400: '#38bdf8', 500: '#0ea5e9', 600: '#0284c7', 700: '#0369a1',
+                            800: '#075985', 900: '#0c4a6e'
+                        },
+                        secondary: {
+                            50: '#fdf4ff', 100: '#fae8ff', 200: '#f5d0fe', 300: '#f0abfc',
+                            400: '#e879f9', 500: '#d946ef', 600: '#c026d3', 700: '#a21caf',
+                            800: '#86198f', 900: '#701a75'
+                        }
+                    },
+                    fontFamily: {
+                        'inter': ['Inter', 'sans-serif']
+                    },
+                    animation: {
+                        'float': 'float 6s ease-in-out infinite',
+                        'float-delayed': 'float 6s ease-in-out infinite 2s',
+                        'fade-in-up': 'fadeInUp 0.8s ease-out',
+                        'fade-in-left': 'fadeInLeft 0.8s ease-out',
+                        'fade-in-right': 'fadeInRight 0.8s ease-out'
+                    },
+                    keyframes: {
+                        float: {
+                            '0%, 100%': { transform: 'translateY(0px)' },
+                            '50%': { transform: 'translateY(-20px)' }
+                        },
+                        fadeInUp: {
+                            '0%': { opacity: '0', transform: 'translateY(30px)' },
+                            '100%': { opacity: '1', transform: 'translateY(0)' }
+                        },
+                        fadeInLeft: {
+                            '0%': { opacity: '0', transform: 'translateX(-30px)' },
+                            '100%': { opacity: '1', transform: 'translateX(0)' }
+                        },
+                        fadeInRight: {
+                            '0%': { opacity: '0', transform: 'translateX(30px)' },
+                            '100%': { opacity: '1', transform: 'translateX(0)' }
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "HBW",
+        "url": "https://hbw.com",
+        "sameAs": [
+            "https://github.com/melyweb",
+            "https://linkedin.com/company/hbw-blockchain"
+        ],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Portfolio Projects",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Blockchain Development",
+                        "description": "Smart contracts, DeFi protocols, multi-chain integration"
+                    }
+                }
+            ]
+        }
+    }
+    </script>
+</head>
+<body class="font-inter">
+    <!-- Header Placeholder - Loaded via ES6 Modules -->
+    <div id="header-placeholder"></div>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="relative bg-gradient-to-br from-blue-900 via-purple-800 to-indigo-900 pt-32 pb-20 overflow-hidden">
+            <div class="absolute inset-0 bg-black/20"></div>
+            
+            <!-- Animated Background Elements -->
+            <div class="absolute top-20 left-10 w-72 h-72 bg-gradient-to-r from-blue-400/20 to-purple-400/20 rounded-full blur-3xl animate-float"></div>
+            <div class="absolute bottom-20 right-10 w-96 h-96 bg-gradient-to-r from-purple-400/20 to-pink-400/20 rounded-full blur-3xl animate-float-delayed"></div>
+            
+            <div class="relative container mx-auto px-6 text-center text-white">
+                <h1 class="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-white via-blue-200 to-purple-200 bg-clip-text text-transparent">
+                    <span data-i18n="portfolio.hero.title">Our Portfolio</span>
+                </h1>
+                <p class="text-xl md:text-2xl text-blue-100 mb-8 max-w-3xl mx-auto" data-i18n="portfolio.hero.subtitle">
+                    Showcasing our expertise in blockchain development, DeFi protocols, and cutting-edge web applications
+                </p>
+                <div class="flex flex-wrap gap-4 justify-center">
+                    <span class="px-4 py-2 bg-blue-500/20 backdrop-blur-sm rounded-full text-sm font-semibold border border-blue-400/30" data-i18n="portfolio.hero.tag1">
+                        50+ Projects Delivered
+                    </span>
+                    <span class="px-4 py-2 bg-purple-500/20 backdrop-blur-sm rounded-full text-sm font-semibold border border-purple-400/30" data-i18n="portfolio.hero.tag2">
+                        $10M+ TVL Secured
+                    </span>
+                    <span class="px-4 py-2 bg-indigo-500/20 backdrop-blur-sm rounded-full text-sm font-semibold border border-indigo-400/30" data-i18n="portfolio.hero.tag3">
+                        15+ Blockchain Networks
+                    </span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Project Categories Filter -->
+        <section class="py-8 bg-gray-50">
+            <div class="container mx-auto px-6">
+                <div class="flex flex-wrap justify-center gap-4">
+                    <button class="filter-btn active px-6 py-3 rounded-full font-semibold transition-all duration-300 bg-blue-600 text-white hover:bg-blue-700" data-filter="all" data-i18n="portfolio.filters.all">
+                        All Projects
+                    </button>
+                    <button class="filter-btn px-6 py-3 rounded-full font-semibold transition-all duration-300 bg-white text-gray-700 hover:bg-blue-50 hover:text-blue-600 border border-gray-200" data-filter="blockchain" data-i18n="portfolio.filters.blockchain">
+                        Blockchain & DeFi
+                    </button>
+                    <button class="filter-btn px-6 py-3 rounded-full font-semibold transition-all duration-300 bg-white text-gray-700 hover:bg-blue-50 hover:text-blue-600 border border-gray-200" data-filter="ai-trading" data-i18n="portfolio.filters.ai_trading">
+                        AI Trading Systems
+                    </button>
+                    <button class="filter-btn px-6 py-3 rounded-full font-semibold transition-all duration-300 bg-white text-gray-700 hover:bg-blue-50 hover:text-blue-600 border border-gray-200" data-filter="web-app" data-i18n="portfolio.filters.web_app">
+                        Web Applications
+                    </button>
+                    <button class="filter-btn px-6 py-3 rounded-full font-semibold transition-all duration-300 bg-white text-gray-700 hover:bg-blue-50 hover:text-blue-600 border border-gray-200" data-filter="mobile" data-i18n="portfolio.filters.mobile">
+                        Mobile Apps
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Projects -->
+        <section class="py-20 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4" data-i18n="portfolio.featured.title">
+                        Featured Projects
+                    </h2>
+                    <p class="text-xl text-gray-600 max-w-3xl mx-auto" data-i18n="portfolio.featured.subtitle">
+                        Discover our most impactful and innovative projects across blockchain, AI trading, and web development
+                    </p>
+                </div>
+
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Project 1: AIBOT IYI Protocol -->
+                    <div class="project-card blockchain ai-trading bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 group">
+                        <div class="relative overflow-hidden">
+                            <div class="h-64 bg-gradient-to-br from-blue-600 via-purple-600 to-indigo-700 p-4 relative">
+                                <!-- Trading Bot Interface -->
+                                <div class="h-full flex flex-col">
+                                    <!-- Bot Header -->
+                                    <div class="flex items-center justify-between mb-3">
+                                        <div class="flex items-center space-x-2">
+                                            <div class="w-8 h-8 bg-white/20 rounded-lg flex items-center justify-center">
+                                                <i class="fas fa-robot text-white text-sm"></i>
+                                            </div>
+                                            <div class="text-white">
+                                                <div class="font-bold text-sm">AIBOT IYI</div>
+                                                <div class="text-blue-200 text-xs">Protocol v2.1</div>
+                                            </div>
+                                        </div>
+                                        <div class="bg-green-400 text-green-900 px-2 py-1 rounded text-xs font-bold">
+                                            ACTIVE
+                                        </div>
+                                    </div>
+                                    
+                                    <!-- Performance Stats -->
+                                    <div class="grid grid-cols-2 gap-3 mb-3">
+                                        <div class="bg-white/10 rounded-lg p-2">
+                                            <div class="text-white font-bold text-lg">+24.8%</div>
+                                            <div class="text-blue-200 text-xs">24h ROI</div>
+                                        </div>
+                                        <div class="bg-white/10 rounded-lg p-2">
+                                            <div class="text-white font-bold text-lg">$2.5M</div>
+                                            <div class="text-blue-200 text-xs">TVL</div>
+                                        </div>
+                                    </div>
+                                    
+                                    <!-- AI Recommendations -->
+                                    <div class="bg-slate-700 rounded p-2 flex-1">
+                                        <div class="text-purple-400 text-xs mb-1">AI Signals</div>
+                                        <div class="space-y-1">
+                                            <div class="flex items-center justify-between text-xs">
+                                                <span class="text-white">BTC/USDT</span>
+                                                <span class="text-green-400">BUY 85%</span>
+                                            </div>
+                                            <div class="flex items-center justify-between text-xs">
+                                                <span class="text-white">ETH/USDT</span>
+                                                <span class="text-yellow-400">HOLD 60%</span>
+                                            </div>
+                                            <div class="flex items-center justify-between text-xs">
+                                                <span class="text-white">ADA/USDT</span>
+                                                <span class="text-red-400">SELL 75%</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <!-- Floating Elements -->
+                                <div class="absolute top-1 right-1 bg-blue-500 text-white px-1.5 py-0.5 rounded text-xs font-bold">
+                                    TVL $2.5M
+                                </div>
+                                <div class="absolute bottom-1 left-1 bg-purple-500 text-white px-1.5 py-0.5 rounded text-xs">
+                                    <i class="fas fa-brain mr-1"></i>AI Powered
+                                </div>
+                            </div>
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                        </div>
+                        <div class="p-6">
+                            <div class="flex items-center gap-2 mb-3">
+                                <span class="px-2 py-1 bg-blue-100 text-blue-800 rounded text-xs font-semibold">DeFi</span>
+                                <span class="px-2 py-1 bg-purple-100 text-purple-800 rounded text-xs font-semibold">AI Trading</span>
+                                <span class="px-2 py-1 bg-green-100 text-green-800 rounded text-xs font-semibold">Gaming</span>
+                            </div>
+                            <h3 class="text-xl font-bold text-gray-900 mb-2" data-i18n="portfolio.projects.aibot.title">
+                                AIBOT IYI Protocol
+                            </h3>
+                            <p class="text-gray-600 mb-4" data-i18n="portfolio.projects.aibot.description">
+                                Complete AI-DeFi ecosystem combining intelligent trading bots with gaming elements. Multi-chain support with advanced risk management algorithms.
+                            </p>
+                            <div class="space-y-2 mb-4">
+                                <div class="flex items-center text-sm text-gray-500">
+                                    <i class="fas fa-chart-line w-4 mr-2"></i>
+                                    <span data-i18n="portfolio.projects.aibot.tvl">$2.5M+ TVL</span>
+                                </div>
+                                <div class="flex items-center text-sm text-gray-500">
+                                    <i class="fas fa-users w-4 mr-2"></i>
+                                    <span data-i18n="portfolio.projects.aibot.users">10K+ Active Users</span>
+                                </div>
+                                <div class="flex items-center text-sm text-gray-500">
+                                    <i class="fas fa-network-wired w-4 mr-2"></i>
+                                    <span>BSC, Ethereum, Polygon</span>
+                                </div>
+                            </div>
+                            <div class="flex gap-2">
+                                <button class="flex-1 bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-blue-700 transition-colors text-sm font-semibold" data-i18n="portfolio.projects.view_details">
+                                    View Details
+                                </button>
+                                <button class="px-4 py-2 border border-gray-300 rounded-lg hover:bg-gray-50 transition-colors">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2: DeFi Yield Farming Platform -->
+                    <div class="project-card blockchain bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 group">
+                        <div class="relative overflow-hidden">
+                            <div class="h-64 bg-gradient-to-br from-green-600 via-emerald-600 to-teal-700 p-3 relative">
+                                <!-- Yield Farming Pool Interface -->
+                                <div class="bg-white/95 backdrop-blur rounded-xl p-4 h-full">
+                                    <!-- Pool Header -->
+                                    <div class="flex items-center justify-between mb-4">
+                                        <div class="flex items-center space-x-2">
+                                            <div class="flex -space-x-1">
+                                                <div class="w-6 h-6 bg-orange-500 rounded-full border-2 border-white flex items-center justify-center">
+                                                    <span class="text-white text-xs font-bold">₿</span>
+                                                </div>
+                                                <div class="w-6 h-6 bg-blue-500 rounded-full border-2 border-white flex items-center justify-center">
+                                                    <span class="text-white text-xs font-bold">Ξ</span>
+                                                </div>
+                                            </div>
+                                            <span class="font-bold text-slate-800">BTC-ETH LP</span>
+                                        </div>
+                                        <div class="bg-green-100 text-green-800 px-2 py-1 rounded text-xs font-bold">
+                                            Hot 🔥
+                                        </div>
+                                    </div>
+                                    
+                                    <!-- APY Display -->
+                                    <div class="text-center mb-4">
+                                        <div class="text-3xl font-black text-green-600">156.2%</div>
+                                        <div class="text-sm text-slate-600">Current APY</div>
+                                    </div>
+                                    
+                                    <!-- Pool Stats -->
+                                    <div class="grid grid-cols-2 gap-3">
+                                        <div class="text-center">
+                                            <div class="text-lg font-bold text-slate-800">$8.2M</div>
+                                            <div class="text-xs text-slate-500">TVL</div>
+                                        </div>
+                                        <div class="text-center">
+                                            <div class="text-lg font-bold text-slate-800">2.8K</div>
+                                            <div class="text-xs text-slate-500">Farmers</div>
+                                        </div>
+                                    </div>
+                                    
+                                    <!-- Action Button -->
+                                    <button class="w-full mt-3 bg-gradient-to-r from-green-500 to-emerald-600 text-white py-2 rounded-lg font-semibold text-sm">
+                                        Stake LP Tokens
+                                    </button>
+                                </div>
+                                
+                                <!-- Floating Rewards -->
+                                <div class="absolute top-1 right-1 bg-yellow-400 text-yellow-900 px-1.5 py-0.5 rounded-full text-xs font-bold rotate-12">
+                                    <i class="fas fa-coins mr-1"></i>Rewards
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <div class="flex items-center gap-2 mb-3">
+                                <span class="px-2 py-1 bg-green-100 text-green-800 rounded text-xs font-semibold">DeFi</span>
+                                <span class="px-2 py-1 bg-blue-100 text-blue-800 rounded text-xs font-semibold">Smart Contract</span>
+                                <span class="px-2 py-1 bg-yellow-100 text-yellow-800 rounded text-xs font-semibold">Yield Farming</span>
+                            </div>
+                            <h3 class="text-xl font-bold text-gray-900 mb-2" data-i18n="portfolio.projects.yieldfarm.title">
+                                Advanced Yield Farming Platform
+                            </h3>
+                            <p class="text-gray-600 mb-4" data-i18n="portfolio.projects.yieldfarm.description">
+                                High-performance DeFi platform with automated yield optimization, liquidity mining, and cross-chain staking capabilities.
+                            </p>
+                            <div class="space-y-2 mb-4">
+                                <div class="flex items-center text-sm text-gray-500">
+                                    <i class="fas fa-percentage w-4 mr-2"></i>
+                                    <span data-i18n="portfolio.projects.yieldfarm.apy">Up to 150% APY</span>
+                                </div>
+                                <div class="flex items-center text-sm text-gray-500">
+                                    <i class="fas fa-lock w-4 mr-2"></i>
+                                    <span data-i18n="portfolio.projects.yieldfarm.locked">$5M+ Locked</span>
+                                </div>
+                                <div class="flex items-center text-sm text-gray-500">
+                                    <i class="fas fa-shield-alt w-4 mr-2"></i>
+                                    <span data-i18n="portfolio.projects.yieldfarm.audited">Security Audited</span>
+                                </div>
+                            </div>
+                            <div class="flex gap-2">
+                                <button class="flex-1 bg-green-600 text-white py-2 px-4 rounded-lg hover:bg-green-700 transition-colors text-sm font-semibold" data-i18n="portfolio.projects.view_details">
+                                    View Details
+                                </button>
+                                <button class="px-4 py-2 border border-gray-300 rounded-lg hover:bg-gray-50 transition-colors">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3: NFT Marketplace -->
+                    <div class="project-card blockchain web-app bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 group">
+                        <div class="relative overflow-hidden">
+                            <div class="h-64 bg-gradient-to-br from-slate-100 to-slate-200 p-4 relative">
+                                <!-- NFT Marketplace Grid -->
+                                <div class="h-full">
+                                    <!-- Marketplace Header -->
+                                    <div class="flex items-center justify-between mb-3">
+                                        <div class="flex items-center space-x-2">
+                                            <div class="w-6 h-6 bg-gradient-to-r from-pink-500 to-purple-500 rounded">
+                                                <div class="w-full h-full bg-gradient-to-br from-white/20 to-transparent rounded"></div>
+                                            </div>
+                                            <span class="font-bold text-slate-800 text-sm">NFT Bazaar</span>
+                                        </div>
+                                        <div class="bg-pink-100 text-pink-700 px-2 py-1 rounded text-xs">
+                                            Live Auction
+                                        </div>
+                                    </div>
+                                    
+                                    <!-- NFT Grid -->
+                                    <div class="grid grid-cols-3 gap-2 mb-3">
+                                        <div class="h-16 bg-gradient-to-br from-blue-400 to-purple-500 rounded-lg relative overflow-hidden">
+                                            <div class="absolute inset-2 bg-white/20 rounded"></div>
+                                            <div class="absolute bottom-1 left-1 bg-black/50 text-white px-1 rounded text-xs">#001</div>
+                                        </div>
+                                        <div class="h-16 bg-gradient-to-br from-green-400 to-blue-500 rounded-lg relative overflow-hidden">
+                                            <div class="absolute inset-2 bg-white/20 rounded"></div>
+                                            <div class="absolute bottom-1 left-1 bg-black/50 text-white px-1 rounded text-xs">#002</div>
+                                        </div>
+                                        <div class="h-16 bg-gradient-to-br from-yellow-400 to-red-500 rounded-lg relative overflow-hidden">
+                                            <div class="absolute inset-2 bg-white/20 rounded"></div>
+                                            <div class="absolute bottom-1 left-1 bg-black/50 text-white px-1 rounded text-xs">#003</div>
+                                        </div>
+                                    </div>
+                                    
+                                    <!-- Featured NFT Info -->
+                                    <div class="bg-white rounded-lg p-2">
+                                        <div class="flex justify-between items-center">
+                                            <div>
+                                                <div class="font-bold text-slate-800 text-sm">Crypto Punk #1337</div>
+                                                <div class="text-slate-600 text-xs">Current bid: 2.5 ETH</div>
+                                            </div>
+                                            <div class="text-right">
+                                                <div class="text-green-600 font-bold text-sm">$4,200</div>
+                                                <div class="text-slate-500 text-xs">24h: +15%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <!-- Floating Stats -->
+                                <div class="absolute top-1 left-1 bg-purple-500 text-white px-1.5 py-0.5 rounded-full text-xs font-bold -rotate-12">
+                                    <i class="fas fa-fire mr-1"></i>Trending
+                                </div>
+                                <div class="absolute bottom-1 right-1 bg-pink-500 text-white px-1.5 py-0.5 rounded-full text-xs">
+                                    50+ Collections
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <div class="flex items-center gap-2 mb-3">
+                                <span class="px-2 py-1 bg-pink-100 text-pink-800 rounded text-xs font-semibold">NFT</span>
+                                <span class="px-2 py-1 bg-purple-100 text-purple-800 rounded text-xs font-semibold">Marketplace</span>
+                                <span class="px-2 py-1 bg-blue-100 text-blue-800 rounded text-xs font-semibold">Web3</span>
+                            </div>
+                            <h3 class="text-xl font-bold text-gray-900 mb-2" data-i18n="portfolio.projects.nft.title">
+                                Premium NFT Marketplace
+                            </h3>
+                            <p class="text-gray-600 mb-4" data-i18n="portfolio.projects.nft.description">
+                                Full-featured NFT marketplace with advanced filtering, auction system, and cross-chain compatibility. Built with modern Web3 technologies.
+                            </p>
+                            <div class="space-y-2 mb-4">
+                                <div class="flex items-center text-sm text-gray-500">
+                                    <i class="fas fa-shopping-cart w-4 mr-2"></i>
+                                    <span data-i18n="portfolio.projects.nft.volume">$800K+ Trading Volume</span>
+                                </div>
+                                <div class="flex items-center text-sm text-gray-500">
+                                    <i class="fas fa-palette w-4 mr-2"></i>
+                                    <span data-i18n="portfolio.projects.nft.collections">50+ Collections</span>
+                                </div>
+                                <div class="flex items-center text-sm text-gray-500">
+                                    <i class="fas fa-bolt w-4 mr-2"></i>
+                                    <span>ERC-721, ERC-1155</span>
+                                </div>
+                            </div>
+                            <div class="flex gap-2">
+                                <button class="flex-1 bg-pink-600 text-white py-2 px-4 rounded-lg hover:bg-pink-700 transition-colors text-sm font-semibold" data-i18n="portfolio.projects.view_details">
+                                    View Details
+                                </button>
+                                <button class="px-4 py-2 border border-gray-300 rounded-lg hover:bg-gray-50 transition-colors">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 4: AI Trading Dashboard -->
+                    <div class="project-card ai-trading web-app bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 group">
+                        <div class="relative overflow-hidden">
+                            <div class="h-64 bg-gradient-to-br from-slate-900 to-slate-800 p-4 relative">
+                                <!-- Trading Analytics Dashboard -->
+                                <div class="h-full">
+                                    <!-- Dashboard Header -->
+                                    <div class="flex items-center justify-between mb-3">
+                                        <div class="text-white">
+                                            <div class="font-bold text-lg">$127,420</div>
+                                            <div class="text-green-400 text-sm">+8.2% today</div>
+                                        </div>
+                                        <div class="flex items-center space-x-1">
+                                            <div class="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
+                                            <span class="text-green-400 text-xs">Live</span>
+                                        </div>
+                                    </div>
+                                    
+                                    <!-- Chart Area -->
+                                    <div class="bg-slate-800 rounded-lg p-3 mb-3 h-20">
+                                        <div class="flex items-end justify-between h-full">
+                                            <div class="w-1 bg-green-400 h-3/4"></div>
+                                            <div class="w-1 bg-green-500 h-full"></div>
+                                            <div class="w-1 bg-yellow-400 h-1/2"></div>
+                                            <div class="w-1 bg-green-400 h-2/3"></div>
+                                            <div class="w-1 bg-red-400 h-1/3"></div>
+                                            <div class="w-1 bg-green-500 h-4/5"></div>
+                                            <div class="w-1 bg-green-400 h-full"></div>
+                                            <div class="w-1 bg-yellow-400 h-2/3"></div>
+                                            <div class="w-1 bg-green-500 h-5/6"></div>
+                                            <div class="w-1 bg-green-400 h-4/5"></div>
+                                        </div>
+                                    </div>
+                                    
+                                    <!-- Trading Pairs -->
+                                    <div class="space-y-2">
+                                        <div class="flex items-center justify-between bg-slate-800 rounded px-2 py-1">
+                                            <div class="flex items-center space-x-2">
+                                                <div class="w-4 h-4 bg-orange-500 rounded-full"></div>
+                                                <span class="text-white text-xs">BTC/USDT</span>
+                                            </div>
+                                            <div class="text-green-400 text-xs font-bold">+2.4%</div>
+                                        </div>
+                                        <div class="flex items-center justify-between bg-slate-800 rounded px-2 py-1">
+                                            <div class="flex items-center space-x-2">
+                                                <div class="w-4 h-4 bg-blue-500 rounded-full"></div>
+                                                <span class="text-white text-xs">ETH/USDT</span>
+                                            </div>
+                                            <div class="text-green-400 text-xs font-bold">+1.8%</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <!-- AI Indicator -->
+                                <div class="absolute top-1 right-1 bg-orange-500 text-white px-1.5 py-0.5 rounded text-xs font-bold">
+                                    <i class="fas fa-brain mr-1"></i>92% ACC
+                                </div>
+                                <div class="absolute bottom-1 left-1 bg-red-500 text-white px-1.5 py-0.5 rounded text-xs">
+                                    20+ Exchanges
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <div class="flex items-center gap-2 mb-3">
+                                <span class="px-2 py-1 bg-orange-100 text-orange-800 rounded text-xs font-semibold">AI</span>
+                                <span class="px-2 py-1 bg-red-100 text-red-800 rounded text-xs font-semibold">Trading</span>
+                                <span class="px-2 py-1 bg-blue-100 text-blue-800 rounded text-xs font-semibold">Analytics</span>
+                            </div>
+                            <h3 class="text-xl font-bold text-gray-900 mb-2" data-i18n="portfolio.projects.ai_trader.title">
+                                AI Trading Dashboard
+                            </h3>
+                            <p class="text-gray-600 mb-4" data-i18n="portfolio.projects.ai_trader.description">
+                                Real-time trading dashboard with AI-powered market analysis, risk management tools, and automated strategy execution.
+                            </p>
+                            <div class="space-y-2 mb-4">
+                                <div class="flex items-center text-sm text-gray-500">
+                                    <i class="fas fa-brain w-4 mr-2"></i>
+                                    <span data-i18n="portfolio.projects.ai_trader.accuracy">92% Accuracy</span>
+                                </div>
+                                <div class="flex items-center text-sm text-gray-500">
+                                    <i class="fas fa-clock w-4 mr-2"></i>
+                                    <span data-i18n="portfolio.projects.ai_trader.realtime">Real-time Analysis</span>
+                                </div>
+                                <div class="flex items-center text-sm text-gray-500">
+                                    <i class="fas fa-exchange-alt w-4 mr-2"></i>
+                                    <span>20+ Exchanges</span>
+                                </div>
+                            </div>
+                            <div class="flex gap-2">
+                                <button class="flex-1 bg-orange-600 text-white py-2 px-4 rounded-lg hover:bg-orange-700 transition-colors text-sm font-semibold" data-i18n="portfolio.projects.view_details">
+                                    View Details
+                                </button>
+                                <button class="px-4 py-2 border border-gray-300 rounded-lg hover:bg-gray-50 transition-colors">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 5: E-commerce Platform -->
+                    <div class="project-card web-app mobile bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 group">
+                        <div class="relative overflow-hidden">
+                            <div class="h-64 bg-gradient-to-br from-slate-700 to-slate-900 p-4 relative flex items-center justify-center">
+                                <!-- Mobile Phone Mockup -->
+                                <div class="w-28 h-48 bg-slate-800 rounded-2xl p-1.5 shadow-2xl">
+                                    <!-- Phone Screen -->
+                                    <div class="w-full h-full bg-white rounded-xl overflow-hidden relative">
+                                        <!-- Status Bar -->
+                                        <div class="bg-slate-900 h-4 flex items-center justify-between px-2 text-white text-xs">
+                                            <span class="text-xs">9:41</span>
+                                            <div class="flex space-x-0.5">
+                                                <div class="w-1 h-1 bg-white rounded-full"></div>
+                                                <div class="w-1 h-1 bg-white rounded-full"></div>
+                                                <div class="w-2 h-1 bg-white rounded-sm"></div>
+                                            </div>
+                                        </div>
+                                        
+                                        <!-- App Header -->
+                                        <div class="bg-teal-500 text-white p-1.5 flex items-center justify-between">
+                                            <div class="flex items-center space-x-1">
+                                                <i class="fas fa-store text-xs"></i>
+                                                <span class="font-bold text-xs">ShopPro</span>
+                                            </div>
+                                            <i class="fas fa-shopping-cart text-xs"></i>
+                                        </div>
+                                        
+                                        <!-- Product Grid -->
+                                        <div class="p-1.5 space-y-1.5">
+                                            <div class="grid grid-cols-2 gap-1">
+                                                <div class="bg-slate-100 rounded h-8 relative">
+                                                    <div class="absolute inset-0.5 bg-gradient-to-br from-blue-400 to-purple-500 rounded"></div>
+                                                    <div class="absolute bottom-0 left-0 right-0 bg-black/50 text-white text-xs p-0.5">$29</div>
+                                                </div>
+                                                <div class="bg-slate-100 rounded h-8 relative">
+                                                    <div class="absolute inset-0.5 bg-gradient-to-br from-green-400 to-teal-500 rounded"></div>
+                                                    <div class="absolute bottom-0 left-0 right-0 bg-black/50 text-white text-xs p-0.5">$45</div>
+                                                </div>
+                                            </div>
+                                            
+                                            <!-- Featured Item -->
+                                            <div class="bg-slate-50 rounded p-1.5">
+                                                <div class="flex items-center space-x-1.5">
+                                                    <div class="w-6 h-6 bg-gradient-to-r from-orange-400 to-red-500 rounded"></div>
+                                                    <div class="flex-1">
+                                                        <div class="text-xs font-bold">Premium</div>
+                                                        <div class="text-xs text-slate-600">⭐ 4.9</div>
+                                                    </div>
+                                                    <div class="text-xs font-bold text-green-600">$99</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        <!-- Bottom Tab Bar -->
+                                        <div class="absolute bottom-0 left-0 right-0 bg-white border-t flex justify-around py-0.5">
+                                            <i class="fas fa-home text-teal-500 text-xs"></i>
+                                            <i class="fas fa-search text-slate-400 text-xs"></i>
+                                            <i class="fas fa-heart text-slate-400 text-xs"></i>
+                                            <i class="fas fa-user text-slate-400 text-xs"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <!-- Floating Elements -->
+                                <div class="absolute top-1 left-1 bg-teal-500 text-white px-1.5 py-0.5 rounded text-xs font-bold -rotate-12">
+                                    <i class="fas fa-mobile-alt mr-1"></i>PWA
+                                </div>
+                                <div class="absolute bottom-1 right-1 bg-green-500 text-white px-1.5 py-0.5 rounded text-xs">
+                                    99.9% Uptime
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <div class="flex items-center gap-2 mb-3">
+                                <span class="px-2 py-1 bg-teal-100 text-teal-800 rounded text-xs font-semibold">E-commerce</span>
+                                <span class="px-2 py-1 bg-cyan-100 text-cyan-800 rounded text-xs font-semibold">Mobile</span>
+                                <span class="px-2 py-1 bg-blue-100 text-blue-800 rounded text-xs font-semibold">PWA</span>
+                            </div>
+                            <h3 class="text-xl font-bold text-gray-900 mb-2" data-i18n="portfolio.projects.ecommerce.title">
+                                Modern E-commerce Platform
+                            </h3>
+                            <p class="text-gray-600 mb-4" data-i18n="portfolio.projects.ecommerce.description">
+                                Full-featured e-commerce solution with mobile app, admin dashboard, payment integration, and inventory management.
+                            </p>
+                            <div class="space-y-2 mb-4">
+                                <div class="flex items-center text-sm text-gray-500">
+                                    <i class="fas fa-mobile-alt w-4 mr-2"></i>
+                                    <span data-i18n="portfolio.projects.ecommerce.responsive">Mobile First</span>
+                                </div>
+                                <div class="flex items-center text-sm text-gray-500">
+                                    <i class="fas fa-credit-card w-4 mr-2"></i>
+                                    <span data-i18n="portfolio.projects.ecommerce.payments">Multiple Payments</span>
+                                </div>
+                                <div class="flex items-center text-sm text-gray-500">
+                                    <i class="fas fa-rocket w-4 mr-2"></i>
+                                    <span data-i18n="portfolio.projects.ecommerce.performance">99.9% Uptime</span>
+                                </div>
+                            </div>
+                            <div class="flex gap-2">
+                                <button class="flex-1 bg-teal-600 text-white py-2 px-4 rounded-lg hover:bg-teal-700 transition-colors text-sm font-semibold" data-i18n="portfolio.projects.view_details">
+                                    View Details
+                                </button>
+                                <button class="px-4 py-2 border border-gray-300 rounded-lg hover:bg-gray-50 transition-colors">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 6: FinTech Mobile App -->
+                    <div class="project-card mobile web-app bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 group">
+                        <div class="relative overflow-hidden">
+                            <div class="h-64 bg-gradient-to-br from-violet-600 via-purple-600 to-fuchsia-700 p-4 relative">
+                                <!-- Banking App Interface -->
+                                <div class="bg-white/95 backdrop-blur rounded-2xl p-3 h-full shadow-2xl">
+                                    <!-- App Header -->
+                                    <div class="flex items-center justify-between mb-4">
+                                        <div class="flex items-center space-x-2">
+                                            <div class="w-8 h-8 bg-gradient-to-r from-violet-500 to-purple-600 rounded-lg flex items-center justify-center">
+                                                <i class="fas fa-university text-white text-sm"></i>
+                                            </div>
+                                            <div>
+                                                <div class="font-bold text-slate-800 text-sm">FinBank Pro</div>
+                                                <div class="text-slate-600 text-xs">Good morning, Alex</div>
+                                            </div>
+                                        </div>
+                                        <div class="flex items-center space-x-1">
+                                            <i class="fas fa-fingerprint text-green-500"></i>
+                                            <div class="w-2 h-2 bg-green-400 rounded-full"></div>
+                                        </div>
+                                    </div>
+                                    
+                                    <!-- Balance Card -->
+                                    <div class="bg-gradient-to-r from-violet-500 to-purple-600 rounded-xl p-2.5 mb-3 text-white">
+                                        <div class="text-xs opacity-90">Total Balance</div>
+                                        <div class="text-2xl font-bold">$47,293.50</div>
+                                        <div class="flex justify-between items-end mt-2">
+                                            <div class="text-xs">**** **** **** 8429</div>
+                                            <div class="text-xs bg-white/20 px-2 py-1 rounded">VISA</div>
+                                        </div>
+                                    </div>
+                                    
+                                    <!-- Quick Actions -->
+                                    <div class="grid grid-cols-4 gap-1">
+                                        <div class="text-center">
+                                            <div class="w-6 h-6 bg-blue-100 rounded flex items-center justify-center mx-auto mb-0.5">
+                                                <i class="fas fa-paper-plane text-blue-600 text-xs"></i>
+                                            </div>
+                                            <div class="text-xs text-slate-600">Send</div>
+                                        </div>
+                                        <div class="text-center">
+                                            <div class="w-6 h-6 bg-green-100 rounded flex items-center justify-center mx-auto mb-0.5">
+                                                <i class="fas fa-download text-green-600 text-xs"></i>
+                                            </div>
+                                            <div class="text-xs text-slate-600">Receive</div>
+                                        </div>
+                                        <div class="text-center">
+                                            <div class="w-6 h-6 bg-orange-100 rounded flex items-center justify-center mx-auto mb-0.5">
+                                                <i class="fas fa-chart-line text-orange-600 text-xs"></i>
+                                            </div>
+                                            <div class="text-xs text-slate-600">Invest</div>
+                                        </div>
+                                        <div class="text-center">
+                                            <div class="w-6 h-6 bg-purple-100 rounded flex items-center justify-center mx-auto mb-0.5">
+                                                <i class="fas fa-credit-card text-purple-600 text-xs"></i>
+                                            </div>
+                                            <div class="text-xs text-slate-600">Cards</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <!-- Security Badge -->
+                                <div class="absolute top-1 right-1 bg-green-500 text-white px-1.5 py-0.5 rounded-full text-xs font-bold rotate-12">
+                                    <i class="fas fa-shield-alt mr-1"></i>Secure
+                                </div>
+                                <div class="absolute bottom-1 left-1 bg-violet-500 text-white px-1.5 py-0.5 rounded-full text-xs">
+                                    100K+ Users
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <div class="flex items-center gap-2 mb-3">
+                                <span class="px-2 py-1 bg-violet-100 text-violet-800 rounded text-xs font-semibold">FinTech</span>
+                                <span class="px-2 py-1 bg-purple-100 text-purple-800 rounded text-xs font-semibold">Banking</span>
+                                <span class="px-2 py-1 bg-pink-100 text-pink-800 rounded text-xs font-semibold">Security</span>
+                            </div>
+                            <h3 class="text-xl font-bold text-gray-900 mb-2" data-i18n="portfolio.projects.fintech.title">
+                                FinTech Banking App
+                            </h3>
+                            <p class="text-gray-600 mb-4" data-i18n="portfolio.projects.fintech.description">
+                                Secure mobile banking application with biometric authentication, real-time transactions, and advanced fraud detection.
+                            </p>
+                            <div class="space-y-2 mb-4">
+                                <div class="flex items-center text-sm text-gray-500">
+                                    <i class="fas fa-fingerprint w-4 mr-2"></i>
+                                    <span data-i18n="portfolio.projects.fintech.biometric">Biometric Auth</span>
+                                </div>
+                                <div class="flex items-center text-sm text-gray-500">
+                                    <i class="fas fa-shield-alt w-4 mr-2"></i>
+                                    <span data-i18n="portfolio.projects.fintech.security">Bank-grade Security</span>
+                                </div>
+                                <div class="flex items-center text-sm text-gray-500">
+                                    <i class="fas fa-users w-4 mr-2"></i>
+                                    <span data-i18n="portfolio.projects.fintech.users">100K+ Users</span>
+                                </div>
+                            </div>
+                            <div class="flex gap-2">
+                                <button class="flex-1 bg-violet-600 text-white py-2 px-4 rounded-lg hover:bg-violet-700 transition-colors text-sm font-semibold" data-i18n="portfolio.projects.view_details">
+                                    View Details
+                                </button>
+                                <button class="px-4 py-2 border border-gray-300 rounded-lg hover:bg-gray-50 transition-colors">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technologies & Stats Section -->
+        <section class="py-20 bg-gradient-to-br from-gray-50 to-blue-50">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4" data-i18n="portfolio.tech.title">
+                        Technologies & Expertise
+                    </h2>
+                    <p class="text-xl text-gray-600 max-w-3xl mx-auto" data-i18n="portfolio.tech.subtitle">
+                        Our projects leverage cutting-edge technologies to deliver exceptional results
+                    </p>
+                </div>
+
+                <!-- Tech Stack -->
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
+                    <div class="text-center">
+                        <div class="w-16 h-16 bg-gradient-to-br from-blue-500 to-purple-600 rounded-2xl flex items-center justify-center mx-auto mb-4">
+                            <i class="fab fa-ethereum text-white text-2xl"></i>
+                        </div>
+                        <h3 class="font-bold text-gray-900 mb-2" data-i18n="portfolio.tech.blockchain.title">Blockchain</h3>
+                        <p class="text-gray-600 text-sm" data-i18n="portfolio.tech.blockchain.desc">Ethereum, BSC, Polygon, Solana</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="w-16 h-16 bg-gradient-to-br from-green-500 to-teal-600 rounded-2xl flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-brain text-white text-2xl"></i>
+                        </div>
+                        <h3 class="font-bold text-gray-900 mb-2" data-i18n="portfolio.tech.ai.title">AI & ML</h3>
+                        <p class="text-gray-600 text-sm" data-i18n="portfolio.tech.ai.desc">TensorFlow, PyTorch, OpenAI</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="w-16 h-16 bg-gradient-to-br from-orange-500 to-red-600 rounded-2xl flex items-center justify-center mx-auto mb-4">
+                            <i class="fab fa-react text-white text-2xl"></i>
+                        </div>
+                        <h3 class="font-bold text-gray-900 mb-2" data-i18n="portfolio.tech.frontend.title">Frontend</h3>
+                        <p class="text-gray-600 text-sm" data-i18n="portfolio.tech.frontend.desc">React, Vue.js, Next.js, TypeScript</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="w-16 h-16 bg-gradient-to-br from-purple-500 to-pink-600 rounded-2xl flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-server text-white text-2xl"></i>
+                        </div>
+                        <h3 class="font-bold text-gray-900 mb-2" data-i18n="portfolio.tech.backend.title">Backend</h3>
+                        <p class="text-gray-600 text-sm" data-i18n="portfolio.tech.backend.desc">Node.js, Python, PostgreSQL, MongoDB</p>
+                    </div>
+                </div>
+
+                <!-- Stats -->
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <div class="text-center p-6 bg-white rounded-xl shadow-sm">
+                        <div class="text-4xl font-bold text-blue-600 mb-2">50+</div>
+                        <p class="text-gray-600" data-i18n="portfolio.stats.projects">Projects Completed</p>
+                    </div>
+                    <div class="text-center p-6 bg-white rounded-xl shadow-sm">
+                        <div class="text-4xl font-bold text-green-600 mb-2">$10M+</div>
+                        <p class="text-gray-600" data-i18n="portfolio.stats.tvl">Total Value Locked</p>
+                    </div>
+                    <div class="text-center p-6 bg-white rounded-xl shadow-sm">
+                        <div class="text-4xl font-bold text-purple-600 mb-2">15+</div>
+                        <p class="text-gray-600" data-i18n="portfolio.stats.networks">Blockchain Networks</p>
+                    </div>
+                    <div class="text-center p-6 bg-white rounded-xl shadow-sm">
+                        <div class="text-4xl font-bold text-orange-600 mb-2">99.9%</div>
+                        <p class="text-gray-600" data-i18n="portfolio.stats.uptime">Average Uptime</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Process Section -->
+        <section class="py-20 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4" data-i18n="portfolio.process.title">
+                        Our Development Process
+                    </h2>
+                    <p class="text-xl text-gray-600 max-w-3xl mx-auto" data-i18n="portfolio.process.subtitle">
+                        A proven methodology that ensures project success from concept to deployment
+                    </p>
+                </div>
+
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <div class="text-center group">
+                        <div class="w-20 h-20 bg-gradient-to-br from-blue-500 to-blue-600 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
+                            <span class="text-2xl font-bold text-white">1</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-3" data-i18n="portfolio.process.step1.title">
+                            Discovery & Analysis
+                        </h3>
+                        <p class="text-gray-600" data-i18n="portfolio.process.step1.desc">
+                            Deep dive into requirements, market research, and technical feasibility assessment
+                        </p>
+                    </div>
+                    <div class="text-center group">
+                        <div class="w-20 h-20 bg-gradient-to-br from-green-500 to-green-600 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
+                            <span class="text-2xl font-bold text-white">2</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-3" data-i18n="portfolio.process.step2.title">
+                            Design & Architecture
+                        </h3>
+                        <p class="text-gray-600" data-i18n="portfolio.process.step2.desc">
+                            UI/UX design, system architecture, and smart contract planning
+                        </p>
+                    </div>
+                    <div class="text-center group">
+                        <div class="w-20 h-20 bg-gradient-to-br from-purple-500 to-purple-600 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
+                            <span class="text-2xl font-bold text-white">3</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-3" data-i18n="portfolio.process.step3.title">
+                            Development & Testing
+                        </h3>
+                        <p class="text-gray-600" data-i18n="portfolio.process.step3.desc">
+                            Agile development with continuous testing and security auditing
+                        </p>
+                    </div>
+                    <div class="text-center group">
+                        <div class="w-20 h-20 bg-gradient-to-br from-orange-500 to-orange-600 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
+                            <span class="text-2xl font-bold text-white">4</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-3" data-i18n="portfolio.process.step4.title">
+                            Launch & Support
+                        </h3>
+                        <p class="text-gray-600" data-i18n="portfolio.process.step4.desc">
+                            Deployment, monitoring, and ongoing maintenance with 24/7 support
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="py-16 bg-gradient-to-r from-blue-600 via-purple-600 to-indigo-700">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-3xl md:text-4xl font-bold text-white mb-4" data-i18n="portfolio.cta.title">
+                    Ready to Start Your Project?
+                </h2>
+                <p class="text-xl text-blue-100 mb-8 max-w-2xl mx-auto" data-i18n="portfolio.cta.subtitle">
+                    Let's discuss how we can bring your blockchain or web development vision to life
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="/contact.html" class="bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors inline-flex items-center justify-center" data-i18n="portfolio.cta.contact">
+                        <i class="fas fa-comments mr-2"></i>
+                        Get Free Consultation
+                    </a>
+                    <a href="/services.html" class="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors inline-flex items-center justify-center" data-i18n="portfolio.cta.services">
+                        <i class="fas fa-list mr-2"></i>
+                        View All Services
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Placeholder - Loaded via ES6 Modules -->
+    <div id="footer-placeholder"></div>
+
+    <!-- JavaScript -->
+    <script>
+        // Portfolio filtering functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const filterButtons = document.querySelectorAll('.filter-btn');
+            const projectCards = document.querySelectorAll('.project-card');
+
+            filterButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    const filter = button.dataset.filter;
+                    
+                    // Update active button
+                    filterButtons.forEach(btn => btn.classList.remove('active', 'bg-blue-600', 'text-white'));
+                    filterButtons.forEach(btn => btn.classList.add('bg-white', 'text-gray-700'));
+                    button.classList.add('active', 'bg-blue-600', 'text-white');
+                    button.classList.remove('bg-white', 'text-gray-700');
+                    
+                    // Filter projects
+                    projectCards.forEach(card => {
+                        if (filter === 'all' || card.classList.contains(filter)) {
+                            card.style.display = 'block';
+                            setTimeout(() => {
+                                card.style.opacity = '1';
+                                card.style.transform = 'translateY(0)';
+                            }, 100);
+                        } else {
+                            card.style.opacity = '0';
+                            card.style.transform = 'translateY(20px)';
+                            setTimeout(() => {
+                                card.style.display = 'none';
+                            }, 300);
+                        }
+                    });
+                });
+            });
+
+            // Scroll animations
+            const observerOptions = {
+                threshold: 0.1,
+                rootMargin: '0px 0px -50px 0px'
+            };
+
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.opacity = '1';
+                        entry.target.style.transform = 'translateY(0)';
+                    }
+                });
+            }, observerOptions);
+
+            // Observe project cards for animations
+            projectCards.forEach(card => {
+                card.style.opacity = '0';
+                card.style.transform = 'translateY(30px)';
+                card.style.transition = 'all 0.6s ease-out';
+                observer.observe(card);
+            });
+        });
+    </script>
+
+    <!-- ES6 Modules Component System with i18n -->
+    <script type="module">
+        import { loadHBWComponents } from './components/templates.js';
+        import HBWi18n from './assets/js/i18n.js';
+        
+        // Initialize portfolio app with i18n system
+        async function initializePortfolioApp() {
+            // Load components
+            await loadHBWComponents();
+            
+            // Initialize i18n system
+            const i18n = new HBWi18n();
+            
+            // Load translations for portfolio page
+            await i18n.loadLanguage('en');
+            
+            // Apply initial English translations
+            i18n.applyTranslations();
+            
+            // Get saved language preference or use default (use same key as i18n.js)
+            const savedLang = localStorage.getItem('hbw_language') || 'en';
+            
+            // Set language if different from default
+            if (savedLang !== 'en') {
+                await i18n.switchLanguage(savedLang);
+            }
+            
+            // Setup language switcher after components are loaded
+            setupLanguageSwitcher(i18n);
+        }
+        
+        // Setup language switcher functionality
+        function setupLanguageSwitcher(i18n) {
+            const languageSwitcher = document.querySelector('.language-switcher');
+            if (languageSwitcher) {
+                const langButtons = languageSwitcher.querySelectorAll('.lang-btn');
+                
+                langButtons.forEach(btn => {
+                    btn.addEventListener('click', async (e) => {
+                        e.preventDefault();
+                        const targetLang = btn.dataset.lang;
+                        
+                        if (targetLang !== i18n.currentLang) {
+                            // Update button states
+                            langButtons.forEach(b => b.classList.remove('active'));
+                            btn.classList.add('active');
+                            
+                            // Change language
+                            await i18n.switchLanguage(targetLang);
+                        }
+                    });
+                });
+                
+                // Set initial active state
+                const currentLangBtn = languageSwitcher.querySelector(`[data-lang="${i18n.currentLang}"]`);
+                if (currentLangBtn) {
+                    langButtons.forEach(b => b.classList.remove('active'));
+                    currentLangBtn.classList.add('active');
+                }
+            }
+        }
+        
+        // Load everything when DOM is ready
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', initializePortfolioApp);
+        } else {
+            initializePortfolioApp();
+        }
+    </script>
+</body>
+</html>

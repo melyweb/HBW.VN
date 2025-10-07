@@ -1,0 +1,317 @@
+{
+  "hero": {
+    "status": "Hiện đang nhận dự án mới • Top 1% Blockchain Dev Việt Nam",
+    "headline": "Biến Ý Tưởng",
+    "highlight": "Thành Hiện Thực",
+    "description": "Từ website truyền thống đến giải pháp blockchain - Chúng tôi cung cấp giải pháp công nghệ toàn diện cho doanh nghiệp mọi quy mô",
+    "stats": {
+      "projects": {
+        "number": "200+",
+        "label": "Dự Án Thành Công"
+      },
+      "experience": {
+        "number": "9+",
+        "label": "Năm Kinh Nghiệm"
+      },
+      "clients": {
+        "number": "98%",
+        "label": "Hài Lòng Khách Hàng"
+      }
+    },
+    "trust_badges": {
+      "blockchain": "Chuyên Gia Blockchain",
+      "ai": "Bot Trading AI",
+      "security": "Bảo Mật Hàng Đầu"
+    },
+    "social_proof": {
+      "google_reviews": "Google Reviews 4.9/5",
+      "upwork_rate": "Tỷ Lệ Thành Công Upwork"
+    },
+    "mockup": {
+      "tvl_locked": "TVL Khóa",
+      "roi_24h": "ROI 24h",
+      "premium": "Cao Cấp"
+    },
+    "trust_indicators": {
+      "projects": "200+ Dự Án",
+      "experience": "5+ Năm Kinh Nghiệm",
+      "support": "24/7 Support"
+    },
+    "cta_primary": "Bắt Đầu Dự Án",
+    "cta_secondary": "Xem Portfolio",
+    "floating_stats": {
+      "projects_completed": {
+        "number": "200+",
+        "label": "Dự Án Hoàn Thành"
+      },
+      "support": {
+        "number": "24/7",
+        "label": "Technical Support"
+      },
+      "security": "Secure",
+      "code_quality": "Clean Code"
+    }
+  },
+  "services": {
+    "badge": "Dịch Vụ Chuyên Nghiệp",
+    "headline": "Giải Pháp Công Nghệ",
+    "highlight": " Tạo Hiệu Quả",
+    "description": "Từ ý tưởng đến triển khai, chúng tôi cung cấp dịch vụ công nghệ cao cấp với mockups chuyên nghiệp và metrics hiệu suất thực tế",
+    "web_development": {
+      "title": "Phát Triển Web",
+      "description": "Website hiện đại với dashboard tích hợp, hệ thống quản lý nội dung và tối ưu hóa SEO toàn diện",
+      "price": "$1,500 - $15,000",
+      "features": {
+        "responsive": "Thiết Kế Responsive",
+        "seo": "Tối Ưu SEO",
+        "cms": "Hệ Thống CMS"
+      },
+      "cta": "Tìm Hiểu Thêm"
+    },
+    "blockchain": {
+      "title": "Giải Pháp Blockchain",
+      "description": "Phát triển giao thức AIBOT IYI, hợp đồng thông minh và dashboard DeFi với metrics thời gian thực",
+      "price": "$5,000 - $50,000+",
+      "badge": "DeFi",
+      "features": {
+        "audited": "Hợp Đồng Đã Audit",
+        "defi": "Phát Triển Giao Thức DeFi",
+        "multichain": "Tích Hợp Đa Chuỗi"
+      },
+      "mockup": {
+        "tvl": "TVL",
+        "multichain": "Đa chuỗi"
+      },
+      "cta": "Tìm Hiểu Thêm"
+    },
+    "mobile_app": {
+      "title": "Ứng Dụng Di Động",
+      "description": "Ứng dụng iOS/Android với tích hợp blockchain, thanh toán trong ứng dụng và analytics người dùng nâng cao",
+      "price": "$8,000 - $35,000+",
+      "features": {
+        "native": "Native iOS/Android",
+        "blockchain": "Tích Hợp Blockchain",
+        "analytics": "Tích Hợp Analytics"
+      },
+      "mockup": {
+        "analytics": "Phân Tích",
+        "portfolio": "Danh Mục"
+      },
+      "cta": "Tìm Hiểu Thêm"
+    },
+    "digital_marketing": {
+      "title": "Marketing Số",
+      "description": "Chiến lược marketing toàn diện với SEO, quảng cáo trả tiền và dashboard phân tích chi tiết",
+      "price": "$500 - $5,000/tháng",
+      "features": {
+        "seo": "Tối Ưu SEO",
+        "ads": "Quảng Cáo Trả Tiền",
+        "analytics": "Dashboard Phân Tích"
+      },
+      "mockup": {
+        "dashboard": "Dashboard Marketing",
+        "live": "Trực Tiếp",
+        "growth": "Tăng Trưởng Hàng Tháng"
+      },
+      "cta": "Tìm Hiểu Thêm"
+    },
+    "ai_automation": {
+      "title": "Tự Động Hóa AI",
+      "description": "Giải pháp AI tùy chỉnh cho tự động hóa quy trình, phân tích dữ liệu và tối ưu hóa hiệu suất",
+      "price": "$200 - $2,000+",
+      "cta": "Tìm Hiểu Thêm"
+    },
+    "maintenance": {
+      "title": "Bảo Trì Website",
+      "description": "Dịch vụ bảo trì và hỗ trợ kỹ thuật 24/7 để đảm bảo website hoạt động ổn định",
+      "price": "$5 - $50/tháng",
+      "cta": "Tìm Hiểu Thêm"
+    },
+    "business_setup": {
+      "title": "Business Setup",
+      "description": "Thành lập doanh nghiệp, giấy phép kinh doanh, và business registration portal tracking",
+      "features": {
+        "registration": "Business Registration",
+        "license": "Giấy phép kinh doanh",
+        "consultation": "Legal Consultation"
+      },
+      "cta": "Learn More"
+    },
+    "hosting": {
+      "title": "Domain & Hosting",
+      "description": "Tên miền, SSD hosting, email doanh nghiệp và server control panel with monitoring",
+      "features": {
+        "ssd": "SSD Storage",
+        "ssl": "SSL Certificate",
+        "monitoring": "24/7 Monitoring"
+      },
+      "cta": "Learn More"
+    },
+    "cta_section": {
+      "badge": "Cần tư vấn về giải pháp phù hợp?",
+      "cta": "Xem Tất Cả Dịch Vụ"
+    }
+  },
+  "about": {
+    "badge": "Tại Sao Chọn HBW?",
+    "headline": "Tại Sao Chọn",
+    "highlight": "HBW?",
+    "description": "Với 5+ năm kinh nghiệm và 200+ dự án thành công, chúng tôi cam kết mang đến giải pháp công nghệ tối ưu nhất",
+    "expertise": {
+      "blockchain": {
+        "title": "Blockchain Development",
+        "description": "Smart Contracts, DeFi protocols, và Multi-chain integration với security-first approach"
+      },
+      "ai_trading": {
+        "title": "Hệ Thống Trading AI",
+        "description": "Bot trading tự động với thuật toán ML để quản lý rủi ro tối ưu và ROI cao nhất"
+      },
+      "agile": {
+        "title": "Agile Development",
+        "description": "Quy trình phát triển chuẩn quốc tế với CI/CD, testing automated và deployment optimization"
+      }
+    },
+    "stats": {
+      "title": "Thành Tựu Của Chúng Tôi",
+      "projects": {
+        "number": "200+",
+        "label": "Dự Án Hoàn Thành"
+      },
+      "satisfaction": {
+        "number": "98%",
+        "label": "Customer Satisfaction"
+      },
+      "support": {
+        "number": "24/7",
+        "label": "Technical Support"
+      },
+      "experience": {
+        "number": "50+",
+        "label": "Smart Contracts"
+      }
+    }
+  },
+  "portfolio": {
+    "badge": "Portfolio Nổi Bật",
+    "headline": "Portfolio",
+    "highlight": " Nổi Bật",
+    "description": "Những dự án tiêu biểu đã giúp khách hàng đạt được kết quả kinh doanh ấn tượng",
+    "cta": "Xem Tất Cả Portfolio",
+    "labels": {
+      "users": "Người Dùng",
+      "revenue": "Doanh Thu",
+      "tvl": "TVL",
+      "max_apy": "Max APY",
+      "consultations": "Tư Vấn",
+      "rating": "Đánh Giá"
+    },
+    "projects": {
+      "ecommerce": {
+        "title": "Fashion Marketplace",
+        "description": "Nền tảng thương mại điện tử với 50,000+ sản phẩm thời trang và hệ thống thanh toán đa dạng",
+        "results": {
+          "users": "50K+",
+          "revenue": "+300%"
+        },
+        "cta": "Xem Chi Tiết"
+      },
+      "defi": {
+        "title": "DeFi Protocol",
+        "description": "Hệ sinh thái DeFi hoàn chỉnh với yield farming, staking và governance token",
+        "results": {
+          "tvl": "$2M+",
+          "apy": "120%"
+        }
+      },
+      "healthcare": {
+        "title": "Telemedicine App",
+        "description": "Ứng dụng y tế từ xa với video call, đặt lịch khám và quản lý hồ sơ bệnh nhân",
+        "results": {
+          "consultations": "10K+",
+          "rating": "4.8★"
+        }
+      }
+    },
+    "showcase": {
+      "ecommerce": {
+        "description": "Nền tảng thương mại điện tử với dashboard phân tích, quản lý đơn hàng và hệ thống thanh toán đa dạng"
+      },
+      "news": {
+        "description": "Nền tảng tin tức số với báo cáo trực tiếp, phân tích độc giả và hệ thống quản lý nội dung hiện đại"
+      },
+      "streaming": {
+        "description": "Nền tảng streaming phim với 4K HDR, đề xuất AI và hệ thống thanh toán đăng ký linh hoạt"
+      }
+    }
+  },
+  "testimonials": {
+    "badge": "Reviews Từ Các Nền Tảng Lớn",
+    "headline": "Đánh Giá",
+    "highlight": " Thực Tế",
+    "description": "Những đánh giá chính thức từ Google, Clutch, Upwork và LinkedIn - minh chứng cho chất lượng dịch vụ"
+  },
+  "contact": {
+    "badge": "Bắt Đầu Hành Trình Thành Công",
+    "headline": "Ready to Build",
+    "highlight": " The Future?",
+    "description": "Từ ý tưởng đến thực tế - Chúng tôi biến vision của bạn thành breakthrough solutions với blockchain và AI technology",
+    "value_props": {
+      "time": {
+        "value": "2-4 Tuần",
+        "label": "Thời Gian Ra Mắt"
+      },
+      "success": {
+        "value": "98% Thành Công",
+        "label": "Kết Quả Đã Chứng Minh"
+      },
+      "future": {
+        "value": "Sẵn Sàng Tương Lai",
+        "label": "Web3 & AI"
+      }
+    },
+    "urgency": "Slot Có Hạn - Chỉ 3 Dự Án Tháng Này",
+    "transform_title": "Biến Đổi Doanh Nghiệp Hôm Nay",
+    "join_text": "Tham gia cùng 200+ doanh nghiệp thành công đã scale với HBW technology solutions",
+    "cta_primary": "Bắt Đầu Dự Án",
+    "cta_secondary": "Xem Success Stories"
+  },
+  "footer": {
+    "company": {
+      "tagline": "Giải Pháp Công Nghệ",
+      "description": "Công ty phát triển blockchain hàng đầu với hơn 9 năm kinh nghiệm chuyên sâu trong xây dựng các giao thức DeFi cấp doanh nghiệp, hệ thống AI trading tinh vi và ứng dụng web tiên tiến. Chúng tôi đã thành công triển khai 200+ dự án trên nhiều ngành công nghiệp, chuyên môn hóa trong phát triển smart contract, tích hợp đa chuỗi và thuật toán trading tự động. Đội ngũ của chúng tôi kết hợp kiến thức kỹ thuật sâu rộng với kinh nghiệm kinh doanh đã được chứng minh để tạo ra các giải pháp có thể mở rộng, an toàn và hiệu suất cao, mang lại ROI có thể đo lường được cho khách hàng trên toàn thế giới."
+    },
+    "services": {
+      "core_title": "Dịch Vụ Cốt Lõi",
+      "blockchain": "Phát Triển Blockchain",
+      "web": "Phát Triển Web", 
+      "mobile": "Ứng Dụng Di Động",
+      "ai_trading": "Bot Trading AI",
+      "defi": "Giao Thức DeFi"
+    },
+    "solutions": {
+      "title": "Giải Pháp & Hỗ Trợ",
+      "consulting": "Tư Vấn Kỹ Thuật",
+      "modern_apps": "Ứng Dụng Web Hiện Đại",
+      "ecommerce": "Giải Pháp Thương Mại Điện Tử",
+      "portfolio": "Portfolio",
+      "blog": "Blog Công Nghệ"
+    },
+    "contact": {
+      "title": "Liên Hệ & Pháp Lý",
+      "location": "TP Đà Nẵng, Việt Nam"
+    },
+    "legal": {
+      "copyright": "© 2015 HBW Technology Solutions. Tất cả quyền được bảo lưu.",
+      "privacy": "Chính Sách Bảo Mật",
+      "terms": "Điều Khoản Dịch Vụ",
+      "contact": "Liên Hệ Chúng Tôi"
+    },
+    "ozi": {
+      "company_title": "Công Ty Vận Hành",
+      "company_name": "CÔNG TY TNHH CÔNG NGHỆ & TRUYỀN THÔNG OZI NETWORK",
+      "tax_code": "Mã số thuế: 0401702133", 
+      "address": "TP Đà Nẵng, Việt Nam",
+      "established": "Thành lập: 20/10/2015"
+    }
+  }
+}

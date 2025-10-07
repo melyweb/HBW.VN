@@ -1,0 +1,229 @@
+{
+  "meta": {
+    "title": "Web Development Services - HBW Technology Solutions"
+  },
+
+  "hero": {
+    "badge": "Professional Web Development",
+    "title_line1": "Crafting Digital",
+    "title_line2": "Excellence",
+    "subtitle": "From responsive websites to complex web applications - we build cutting-edge digital solutions that drive business growth and deliver exceptional user experiences.",
+    "stats": {
+      "projects": "200+",
+      "projects_label": "Projects",
+      "clients": "150+",
+      "clients_label": "Clients", 
+      "technologies": "15+",
+      "technologies_label": "Technologies",
+      "support": "24/7",
+      "support_label": "Support"
+    },
+    "cta_primary": "Explore Services",
+    "cta_secondary": "View Portfolio"
+  },
+
+  "services": {
+    "title": "Web Development Services",
+    "subtitle": "Comprehensive web development solutions covering every aspect of modern digital applications, from frontend interfaces to robust backend systems.",
+
+    "frontend": {
+      "title": "Frontend Development",
+      "description": "Create stunning, responsive user interfaces with modern frameworks like React, Vue.js, and Angular. Optimized for performance and user experience.",
+      "feature1": "React & Next.js Applications",
+      "feature2": "Vue.js & Nuxt.js Development",
+      "feature3": "Responsive Design",
+      "feature4": "Performance Optimization",
+      "price": "From $3,000",
+      "timeline": "2-4 weeks"
+    },
+
+    "backend": {
+      "title": "Backend Development", 
+      "description": "Build robust, scalable backend systems with Node.js, Python, and PHP. RESTful APIs, databases, and cloud infrastructure.",
+      "feature1": "Node.js & Express.js APIs",
+      "feature2": "Python & Django/Flask",
+      "feature3": "Database Design & Management",
+      "feature4": "Cloud Deployment & DevOps",
+      "price": "From $5,000",
+      "timeline": "3-6 weeks"
+    },
+
+    "fullstack": {
+      "title": "Full-stack Development",
+      "description": "Complete web applications from frontend to backend. Modern tech stacks with seamless integration and optimal performance.",
+      "feature1": "MERN/MEAN Stack",
+      "feature2": "End-to-end Development",
+      "feature3": "Authentication & Authorization",
+      "feature4": "Real-time Features",
+      "price": "From $8,000",
+      "timeline": "4-8 weeks"
+    },
+
+    "mobile": {
+      "title": "Mobile Development",
+      "description": "Cross-platform mobile applications with React Native and Flutter. Native performance with shared codebase efficiency.",
+      "feature1": "React Native Apps",
+      "feature2": "Flutter Development",
+      "feature3": "iOS & Android Deploy",
+      "feature4": "App Store Optimization",
+      "price": "From $8,000", 
+      "timeline": "6-12 weeks"
+    },
+
+    "ecommerce": {
+      "title": "E-commerce Solutions",
+      "description": "Complete online stores with Shopify, WooCommerce, and custom solutions. Payment integration, inventory management, and analytics.",
+      "feature1": "Shopify Development",
+      "feature2": "WooCommerce Solutions", 
+      "feature3": "Payment Gateway Integration",
+      "feature4": "Inventory Management",
+      "price": "From $5,000",
+      "timeline": "4-8 weeks"
+    },
+
+    "cms": {
+      "title": "CMS & WordPress",
+      "description": "Content management systems with WordPress, Strapi, and headless CMS solutions. Easy content editing and management.",
+      "feature1": "Custom WordPress Themes",
+      "feature2": "Plugin Development",
+      "feature3": "Headless CMS Integration", 
+      "feature4": "SEO Optimization",
+      "price": "From $2,500",
+      "timeline": "2-4 weeks"
+    }
+  },
+
+  "tech": {
+    "title": "Technology Stack",
+    "subtitle": "We use modern, proven technologies to build fast, secure, and scalable web applications.",
+
+    "frontend": {
+      "title": "Frontend",
+      "react": "React & Next.js",
+      "vue": "Vue.js & Nuxt.js",
+      "angular": "Angular",
+      "tailwind": "Tailwind CSS",
+      "typescript": "TypeScript"
+    },
+
+    "backend": {
+      "title": "Backend", 
+      "nodejs": "Node.js & Express",
+      "python": "Python & Django",
+      "php": "PHP & Laravel",
+      "java": "Java & Spring",
+      "dotnet": ".NET Core"
+    },
+
+    "database": {
+      "title": "Databases",
+      "mongodb": "MongoDB",
+      "postgresql": "PostgreSQL",
+      "mysql": "MySQL",
+      "redis": "Redis",
+      "firebase": "Firebase"
+    },
+
+    "cloud": {
+      "title": "Cloud & DevOps",
+      "aws": "AWS",
+      "vercel": "Vercel",
+      "netlify": "Netlify", 
+      "docker": "Docker",
+      "github": "GitHub Actions"
+    }
+  },
+
+  "portfolio": {
+    "title": "Featured Projects",
+    "subtitle": "Explore our successful web development projects across various industries and technologies.",
+
+    "ecommerce": {
+      "title": "TechStore E-commerce",
+      "tech": "React + Node.js + Stripe",
+      "status": "Live",
+      "sales": "$2.5M",
+      "sales_label": "Monthly Sales",
+      "products": "15K+", 
+      "products_label": "Products",
+      "users": "50K+",
+      "users_label": "Active Users",
+      "description": "Full-featured e-commerce platform with advanced product catalog, secure payment processing, inventory management, and comprehensive admin dashboard.",
+      "feature1": "Stripe Integration",
+      "feature2": "Real-time Inventory",
+      "feature3": "Mobile Responsive",
+      "feature4": "Admin Dashboard"
+    },
+
+    "saas": {
+      "title": "Analytics Dashboard",
+      "tech": "Vue.js + Python + PostgreSQL",
+      "status": "Live",
+      "customers": "5K+",
+      "customers_label": "Customers",
+      "data": "100TB",
+      "data_label": "Data Processed",
+      "uptime": "99.9%",
+      "uptime_label": "Uptime",
+      "description": "Comprehensive SaaS analytics platform with real-time data visualization, custom reports, team collaboration, and API integrations.",
+      "feature1": "Real-time Analytics",
+      "feature2": "Custom Reports",
+      "feature3": "API Integration", 
+      "feature4": "Team Collaboration"
+    }
+  },
+
+  "pricing": {
+    "title": "Development Packages",
+    "subtitle": "Choose the perfect package for your web development needs. All packages include design, development, testing, and deployment.",
+
+    "starter": {
+      "title": "Starter Website",
+      "description": "Perfect for small businesses and startups",
+      "price": "$2,500",
+      "timeline": "2-3 weeks delivery",
+      "feature1": "5-10 Pages Website",
+      "feature2": "Responsive Design",
+      "feature3": "Contact Forms",
+      "feature4": "SEO Optimization",
+      "feature5": "SSL Certificate",
+      "cta": "Get Started"
+    },
+
+    "professional": {
+      "title": "Professional App",
+      "description": "Advanced web applications with custom features",
+      "badge": "Most Popular", 
+      "price": "$8,000",
+      "timeline": "4-6 weeks delivery",
+      "feature1": "Custom Web Application",
+      "feature2": "User Authentication",
+      "feature3": "Database Integration",
+      "feature4": "API Development",
+      "feature5": "Admin Dashboard",
+      "feature6": "Cloud Deployment",
+      "cta": "Choose Professional"
+    },
+
+    "enterprise": {
+      "title": "Enterprise Solution",
+      "description": "Large-scale applications with advanced requirements",
+      "price": "$15,000+",
+      "timeline": "8-12 weeks delivery",
+      "feature1": "Complex Web Platform",
+      "feature2": "Microservices Architecture",
+      "feature3": "Advanced Security",
+      "feature4": "Third-party Integrations",
+      "feature5": "Performance Optimization",
+      "feature6": "24/7 Support",
+      "cta": "Contact Sales"
+    }
+  },
+
+  "cta": {
+    "title": "Ready to Build Your Web Application?",
+    "subtitle": "Let's turn your ideas into powerful web applications that drive results. From concept to deployment, we're here to help.",
+    "primary": "Start Your Project",
+    "secondary": "View Portfolio"
+  }
+}

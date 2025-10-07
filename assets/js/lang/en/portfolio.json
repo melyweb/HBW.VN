@@ -1,0 +1,285 @@
+{
+  "portfolio": {
+    "meta": {
+    "title": "Our Portfolio - Blockchain & Web Development Projects | HBW",
+    "description": "Explore HBW's successful blockchain, DeFi, and web development projects. From smart contracts to AI trading systems and multi-chain integrations.",
+    "og_title": "HBW Portfolio - Blockchain & Web Development Excellence",
+    "og_description": "Discover our successful blockchain projects, DeFi protocols, AI trading systems, and innovative web applications.",
+    "twitter_title": "HBW Portfolio - Blockchain Excellence", 
+    "twitter_description": "Professional blockchain & web development projects by HBW team."
+  },
+  "hero": {
+    "title": "Our Portfolio",
+    "subtitle": "Showcasing our expertise in blockchain development, DeFi protocols, and cutting-edge web applications",
+    "tag1": "50+ Projects Delivered",
+    "tag2": "$10M+ TVL Secured", 
+    "tag3": "15+ Blockchain Networks"
+  },
+  "filters": {
+    "all": "All Projects",
+    "blockchain": "Blockchain & DeFi",
+    "ai_trading": "AI Trading Systems",
+    "web_app": "Web Applications",
+    "mobile": "Mobile Apps"
+  },
+  "featured": {
+    "title": "Featured Projects",
+    "subtitle": "Discover our most impactful and innovative projects across blockchain, AI trading, and web development"
+  },
+  "projects": {
+    "pancakeswap": {
+      "title": "PancakeSwap DEX",
+      "subtitle": "Leading Decentralized Exchange Protocol",
+      "description": "The most popular decentralized exchange on Binance Smart Chain with AMM functionality, yield farming, and cross-chain capabilities.",
+      "stats": {
+        "volume": "$890M",
+        "volume_label": "24h Volume",
+        "tvl": "$1.8B",
+        "tvl_label": "Total TVL",
+        "users": "4.2M",
+        "users_label": "Active Users",
+        "pairs": "8,500+",
+        "pairs_label": "Trading Pairs"
+      },
+      "features": [
+        "Automated Market Making (AMM)",
+        "Cross-chain bridge integration", 
+        "Yield farming & staking pools",
+        "Governance token (CAKE)",
+        "Advanced trading analytics"
+      ],
+      "tech_stack": ["Solidity", "JavaScript", "React", "Web3.js", "Node.js"],
+      "tvl": "$1.8B+ TVL",
+      "users": "4.2M+ Active Users",
+      "view_details": "View Details"
+    },
+    "yieldfarm": {
+      "title": "Advanced Yield Farming Platform",
+      "subtitle": "Advanced Yield Farming Protocol", 
+      "description": "High-performance DeFi platform with automated yield optimization, liquidity mining, and cross-chain staking capabilities.",
+      "stats": {
+        "apy": "156%",
+        "apy_label": "Max APY",
+        "pools": "25",
+        "pools_label": "Active Pools",
+        "farmers": "850",
+        "farmers_label": "Farmers",
+        "secured": "$8.2M",
+        "secured_label": "Assets Secured"
+      },
+      "features": [
+        "Dynamic APY optimization",
+        "Impermanent loss protection",
+        "Auto-compound strategies",
+        "Cross-protocol farming",
+        "Liquidity mining rewards"
+      ],
+      "tech_stack": ["Solidity", "Hardhat", "Ethers.js", "Vue.js", "Web3.js"],
+      "apy": "Up to 150% APY",
+      "locked": "$5M+ Locked",
+      "audited": "Security Audited"
+    },
+    "nft": {
+      "title": "Premium NFT Marketplace",
+      "subtitle": "NFT Trading & Gaming Platform",
+      "description": "Full-featured NFT marketplace with advanced filtering, auction system, and cross-chain compatibility. Built with modern Web3 technologies.",
+      "stats": {
+        "nfts": "15.2K",
+        "nfts_label": "NFTs Traded",
+        "volume": "$12.5M",
+        "volume_label": "Trading Volume", 
+        "artists": "340",
+        "artists_label": "Artists",
+        "games": "8",
+        "games_label": "P2E Games"
+      },
+      "features": [
+        "Multi-chain NFT support",
+        "Integrated P2E gaming",
+        "Royalty management system",
+        "Lazy minting technology",
+        "Cross-chain NFT bridge"
+      ],
+      "tech_stack": ["Solidity", "IPFS", "Next.js", "MongoDB", "Polygon"],
+      "volume": "$800K+ Trading Volume",
+      "collections": "50+ Collections"
+    },
+    "ai_trader": {
+      "title": "AI Trading Dashboard",
+      "subtitle": "Machine Learning Trading Engine",
+      "description": "Real-time trading dashboard with AI-powered market analysis, risk management tools, and automated strategy execution.",
+      "stats": {
+        "accuracy": "94.2%",
+        "accuracy_label": "Prediction Accuracy",
+        "volume": "$125M",
+        "volume_label": "Monthly Volume",
+        "signals": "1,250",
+        "signals_label": "Daily Signals",
+        "latency": "12ms",
+        "latency_label": "Avg Latency"
+      },
+      "features": [
+        "Quantum-inspired algorithms",
+        "Deep learning models",
+        "Real-time market analysis", 
+        "Multi-exchange integration",
+        "Institutional-grade security"
+      ],
+      "tech_stack": ["Python", "TensorFlow", "Kubernetes", "Redis", "PostgreSQL"],
+      "accuracy": "92% Accuracy",
+      "realtime": "Real-time Analysis"
+    },
+    "ecommerce": {
+      "title": "Modern E-commerce Platform",
+      "subtitle": "Next-Gen E-commerce Platform",
+      "description": "Full-featured e-commerce solution with mobile app, admin dashboard, payment integration, and inventory management.",
+      "stats": {
+        "products": "50K+",
+        "products_label": "Products",
+        "orders": "25K",
+        "orders_label": "Monthly Orders",
+        "conversion": "4.2%",
+        "conversion_label": "Conversion Rate",
+        "revenue": "$2.8M",
+        "revenue_label": "Monthly Revenue"
+      },
+      "features": [
+        "AI product recommendations",
+        "Blockchain payment system",
+        "Advanced inventory management",
+        "Multi-vendor marketplace",
+        "Real-time analytics"
+      ],
+      "tech_stack": ["React", "Node.js", "MongoDB", "Stripe", "AWS"],
+      "responsive": "Mobile First",
+      "payments": "Multiple Payments",
+      "performance": "99.9% Uptime"
+    },
+    "fintech": {
+      "title": "FinTech Banking App",
+      "subtitle": "Telemedicine & Health Records",
+      "description": "Secure mobile banking application with biometric authentication, real-time transactions, and advanced fraud detection.",
+      "stats": {
+        "consultations": "10K+",
+        "consultations_label": "Consultations",
+        "doctors": "500+",
+        "doctors_label": "Doctors",
+        "patients": "15K+", 
+        "patients_label": "Patients",
+        "rating": "4.9★",
+        "rating_label": "Rating"
+      },
+      "features": [
+        "Secure video consultations",
+        "Digital prescription system",
+        "Blockchain medical records",
+        "AI symptom checker",
+        "Appointment scheduling"
+      ],
+      "tech_stack": ["React Native", "WebRTC", "Hyperledger", "Node.js", "PostgreSQL"],
+      "biometric": "Biometric Auth",
+      "security": "Bank-grade Security",
+      "users": "100K+ Users"
+    }
+  },
+  "technologies": {
+    "title": "Technologies We Use",
+    "subtitle": "Cutting-edge tools and frameworks powering our projects",
+    "categories": {
+      "blockchain": {
+        "title": "Blockchain",
+        "items": ["Solidity", "Ethereum", "Polygon", "BSC", "Web3.js"]
+      },
+      "ai_ml": {
+        "title": "AI & ML",
+        "items": ["Python", "TensorFlow", "PyTorch", "Scikit-learn", "OpenAI"]
+      },
+      "frontend": {
+        "title": "Frontend",
+        "items": ["React", "Vue.js", "Next.js", "Tailwind CSS", "TypeScript"]
+      },
+      "backend": {
+        "title": "Backend", 
+        "items": ["Node.js", "Python", "PostgreSQL", "MongoDB", "Redis"]
+      },
+      "cloud": {
+        "title": "Cloud & DevOps",
+        "items": ["AWS", "Docker", "Kubernetes", "CI/CD", "Monitoring"]
+      }
+    }
+  },
+  "stats": {
+    "title": "Portfolio Statistics",
+    "metrics": {
+      "projects": {
+        "value": "50+",
+        "label": "Projects Completed"
+      },
+      "tvl": {
+        "value": "$25M+",
+        "label": "Total Value Locked"
+      },
+      "users": {
+        "value": "100K+", 
+        "label": "Active Users"
+      },
+      "uptime": {
+        "value": "99.9%",
+        "label": "Average Uptime"
+      }
+    }
+  },
+  "tech": {
+    "title": "Technologies & Expertise",
+    "subtitle": "Our projects leverage cutting-edge technologies to deliver exceptional results",
+    "blockchain": {
+      "title": "Blockchain",
+      "desc": "Ethereum, BSC, Polygon, Solana"
+    },
+    "ai": {
+      "title": "AI & ML",
+      "desc": "TensorFlow, PyTorch, OpenAI"
+    },
+    "frontend": {
+      "title": "Frontend",
+      "desc": "React, Vue.js, Next.js, TypeScript"
+    },
+    "backend": {
+      "title": "Backend",
+      "desc": "Node.js, Python, PostgreSQL, MongoDB"
+    }
+  },
+  "stats": {
+    "projects": "Projects Completed",
+    "tvl": "Total Value Locked",
+    "networks": "Blockchain Networks",
+    "uptime": "Average Uptime"
+  },
+  "process": {
+    "title": "Our Development Process",
+    "subtitle": "A proven methodology that ensures project success from concept to deployment",
+    "step1": {
+      "title": "Discovery & Analysis",
+      "desc": "Deep dive into requirements, market research, and technical feasibility assessment"
+    },
+    "step2": {
+      "title": "Design & Architecture",
+      "desc": "UI/UX design, system architecture, and smart contract planning"
+    },
+    "step3": {
+      "title": "Development & Testing",
+      "desc": "Agile development with continuous testing and security auditing"
+    },
+    "step4": {
+      "title": "Launch & Support",
+      "desc": "Deployment, monitoring, and ongoing maintenance with 24/7 support"
+    }
+  },
+  "cta": {
+    "title": "Ready to Start Your Project?",
+    "subtitle": "Let's discuss how we can bring your blockchain or web development vision to life",
+    "contact": "Get Free Consultation",
+    "services": "View All Services"
+    }
+  }
+}

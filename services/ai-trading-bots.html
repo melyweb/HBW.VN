@@ -1,0 +1,1439 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary SEO Meta Tags -->
+    <title data-i18n="ai_trading_bots.meta.title">AI Trading Bots Development Vietnam | Algorithmic Trading Systems - HBW</title>
+    <meta name="description" data-i18n="ai_trading_bots.meta.description" content="Professional AI trading bot development in Vietnam. Advanced algorithmic trading systems for crypto, forex, stocks. 92.4% win rate, $2.8M+ profit generated. Custom bots, ready-made solutions, portfolio management.">
+    <meta name="keywords" content="AI trading bots Vietnam, algorithmic trading development, crypto trading bots, automated trading systems, machine learning trading, quantitative trading, trading bot development, forex trading bots, cryptocurrency automation">
+    <meta name="author" content="HBW Technology Solutions">
+    <meta name="robots" content="index, follow, max-image-preview:large">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="service">
+    <meta property="og:url" content="https://hbw.vn/services/ai-trading-bots.html">
+    <meta property="og:title" data-i18n="ai_trading_bots.meta.og_title" content="AI Trading Bots Development Vietnam | 92.4% Win Rate - HBW">
+    <meta property="og:description" data-i18n="ai_trading_bots.meta.og_description" content="Professional AI trading bot development with 92.4% win rate and $2.8M+ profit generated. Advanced algorithmic trading systems.">
+    <meta property="og:image" content="https://hbw.vn/assets/images/hbw-og-homepage.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:site_name" content="HBW Technology Solutions">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@hbw_tech">
+    <meta name="twitter:title" content="AI Trading Bots Development Vietnam | HBW">
+    <meta name="twitter:description" content="Advanced AI trading systems with 92.4% win rate. $2.8M+ profit generated.">
+    <meta name="twitter:image" content="https://hbw.vn/assets/images/hbw-og-homepage.jpg">
+    
+    <!-- Canonical & Language -->
+    <link rel="canonical" href="https://hbw.vn/services/ai-trading-bots.html">
+    <link rel="alternate" hreflang="vi" href="https://hbw.vn/services/ai-trading-bots.html">
+    <link rel="alternate" hreflang="en" href="https://hbw.vn/services/ai-trading-bots.html?lang=en">
+    
+    <!-- Favicons -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
+    <meta name="theme-color" content="#f59e0b">
+    
+    <!-- Preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Stylesheets -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous">
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": "AI Trading Bots Development",
+        "description": "Professional AI trading bot development with advanced machine learning algorithms for automated trading",
+        "provider": {
+            "@type": "Organization",
+            "name": "HBW Technology Solutions",
+            "url": "https://hbw.vn"
+        },
+        "serviceType": "AI Trading Bot Development",
+        "areaServed": "Vietnam",
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "AI Trading Services",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Custom Bot Development",
+                        "description": "Custom AI trading algorithms with multi-exchange integration"
+                    },
+                    "priceRange": "$25000-$50000"
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Ready-Made Bots",
+                        "description": "Proven trading strategies with backtested performance"
+                    },
+                    "priceRange": "$8500-$15000"
+                }
+            ]
+        },
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.9",
+            "reviewCount": "28"
+        }
+    }
+    </script>
+    
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        
+        /* Custom Animations */
+        @keyframes float-up-down {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-20px); }
+        }
+        
+        @keyframes chart-line-draw {
+            0% { stroke-dasharray: 0 1000; }
+            100% { stroke-dasharray: 1000 0; }
+        }
+        
+        @keyframes profit-pulse {
+            0%, 100% { box-shadow: 0 0 20px rgba(34, 197, 94, 0.4); }
+            50% { box-shadow: 0 0 40px rgba(34, 197, 94, 0.8); }
+        }
+        
+        @keyframes data-flow {
+            0% { transform: translateX(-100%); opacity: 0; }
+            50% { opacity: 1; }
+            100% { transform: translateX(100%); opacity: 0; }
+        }
+        
+        @keyframes number-change {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.1); color: #22c55e; }
+        }
+        
+        .floating { animation: float-up-down 4s ease-in-out infinite; }
+        .profit-pulse { animation: profit-pulse 3s ease-in-out infinite; }
+        .number-animate { animation: number-change 2s ease-in-out infinite; }
+        
+        /* Trading Chart Interface */
+        .trading-chart {
+            background: linear-gradient(135deg, #0f172a, #1e293b);
+            border-radius: 16px;
+            padding: 20px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .chart-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            color: white;
+        }
+        
+        .price-display {
+            font-size: 24px;
+            font-weight: bold;
+            color: #22c55e;
+        }
+        
+        .price-change {
+            font-size: 14px;
+            color: #22c55e;
+        }
+        
+        .chart-area {
+            height: 200px;
+            position: relative;
+            background: rgba(255,255,255,0.05);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        
+        .trading-bot-card {
+            background: linear-gradient(135deg, #1e293b, #334155);
+            border: 1px solid rgba(255,255,255,0.1);
+            transition: all 0.3s ease;
+        }
+        
+        .trading-bot-card:hover {
+            transform: translateY(-8px) scale(1.02);
+            box-shadow: 0 25px 50px rgba(0,0,0,0.2);
+            border-color: rgba(59, 130, 246, 0.5);
+        }
+        
+        /* AI Bot Dashboard */
+        .bot-dashboard {
+            background: linear-gradient(135deg, #0f172a, #1e293b);
+            border-radius: 20px;
+            padding: 20px;
+            color: white;
+            position: relative;
+        }
+        
+        .bot-status {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+        
+        .status-dot {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: #22c55e;
+            animation: pulse 2s ease-in-out infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { opacity: 1; transform: scale(1); }
+            50% { opacity: 0.5; transform: scale(1.1); }
+        }
+        
+        .trading-metrics {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+            margin-top: 15px;
+        }
+        
+        .metric-item {
+            background: rgba(255,255,255,0.1);
+            padding: 10px;
+            border-radius: 8px;
+            text-center;
+        }
+        
+        .metric-value {
+            font-size: 18px;
+            font-weight: bold;
+            color: #22c55e;
+        }
+        
+        .metric-label {
+            font-size: 12px;
+            color: #94a3b8;
+        }
+        
+        /* Algorithm Visualization */
+        .algorithm-flow {
+            position: relative;
+            background: linear-gradient(135deg, #1e293b, #334155);
+            border-radius: 16px;
+            padding: 20px;
+            overflow: hidden;
+        }
+        
+        .flow-step {
+            background: rgba(59, 130, 246, 0.1);
+            border: 2px solid rgba(59, 130, 246, 0.3);
+            border-radius: 12px;
+            padding: 15px;
+            margin-bottom: 15px;
+            position: relative;
+        }
+        
+        .flow-step::after {
+            content: '';
+            position: absolute;
+            bottom: -15px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 2px;
+            height: 15px;
+            background: rgba(59, 130, 246, 0.5);
+        }
+        
+        .flow-step:last-child::after {
+            display: none;
+        }
+        
+        /* Performance Stats Circle */
+        .performance-stat {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, #22c55e, #16a34a);
+            color: white;
+            font-weight: bold;
+            position: relative;
+            margin: 0 auto;
+        }
+        
+        .performance-stat::before {
+            content: '';
+            position: absolute;
+            inset: -4px;
+            border-radius: 50%;
+            background: linear-gradient(45deg, #22c55e, #3b82f6, #8b5cf6, #f59e0b);
+            z-index: -1;
+            animation: float-up-down 3s ease-in-out infinite;
+        }
+        
+        /* Code Terminal */
+        .code-terminal {
+            background: #0f172a;
+            border-radius: 12px;
+            padding: 20px;
+            font-family: 'Monaco', 'Menlo', monospace;
+            color: #22c55e;
+            font-size: 12px;
+            overflow: hidden;
+        }
+        
+        .terminal-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+            color: #94a3b8;
+        }
+        
+        .terminal-dots {
+            display: flex;
+            gap: 5px;
+            margin-right: 15px;
+        }
+        
+        .terminal-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+        }
+        
+        .dot-red { background: #ef4444; }
+        .dot-yellow { background: #f59e0b; }
+        .dot-green { background: #22c55e; }
+        
+        .code-line {
+            margin-bottom: 8px;
+            opacity: 0;
+            animation: fade-in-terminal 0.8s ease-out forwards;
+        }
+        
+        @keyframes fade-in-terminal {
+            0% { opacity: 0; transform: translateX(-20px); }
+            100% { opacity: 1; transform: translateX(0); }
+        }
+        
+        /* Strategy Cards */
+        .strategy-card {
+            background: linear-gradient(135deg, #1e293b, #334155);
+            border-radius: 16px;
+            padding: 24px;
+            color: white;
+            position: relative;
+            overflow: hidden;
+            transition: all 0.4s ease;
+        }
+        
+        .strategy-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, #3b82f6, #8b5cf6, #22c55e);
+        }
+        
+        .strategy-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 30px 60px rgba(0,0,0,0.3);
+        }
+        
+        /* Market Data Ticker */
+        .market-ticker {
+            background: linear-gradient(135deg, #0f172a, #1e293b);
+            padding: 15px;
+            border-radius: 12px;
+            overflow: hidden;
+            position: relative;
+        }
+        
+        .ticker-item {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            margin-right: 30px;
+            color: white;
+            font-size: 14px;
+        }
+        
+        .ticker-price {
+            color: #22c55e;
+            font-weight: bold;
+        }
+        
+        .ticker-change {
+            font-size: 12px;
+        }
+        
+        .ticker-change.positive { color: #22c55e; }
+        .ticker-change.negative { color: #ef4444; }
+        
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .performance-stat {
+                width: 80px;
+                height: 80px;
+            }
+            
+            .trading-metrics {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-900">
+    <!-- Header Placeholder -->
+    <div id="header-placeholder"></div>
+    
+    <!-- Hero Section -->
+    <section class="relative bg-gradient-to-br from-slate-900 via-blue-900 to-indigo-900 text-white py-24 overflow-hidden">
+        <!-- Animated Background Elements -->
+        <div class="absolute inset-0 overflow-hidden">
+            <div class="absolute top-1/4 left-1/6 w-64 h-64 bg-green-500 rounded-full opacity-10 floating"></div>
+            <div class="absolute top-1/2 right-1/6 w-48 h-48 bg-blue-500 rounded-full opacity-15 floating" style="animation-delay: -2s;"></div>
+            <div class="absolute bottom-1/4 left-1/2 w-32 h-32 bg-purple-500 rounded-full opacity-20 floating" style="animation-delay: -4s;"></div>
+        </div>
+        
+        <div class="container mx-auto px-6 relative z-10">
+            <div class="flex flex-col lg:flex-row items-center">
+                <!-- Left Content -->
+                <div class="lg:w-1/2 lg:pr-12 mb-12 lg:mb-0">
+                    <div class="inline-flex items-center bg-green-500/20 px-4 py-2 rounded-full mb-6">
+                        <i class="fas fa-robot mr-2 text-green-300"></i>
+                        <span class="text-green-300 text-sm font-medium" data-i18n="ai_trading_bots.hero.badge">AI Trading Excellence</span>
+                    </div>
+                    
+                    <h1 class="text-5xl lg:text-7xl font-bold mb-6 leading-tight" data-i18n="ai_trading_bots.hero.title">
+                        Intelligent Trading Bots
+                    </h1>
+                    
+                    <p class="text-xl text-blue-100 mb-8 leading-relaxed" data-i18n="ai_trading_bots.hero.description">
+                        Advanced AI-powered trading bots for cryptocurrency, forex, and stock markets. Automated strategies with machine learning algorithms and risk management for consistent profitability.
+                    </p>
+                    
+                    <div class="flex flex-col sm:flex-row gap-4 mb-8">
+                        <a href="#strategies" class="inline-flex items-center bg-white text-blue-900 px-8 py-4 rounded-lg font-semibold hover:bg-blue-50 transition duration-300 transform hover:scale-105">
+                            <i class="fas fa-chart-line mr-2"></i>
+                            <span data-i18n="ai_trading_bots.hero.cta_primary">Explore Strategies</span>
+                        </a>
+                        <a href="#demo" class="inline-flex items-center border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-blue-900 transition duration-300">
+                            <i class="fas fa-play mr-2"></i>
+                            <span data-i18n="ai_trading_bots.hero.cta_secondary">Live Demo</span>
+                        </a>
+                    </div>
+                    
+                    <!-- Performance Metrics -->
+                    <div class="grid grid-cols-3 gap-6 pt-8 border-t border-blue-300/30">
+                        <div class="text-center">
+                            <div class="text-3xl font-bold text-green-300 number-animate" data-i18n="ai_trading_bots.hero.stats.roi">187%</div>
+                            <div class="text-sm text-blue-200" data-i18n="ai_trading_bots.hero.stats.roi_label">Average Annual ROI</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-3xl font-bold text-green-300 number-animate" data-i18n="ai_trading_bots.hero.stats.accuracy">94.7%</div>
+                            <div class="text-sm text-blue-200" data-i18n="ai_trading_bots.hero.stats.accuracy_label">Prediction Accuracy</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-3xl font-bold text-green-300 number-animate" data-i18n="ai_trading_bots.hero.stats.trades">50M+</div>
+                            <div class="text-sm text-blue-200" data-i18n="ai_trading_bots.hero.stats.trades_label">Successful Trades</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Right Content - Trading Dashboard -->
+                <div class="lg:w-1/2 flex justify-center">
+                    <div class="relative">
+                        <!-- Main Trading Bot Dashboard -->
+                        <div class="bot-dashboard floating profit-pulse">
+                            <div class="bot-status">
+                                <div class="status-dot"></div>
+                                <span class="font-semibold" data-i18n="ai_trading_bots.hero.dashboard.status">AI Bot Active</span>
+                                <span class="text-green-400 ml-auto" data-i18n="ai_trading_bots.hero.dashboard.profit">+$12,847.50</span>
+                            </div>
+                            
+                            <!-- Market Ticker -->
+                            <div class="market-ticker mb-4">
+                                <div class="ticker-item">
+                                    <span>BTC/USD</span>
+                                    <span class="ticker-price">$67,234.50</span>
+                                    <span class="ticker-change positive">+2.34%</span>
+                                </div>
+                                <div class="ticker-item">
+                                    <span>ETH/USD</span>
+                                    <span class="ticker-price">$3,156.78</span>
+                                    <span class="ticker-change positive">+1.67%</span>
+                                </div>
+                            </div>
+                            
+                            <!-- Trading Chart Area -->
+                            <div class="chart-area mb-4">
+                                <svg width="100%" height="100%" viewBox="0 0 300 150">
+                                    <!-- Chart Grid -->
+                                    <defs>
+                                        <pattern id="grid" width="30" height="15" patternUnits="userSpaceOnUse">
+                                            <path d="M 30 0 L 0 0 0 15" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+                                        </pattern>
+                                    </defs>
+                                    <rect width="100%" height="100%" fill="url(#grid)"/>
+                                    
+                                    <!-- Profit Line Chart -->
+                                    <polyline fill="none" stroke="#22c55e" stroke-width="2" 
+                                             points="0,120 30,110 60,95 90,80 120,70 150,60 180,50 210,45 240,40 270,35 300,30"
+                                             style="animation: chart-line-draw 3s ease-in-out infinite alternate;"/>
+                                    
+                                    <!-- Data Points -->
+                                    <circle cx="60" cy="95" r="3" fill="#22c55e" opacity="0.8"/>
+                                    <circle cx="120" cy="70" r="3" fill="#22c55e" opacity="0.8"/>
+                                    <circle cx="180" cy="50" r="3" fill="#22c55e" opacity="0.8"/>
+                                    <circle cx="240" cy="40" r="3" fill="#22c55e" opacity="0.8"/>
+                                    <circle cx="300" cy="30" r="3" fill="#22c55e" opacity="0.8"/>
+                                </svg>
+                            </div>
+                            
+                            <!-- Trading Metrics -->
+                            <div class="trading-metrics">
+                                <div class="metric-item">
+                                    <div class="metric-value" data-i18n="ai_trading_bots.hero.dashboard.win_rate">87.3%</div>
+                                    <div class="metric-label" data-i18n="ai_trading_bots.hero.dashboard.win_rate_label">Win Rate</div>
+                                </div>
+                                <div class="metric-item">
+                                    <div class="metric-value" data-i18n="ai_trading_bots.hero.dashboard.trades_today">156</div>
+                                    <div class="metric-label" data-i18n="ai_trading_bots.hero.dashboard.trades_today_label">Trades Today</div>
+                                </div>
+                                <div class="metric-item">
+                                    <div class="metric-value" data-i18n="ai_trading_bots.hero.dashboard.avg_profit">$82.45</div>
+                                    <div class="metric-label" data-i18n="ai_trading_bots.hero.dashboard.avg_profit_label">Avg Profit</div>
+                                </div>
+                                <div class="metric-item">
+                                    <div class="metric-value" data-i18n="ai_trading_bots.hero.dashboard.risk_score">Low</div>
+                                    <div class="metric-label" data-i18n="ai_trading_bots.hero.dashboard.risk_score_label">Risk Level</div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Floating Algorithm Indicators -->
+                        <div class="absolute -top-6 -left-6 w-16 h-16 bg-white rounded-full flex items-center justify-center shadow-lg floating">
+                            <i class="fas fa-brain text-blue-500 text-xl"></i>
+                        </div>
+                        
+                        <div class="absolute -bottom-6 -right-6 w-14 h-14 bg-white rounded-full flex items-center justify-center shadow-lg floating" style="animation-delay: -1.5s;">
+                            <i class="fas fa-chart-bar text-green-500 text-lg"></i>
+                        </div>
+                        
+                        <div class="absolute top-1/2 -right-8 w-12 h-12 bg-white rounded-full flex items-center justify-center shadow-lg floating" style="animation-delay: -3s;">
+                            <i class="fas fa-cog text-purple-500"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Trading Strategies Section -->
+    <section id="strategies" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl lg:text-5xl font-bold mb-6" data-i18n="ai_trading_bots.strategies.title">Advanced Trading Strategies</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto" data-i18n="ai_trading_bots.strategies.description">
+                    Our AI trading bots employ sophisticated algorithms and machine learning models to execute profitable trading strategies across multiple markets.
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Momentum Trading -->
+                <div class="strategy-card">
+                    <div class="flex items-center mb-6">
+                        <div class="w-16 h-16 bg-gradient-to-r from-blue-500 to-indigo-600 rounded-2xl flex items-center justify-center mr-4">
+                            <i class="fas fa-rocket text-white text-2xl"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold" data-i18n="ai_trading_bots.strategies.momentum.title">Momentum Trading</h3>
+                            <p class="text-blue-400" data-i18n="ai_trading_bots.strategies.momentum.type">Trend Following</p>
+                        </div>
+                    </div>
+                    
+                    <p class="text-gray-300 mb-6" data-i18n="ai_trading_bots.strategies.momentum.description">
+                        Identifies and rides strong market trends using advanced momentum indicators and machine learning pattern recognition.
+                    </p>
+                    
+                    <div class="space-y-3 mb-6">
+                        <div class="flex justify-between">
+                            <span class="text-gray-400" data-i18n="ai_trading_bots.strategies.momentum.success_rate">Success Rate:</span>
+                            <span class="text-green-400 font-semibold" data-i18n="ai_trading_bots.strategies.momentum.success_rate_value">89.2%</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span class="text-gray-400" data-i18n="ai_trading_bots.strategies.momentum.avg_return">Avg Return:</span>
+                            <span class="text-green-400 font-semibold" data-i18n="ai_trading_bots.strategies.momentum.avg_return_value">+12.4%</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span class="text-gray-400" data-i18n="ai_trading_bots.strategies.momentum.max_drawdown">Max Drawdown:</span>
+                            <span class="text-yellow-400 font-semibold" data-i18n="ai_trading_bots.strategies.momentum.max_drawdown_value">-3.2%</span>
+                        </div>
+                    </div>
+                    
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-blue-500/20 text-blue-300 px-3 py-1 rounded-full text-sm" data-i18n="ai_trading_bots.strategies.momentum.feature1">RSI Analysis</span>
+                        <span class="bg-blue-500/20 text-blue-300 px-3 py-1 rounded-full text-sm" data-i18n="ai_trading_bots.strategies.momentum.feature2">MACD Signals</span>
+                        <span class="bg-blue-500/20 text-blue-300 px-3 py-1 rounded-full text-sm" data-i18n="ai_trading_bots.strategies.momentum.feature3">ML Pattern Recognition</span>
+                    </div>
+                </div>
+                
+                <!-- Arbitrage Trading -->
+                <div class="strategy-card">
+                    <div class="flex items-center mb-6">
+                        <div class="w-16 h-16 bg-gradient-to-r from-green-500 to-emerald-600 rounded-2xl flex items-center justify-center mr-4">
+                            <i class="fas fa-exchange-alt text-white text-2xl"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold" data-i18n="ai_trading_bots.strategies.arbitrage.title">Arbitrage Trading</h3>
+                            <p class="text-green-400" data-i18n="ai_trading_bots.strategies.arbitrage.type">Market Neutral</p>
+                        </div>
+                    </div>
+                    
+                    <p class="text-gray-300 mb-6" data-i18n="ai_trading_bots.strategies.arbitrage.description">
+                        Exploits price differences across exchanges and trading pairs for risk-free profits with lightning-fast execution.
+                    </p>
+                    
+                    <div class="space-y-3 mb-6">
+                        <div class="flex justify-between">
+                            <span class="text-gray-400" data-i18n="ai_trading_bots.strategies.arbitrage.success_rate">Success Rate:</span>
+                            <span class="text-green-400 font-semibold" data-i18n="ai_trading_bots.strategies.arbitrage.success_rate_value">96.8%</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span class="text-gray-400" data-i18n="ai_trading_bots.strategies.arbitrage.avg_return">Avg Return:</span>
+                            <span class="text-green-400 font-semibold" data-i18n="ai_trading_bots.strategies.arbitrage.avg_return_value">+8.7%</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span class="text-gray-400" data-i18n="ai_trading_bots.strategies.arbitrage.execution_speed">Execution Speed:</span>
+                            <span class="text-blue-400 font-semibold" data-i18n="ai_trading_bots.strategies.arbitrage.execution_speed_value">< 50ms</span>
+                        </div>
+                    </div>
+                    
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-green-500/20 text-green-300 px-3 py-1 rounded-full text-sm" data-i18n="ai_trading_bots.strategies.arbitrage.feature1">Cross-Exchange</span>
+                        <span class="bg-green-500/20 text-green-300 px-3 py-1 rounded-full text-sm" data-i18n="ai_trading_bots.strategies.arbitrage.feature2">Triangular Arbitrage</span>
+                        <span class="bg-green-500/20 text-green-300 px-3 py-1 rounded-full text-sm" data-i18n="ai_trading_bots.strategies.arbitrage.feature3">Statistical Arbitrage</span>
+                    </div>
+                </div>
+                
+                <!-- Market Making -->
+                <div class="strategy-card">
+                    <div class="flex items-center mb-6">
+                        <div class="w-16 h-16 bg-gradient-to-r from-purple-500 to-pink-600 rounded-2xl flex items-center justify-center mr-4">
+                            <i class="fas fa-layer-group text-white text-2xl"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold" data-i18n="ai_trading_bots.strategies.market_making.title">Market Making</h3>
+                            <p class="text-purple-400" data-i18n="ai_trading_bots.strategies.market_making.type">Liquidity Provider</p>
+                        </div>
+                    </div>
+                    
+                    <p class="text-gray-300 mb-6" data-i18n="ai_trading_bots.strategies.market_making.description">
+                        Provides liquidity by placing buy and sell orders around current market price, earning from bid-ask spreads.
+                    </p>
+                    
+                    <div class="space-y-3 mb-6">
+                        <div class="flex justify-between">
+                            <span class="text-gray-400" data-i18n="ai_trading_bots.strategies.market_making.success_rate">Success Rate:</span>
+                            <span class="text-green-400 font-semibold" data-i18n="ai_trading_bots.strategies.market_making.success_rate_value">91.5%</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span class="text-gray-400" data-i18n="ai_trading_bots.strategies.market_making.avg_return">Avg Return:</span>
+                            <span class="text-green-400 font-semibold" data-i18n="ai_trading_bots.strategies.market_making.avg_return_value">+15.3%</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span class="text-gray-400" data-i18n="ai_trading_bots.strategies.market_making.daily_volume">Daily Volume:</span>
+                            <span class="text-blue-400 font-semibold" data-i18n="ai_trading_bots.strategies.market_making.daily_volume_value">$2.5M</span>
+                        </div>
+                    </div>
+                    
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-purple-500/20 text-purple-300 px-3 py-1 rounded-full text-sm" data-i18n="ai_trading_bots.strategies.market_making.feature1">Dynamic Spread</span>
+                        <span class="bg-purple-500/20 text-purple-300 px-3 py-1 rounded-full text-sm" data-i18n="ai_trading_bots.strategies.market_making.feature2">Inventory Management</span>
+                        <span class="bg-purple-500/20 text-purple-300 px-3 py-1 rounded-full text-sm" data-i18n="ai_trading_bots.strategies.market_making.feature3">Risk Control</span>
+                    </div>
+                </div>
+                
+                <!-- DeFi Yield Farming -->
+                <div class="strategy-card">
+                    <div class="flex items-center mb-6">
+                        <div class="w-16 h-16 bg-gradient-to-r from-orange-500 to-red-600 rounded-2xl flex items-center justify-center mr-4">
+                            <i class="fas fa-seedling text-white text-2xl"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold" data-i18n="ai_trading_bots.strategies.defi_yield.title">DeFi Yield Farming</h3>
+                            <p class="text-orange-400" data-i18n="ai_trading_bots.strategies.defi_yield.type">Yield Optimization</p>
+                        </div>
+                    </div>
+                    
+                    <p class="text-gray-300 mb-6" data-i18n="ai_trading_bots.strategies.defi_yield.description">
+                        Automatically optimizes yield farming positions across DeFi protocols for maximum APY with risk management.
+                    </p>
+                    
+                    <div class="space-y-3 mb-6">
+                        <div class="flex justify-between">
+                            <span class="text-gray-400" data-i18n="ai_trading_bots.strategies.defi_yield.apy">Average APY:</span>
+                            <span class="text-green-400 font-semibold" data-i18n="ai_trading_bots.strategies.defi_yield.apy_value">142.6%</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span class="text-gray-400" data-i18n="ai_trading_bots.strategies.defi_yield.protocols">Protocols:</span>
+                            <span class="text-blue-400 font-semibold" data-i18n="ai_trading_bots.strategies.defi_yield.protocols_value">25+</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span class="text-gray-400" data-i18n="ai_trading_bots.strategies.defi_yield.auto_compound">Auto Compound:</span>
+                            <span class="text-green-400 font-semibold" data-i18n="ai_trading_bots.strategies.defi_yield.auto_compound_value">Daily</span>
+                        </div>
+                    </div>
+                    
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-orange-500/20 text-orange-300 px-3 py-1 rounded-full text-sm" data-i18n="ai_trading_bots.strategies.defi_yield.feature1">Multi-Protocol</span>
+                        <span class="bg-orange-500/20 text-orange-300 px-3 py-1 rounded-full text-sm" data-i18n="ai_trading_bots.strategies.defi_yield.feature2">Impermanent Loss Protection</span>
+                        <span class="bg-orange-500/20 text-orange-300 px-3 py-1 rounded-full text-sm" data-i18n="ai_trading_bots.strategies.defi_yield.feature3">Gas Optimization</span>
+                    </div>
+                </div>
+                
+                <!-- Scalping Bot -->
+                <div class="strategy-card">
+                    <div class="flex items-center mb-6">
+                        <div class="w-16 h-16 bg-gradient-to-r from-teal-500 to-cyan-600 rounded-2xl flex items-center justify-center mr-4">
+                            <i class="fas fa-bolt text-white text-2xl"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold" data-i18n="ai_trading_bots.strategies.scalping.title">High-Frequency Scalping</h3>
+                            <p class="text-teal-400" data-i18n="ai_trading_bots.strategies.scalping.type">Ultra-Fast Trading</p>
+                        </div>
+                    </div>
+                    
+                    <p class="text-gray-300 mb-6" data-i18n="ai_trading_bots.strategies.scalping.description">
+                        Executes hundreds of micro-trades daily, capturing small price movements with advanced algorithms and low latency.
+                    </p>
+                    
+                    <div class="space-y-3 mb-6">
+                        <div class="flex justify-between">
+                            <span class="text-gray-400" data-i18n="ai_trading_bots.strategies.scalping.trades_per_day">Trades/Day:</span>
+                            <span class="text-blue-400 font-semibold" data-i18n="ai_trading_bots.strategies.scalping.trades_per_day_value">500+</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span class="text-gray-400" data-i18n="ai_trading_bots.strategies.scalping.avg_trade">Avg Trade Duration:</span>
+                            <span class="text-yellow-400 font-semibold" data-i18n="ai_trading_bots.strategies.scalping.avg_trade_value">2.3 min</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span class="text-gray-400" data-i18n="ai_trading_bots.strategies.scalping.profit_factor">Profit Factor:</span>
+                            <span class="text-green-400 font-semibold" data-i18n="ai_trading_bots.strategies.scalping.profit_factor_value">2.14</span>
+                        </div>
+                    </div>
+                    
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-teal-500/20 text-teal-300 px-3 py-1 rounded-full text-sm" data-i18n="ai_trading_bots.strategies.scalping.feature1">Low Latency</span>
+                        <span class="bg-teal-500/20 text-teal-300 px-3 py-1 rounded-full text-sm" data-i18n="ai_trading_bots.strategies.scalping.feature2">Order Book Analysis</span>
+                        <span class="bg-teal-500/20 text-teal-300 px-3 py-1 rounded-full text-sm" data-i18n="ai_trading_bots.strategies.scalping.feature3">Micro-Movements</span>
+                    </div>
+                </div>
+                
+                <!-- AI Sentiment Analysis -->
+                <div class="strategy-card">
+                    <div class="flex items-center mb-6">
+                        <div class="w-16 h-16 bg-gradient-to-r from-indigo-500 to-purple-600 rounded-2xl flex items-center justify-center mr-4">
+                            <i class="fas fa-brain text-white text-2xl"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold" data-i18n="ai_trading_bots.strategies.sentiment.title">AI Sentiment Trading</h3>
+                            <p class="text-indigo-400" data-i18n="ai_trading_bots.strategies.sentiment.type">News & Social Analysis</p>
+                        </div>
+                    </div>
+                    
+                    <p class="text-gray-300 mb-6" data-i18n="ai_trading_bots.strategies.sentiment.description">
+                        Analyzes news, social media, and market sentiment using NLP and machine learning to predict price movements.
+                    </p>
+                    
+                    <div class="space-y-3 mb-6">
+                        <div class="flex justify-between">
+                            <span class="text-gray-400" data-i18n="ai_trading_bots.strategies.sentiment.data_sources">Data Sources:</span>
+                            <span class="text-blue-400 font-semibold" data-i18n="ai_trading_bots.strategies.sentiment.data_sources_value">1000+</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span class="text-gray-400" data-i18n="ai_trading_bots.strategies.sentiment.accuracy">Prediction Accuracy:</span>
+                            <span class="text-green-400 font-semibold" data-i18n="ai_trading_bots.strategies.sentiment.accuracy_value">87.9%</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span class="text-gray-400" data-i18n="ai_trading_bots.strategies.sentiment.response_time">Response Time:</span>
+                            <span class="text-yellow-400 font-semibold" data-i18n="ai_trading_bots.strategies.sentiment.response_time_value">< 1 sec</span>
+                        </div>
+                    </div>
+                    
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-indigo-500/20 text-indigo-300 px-3 py-1 rounded-full text-sm" data-i18n="ai_trading_bots.strategies.sentiment.feature1">NLP Analysis</span>
+                        <span class="bg-indigo-500/20 text-indigo-300 px-3 py-1 rounded-full text-sm" data-i18n="ai_trading_bots.strategies.sentiment.feature2">Social Monitoring</span>
+                        <span class="bg-indigo-500/20 text-indigo-300 px-3 py-1 rounded-full text-sm" data-i18n="ai_trading_bots.strategies.sentiment.feature3">News Integration</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- AI Algorithm Showcase -->
+    <section class="py-20 bg-gradient-to-br from-slate-900 to-blue-900 text-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl lg:text-5xl font-bold mb-6" data-i18n="ai_trading_bots.algorithms.title">Advanced AI Algorithms</h2>
+                <p class="text-xl text-blue-100 max-w-3xl mx-auto" data-i18n="ai_trading_bots.algorithms.description">
+                    Our trading bots leverage cutting-edge machine learning algorithms and deep neural networks for superior market analysis and decision making.
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                <!-- Algorithm Flow Visualization -->
+                <div>
+                    <h3 class="text-2xl font-bold mb-8" data-i18n="ai_trading_bots.algorithms.flow.title">AI Decision Flow</h3>
+                    <div class="algorithm-flow">
+                        <div class="flow-step">
+                            <div class="flex items-center mb-3">
+                                <i class="fas fa-database text-blue-400 mr-3"></i>
+                                <h4 class="font-semibold" data-i18n="ai_trading_bots.algorithms.flow.step1.title">Data Collection</h4>
+                            </div>
+                            <p class="text-sm text-gray-300" data-i18n="ai_trading_bots.algorithms.flow.step1.description">
+                                Real-time market data, order books, news feeds, and social sentiment aggregation from multiple sources.
+                            </p>
+                        </div>
+                        
+                        <div class="flow-step">
+                            <div class="flex items-center mb-3">
+                                <i class="fas fa-filter text-purple-400 mr-3"></i>
+                                <h4 class="font-semibold" data-i18n="ai_trading_bots.algorithms.flow.step2.title">Data Processing</h4>
+                            </div>
+                            <p class="text-sm text-gray-300" data-i18n="ai_trading_bots.algorithms.flow.step2.description">
+                                Advanced preprocessing with noise filtering, normalization, and feature engineering using ML techniques.
+                            </p>
+                        </div>
+                        
+                        <div class="flow-step">
+                            <div class="flex items-center mb-3">
+                                <i class="fas fa-brain text-green-400 mr-3"></i>
+                                <h4 class="font-semibold" data-i18n="ai_trading_bots.algorithms.flow.step3.title">AI Analysis</h4>
+                            </div>
+                            <p class="text-sm text-gray-300" data-i18n="ai_trading_bots.algorithms.flow.step3.description">
+                                Deep neural networks and ensemble models analyze patterns and predict optimal trading opportunities.
+                            </p>
+                        </div>
+                        
+                        <div class="flow-step">
+                            <div class="flex items-center mb-3">
+                                <i class="fas fa-shield-alt text-orange-400 mr-3"></i>
+                                <h4 class="font-semibold" data-i18n="ai_trading_bots.algorithms.flow.step4.title">Risk Assessment</h4>
+                            </div>
+                            <p class="text-sm text-gray-300" data-i18n="ai_trading_bots.algorithms.flow.step4.description">
+                                Multi-layered risk management with position sizing, stop-loss optimization, and portfolio correlation analysis.
+                            </p>
+                        </div>
+                        
+                        <div class="flow-step">
+                            <div class="flex items-center mb-3">
+                                <i class="fas fa-bolt text-yellow-400 mr-3"></i>
+                                <h4 class="font-semibold" data-i18n="ai_trading_bots.algorithms.flow.step5.title">Execution</h4>
+                            </div>
+                            <p class="text-sm text-gray-300" data-i18n="ai_trading_bots.algorithms.flow.step5.description">
+                                Lightning-fast order execution with smart routing and slippage minimization algorithms.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Code Terminal -->
+                <div>
+                    <h3 class="text-2xl font-bold mb-8" data-i18n="ai_trading_bots.algorithms.code.title">AI Trading Algorithm</h3>
+                    <div class="code-terminal">
+                        <div class="terminal-header">
+                            <div class="terminal-dots">
+                                <div class="terminal-dot dot-red"></div>
+                                <div class="terminal-dot dot-yellow"></div>
+                                <div class="terminal-dot dot-green"></div>
+                            </div>
+                            <span>trading_bot_ai.py</span>
+                        </div>
+                        
+                        <div class="code-line" style="animation-delay: 0s;">
+                            <span style="color: #f59e0b;">import</span> <span style="color: #3b82f6;">tensorflow</span> <span style="color: #f59e0b;">as</span> <span style="color: #3b82f6;">tf</span>
+                        </div>
+                        <div class="code-line" style="animation-delay: 0.3s;">
+                            <span style="color: #f59e0b;">import</span> <span style="color: #3b82f6;">numpy</span> <span style="color: #f59e0b;">as</span> <span style="color: #3b82f6;">np</span>
+                        </div>
+                        <div class="code-line" style="animation-delay: 0.6s;">
+                            <span style="color: #f59e0b;">from</span> <span style="color: #3b82f6;">sklearn.ensemble</span> <span style="color: #f59e0b;">import</span> <span style="color: #3b82f6;">RandomForestClassifier</span>
+                        </div>
+                        <div class="code-line" style="animation-delay: 0.9s;"></div>
+                        <div class="code-line" style="animation-delay: 1.2s;">
+                            <span style="color: #f59e0b;">class</span> <span style="color: #8b5cf6;">AITradingBot</span>:
+                        </div>
+                        <div class="code-line" style="animation-delay: 1.5s;">
+                            &nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #f59e0b;">def</span> <span style="color: #22c55e;">__init__</span>(<span style="color: #3b82f6;">self</span>):
+                        </div>
+                        <div class="code-line" style="animation-delay: 1.8s;">
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #3b82f6;">self</span>.<span style="color: #22c55e;">model</span> = <span style="color: #3b82f6;">self</span>.<span style="color: #22c55e;">build_neural_network</span>()
+                        </div>
+                        <div class="code-line" style="animation-delay: 2.1s;">
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #3b82f6;">self</span>.<span style="color: #22c55e;">risk_manager</span> = <span style="color: #8b5cf6;">RiskManager</span>()
+                        </div>
+                        <div class="code-line" style="animation-delay: 2.4s;"></div>
+                        <div class="code-line" style="animation-delay: 2.7s;">
+                            &nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #f59e0b;">def</span> <span style="color: #22c55e;">analyze_market</span>(<span style="color: #3b82f6;">self</span>, <span style="color: #3b82f6;">data</span>):
+                        </div>
+                        <div class="code-line" style="animation-delay: 3.0s;">
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #3b82f6;">features</span> = <span style="color: #3b82f6;">self</span>.<span style="color: #22c55e;">extract_features</span>(<span style="color: #3b82f6;">data</span>)
+                        </div>
+                        <div class="code-line" style="animation-delay: 3.3s;">
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #3b82f6;">prediction</span> = <span style="color: #3b82f6;">self</span>.<span style="color: #22c55e;">model</span>.<span style="color: #22c55e;">predict</span>(<span style="color: #3b82f6;">features</span>)
+                        </div>
+                        <div class="code-line" style="animation-delay: 3.6s;">
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #f59e0b;">return</span> <span style="color: #3b82f6;">self</span>.<span style="color: #22c55e;">generate_signal</span>(<span style="color: #3b82f6;">prediction</span>)
+                        </div>
+                        <div class="code-line" style="animation-delay: 3.9s;"></div>
+                        <div class="code-line" style="animation-delay: 4.2s;">
+                            <span style="color: #6b7280;"># AI Bot successfully analyzing market patterns...</span>
+                        </div>
+                        <div class="code-line" style="animation-delay: 4.5s;">
+                            <span style="color: #22c55e;">Profit generated: $12,847.50 ✓</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Performance Statistics -->
+    <section class="py-20 bg-gradient-to-r from-green-600 to-blue-600 text-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl lg:text-5xl font-bold mb-6" data-i18n="ai_trading_bots.performance.title">Exceptional Performance Results</h2>
+                <p class="text-xl text-green-100 max-w-3xl mx-auto" data-i18n="ai_trading_bots.performance.description">
+                    Real performance metrics from our AI trading bots in live trading environments across multiple markets and timeframes.
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Total Profit -->
+                <div class="text-center">
+                    <div class="performance-stat mb-6">
+                        <div class="text-3xl font-bold" data-i18n="ai_trading_bots.performance.total_profit.value">$2.8M+</div>
+                        <div class="text-sm" data-i18n="ai_trading_bots.performance.total_profit.label">Total Profit</div>
+                    </div>
+                    <p class="text-green-200 text-sm" data-i18n="ai_trading_bots.performance.total_profit.description">Generated across all bot strategies and timeframes</p>
+                </div>
+                
+                <!-- Win Rate -->
+                <div class="text-center">
+                    <div class="performance-stat mb-6">
+                        <div class="text-3xl font-bold" data-i18n="ai_trading_bots.performance.win_rate.value">92.4%</div>
+                        <div class="text-sm" data-i18n="ai_trading_bots.performance.win_rate.label">Average Win Rate</div>
+                    </div>
+                    <p class="text-green-200 text-sm" data-i18n="ai_trading_bots.performance.win_rate.description">Consistently profitable trading decisions</p>
+                </div>
+                
+                <!-- Max Drawdown -->
+                <div class="text-center">
+                    <div class="performance-stat mb-6">
+                        <div class="text-3xl font-bold" data-i18n="ai_trading_bots.performance.drawdown.value">-2.1%</div>
+                        <div class="text-sm" data-i18n="ai_trading_bots.performance.drawdown.label">Max Drawdown</div>
+                    </div>
+                    <p class="text-green-200 text-sm" data-i18n="ai_trading_bots.performance.drawdown.description">Superior risk management and capital protection</p>
+                </div>
+                
+                <!-- Sharpe Ratio -->
+                <div class="text-center">
+                    <div class="performance-stat mb-6">
+                        <div class="text-3xl font-bold" data-i18n="ai_trading_bots.performance.sharpe.value">3.47</div>
+                        <div class="text-sm" data-i18n="ai_trading_bots.performance.sharpe.label">Sharpe Ratio</div>
+                    </div>
+                    <p class="text-green-200 text-sm" data-i18n="ai_trading_bots.performance.sharpe.description">Excellent risk-adjusted returns</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Bot Services & Pricing -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl lg:text-5xl font-bold mb-6" data-i18n="ai_trading_bots.services.title">AI Trading Bot Services</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto" data-i18n="ai_trading_bots.services.description">
+                    Professional AI trading bot development and deployment services tailored to your specific trading requirements and risk tolerance.
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+                <!-- Custom Bot Development -->
+                <div class="trading-bot-card rounded-2xl p-8 text-white">
+                    <div class="flex items-center mb-6">
+                        <div class="w-12 h-12 bg-blue-500 rounded-xl flex items-center justify-center mr-4">
+                            <i class="fas fa-cogs text-white text-xl"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold" data-i18n="ai_trading_bots.services.custom.title">Custom Bot Development</h3>
+                            <p class="text-blue-300" data-i18n="ai_trading_bots.services.custom.duration">8-16 weeks</p>
+                        </div>
+                    </div>
+                    
+                    <div class="mb-6">
+                        <div class="text-3xl font-bold text-green-400" data-i18n="ai_trading_bots.services.custom.price">From $25,000</div>
+                        <p class="text-gray-300" data-i18n="ai_trading_bots.services.custom.price_note">Fully customized AI trading solution</p>
+                    </div>
+                    
+                    <ul class="space-y-3 mb-8">
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-400 mr-3"></i>
+                            <span data-i18n="ai_trading_bots.services.custom.feature1">Custom Algorithm Development</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-400 mr-3"></i>
+                            <span data-i18n="ai_trading_bots.services.custom.feature2">Multi-Exchange Integration</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-400 mr-3"></i>
+                            <span data-i18n="ai_trading_bots.services.custom.feature3">Advanced Risk Management</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-400 mr-3"></i>
+                            <span data-i18n="ai_trading_bots.services.custom.feature4">Real-time Monitoring</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-400 mr-3"></i>
+                            <span data-i18n="ai_trading_bots.services.custom.feature5">Performance Analytics</span>
+                        </li>
+                    </ul>
+                    
+                    <button class="w-full bg-blue-500 text-white py-3 rounded-lg font-semibold hover:bg-blue-600 transition duration-300">
+                        <span data-i18n="ai_trading_bots.services.custom.cta">Start Custom Development</span>
+                    </button>
+                </div>
+                
+                <!-- Ready-Made Bots -->
+                <div class="trading-bot-card rounded-2xl p-8 text-white transform scale-105 border-2 border-green-400">
+                    <div class="flex items-center mb-6">
+                        <div class="w-12 h-12 bg-green-500 rounded-xl flex items-center justify-center mr-4">
+                            <i class="fas fa-robot text-white text-xl"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold" data-i18n="ai_trading_bots.services.ready_made.title">Ready-Made Bots</h3>
+                            <p class="text-green-300" data-i18n="ai_trading_bots.services.ready_made.duration">1-2 weeks</p>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-green-500/20 text-green-300 text-sm font-semibold px-3 py-1 rounded-full inline-block mb-4">
+                        <span data-i18n="ai_trading_bots.services.ready_made.badge">Most Popular</span>
+                    </div>
+                    
+                    <div class="mb-6">
+                        <div class="text-3xl font-bold text-green-400" data-i18n="ai_trading_bots.services.ready_made.price">From $8,500</div>
+                        <p class="text-gray-300" data-i18n="ai_trading_bots.services.ready_made.price_note">Pre-built proven strategies</p>
+                    </div>
+                    
+                    <ul class="space-y-3 mb-8">
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-400 mr-3"></i>
+                            <span data-i18n="ai_trading_bots.services.ready_made.feature1">6 Proven Strategies</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-400 mr-3"></i>
+                            <span data-i18n="ai_trading_bots.services.ready_made.feature2">Backtested Performance</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-400 mr-3"></i>
+                            <span data-i18n="ai_trading_bots.services.ready_made.feature3">Quick Deployment</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-400 mr-3"></i>
+                            <span data-i18n="ai_trading_bots.services.ready_made.feature4">Parameter Optimization</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-400 mr-3"></i>
+                            <span data-i18n="ai_trading_bots.services.ready_made.feature5">24/7 Support</span>
+                        </li>
+                    </ul>
+                    
+                    <button class="w-full bg-green-500 text-white py-3 rounded-lg font-semibold hover:bg-green-600 transition duration-300">
+                        <span data-i18n="ai_trading_bots.services.ready_made.cta">Deploy Bot Now</span>
+                    </button>
+                </div>
+                
+                <!-- Bot Management -->
+                <div class="trading-bot-card rounded-2xl p-8 text-white">
+                    <div class="flex items-center mb-6">
+                        <div class="w-12 h-12 bg-purple-500 rounded-xl flex items-center justify-center mr-4">
+                            <i class="fas fa-chart-bar text-white text-xl"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold" data-i18n="ai_trading_bots.services.management.title">Bot Management</h3>
+                            <p class="text-purple-300" data-i18n="ai_trading_bots.services.management.duration">Ongoing</p>
+                        </div>
+                    </div>
+                    
+                    <div class="mb-6">
+                        <div class="text-3xl font-bold text-purple-400" data-i18n="ai_trading_bots.services.management.price">From $2,500/mo</div>
+                        <p class="text-gray-300" data-i18n="ai_trading_bots.services.management.price_note">Complete bot management service</p>
+                    </div>
+                    
+                    <ul class="space-y-3 mb-8">
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-purple-400 mr-3"></i>
+                            <span data-i18n="ai_trading_bots.services.management.feature1">Performance Monitoring</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-purple-400 mr-3"></i>
+                            <span data-i18n="ai_trading_bots.services.management.feature2">Strategy Optimization</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-purple-400 mr-3"></i>
+                            <span data-i18n="ai_trading_bots.services.management.feature3">Risk Adjustment</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-purple-400 mr-3"></i>
+                            <span data-i18n="ai_trading_bots.services.management.feature4">Monthly Reports</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-purple-400 mr-3"></i>
+                            <span data-i18n="ai_trading_bots.services.management.feature5">Expert Support</span>
+                        </li>
+                    </ul>
+                    
+                    <button class="w-full bg-purple-500 text-white py-3 rounded-lg font-semibold hover:bg-purple-600 transition duration-300">
+                        <span data-i18n="ai_trading_bots.services.management.cta">Start Management</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Success Case Studies -->
+    <section class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl lg:text-5xl font-bold mb-6" data-i18n="ai_trading_bots.case_studies.title">Trading Bot Success Stories</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto" data-i18n="ai_trading_bots.case_studies.description">
+                    Real success stories from clients who achieved exceptional returns with our AI trading bot solutions.
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                <!-- Crypto Fund Case Study -->
+                <div class="bg-gradient-to-br from-blue-50 to-indigo-100 rounded-2xl p-8">
+                    <div class="flex items-center mb-6">
+                        <div class="w-16 h-16 bg-gradient-to-r from-blue-500 to-indigo-600 rounded-2xl flex items-center justify-center mr-6">
+                            <i class="fab fa-bitcoin text-white text-2xl"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-2xl font-bold" data-i18n="ai_trading_bots.case_studies.crypto_fund.title">CryptoMax Fund</h3>
+                            <p class="text-blue-600 font-medium" data-i18n="ai_trading_bots.case_studies.crypto_fund.type">Cryptocurrency Hedge Fund</p>
+                        </div>
+                    </div>
+                    
+                    <p class="text-gray-700 mb-6" data-i18n="ai_trading_bots.case_studies.crypto_fund.description">
+                        Deployed custom arbitrage and momentum trading bots across 15 cryptocurrency exchanges, managing $50M in assets with automated strategies.
+                    </p>
+                    
+                    <div class="grid grid-cols-3 gap-4 mb-6">
+                        <div class="text-center">
+                            <div class="text-2xl font-bold text-blue-600" data-i18n="ai_trading_bots.case_studies.crypto_fund.annual_return">+234%</div>
+                            <div class="text-sm text-gray-600" data-i18n="ai_trading_bots.case_studies.crypto_fund.annual_return_label">Annual Return</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-2xl font-bold text-blue-600" data-i18n="ai_trading_bots.case_studies.crypto_fund.aum">$50M</div>
+                            <div class="text-sm text-gray-600" data-i18n="ai_trading_bots.case_studies.crypto_fund.aum_label">Assets Managed</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-2xl font-bold text-blue-600" data-i18n="ai_trading_bots.case_studies.crypto_fund.max_dd">-4.2%</div>
+                            <div class="text-sm text-gray-600" data-i18n="ai_trading_bots.case_studies.crypto_fund.max_dd_label">Max Drawdown</div>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-blue-100 p-4 rounded-lg mb-4">
+                        <p class="text-sm italic text-blue-800" data-i18n="ai_trading_bots.case_studies.crypto_fund.testimonial">
+                            "The AI trading bots have transformed our fund performance. We've achieved consistent alpha with significantly reduced risk exposure."
+                        </p>
+                        <p class="text-sm font-semibold text-blue-900 mt-2" data-i18n="ai_trading_bots.case_studies.crypto_fund.client">- David Chen, Fund Manager</p>
+                    </div>
+                    
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-blue-200 text-blue-800 px-3 py-1 rounded-full text-sm" data-i18n="ai_trading_bots.case_studies.crypto_fund.strategy1">Multi-Exchange Arbitrage</span>
+                        <span class="bg-blue-200 text-blue-800 px-3 py-1 rounded-full text-sm" data-i18n="ai_trading_bots.case_studies.crypto_fund.strategy2">Momentum Trading</span>
+                        <span class="bg-blue-200 text-blue-800 px-3 py-1 rounded-full text-sm" data-i18n="ai_trading_bots.case_studies.crypto_fund.strategy3">Risk Management</span>
+                    </div>
+                </div>
+                
+                <!-- Forex Trader Case Study -->
+                <div class="bg-gradient-to-br from-green-50 to-emerald-100 rounded-2xl p-8">
+                    <div class="flex items-center mb-6">
+                        <div class="w-16 h-16 bg-gradient-to-r from-green-500 to-emerald-600 rounded-2xl flex items-center justify-center mr-6">
+                            <i class="fas fa-chart-line text-white text-2xl"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-2xl font-bold" data-i18n="ai_trading_bots.case_studies.forex_trader.title">Elite Forex Trading</h3>
+                            <p class="text-green-600 font-medium" data-i18n="ai_trading_bots.case_studies.forex_trader.type">Professional Forex Trader</p>
+                        </div>
+                    </div>
+                    
+                    <p class="text-gray-700 mb-6" data-i18n="ai_trading_bots.case_studies.forex_trader.description">
+                        Individual trader using AI scalping and sentiment analysis bots for EUR/USD, GBP/USD, and USD/JPY pairs with 24/7 automated trading.
+                    </p>
+                    
+                    <div class="grid grid-cols-3 gap-4 mb-6">
+                        <div class="text-center">
+                            <div class="text-2xl font-bold text-green-600" data-i18n="ai_trading_bots.case_studies.forex_trader.monthly_return">+18.7%</div>
+                            <div class="text-sm text-gray-600" data-i18n="ai_trading_bots.case_studies.forex_trader.monthly_return_label">Monthly Avg</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-2xl font-bold text-green-600" data-i18n="ai_trading_bots.case_studies.forex_trader.win_rate">91.3%</div>
+                            <div class="text-sm text-gray-600" data-i18n="ai_trading_bots.case_studies.forex_trader.win_rate_label">Win Rate</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-2xl font-bold text-green-600" data-i18n="ai_trading_bots.case_studies.forex_trader.trades">2,400+</div>
+                            <div class="text-sm text-gray-600" data-i18n="ai_trading_bots.case_studies.forex_trader.trades_label">Monthly Trades</div>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-green-100 p-4 rounded-lg mb-4">
+                        <p class="text-sm italic text-green-800" data-i18n="ai_trading_bots.case_studies.forex_trader.testimonial">
+                            "The AI bots trade 24/7 without emotions and execute my strategies perfectly. My profits have increased 300% since deployment."
+                        </p>
+                        <p class="text-sm font-semibold text-green-900 mt-2" data-i18n="ai_trading_bots.case_studies.forex_trader.client">- Sarah Martinez, Professional Trader</p>
+                    </div>
+                    
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-green-200 text-green-800 px-3 py-1 rounded-full text-sm" data-i18n="ai_trading_bots.case_studies.forex_trader.strategy1">Scalping Algorithm</span>
+                        <span class="bg-green-200 text-green-800 px-3 py-1 rounded-full text-sm" data-i18n="ai_trading_bots.case_studies.forex_trader.strategy2">Sentiment Analysis</span>
+                        <span class="bg-green-200 text-green-800 px-3 py-1 rounded-full text-sm" data-i18n="ai_trading_bots.case_studies.forex_trader.strategy3">24/7 Automation</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- CTA Section -->
+    <section class="py-20 bg-gradient-to-r from-slate-900 via-blue-900 to-indigo-900 text-white">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-4xl lg:text-6xl font-bold mb-6" data-i18n="ai_trading_bots.cta.title">Ready to Dominate the Markets?</h2>
+            <p class="text-xl text-blue-100 max-w-3xl mx-auto mb-12" data-i18n="ai_trading_bots.cta.description">
+                Join the elite traders using AI-powered automation for consistent profits. Get your custom trading bot developed by our expert team.
+            </p>
+            
+            <div class="flex flex-col sm:flex-row gap-6 justify-center mb-12">
+                <a href="#contact" class="inline-flex items-center bg-white text-blue-900 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-blue-50 transition duration-300 transform hover:scale-105">
+                    <i class="fas fa-robot mr-3"></i>
+                    <span data-i18n="ai_trading_bots.cta.primary">Start Bot Development</span>
+                </a>
+                <a href="#demo" class="inline-flex items-center border-2 border-white text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-white hover:text-blue-900 transition duration-300">
+                    <i class="fas fa-chart-line mr-3"></i>
+                    <span data-i18n="ai_trading_bots.cta.secondary">View Live Performance</span>
+                </a>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
+                <div class="text-center">
+                    <div class="text-2xl font-bold text-green-300" data-i18n="ai_trading_bots.cta.guarantee.consultation">Free</div>
+                    <div class="text-blue-200" data-i18n="ai_trading_bots.cta.guarantee.consultation_label">Strategy Consultation</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-2xl font-bold text-green-300" data-i18n="ai_trading_bots.cta.guarantee.backtest">30 days</div>
+                    <div class="text-blue-200" data-i18n="ai_trading_bots.cta.guarantee.backtest_label">Free Backtesting</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-2xl font-bold text-green-300" data-i18n="ai_trading_bots.cta.guarantee.success">95%+</div>
+                    <div class="text-blue-200" data-i18n="ai_trading_bots.cta.guarantee.success_label">Success Rate</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer Placeholder -->
+    <div id="footer-placeholder"></div>
+    
+    <!-- JavaScript -->
+    <script type="module">
+        import { loadHBWComponents } from '../components/templates.js';
+        import HBWi18n from '../assets/js/i18n.js';
+
+        async function initializePage() {
+            await loadHBWComponents();
+            
+            // Manual initialization for full control
+            const i18n = new HBWi18n();
+            
+            // Get saved language preference
+            const savedLang = localStorage.getItem('hbw_language') || 'en';
+            
+            // Load and apply translations manually
+            await i18n.loadLanguage(savedLang);
+            i18n.applyTranslations();
+            
+            // Setup language switcher
+            setupLanguageSwitcher(i18n);
+            
+            console.log('AI Trading Bots page initialized with translation support');
+            
+            // Initialize interactive features
+            initializeInteractiveFeatures();
+        }
+
+        function setupLanguageSwitcher(i18n) {
+            const langButtons = document.querySelectorAll('.lang-btn');
+            
+            langButtons.forEach(btn => {
+                btn.addEventListener('click', async (e) => {
+                    e.preventDefault();
+                    const targetLang = btn.dataset.lang;
+                    
+                    if (targetLang !== i18n.currentLang) {
+                        // Update button states
+                        langButtons.forEach(b => {
+                            b.classList.remove('active', 'bg-blue-500', 'text-white');
+                            b.classList.add('text-slate-600', 'dark:text-slate-300');
+                        });
+                        btn.classList.remove('text-slate-600', 'dark:text-slate-300');
+                        btn.classList.add('active', 'bg-blue-500', 'text-white');
+                        
+                        // Switch language
+                        await i18n.switchLanguage(targetLang);
+                    }
+                });
+            });
+            
+            // Set initial active state
+            const currentLangBtn = document.querySelector(`[data-lang="${i18n.currentLang}"]`);
+            if (currentLangBtn) {
+                langButtons.forEach(b => {
+                    b.classList.remove('active', 'bg-blue-500', 'text-white');
+                    b.classList.add('text-slate-600', 'dark:text-slate-300');
+                });
+                currentLangBtn.classList.remove('text-slate-600', 'dark:text-slate-300');
+                currentLangBtn.classList.add('active', 'bg-blue-500', 'text-white');
+            }
+        }
+        
+        function initializeInteractiveFeatures() {
+            // Strategy cards hover effects
+            const strategyCards = document.querySelectorAll('.strategy-card');
+            strategyCards.forEach(card => {
+                card.addEventListener('mouseenter', function() {
+                    this.style.transform = 'translateY(-10px) scale(1.02)';
+                });
+                
+                card.addEventListener('mouseleave', function() {
+                    this.style.transform = 'translateY(0) scale(1)';
+                });
+            });
+            
+            // Trading bot cards hover effects
+            const tradingBotCards = document.querySelectorAll('.trading-bot-card');
+            tradingBotCards.forEach(card => {
+                card.addEventListener('mouseenter', function() {
+                    if (!this.classList.contains('scale-105')) {
+                        this.style.transform = 'translateY(-8px) scale(1.02)';
+                    }
+                });
+                
+                card.addEventListener('mouseleave', function() {
+                    if (!this.classList.contains('scale-105')) {
+                        this.style.transform = 'translateY(0) scale(1)';
+                    }
+                });
+            });
+            
+            // Performance stats animation on scroll
+            const observerOptions = {
+                threshold: 0.1,
+                rootMargin: '0px 0px -50px 0px'
+            };
+            
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.opacity = '1';
+                        entry.target.style.transform = 'translateY(0)';
+                    }
+                });
+            }, observerOptions);
+            
+            // Observe performance stats
+            document.querySelectorAll('.performance-stat').forEach(stat => {
+                stat.style.opacity = '0';
+                stat.style.transform = 'translateY(30px)';
+                stat.style.transition = 'all 0.8s ease-out';
+                observer.observe(stat);
+            });
+            
+            // Animate code lines
+            const codeLines = document.querySelectorAll('.code-line');
+            codeLines.forEach((line, index) => {
+                line.style.animationDelay = `${index * 0.2}s`;
+            });
+            
+            // Update trading metrics periodically
+            setInterval(updateTradingMetrics, 3000);
+            
+            // Smooth scrolling for anchor links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href').substring(1);
+                    const targetElement = document.getElementById(targetId);
+                    if (targetElement) {
+                        targetElement.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }
+                });
+            });
+        }
+        
+        function updateTradingMetrics() {
+            // Simulate real-time trading data updates
+            const profitElement = document.querySelector('[data-i18n="ai_trading_bots.hero.dashboard.profit"]');
+            const tradesElement = document.querySelector('[data-i18n="ai_trading_bots.hero.dashboard.trades_today"]');
+            
+            if (profitElement) {
+                const currentProfit = parseFloat(profitElement.textContent.replace(/[^0-9.-]+/g,""));
+                const newProfit = currentProfit + (Math.random() * 100 - 50);
+                profitElement.textContent = `+$${newProfit.toLocaleString('en-US', {minimumFractionDigits: 2, maximumFractionDigits: 2})}`;
+                
+                // Add color animation
+                profitElement.style.color = newProfit > currentProfit ? '#22c55e' : '#ef4444';
+                setTimeout(() => {
+                    profitElement.style.color = '#22c55e';
+                }, 1000);
+            }
+            
+            if (tradesElement) {
+                const currentTrades = parseInt(tradesElement.textContent);
+                if (Math.random() > 0.7) { // 30% chance to increment
+                    tradesElement.textContent = (currentTrades + 1).toString();
+                    tradesElement.classList.add('number-animate');
+                    setTimeout(() => {
+                        tradesElement.classList.remove('number-animate');
+                    }, 2000);
+                }
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', initializePage);
+    </script>
+</body>
+</html>

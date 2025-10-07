@@ -1,0 +1,135 @@
+{
+  "meta": {
+    "title": "Modern Web Applications - HBW Technology Solutions"
+  },
+  "hero": {
+    "badge": "Next-Generation Web Applications",
+    "title_line1": "The Future of",
+    "title_line2": "Web Apps",
+    "subtitle": "Harness cutting-edge technologies like Next.js 14, React Server Components, WebAssembly, and AI integration to build lightning-fast, intelligent web applications that set new industry standards.",
+    "tech": {
+      "react": "React 18+",
+      "react_desc": "Server Components",
+      "wasm": "WebAssembly", 
+      "wasm_desc": "Native Performance",
+      "ai": "AI Integration",
+      "ai_desc": "Smart Features",
+      "pwa": "Progressive PWA",
+      "pwa_desc": "Offline Ready"
+    },
+    "cta_primary": "Explore Technologies",
+    "cta_secondary": "View Demo"
+  },
+  "technologies": {
+    "title": "Cutting-Edge Technologies",
+    "subtitle": "We leverage the most advanced web technologies to build applications that push the boundaries of what's possible in the browser.",
+    "nextjs": {
+      "title": "Next.js 14 & App Router",
+      "description": "Latest Next.js with App Router, React Server Components, and Turbopack for blazing-fast development and optimal performance.",
+      "feature1": "Server & Client Components",
+      "feature2": "App Router Architecture", 
+      "feature3": "Turbopack Integration",
+      "feature4": "Edge Runtime Support",
+      "performance": "50% Faster Builds"
+    },
+    "rsc": {
+      "title": "React Server Components",
+      "description": "Revolutionary architecture that renders components on the server, reducing bundle sizes and improving performance dramatically.",
+      "feature1": "Zero Bundle Impact",
+      "feature2": "Server-Side Data Access",
+      "feature3": "Automatic Code Splitting", 
+      "feature4": "Streaming Rendering",
+      "performance": "70% Smaller Bundles"
+    },
+    "wasm": {
+      "title": "WebAssembly (WASM)",
+      "description": "Near-native performance for computationally intensive tasks, enabling complex applications previously impossible in browsers.",
+      "feature1": "Native-Speed Execution",
+      "feature2": "Multi-Language Support",
+      "feature3": "Secure Sandboxing",
+      "feature4": "Cross-Platform Binary",
+      "performance": "10x Performance"
+    },
+    "ai": {
+      "title": "AI Integration & Vercel AI SDK",
+      "description": "Seamlessly integrate AI capabilities with streaming responses, function calling, and intelligent user interfaces powered by latest LLMs.",
+      "feature1": "Streaming AI Responses",
+      "feature2": "Function Calling",
+      "feature3": "Multi-Modal Support",
+      "feature4": "Edge AI Processing",
+      "performance": "Smart Interfaces"
+    },
+    "web_components": {
+      "title": "Web Components & Custom Elements", 
+      "description": "Framework-agnostic reusable components using native browser standards for maximum compatibility and performance.",
+      "feature1": "Shadow DOM Encapsulation",
+      "feature2": "HTML Templates",
+      "feature3": "Custom Elements API",
+      "feature4": "Framework Agnostic",
+      "performance": "Universal Compatibility"
+    },
+    "pwa": {
+      "title": "Progressive Web Apps (PWA)",
+      "description": "App-like experiences with offline functionality, push notifications, and installable interfaces that work across all devices.",
+      "feature1": "Service Workers",
+      "feature2": "Offline Support", 
+      "feature3": "Push Notifications",
+      "feature4": "App Installation",
+      "performance": "Native-Like UX"
+    }
+  },
+  "apis": {
+    "title": "Modern Browser APIs",
+    "subtitle": "Leverage cutting-edge browser capabilities to create immersive and powerful web experiences",
+    "webrtc": {
+      "title": "WebRTC",
+      "description": "Real-time video/audio communication"
+    },
+    "webgpu": {
+      "title": "WebGPU", 
+      "description": "High-performance graphics and compute"
+    },
+    "web_locks": {
+      "title": "Web Locks",
+      "description": "Resource coordination across tabs"
+    },
+    "intersection": {
+      "title": "Intersection Observer",
+      "description": "Efficient viewport monitoring"
+    },
+    "payment": {
+      "title": "Payment Request",
+      "description": "Streamlined payment flows"
+    },
+    "web_share": {
+      "title": "Web Share",
+      "description": "Native sharing interfaces"
+    },
+    "background_sync": {
+      "title": "Background Sync",
+      "description": "Offline data synchronization"
+    },
+    "web_workers": {
+      "title": "Web Workers",
+      "description": "Multi-threaded JavaScript"
+    }
+  },
+  "demo": {
+    "title": "Interactive Technology Demo",
+    "subtitle": "Experience the power of modern web technologies through our interactive demonstrations",
+    "metrics": {
+      "title": "Real-time Performance",
+      "lighthouse": "Lighthouse Score",
+      "bundle": "Bundle Size",
+      "load_time": "Load Time",
+      "ai_response": "AI Response",
+      "stack": "Tech Stack"
+    }
+  },
+  "cta": {
+    "title": "Ready to Build the Future?",
+    "subtitle": "Let's create cutting-edge web applications that leverage the latest technologies and set new standards for performance and user experience.",
+    "primary": "Start Your Project",
+    "secondary": "View Case Studies"
+  }
+}

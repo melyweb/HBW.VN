@@ -1,0 +1,309 @@
+{
+  "about": {
+    "title": "About HBW - Leading Blockchain & Web Development Company",
+    "meta_description": "Learn about HBW's journey, expertise in blockchain development, DeFi protocols, and innovative web solutions. Meet our experienced team of developers.",
+    "og_title": "About HBW - Blockchain Development Excellence", 
+    "og_description": "Discover HBW's story, mission, and the expert team behind cutting-edge blockchain and web development solutions.",
+    "twitter_title": "About HBW - Blockchain Experts",
+    "twitter_description": "Meet the team behind innovative blockchain solutions and web development excellence.",
+    
+    "hero": {
+      "badge": "Leading Blockchain Development Company",
+      "title_prefix": "About",
+      "description_part1": "We are",
+      "description_highlight1": "blockchain pioneers",
+      "description_part2": "and", 
+      "description_highlight2": "digital innovators",
+      "description_part3": ", transforming businesses through cutting-edge technology and strategic solutions that drive real-world impact.",
+      "cta_mission": "Our Mission & Vision",
+      "cta_journey": "Company Journey",
+      "scroll_text": "Discover Our Story"
+    },
+    
+    "mission": {
+      "section_title_prefix": "Mission &",
+      "section_title_highlight": "Vision",
+      "mission_title": "Our Mission",
+      "mission_text": "To democratize blockchain technology by creating innovative, secure, and user-friendly solutions that empower businesses and individuals to participate in the decentralized economy with confidence and ease.",
+      "mission_point1": "Democratize blockchain access",
+      "mission_point2": "Ensure security & user-friendliness", 
+      "mission_point3": "Empower global participation",
+      
+      "vision_title": "Our Vision",
+      "vision_text": "To become the leading global provider of blockchain and web development solutions, bridging the gap between complex technology and practical business applications for a decentralized future.",
+      "vision_point1": "Global technology leadership",
+      "vision_point2": "Bridge tech-business gap", 
+      "vision_point3": "Enable decentralized future",
+      
+      "tagline": "Building Tomorrow's Technology Today",
+      "years_range": "2015 - 2024",
+      "stats_projects": "Projects",
+      "stats_projects_value": "500+",
+      "stats_tvl": "TVL Managed",
+      "stats_tvl_value": "$50M+"
+    },
+    
+    "story": {
+      "section_badge": "Behind the Innovation",
+      "section_title_prefix": "Our",
+      "section_title_highlight": "Story", 
+      "section_description": "From a visionary idea to blockchain leadership - discover the passion, innovation, and determination that shaped HBW into the industry pioneer we are today.",
+      
+      "chapter1_label": "Chapter 1",
+      "chapter1_title": "The Spark",
+      "chapter1_desc_part1": "It all started with a simple yet powerful vision:",
+      "chapter1_desc_highlight": "make blockchain technology accessible to everyone",
+      "chapter1_desc_part2": ". In 2015, when the crypto world was still complex and intimidating, we saw an opportunity to bridge the gap between cutting-edge technology and real-world applications.",
+      "founder_text": "Our founder, <strong>Brian Nguyen</strong>, combined his passion for blockchain innovation with years of full-stack development experience to create solutions that actually work for businesses and individuals alike.",
+      "chapter1_point1": "Visionary Leadership",
+      "chapter1_point2": "First Smart Contract",
+      "chapter1_point3": "Passion-Driven",
+      "chapter1_point4": "User-First Approach",
+      "founded_label": "Founded",
+      "founded_year": "2015",
+      "chapter3_stat_value": "98%",
+      
+      "chapter2_label": "Chapter 2",
+      "chapter2_title": "Exponential Growth",
+      "chapter2_desc1_part1": "What started as a small team of passionate developers quickly evolved into something extraordinary. By 2022, we had",
+      "chapter2_desc1_highlight1": "scaled to multiple blockchain networks",
+      "chapter2_desc1_part2": ", launched groundbreaking DeFi protocols, and achieved over",
+      "chapter2_desc1_highlight2": "$50M in Total Value Locked",
+      "chapter2_desc1_part3": ".",
+      "chapter2_desc2_part1": "The introduction of our",
+      "chapter2_desc2_highlight": "AIBOT IYI Protocol",
+      "chapter2_desc2_part2": "marked a turning point - combining artificial intelligence with decentralized finance in ways the industry had never seen before.",
+      "chapter2_metric1": "$50M+ TVL",
+      "chapter2_metric2": "Multi-Chain",
+      "chapter2_metric3": "AI Integration",
+      "chapter2_metric4": "Global Reach",
+      "chapter2_stat_label": "TVL",
+      
+      "chapter3_label": "Chapter 3",
+      "chapter3_title": "Industry Leadership", 
+      "chapter3_desc1_part1": "Today, HBW stands as a",
+      "chapter3_desc1_highlight1": "recognized leader in blockchain innovation",
+      "chapter3_desc1_part2": ". With",
+      "chapter3_desc1_highlight2": "500+ successful projects",
+      "chapter3_desc1_part3": ",",
+      "chapter3_desc1_highlight3": "98% client satisfaction",
+      "chapter3_desc1_part4": ", and cutting-edge solutions that set industry standards, we've transformed from a startup vision into a global technology powerhouse.",
+      "chapter3_desc2_part1": "Our commitment to",
+      "chapter3_desc2_highlight": "innovation, integrity, and excellence",
+      "chapter3_desc2_part2": "continues to drive us forward as we shape the future of decentralized technology and build solutions that will define the next generation of digital finance.",
+      "chapter3_metric1": "Industry Awards",
+      "chapter3_metric2": "500+ Projects", 
+      "chapter3_metric3": "98% Satisfaction",
+      "chapter3_metric4": "Global Recognition",
+      "chapter3_stat_label": "Satisfaction",
+      
+      "cta_text": "Join Our Story - Let's Build Together"
+    },
+    
+    "journey": {
+      "section_badge": "Our Journey Since 2015", 
+      "section_title_prefix": "Building the Future of",
+      "section_title_highlight": "Digital Innovation",
+      "section_description": "From a small startup to a leading technology partner, we've consistently delivered cutting-edge solutions that transform businesses and drive digital transformation across industries.",
+      "stat1_label": "Years of Excellence",
+      "stat2_label": "Global Clients",
+      "stat3_label": "Awards & Recognition", 
+      "stat1_value": "4+",
+      "stat2_value": "150+",
+      "stat3_value": "25+",
+      "stat4_value": "50+",
+      "stat4_label": "Technologies Mastered",
+      
+      "milestone_2020_year": "2015",
+      "milestone_2021_year": "2021",
+      "milestone_2022_year": "2022",
+      "milestone_2023_year": "2023",
+      "milestone_2024_year": "2024 & Beyond",
+      
+      "milestone_2020_title": "Foundation & Vision",
+      "milestone_2020_description": "Started with a revolutionary vision to bridge traditional business with blockchain technology. Our first smart contract deployment marked the beginning of an extraordinary journey.",
+      "milestone_2020_achievement1": "First Smart Contract",
+      "milestone_2020_achievement2": "Team Formation",
+      "milestone_2020_achievement3": "Core Vision",
+      "milestone_2020_achievement4": "First Clients",
+      
+      "milestone_2021_title": "Rapid Expansion",
+      "milestone_2021_description": "Scaled operations across multiple blockchain networks. Launched our first revolutionary DeFi protocol with $10M+ TVL and established strategic partnerships across Asia-Pacific region.",
+      "milestone_2021_achievement1": "$10M+ TVL",
+      "milestone_2021_achievement2": "Multi-Chain",
+      "milestone_2021_achievement3": "Asia-Pacific",
+      "milestone_2021_achievement4": "First DeFi",
+      
+      "milestone_2022_title": "AI Integration",
+      "milestone_2022_description": "Pioneered groundbreaking AI-powered trading systems and launched the revolutionary AIBOT IYI Protocol. Achieved $50M+ in managed assets and expanded to international markets.",
+      "milestone_2022_achievement1": "AIBOT IYI",
+      "milestone_2022_achievement2": "$50M+ Assets",
+      "milestone_2022_achievement3": "International",
+      "milestone_2022_achievement4": "AI Trading",
+      
+      "milestone_2023_title": "Industry Leadership",
+      "milestone_2023_description": "Recognized as \"Top Blockchain Development Company\" and achieved an outstanding 98% client satisfaction rating. Successfully delivered 500+ transformative projects globally.",
+      "milestone_2023_achievement1": "Top Company",
+      "milestone_2023_achievement2": "98% Satisfaction",
+      "milestone_2023_achievement3": "500+ Projects",
+      "milestone_2023_achievement4": "Global Impact",
+      
+      "milestone_2024_title": "Next Generation Innovation",
+      "milestone_2024_description": "Pioneering the future of Web3 with advanced AI, quantum-resistant security, and revolutionary DeFi solutions that will reshape the global financial landscape.",
+      "milestone_2024_achievement1": "Quantum Security",
+      "milestone_2024_achievement2": "Advanced AI",
+      "milestone_2024_achievement3": "Web3 Protocols",
+      "milestone_2024_achievement4": "Global Finance",
+      "title": "Company Journey",
+      "subtitle": "From startup dreams to blockchain reality",
+      "description": "Founded with a vision to make blockchain technology accessible to everyone, HBW has grown from a small team of passionate developers to a leading technology company serving clients worldwide.",
+      
+      "milestones": {
+        "2020": {
+          "title": "Foundation",
+          "description": "HBW was founded with a mission to democratize blockchain technology"
+        },
+        "2021": {
+          "title": "First Major Projects", 
+          "description": "Delivered our first DeFi protocols and smart contract solutions"
+        },
+        "2022": {
+          "title": "Global Expansion",
+          "description": "Expanded services internationally with multi-chain integrations"
+        },
+        "2023": {
+          "title": "AI Integration",
+          "description": "Pioneered AI-powered trading systems and automated solutions"
+        },
+        "2024": {
+          "title": "Innovation Leadership",
+          "description": "Established as a leading blockchain development company"
+        }
+      }
+    },
+    
+    "team": {
+      "title": "Meet Our Expert Team",
+      "subtitle": "Passionate professionals dedicated to blockchain excellence",
+      
+      "members": {
+        "ceo": {
+          "name": "Brian Chen",
+          "position": "CEO & Blockchain Architect", 
+          "description": "Blockchain expert with 8+ years in DeFi, smart contracts, and AI trading systems",
+          "skills": ["Blockchain Architecture", "DeFi Protocols", "AI Trading", "Project Management"]
+        },
+        "cto": {
+          "name": "Alex Nguyen",
+          "position": "CTO & Lead Developer",
+          "description": "Full-stack developer specializing in multi-chain integrations and scalable solutions", 
+          "skills": ["Smart Contracts", "Multi-chain", "System Architecture", "Security"]
+        },
+        "lead_dev": {
+          "name": "Sarah Kim", 
+          "position": "Lead Frontend Developer",
+          "description": "UI/UX expert creating intuitive interfaces for complex blockchain applications",
+          "skills": ["React/Vue.js", "Web3 Integration", "UI/UX Design", "Mobile Development"]
+        }
+      }
+    },
+    
+    "stats": {
+      "projects": {
+        "value": "200+",
+        "label": "Projects Delivered"
+      },
+      "clients": {
+        "value": "150+", 
+        "label": "Happy Clients"
+      },
+      "tvl": {
+        "value": "$50M+",
+        "label": "Total Value Locked"
+      },
+      "uptime": {
+        "value": "99.9%",
+        "label": "System Uptime"
+      }
+    },
+    
+    "values": {
+      "section_badge": "Our Core Values",
+      "section_title_prefix": "Values &",
+      "section_title_highlight": "Culture",
+      "section_description": "The fundamental principles that guide our decisions, shape our relationships, and drive our commitment to excellence in everything we do.",
+      "title": "Our Core Values",
+      "subtitle": "Principles that guide every project we undertake",
+      
+      "innovation": {
+        "title": "Innovation",
+        "desc": "Constantly pushing boundaries and exploring new technologies to deliver cutting-edge solutions that reshape industries.",
+        "description": "We embrace cutting-edge technologies and push boundaries to deliver revolutionary solutions"
+      },
+      "integrity": {
+        "title": "Integrity",
+        "desc": "Building trust through transparency, honesty, and ethical business practices in every interaction and decision."
+      },
+      "security": {
+        "title": "Security by Design", 
+        "description": "Every solution is built with security as the foundation, ensuring trust and reliability"
+      },
+      "transparency": {
+        "title": "Complete Transparency",
+        "description": "Open communication and honest practices in every client relationship and project"
+      },
+      "excellence": {
+        "title": "Excellence",
+        "desc": "Striving for perfection in every project, from code quality to client satisfaction and continuous improvement.",
+        "description": "Delivering exceptional quality in every line of code and every client interaction"
+      },
+      "collaboration": {
+        "title": "Collaboration",
+        "desc": "Fostering teamwork, open communication, and partnership to achieve shared goals and mutual success."
+      }
+    },
+    
+    "cta": {
+      "badge": "Ready to Start Your Project?",
+      "title_part1": "Let's Build Something",
+      "title_part2": "Amazing Together",
+      "description": "From concept to deployment, we're here to turn your vision into reality with cutting-edge blockchain and web solutions.",
+      "button_contact": "Get In Touch",
+      "button_services": "Explore Services",
+      "title": "Ready to Work Together?",
+      "subtitle": "Let's discuss how we can help bring your blockchain vision to life",
+      "contact_btn": "Get Free Consultation", 
+      "services_btn": "View Our Services"
+    },
+    
+    "global": {
+      "badge": "Global Operations",
+      "title_part1": "Our Global",
+      "title_part2": "Presence",
+      "description": "Headquartered in Da Nang City with distributed teams worldwide, we deliver 24/7 support and seamless collaboration across all timezones.",
+      
+      "headquarters_title": "Headquarters",
+      "headquarters_location": "Da Nang City, Vietnam",
+      "headquarters_timezone": "GMT+7 Primary Operations",
+      "headquarters_team": "Core Development Team",
+      
+      "support_title": "24/7 Support",
+      "support_description": "Round-the-clock assistance",
+      "support_availability": "Always Available",
+      "support_languages": "English & Vietnamese",
+      
+      "reach_title": "Global Reach",
+      "reach_description": "Worldwide client coverage",
+      "reach_regions": "Asia-Pacific • Americas • Europe",
+      "reach_clients": "150+ International Clients",
+      
+      "connected_title": "Connected Worldwide",
+      "connected_description": "Serving clients across continents with local expertise and global standards",
+      
+      "countries_label": "Countries",
+      "continents_label": "Continents", 
+      "timezones_label": "Timezones",
+      "uptime_label": "Uptime"
+    }
+  }
+}

@@ -1,0 +1,234 @@
+{
+  "blockchain": {
+    "title": "Dịch Vụ Blockchain Development - Smart Contracts & DeFi | HBW",
+    "meta_description": "Dịch vụ blockchain development chuyên nghiệp bao gồm smart contracts, DeFi protocols, multi-chain integration và AI trading systems. Giải pháp blockchain chuyên nghiệp từ HBW.",
+    "og_title": "Dịch Vụ Blockchain Development Chuyên Nghiệp | HBW", 
+    "og_description": "Giải pháp blockchain toàn diện: smart contracts, DeFi protocols, tokenomics design và multi-chain integration.",
+    "twitter_title": "Dịch Vụ Blockchain Development | HBW",
+    "twitter_description": "Chuyên gia smart contracts, DeFi protocols và blockchain solutions development.",
+    
+    "hero": {
+      "badge": "Chuyên Gia Blockchain Development",
+      "title": "Dịch Vụ Blockchain Development",
+      "subtitle": "Chuyển đổi doanh nghiệp với giải pháp blockchain tiên tiến. Từ smart contracts đến hệ sinh thái DeFi hoàn chỉnh, chúng tôi mang lại ứng dụng blockchain an toàn, có thể mở rộng và sáng tạo.",
+      "cta_primary": "Nhận Tư Vấn Miễn Phí",
+      "cta_secondary": "Xem Portfolio",
+      "trust_indicators": {
+        "contracts": "500+ Smart Contracts Đã Deploy",
+        "tvl": "$50M+ Total Value Locked",
+        "networks": "15+ Blockchain Networks"
+      }
+    },
+    
+    "services": {
+      "title": "Dịch Vụ Blockchain Development",
+      "subtitle": "Giải pháp blockchain toàn diện cho doanh nghiệp hiện đại",
+      
+      "smart_contracts": {
+        "title": "Smart Contract Development",
+        "description": "Smart contracts tùy chỉnh được xây dựng với tâm trí bảo mật, hiệu quả và khả năng mở rộng. Từ tokens đơn giản đến DeFi protocols phức tạp.",
+        "features": [
+          "ERC-20, ERC-721, ERC-1155 Token Standards",
+          "Multi-signature Wallet Contracts", 
+          "Automated Market Makers (AMM)",
+          "Governance & Voting Systems",
+          "Security Audits & Testing"
+        ],
+        "price_range": "Bắt đầu từ $2,000",
+        "timeline": "2-8 tuần"
+      },
+      
+      "defi_protocols": {
+        "title": "DeFi Protocol Development",
+        "description": "Hệ sinh thái tài chính phi tập trung hoàn chỉnh với yield farming, staking, lending và tokenomics nâng cao.",
+        "features": [
+          "Yield Farming & Liquidity Mining",
+          "Staking & Rewards Systems",
+          "Lending & Borrowing Protocols",
+          "Cross-chain Bridge Development",
+          "Advanced Tokenomics Design"
+        ],
+        "price_range": "$15,000 - $100,000+",
+        "timeline": "3-6 tháng"
+      },
+      
+      "nft_platforms": {
+        "title": "NFT Marketplace Development",
+        "description": "NFT marketplaces đầy đủ tính năng với minting, trading, auctions và hệ thống quản lý royalty.",
+        "features": [
+          "NFT Minting & Trading Platform",
+          "Auction & Bidding Systems",
+          "Royalty Management",
+          "Multi-chain NFT Support", 
+          "IPFS Integration"
+        ],
+        "price_range": "$10,000 - $50,000",
+        "timeline": "2-4 tháng"
+      },
+      
+      "ai_trading": {
+        "title": "AI Trading Systems",
+        "description": "Trading bots thông minh với machine learning algorithms, quản lý rủi ro và thực thi chiến lược tự động.",
+        "features": [
+          "Machine Learning Trading Algorithms",
+          "Real-time Market Analysis",
+          "Risk Management Systems",
+          "Multi-exchange Integration",
+          "Performance Analytics Dashboard"
+        ],
+        "price_range": "$20,000 - $100,000+",
+        "timeline": "3-8 tháng"
+      }
+    },
+    
+    "technologies": {
+      "title": "Công Nghệ & Nền Tảng",
+      "subtitle": "Chúng tôi làm việc với công nghệ blockchain và networks mới nhất",
+      
+      "blockchains": {
+        "title": "Blockchains Được Hỗ Trợ",
+        "ethereum": "Ethereum - Nền tảng smart contract hàng đầu",
+        "bsc": "Binance Smart Chain - Giao dịch nhanh & chi phí thấp",
+        "polygon": "Polygon - Ethereum Layer 2 có thể mở rộng", 
+        "solana": "Solana - Blockchain hiệu suất cao",
+        "avalanche": "Avalanche - Nền tảng có khả năng mở rộng cao",
+        "arbitrum": "Arbitrum - Giải pháp scaling Ethereum"
+      },
+      
+      "tools": {
+        "title": "Công Cụ Development",
+        "solidity": "Solidity - Lập trình smart contract",
+        "hardhat": "Hardhat - Môi trường development",
+        "web3": "Web3.js/Ethers.js - Tích hợp blockchain",
+        "ipfs": "IPFS - Lưu trữ phi tập trung",
+        "metamask": "MetaMask - Tích hợp wallet",
+        "chainlink": "Chainlink - Dịch vụ oracle"
+      }
+    },
+    
+    "process": {
+      "title": "Quy Trình Development",
+      "subtitle": "Phương pháp đã được chứng minh cho các dự án blockchain thành công",
+      
+      "discovery": {
+        "title": "Khám Phá & Lập Kế Hoạch",
+        "description": "Phân tích yêu cầu, nghiên cứu khả thi kỹ thuật và tạo roadmap dự án",
+        "deliverables": ["Specification kỹ thuật", "Timeline dự án", "Ước tính chi phí"]
+      },
+      
+      "design": {
+        "title": "Kiến Trúc & Thiết Kế", 
+        "description": "Thiết kế kiến trúc hệ thống, lập kế hoạch smart contract và cân nhắc bảo mật",
+        "deliverables": ["Kiến trúc hệ thống", "Thiết kế smart contract", "Framework bảo mật"]
+      },
+      
+      "development": {
+        "title": "Development & Testing",
+        "description": "Agile development với testing liên tục, code reviews và security audits",
+        "deliverables": ["Smart contracts", "Frontend/Backend", "Báo cáo test coverage"]
+      },
+      
+      "deployment": {
+        "title": "Deployment & Launch",
+        "description": "Mainnet deployment, thiết lập monitoring và hỗ trợ sau launch",
+        "deliverables": ["Live deployment", "Monitoring dashboard", "Tài liệu"]
+      }
+    },
+    
+    "portfolio": {
+      "title": "Dự Án Blockchain Nổi Bật",
+      "subtitle": "Giải pháp blockchain thành công chúng tôi đã giao hàng",
+      
+      "pancakeswap_dex": {
+        "title": "PancakeSwap DEX Protocol",
+        "description": "Sàn giao dịch phi tập trung hàng đầu với $1.8B+ TVL và 4.2M+ người dùng hoạt động",
+        "stats": {
+          "tvl": "$1.8B+ TVL",
+          "users": "4.2M+ Người Dùng",
+          "volume": "$890M Khối Lượng Hàng Ngày"
+        }
+      },
+      
+      "yield_farm": {
+        "title": "Advanced Yield Farming Protocol",
+        "description": "Nền tảng yield farming multi-chain với lên đến 150% APY và chiến lược tự động",
+        "stats": {
+          "apy": "150% APY Tối Đa",
+          "farmers": "850+ Farmers", 
+          "locked": "$5M+ Locked"
+        }
+      },
+      
+      "nft_marketplace": {
+        "title": "Premium NFT Marketplace",
+        "description": "Nền tảng NFT đầy đủ tính năng với $800K+ trading volume và 50+ collections",
+        "stats": {
+          "volume": "$800K+ Volume",
+          "collections": "50+ Collections",
+          "nfts": "15K+ NFTs"
+        }
+      }
+    },
+    
+    "pricing": {
+      "title": "Giá Cả Minh Bạch",
+      "subtitle": "Gói giá cố định rõ ràng cho các dự án có quy mô khác nhau",
+      
+      "starter": {
+        "title": "Gói Starter",
+        "price": "$2,000 - $5,000",
+        "description": "Hoàn hảo cho smart contracts đơn giản và tạo token",
+        "features": [
+          "ERC-20/ERC-721 Token Contract",
+          "Basic Smart Contract Development",
+          "Testnet Deployment & Testing", 
+          "Source Code & Documentation",
+          "Hỗ trợ 1 tháng"
+        ],
+        "timeline": "2-4 tuần"
+      },
+      
+      "professional": {
+        "title": "Gói Professional",
+        "price": "$10,000 - $25,000",
+        "description": "Lý tưởng cho ứng dụng DeFi và NFT marketplaces",
+        "features": [
+          "Complex Smart Contract System",
+          "Frontend Web3 Integration",
+          "Multi-chain Deployment",
+          "Security Audit & Testing",
+          "Hỗ trợ 3 tháng"
+        ],
+        "timeline": "2-3 tháng"
+      },
+      
+      "enterprise": {
+        "title": "Gói Enterprise", 
+        "price": "$50,000+",
+        "description": "Hệ sinh thái blockchain hoàn chỉnh với tính năng nâng cao",
+        "features": [
+          "Full DeFi Protocol Development",
+          "AI Trading System Integration",
+          "Custom Tokenomics Design",
+          "Ongoing Development Support",
+          "Hỗ trợ & cập nhật 12 tháng"
+        ],
+        "timeline": "6+ tháng"
+      }
+    },
+    
+    "consultation": {
+      "title": "Tư Vấn Blockchain Miễn Phí",
+      "subtitle": "Nhận lời khuyên chuyên gia về dự án blockchain của bạn",
+      "benefits": [
+        "Đánh giá khả thi kỹ thuật",
+        "Đề xuất kiến trúc", 
+        "Ước tính chi phí & timeline",
+        "Lựa chọn technology stack",
+        "Cân nhắc bảo mật"
+      ],
+      "cta": "Đặt Lịch Tư Vấn Miễn Phí",
+      "guarantee": "100% miễn phí, không ràng buộc"
+    }
+  }
+}

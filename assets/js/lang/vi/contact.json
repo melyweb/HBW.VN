@@ -1,0 +1,144 @@
+{
+  "contact": {
+    "title": "Liên Hệ HBW - Nhận Tư Vấn Blockchain Development Miễn Phí",
+    "meta_description": "Liên hệ HBW để được tư vấn blockchain development, DeFi protocols và web solutions chuyên nghiệp. Nhận tư vấn miễn phí từ đội ngũ chuyên gia. Nhiều phương thức liên hệ.",
+    "og_title": "Liên Hệ HBW - Chuyên Gia Blockchain Development", 
+    "og_description": "Liên hệ với HBW để được tư vấn blockchain và web development chuyên nghiệp. Tư vấn miễn phí có sẵn.",
+    "twitter_title": "Liên Hệ HBW - Tư Vấn Miễn Phí",
+    "twitter_description": "Liên hệ HBW để được tư vấn blockchain development và web solutions.",
+    
+    "hero": {
+      "badge": "Tư Vấn Miễn Phí Có Sẵn",
+      "title": "Cùng Xây Dựng Nào", 
+      "subtitle": "Sẵn sàng biến ý tưởng blockchain của bạn thành hiện thực? Đội ngũ chuyên gia của chúng tôi sẵn sàng giúp bạn thành công với dịch vụ tư vấn và phát triển chuyên nghiệp.",
+      "tag1": "Hỗ Trợ 24/7",
+      "tag2": "Tư Vấn Ban Đầu Miễn Phí",
+      "tag3": "Khách Hàng Toàn Cầu"
+    },
+    
+    "form": {
+      "title": "Nhận Tư Vấn Miễn Phí",
+      "subtitle": "Hãy chia sẻ về dự án của bạn và chúng tôi sẽ phản hồi trong vòng 24 giờ",
+      "name": "Họ và Tên *",
+      "email": "Địa Chỉ Email *",
+      "phone": "Số Điện Thoại", 
+      "company": "Tên Công Ty",
+      "service": "Dịch Vụ Quan Tâm",
+      "service_placeholder": "Chọn một dịch vụ...",
+      "service_blockchain": "Phát Triển Blockchain",
+      "service_web": "Phát Triển Web",
+      "service_ai": "Hệ Thống AI Trading",
+      "service_defi": "Giao Thức DeFi", 
+      "service_mobile": "Phát Triển Mobile App",
+      "service_consultation": "Chỉ Tư Vấn",
+      "service_other": "Khác",
+      "budget": "Ngân Sách Dự Án",
+      "budget_placeholder": "Chọn mức ngân sách...",
+      "budget_5k": "Dưới $5,000",
+      "budget_5k_15k": "$5,000 - $15,000",
+      "budget_15k_50k": "$15,000 - $50,000",
+      "budget_50k_100k": "$50,000 - $100,000",
+      "budget_100k": "Trên $100,000",
+      "budget_discuss": "Hãy Thảo Luận",
+      "timeline": "Thời Gian Dự Án",
+      "timeline_placeholder": "Chọn thời gian...",
+      "timeline_asap": "Càng Sớm Càng Tốt (Gấp)",
+      "timeline_1_3": "1-3 Tháng",
+      "timeline_3_6": "3-6 Tháng",
+      "timeline_6plus": "6+ Tháng",
+      "timeline_flexible": "Linh Hoạt",
+      "message": "Mô Tả Dự Án *",
+      "message_placeholder": "Chia sẻ về yêu cầu dự án, mục tiêu và các tính năng cụ thể bạn cần...",
+      "consultation_request": "Yêu cầu cuộc gọi tư vấn miễn phí 30 phút để thảo luận chi tiết dự án",
+      "privacy_text": "Tôi đồng ý với",
+      "privacy_link": "Chính Sách Bảo Mật",
+      "privacy_and": "và",
+      "terms_link": "Điều Khoản Dịch Vụ",
+      "submit": "Gửi Tin Nhắn"
+    },
+    
+    "methods": {
+      "title": "Liên Hệ Với Chúng Tôi",
+      "subtitle": "Chọn cách thức liên hệ ưa thích của bạn. Chúng tôi có sẵn qua nhiều kênh để đảm bảo bạn nhận được sự hỗ trợ cần thiết.",
+      
+      "email": {
+        "title": "Gửi Email",
+        "desc": "Gửi yêu cầu dự án chi tiết cho chúng tôi"
+      },
+      "phone": {
+        "title": "Gọi Điện",
+        "desc": "Nói chuyện trực tiếp với các chuyên gia"
+      },
+      "chat": {
+        "title": "Chat Trực Tuyến", 
+        "desc": "Nhận phản hồi tức thì cho câu hỏi của bạn",
+        "cta": "Bắt Đầu Chat"
+      },
+      "meeting": {
+        "title": "Đặt Lịch Họp",
+        "desc": "Đặt cuộc gọi tư vấn với đội ngũ của chúng tôi",
+        "cta": "Đặt Lịch Họp"
+      }
+    },
+    
+    "office": {
+      "title": "Văn Phòng Của Chúng Tôi",
+      "subtitle": "Ghé thăm chúng tôi hoặc đặt lịch hẹn",
+      "address": {
+        "title": "Địa Chỉ",
+        "line1": "123 Đại Lộ Nguyễn Huệ",
+        "line2": "Quận 1, TP. Đà Nẵng",
+        "line3": "Việt Nam 550000"
+      },
+      "hours": {
+        "title": "Giờ Làm Việc",
+        "weekdays": "T2 - T6: 9:00 AM - 6:00 PM (GMT+7)",
+        "support": "Hỗ Trợ Khẩn Cấp 24/7 Có Sẵn"
+      },
+      "schedule_btn": "Đặt Lịch Hẹn"
+    },
+    
+    "faq": {
+      "title": "Câu Hỏi Thường Gặp",
+      "subtitle": "Câu trả lời nhanh cho các câu hỏi phổ biến về dịch vụ và quy trình của chúng tôi",
+      
+      "q1": "Dự án blockchain thông thường mất bao lâu để hoàn thành?",
+      "a1": "Thời gian dự án tùy thuộc vào độ phức tạp. Smart contract đơn giản mất 2-4 tuần, trong khi các giao thức DeFi phức tạp thường cần 3-6 tháng. Chúng tôi cung cấp timeline chi tiết trong buổi tư vấn ban đầu.",
+      
+      "q2": "Có cung cấp hỗ trợ và bảo trì sau khi ra mắt không?",
+      "a2": "Có, chúng tôi cung cấp hỗ trợ toàn diện sau khi ra mắt bao gồm sửa lỗi, cập nhật bảo mật, thêm tính năng và giám sát 24/7. Các gói hỗ trợ được tùy chỉnh theo nhu cầu dự án của bạn.",
+      
+      "q3": "Các mạng blockchain nào được hỗ trợ?",
+      "a3": "Chúng tôi chuyên về Ethereum, BSC, Polygon, Solana, Avalanche và Fantom. Chúng tôi cũng làm việc với các chain tương thích EVM khác và có thể đề xuất mạng tốt nhất dựa trên yêu cầu dự án và ngân sách của bạn.",
+      
+      "q4": "Làm thế nào để đảm bảo bảo mật trong các dự án blockchain?",
+      "a4": "Bảo mật là ưu tiên hàng đầu của chúng tôi. Chúng tôi tuân theo best practices bao gồm testing toàn diện, formal verification, audit bên thứ ba và giám sát liên tục. Tất cả smart contracts đều trải qua đánh giá bảo mật nghiêm ngặt trước khi triển khai.",
+      
+      "q5": "Có thể làm việc với các dự án blockchain hiện có không?",
+      "a5": "Tất nhiên! Chúng tôi có thể audit, tối ưu hóa, nâng cấp hoặc mở rộng các dự án blockchain hiện có. Chúng tôi cũng cung cấp dịch vụ tư vấn để cải thiện hiệu suất, bảo mật và chức năng của các triển khai hiện tại."
+    },
+    
+    "cta": {
+      "title": "Sẵn Sàng Bắt Đầu Dự Án?",
+      "subtitle": "Đừng chờ đợi nữa. Hãy biến tầm nhìn blockchain của bạn thành hiện thực với đội ngũ phát triển chuyên gia của chúng tôi.",
+      "primary": "Bắt Đầu Dự Án",
+      "secondary": "Xem Công Việc Của Chúng Tôi"
+    },
+    "success": {
+      "title": "Tin Nhắn Đã Được Gửi!",
+      "message": "Cảm ơn bạn đã liên hệ với chúng tôi. Chúng tôi sẽ phản hồi trong vòng 24 giờ."
+    },
+    "quick": {
+      "title": "Cần Hỗ Trợ Ngay Lập Tức?",
+      "subtitle": "Đối với các câu hỏi khẩn cấp hoặc dự án có thời hạn gấp, hãy liên hệ trực tiếp với chúng tôi.",
+      "chat": {
+        "title": "Chat Trực Tiếp",
+        "status": "Đang Online"
+      }
+    },
+    "social": {
+      "title": "Theo Dõi Chúng Tôi",
+      "subtitle": "Cập nhật thông tin về các dự án mới nhất và insights blockchain của chúng tôi."
+    }
+  }
+}

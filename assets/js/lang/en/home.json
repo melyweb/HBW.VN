@@ -1,0 +1,277 @@
+{
+  "hero": {
+    "status": "Currently accepting new projects • Top 1% Blockchain Dev Vietnam",
+    "headline": "Turn Ideas",
+    "highlight": "Into Reality",
+    "description": "From traditional websites to blockchain solutions - We provide comprehensive technology solutions for businesses of all sizes",
+    "stats": {
+      "projects": {
+        "number": "200+",
+        "label": "Successful Projects"
+      },
+      "experience": {
+        "number": "9+",
+        "label": "Years Experience"
+      },
+      "clients": {
+        "number": "98%",
+        "label": "Client Satisfaction"
+      }
+    },
+    "trust_badges": {
+      "blockchain": "Blockchain Expert",
+      "ai": "AI Trading Bots",
+      "security": "Security First"
+    },
+    "social_proof": {
+      "google_reviews": "Google Reviews 4.9/5",
+      "upwork_rate": "Upwork Success Rate"
+    },
+    "mockup": {
+      "tvl_locked": "TVL Locked",
+      "roi_24h": "24h ROI",
+      "premium": "Premium"
+    },
+    "trust_indicators": {
+      "projects": "200+ Projects",
+      "experience": "5+ Years Experience",
+      "support": "24/7 Support"
+    },
+    "cta_primary": "Start Your Project",
+    "cta_secondary": "View Portfolio",
+    "floating_stats": {
+      "projects_completed": {
+        "number": "200+",
+        "label": "Projects Completed"
+      },
+      "support": {
+        "number": "24/7",
+        "label": "Technical Support"
+      },
+      "security": "Secure",
+      "code_quality": "Clean Code"
+    }
+  },
+  "services": {
+    "badge": "Professional Services",
+    "headline": "Technology Solutions",
+    "highlight": " That Convert",
+    "description": "From concept to deployment, we deliver premium technology services with professional mockups and real performance metrics",
+    "web_development": {
+      "title": "Web Development",
+      "description": "Modern websites with integrated dashboards, content management systems, and comprehensive SEO optimization",
+      "price": "$1,500 - $15,000",
+      "features": {
+        "responsive": "Responsive Design",
+        "seo": "SEO Optimized",
+        "cms": "CMS Integration"
+      },
+      "cta": "Learn More"
+    },
+    "blockchain": {
+      "title": "Blockchain Solutions",
+      "description": "PancakeSwap-level DEX development, smart contracts auditing, and DeFi analytics with real-time data",
+      "features": {
+        "audited": "Smart Contracts Audited",
+        "defi": "DeFi Protocol Development",
+        "multichain": "Multi-chain Integration"
+      },
+      "cta": "Learn More"
+    },
+    "mobile_app": {
+      "title": "Mobile App Development",
+      "description": "Native iOS/Android apps with professional interface, analytics dashboard and user engagement",
+      "features": {
+        "react_native": "React Native & Native",
+        "publishing": "App Store Publishing",
+        "analytics": "Analytics Integration"
+      },
+      "cta": "Learn More"
+    },
+    "digital_marketing": {
+      "title": "Digital Marketing",
+      "description": "Boost sales growth with SEO, PPC, Social Media and real-time analytics dashboard",
+      "features": {
+        "seo": "SEO Optimization",
+        "ads": "Google/Facebook Ads",
+        "analytics": "Analytics Dashboard"
+      },
+      "cta": "Learn More"
+    },
+    "business_setup": {
+      "title": "Business Setup",
+      "description": "Business registration, business licenses, and business registration portal tracking",
+      "features": {
+        "registration": "Business Registration",
+        "license": "Business License",
+        "consultation": "Legal Consultation"
+      },
+      "cta": "Learn More"
+    },
+    "hosting": {
+      "title": "Domain & Hosting",
+      "description": "Domain names, SSD hosting, business email and server control panel with monitoring",
+      "features": {
+        "ssd": "SSD Storage",
+        "ssl": "SSL Certificate",
+        "monitoring": "24/7 Monitoring"
+      },
+      "cta": "Learn More"
+    },
+    "cta_section": {
+      "badge": "Need consultation on suitable solutions?",
+      "cta": "View All Services"
+    }
+  },
+  "about": {
+    "badge": "Why Choose HBW?",
+    "headline": "Why Choose",
+    "highlight": "HBW?",
+    "description": "With 5+ years of experience and 200+ successful projects, we are committed to delivering the most optimal technology solutions",
+    "expertise": {
+      "blockchain": {
+        "title": "Blockchain Development",
+        "description": "Smart Contracts, DeFi protocols, and Multi-chain integration with security-first approach"
+      },
+      "ai_trading": {
+        "title": "AI Trading Systems",
+        "description": "Automated trading bots with ML algorithms for optimal risk management and ROI"
+      },
+      "agile": {
+        "title": "Agile Development",
+        "description": "International standard development process with CI/CD, automated testing and deployment optimization"
+      }
+    },
+    "stats": {
+      "title": "Our Achievements",
+      "projects": {
+        "number": "200+",
+        "label": "Projects Completed"
+      },
+      "satisfaction": {
+        "number": "98%",
+        "label": "Customer Satisfaction"
+      },
+      "support": {
+        "number": "24/7",
+        "label": "Technical Support"
+      },
+      "experience": {
+        "number": "50+",
+        "label": "Smart Contracts"
+      }
+    }
+  },
+  "portfolio": {
+    "badge": "Featured Portfolio",
+    "headline": "Portfolio",
+    "highlight": " Featured",
+    "description": "Outstanding projects that have helped clients achieve impressive business results",
+    "cta": "View All Portfolio",
+    "labels": {
+      "users": "Users",
+      "revenue": "Revenue",
+      "tvl": "TVL",
+      "max_apy": "Max APY",
+      "consultations": "Consultations",
+      "rating": "Rating"
+    },
+    "projects": {
+      "ecommerce": {
+        "title": "Fashion Marketplace",
+        "description": "E-commerce platform with 50,000+ fashion products and diverse payment systems",
+        "results": {
+          "users": "50K+",
+          "revenue": "+300%"
+        },
+        "cta": "View Details"
+      },
+      "defi": {
+        "title": "DeFi Protocol",
+        "description": "Complete DeFi ecosystem with yield farming, staking and governance token",
+        "results": {
+          "tvl": "$2M+",
+          "apy": "120%"
+        }
+      },
+      "healthcare": {
+        "title": "Telemedicine App",
+        "description": "Remote healthcare app with video calls, appointment booking and patient record management",
+        "results": {
+          "consultations": "10K+",
+          "rating": "4.8★"
+        }
+      }
+    }
+  },
+  "testimonials": {
+    "badge": "Reviews From Major Platforms",
+    "headline": "Real",
+    "highlight": " Reviews",
+    "description": "Official reviews from Google, Clutch, Upwork and LinkedIn - proof of service quality"
+  },
+  "contact": {
+    "badge": "Start Your Success Journey",
+    "headline": "Ready to Build",
+    "highlight": " The Future?",
+    "description": "From idea to reality - We turn your vision into breakthrough solutions with blockchain and AI technology",
+    "value_props": {
+      "time": {
+        "value": "2-4 Weeks",
+        "label": "Launch Time"
+      },
+      "success": {
+        "value": "98% Success",
+        "label": "Proven Results"
+      },
+      "future": {
+        "value": "Future-Ready",
+        "label": "Web3 & AI"
+      }
+    },
+    "urgency": "Limited Slots - Only 3 Projects This Month",
+    "transform_title": "Transform Your Business Today",
+    "join_text": "Join 200+ successful businesses that have scaled with HBW technology solutions",
+    "cta_primary": "Start Your Project",
+    "cta_secondary": "View Success Stories"
+  },
+  "footer": {
+    "company": {
+      "tagline": "Technology Solutions",
+      "description": "Leading blockchain development company with 9+ years of expertise in building enterprise-grade DeFi protocols, sophisticated AI trading systems, and cutting-edge web applications. We've successfully delivered 200+ projects across multiple industries, specializing in smart contract development, multi-chain integration, and automated trading algorithms. Our team combines deep technical knowledge with proven business acumen to create scalable, secure, and high-performance solutions that drive measurable ROI for clients worldwide."
+    },
+    "services": {
+      "core_title": "Core Services",
+      "blockchain": "Blockchain Development",
+      "web": "Web Development",
+      "mobile": "Mobile Apps",
+      "ai_trading": "AI Trading Bots",
+      "defi": "DeFi Protocols"
+    },
+    "solutions": {
+      "title": "Solutions & Support",
+      "consulting": "Technical Consulting",
+      "modern_apps": "Modern Web Apps",
+      "ecommerce": "E-commerce Solutions",
+      "portfolio": "Portfolio",
+      "blog": "Tech Blog"
+    },
+    "contact": {
+      "title": "Contact & Legal",
+      "location": "Da Nang City, Vietnam"
+    },
+    "legal": {
+      "copyright": "© 2015 HBW Technology Solutions. All rights reserved.",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "contact": "Contact Us"
+    },
+    "ozi": {
+      "company_title": "Operating Company",
+      "company_name": "OZI NETWORK MEDIA & TECHNOLOGY COMPANY LIMITED",
+      "tax_code": "Tax Code: 0401702133",
+      "address": "Da Nang City, Vietnam", 
+      "established": "Established: 20/10/2015"
+    }
+  }
+}

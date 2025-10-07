@@ -1,0 +1,308 @@
+{
+  "meta": {
+    "title": "Dịch Vụ Phát Triển DeFi Protocol - HBW Technology Solutions"
+  },
+
+  "hero": {
+    "badge": "Giải Pháp DeFi Doanh Nghiệp",
+    "title_line1": "Complete DeFi",
+    "title_line2": "Protocol Suite",
+    "subtitle": "Từ AMM và lending protocols đến yield farming và governance systems - chúng tôi xây dựng hệ sinh thái DeFi toàn diện để thúc đẩy tương lai của decentralized finance trên tất cả major blockchain networks.",
+    "stats": {
+      "protocols": "50+",
+      "protocols_label": "DeFi Protocols Đã Xây Dựng",
+      "tvl": "$12B+",
+      "tvl_label": "Total Value Locked",
+      "chains": "8",
+      "chains_label": "Blockchain Networks", 
+      "security": "100%",
+      "security_label": "Security Audited"
+    },
+    "cta_primary": "Khám Phá DeFi Services",
+    "cta_secondary": "Xem Case Studies"
+  },
+
+  "services": {
+    "title": "Complete DeFi Development Stack",
+    "subtitle": "Chúng tôi cung cấp dịch vụ phát triển DeFi protocol end-to-end bao gồm mọi aspect của decentralized finance, từ basic token swaps đến complex multi-protocol ecosystems.",
+
+    "amm": {
+      "title": "AMM & DEX Protocols",
+      "description": "Xây dựng Automated Market Makers và decentralized exchanges tinh vi với advanced features như concentrated liquidity, multi-asset pools và cross-chain swaps.",
+      "feature1": "Uniswap V3 Style Concentrated Liquidity",
+      "feature2": "Multi-Token Pool Architecture", 
+      "feature3": "Flash Loan Integration",
+      "feature4": "MEV Protection Mechanisms",
+      "price": "Từ $25,000",
+      "timeline": "8-12 tuần"
+    },
+
+    "lending": {
+      "title": "Lending & Borrowing Protocols",
+      "description": "Tạo comprehensive lending platforms với dynamic interest rates, multi-collateral support, liquidation mechanisms và advanced risk management systems.",
+      "feature1": "Dynamic Interest Rate Models",
+      "feature2": "Multi-Collateral Asset Support",
+      "feature3": "Automated Liquidation Engine", 
+      "feature4": "Credit Score & Risk Assessment",
+      "price": "Từ $35,000",
+      "timeline": "10-16 tuần"
+    },
+
+    "yield": {
+      "title": "Yield Farming & Staking",
+      "description": "Phát triển advanced yield farming protocols với auto-compounding, multiple reward tokens, lock-up mechanisms và sophisticated reward distribution algorithms.",
+      "feature1": "Auto-Compounding Mechanisms",
+      "feature2": "Multi-Reward Token Support",
+      "feature3": "Flexible Lock-up Periods",
+      "feature4": "Boosted Rewards System",
+      "price": "Từ $20,000", 
+      "timeline": "6-10 tuần"
+    },
+
+    "governance": {
+      "title": "Governance & DAO Systems",
+      "description": "Xây dựng comprehensive DAO governance systems với proposal mechanisms, voting strategies, treasury management và decentralized decision-making frameworks.",
+      "feature1": "Proposal & Voting Mechanisms",
+      "feature2": "Treasury Management System",
+      "feature3": "Delegation & Voting Power",
+      "feature4": "Multi-Sig Integration",
+      "price": "Từ $30,000",
+      "timeline": "8-14 tuần"
+    },
+
+    "bridge": {
+      "title": "Cross-Chain Bridges",
+      "description": "Phát triển secure cross-chain bridge protocols cho phép seamless asset transfers giữa các blockchain networks khác nhau với advanced security mechanisms.",
+      "feature1": "Multi-Chain Asset Support",
+      "feature2": "Validator Network Security", 
+      "feature3": "Optimistic & ZK Rollups",
+      "feature4": "Insurance & Slashing",
+      "price": "Từ $45,000",
+      "timeline": "12-20 tuần"
+    },
+
+    "derivatives": {
+      "title": "Derivatives & Options",
+      "description": "Tạo sophisticated derivatives protocols bao gồm options trading, perpetual futures, synthetic assets và advanced financial instruments on-chain.",
+      "feature1": "Options Trading Protocols",
+      "feature2": "Perpetual Futures", 
+      "feature3": "Synthetic Asset Creation",
+      "feature4": "Oracle Price Feeds",
+      "price": "Từ $50,000",
+      "timeline": "14-24 tuần"
+    }
+  },
+
+  "tech": {
+    "title": "Advanced DeFi Technology Stack", 
+    "subtitle": "Chúng tôi tận dụng cutting-edge blockchain technologies và development frameworks để xây dựng secure, scalable DeFi protocols.",
+
+    "blockchains": {
+      "title": "Blockchain Networks",
+      "ethereum": "Ethereum",
+      "bsc": "Binance Smart Chain",
+      "polygon": "Polygon (Matic)", 
+      "solana": "Solana",
+      "avalanche": "Avalanche",
+      "fantom": "Fantom",
+      "arbitrum": "Arbitrum",
+      "optimism": "Optimism"
+    },
+
+    "languages": {
+      "title": "Smart Contract Languages",
+      "solidity": "Solidity",
+      "vyper": "Vyper",
+      "rust": "Rust",
+      "cairo": "Cairo",
+      "move": "Move"
+    },
+
+    "frameworks": {
+      "title": "Development Frameworks", 
+      "hardhat": "Hardhat",
+      "foundry": "Foundry",
+      "truffle": "Truffle",
+      "anchor": "Anchor",
+      "brownie": "Brownie"
+    },
+
+    "security": {
+      "title": "Security & Auditing",
+      "mythril": "Mythril",
+      "slither": "Slither", 
+      "echidna": "Echidna",
+      "manticore": "Manticore",
+      "certora": "Certora"
+    }
+  },
+
+  "process": {
+    "title": "DeFi Development Process",
+    "subtitle": "Methodology đã được chứng minh của chúng tôi đảm bảo successful DeFi protocol development từ concept đến mainnet launch.",
+
+    "step1": {
+      "title": "Research & Protocol Design",
+      "description": "Deep analysis của DeFi landscape, tokenomics modeling, protocol architecture design và economic mechanism optimization.",
+      "item1": "Market Research & Competitive Analysis",
+      "item2": "Tokenomics & Economic Modeling", 
+      "item3": "Protocol Architecture Design"
+    },
+
+    "step2": {
+      "title": "Smart Contract Development", 
+      "description": "Implementation của secure, gas-optimized smart contracts với comprehensive testing và formal verification.",
+      "item1": "Secure Code Implementation",
+      "item2": "Gas Optimization Techniques",
+      "item3": "Comprehensive Test Coverage"
+    },
+
+    "step3": {
+      "title": "Security Auditing & Testing",
+      "description": "Comprehensive security auditing, penetration testing và formal verification để đảm bảo protocol security.",
+      "item1": "Automated Security Scanning",
+      "item2": "Manual Code Review",
+      "item3": "Formal Verification"
+    },
+
+    "step4": {
+      "title": "Deployment & Launch",
+      "description": "Mainnet deployment, liquidity bootstrap, community launch và ongoing protocol maintenance.",
+      "item1": "Mainnet Deployment",
+      "item2": "Liquidity Bootstrap", 
+      "item3": "Community Launch"
+    }
+  },
+
+  "portfolio": {
+    "title": "DeFi Protocol Case Studies",
+    "subtitle": "Khám phá các successful DeFi protocol implementations của chúng tôi trên multiple blockchain networks.",
+
+    "pancakeswap": {
+      "title": "PancakeSwap-Style DEX",
+      "network": "BSC & Ethereum", 
+      "tvl": "$1.8B",
+      "tvl_label": "Total Value Locked",
+      "volume": "$890M",
+      "volume_label": "Khối Lượng Hàng Ngày",
+      "users": "4.2M",
+      "users_label": "Người Dùng Hoạt Động",
+      "pairs": "8.5K",
+      "pairs_label": "Cặp Giao Dịch",
+      "description": "Leading decentralized exchange với AMM functionality, yield farming, cross-chain bridges và advanced trading features bao gồm limit orders và perpetual trading.",
+      "feature1": "Concentrated Liquidity",
+      "feature2": "Yield Farming",
+      "feature3": "Cross-Chain Bridge",
+      "feature4": "Perpetual Trading"
+    },
+
+    "compound": {
+      "title": "Compound-Style Lending", 
+      "network": "Ethereum & L2s",
+      "tvl": "$8.5B",
+      "tvl_label": "Tổng Supplied",
+      "borrowed": "$6.2B",
+      "borrowed_label": "Tổng Borrowed",
+      "suppliers": "280K",
+      "suppliers_label": "Suppliers",
+      "apr": "8.5%", 
+      "apr_label": "Avg Supply APR",
+      "description": "Advanced lending protocol với algorithmic interest rates, multi-collateral support, flash loans và sophisticated liquidation mechanisms trên multiple chains.",
+      "feature1": "Dynamic Interest Rates",
+      "feature2": "Flash Loans",
+      "feature3": "Liquidation Engine",
+      "feature4": "Multi-Collateral"
+    },
+
+    "curve": {
+      "title": "Curve-Style Stableswap",
+      "network": "Multi-Chain",
+      "tvl": "$4.2B", 
+      "tvl_label": "Stablecoin TVL",
+      "volume": "$450M",
+      "volume_label": "Khối Lượng Hàng Ngày",
+      "pools": "150",
+      "pools_label": "Pools Hoạt Động",
+      "apy": "12%",
+      "apy_label": "Avg Pool APY",
+      "description": "Specialized stableswap AMM được tối ưu cho low-slippage trades giữa correlated assets, với vote-escrowed governance và gauge-based rewards.",
+      "feature1": "Low Slippage Trading",
+      "feature2": "Vote-Escrowed CRV", 
+      "feature3": "Gauge Rewards",
+      "feature4": "Meta Pools"
+    },
+
+    "synthetix": {
+      "title": "Synthetix-Style Derivatives",
+      "network": "Ethereum & Optimism",
+      "tvl": "$1.2B",
+      "tvl_label": "Collateral Locked",
+      "synths": "50+",
+      "synths_label": "Synthetic Assets",
+      "ratio": "400%",
+      "ratio_label": "C-Ratio", 
+      "stakers": "15K",
+      "stakers_label": "SNX Stakers",
+      "description": "Comprehensive derivatives platform cho phép synthetic asset creation, perpetual futures, options trading và advanced financial instruments được backed bởi overcollateralization.",
+      "feature1": "Synthetic Assets",
+      "feature2": "Perpetual Futures",
+      "feature3": "Options Trading",
+      "feature4": "Debt Pool System"
+    }
+  },
+
+  "pricing": {
+    "title": "Bảng Giá DeFi Development",
+    "subtitle": "Pricing minh bạch cho comprehensive DeFi protocol development services. Tất cả giá bao gồm smart contract development, testing, auditing và deployment.",
+
+    "starter": {
+      "title": "Starter Protocol",
+      "description": "Simple DeFi protocol với core functionality",
+      "price": "$15,000",
+      "timeline": "6-8 tuần giao hàng",
+      "feature1": "Basic Token Swap AMM",
+      "feature2": "Liquidity Pools", 
+      "feature3": "Basic Staking",
+      "feature4": "Security Audit",
+      "feature5": "Single Chain Deployment",
+      "cta": "Bắt Đầu"
+    },
+
+    "professional": {
+      "title": "Professional Protocol",
+      "description": "Advanced DeFi protocol với comprehensive features",
+      "badge": "Phổ Biến Nhất",
+      "price": "$35,000",
+      "timeline": "8-12 tuần giao hàng",
+      "feature1": "Advanced AMM với Concentrated Liquidity",
+      "feature2": "Yield Farming & Auto-Compound",
+      "feature3": "Governance System",
+      "feature4": "Flash Loan Integration", 
+      "feature5": "Multi-Chain Deployment",
+      "feature6": "Frontend Dashboard",
+      "cta": "Chọn Professional"
+    },
+
+    "enterprise": {
+      "title": "Enterprise Protocol",
+      "description": "Complete DeFi ecosystem với custom features",
+      "price": "$75,000+",
+      "timeline": "12-20 tuần giao hàng",
+      "feature1": "Full DeFi Ecosystem",
+      "feature2": "Cross-Chain Bridges",
+      "feature3": "Derivatives & Options",
+      "feature4": "Custom Tokenomics",
+      "feature5": "White-label Solution", 
+      "feature6": "24/7 Support & Maintenance",
+      "cta": "Liên Hệ Sales"
+    }
+  },
+
+  "cta": {
+    "title": "Sẵn Sàng Xây Dựng DeFi Protocol Của Bạn?",
+    "subtitle": "Tham gia DeFi revolution với custom protocol được xây dựng cho specific needs của bạn. Từ concept đến mainnet launch, chúng tôi handle everything.",
+    "primary": "Bắt Đầu DeFi Project",
+    "secondary": "Xem Thêm Projects",
+    "contact_text": "Cần custom requirements? Hãy thảo luận về project của bạn"
+  }
+}
