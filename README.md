@@ -279,7 +279,7 @@ Mỗi blog post includes comprehensive sidebar với:
 #### **2. Author Profile**
 - Brian Nguyen profile với avatar
 - Professional title: "Blockchain PM & Full-stack Developer"
-- Bio highlighting AIBOT IYI Protocol và DeFi expertise  
+- Bio highlighting BOTAI Protocol và DeFi expertise  
 - Social media links (LinkedIn, Twitter, GitHub)
 
 #### **3. Newsletter Signup**
@@ -636,7 +636,7 @@ assets/js/lang/en/
 ### **Technical Lead**
 - **Brian Nguyen**: Blockchain Project Manager & Full-stack Developer
 - **Expertise**: DeFi protocols, AI trading systems, multi-chain development
-- **Experience**: AIBOT IYI Protocol, enterprise blockchain solutions
+- **Experience**: BOTAI Protocol, enterprise blockchain solutions
 - **Focus Areas**: Security-first development, performance optimization
 
 ### **Development Methodology**
