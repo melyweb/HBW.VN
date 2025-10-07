@@ -1,149 +1,269 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    <!-- Homepage -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+        
+    <!-- ========================================
+         HOMEPAGE & MAIN PAGES
+         ======================================== -->
+         
+    <!-- Homepage - Highest Priority -->
     <url>
         <loc>https://hbw.vn/</loc>
-        <lastmod>2025-01-05</lastmod>
+        <lastmod>2025-01-07</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hbw.vn/?lang=en"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://hbw.vn/"/>
     </url>
     
-    <!-- Main Pages -->
+    <!-- Services Overview Page -->
     <url>
-        <loc>https://hbw.vn/services.html</loc>
-        <lastmod>2025-01-05</lastmod>
+        <loc>https://hbw.vn/services</loc>
+        <lastmod>2025-01-07</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hbw.vn/services?lang=en"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://hbw.vn/services"/>
     </url>
     
+    <!-- Portfolio Showcase -->
     <url>
-        <loc>https://hbw.vn/portfolio.html</loc>
-        <lastmod>2025-01-05</lastmod>
+        <loc>https://hbw.vn/portfolio</loc>
+        <lastmod>2025-01-07</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hbw.vn/portfolio?lang=en"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://hbw.vn/portfolio"/>
     </url>
     
+    <!-- About Company -->
     <url>
-        <loc>https://hbw.vn/about.html</loc>
-        <lastmod>2025-01-05</lastmod>
+        <loc>https://hbw.vn/about</loc>
+        <lastmod>2025-01-07</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hbw.vn/about?lang=en"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://hbw.vn/about"/>
     </url>
     
+    <!-- Contact & Lead Generation -->
     <url>
-        <loc>https://hbw.vn/contact.html</loc>
-        <lastmod>2025-01-05</lastmod>
+        <loc>https://hbw.vn/contact</loc>
+        <lastmod>2025-01-07</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hbw.vn/contact?lang=en"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://hbw.vn/contact"/>
     </url>
     
+    <!-- Blog Content Hub -->
     <url>
-        <loc>https://hbw.vn/blog.html</loc>
-        <lastmod>2025-01-05</lastmod>
+        <loc>https://hbw.vn/blog</loc>
+        <lastmod>2025-01-07</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hbw.vn/blog?lang=en"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://hbw.vn/blog"/>
     </url>
     
-    <!-- Blockchain Development Services -->
+    <!-- ========================================
+         BLOCKCHAIN DEVELOPMENT SERVICES
+         ======================================== -->
+         
+    <!-- Blockchain Development Overview -->
     <url>
-        <loc>https://hbw.vn/services/blockchain.html</loc>
-        <lastmod>2025-01-05</lastmod>
+        <loc>https://hbw.vn/services/blockchain</loc>
+        <lastmod>2025-01-07</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hbw.vn/services/blockchain?lang=en"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://hbw.vn/services/blockchain"/>
     </url>
     
+    <!-- Smart Contract Development -->
     <url>
-        <loc>https://hbw.vn/services/smart-contracts.html</loc>
-        <lastmod>2025-01-05</lastmod>
+        <loc>https://hbw.vn/services/smart-contracts</loc>
+        <lastmod>2025-01-07</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hbw.vn/services/smart-contracts?lang=en"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://hbw.vn/services/smart-contracts"/>
     </url>
     
+    <!-- DeFi Protocol Development -->
     <url>
-        <loc>https://hbw.vn/services/defi-protocols.html</loc>
-        <lastmod>2025-01-05</lastmod>
+        <loc>https://hbw.vn/services/defi-protocols</loc>
+        <lastmod>2025-01-07</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hbw.vn/services/defi-protocols?lang=en"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://hbw.vn/services/defi-protocols"/>
     </url>
     
-    <!-- Web Development Services -->
+    <!-- ========================================
+         WEB DEVELOPMENT SERVICES  
+         ======================================== -->
+         
+    <!-- Web Development Overview -->
     <url>
-        <loc>https://hbw.vn/services/web-development.html</loc>
-        <lastmod>2025-01-05</lastmod>
+        <loc>https://hbw.vn/services/web-development</loc>
+        <lastmod>2025-01-07</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hbw.vn/services/web-development?lang=en"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://hbw.vn/services/web-development"/>
     </url>
     
+    <!-- Modern Web Applications -->
     <url>
-        <loc>https://hbw.vn/services/modern-web-apps.html</loc>
-        <lastmod>2025-01-05</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
-    </url>
-    
-    <url>
-        <loc>https://hbw.vn/services/e-commerce-solutions.html</loc>
-        <lastmod>2025-01-05</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
-    </url>
-    
-    <!-- Mobile & AI Services -->
-    <url>
-        <loc>https://hbw.vn/services/mobile-apps.html</loc>
-        <lastmod>2025-01-05</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
-    </url>
-    
-    <url>
-        <loc>https://hbw.vn/services/mobile-ai-solutions.html</loc>
-        <lastmod>2025-01-05</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
-    </url>
-    
-    <url>
-        <loc>https://hbw.vn/services/ai-trading-bots.html</loc>
-        <lastmod>2025-01-05</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
-    </url>
-    
-    <!-- SEO & Marketing Services -->
-    <url>
-        <loc>https://hbw.vn/services/boost-rank-similarweb-hypestat.html</loc>
-        <lastmod>2025-01-05</lastmod>
+        <loc>https://hbw.vn/services/modern-web-apps</loc>
+        <lastmod>2025-01-07</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hbw.vn/services/modern-web-apps?lang=en"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://hbw.vn/services/modern-web-apps"/>
     </url>
     
-    <!-- Legal & Policy Pages -->
+    <!-- E-commerce Solutions -->
     <url>
-        <loc>https://hbw.vn/privacy.html</loc>
-        <lastmod>2025-01-05</lastmod>
-        <changefreq>yearly</changefreq>
-        <priority>0.3</priority>
+        <loc>https://hbw.vn/services/e-commerce-solutions</loc>
+        <lastmod>2025-01-07</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hbw.vn/services/e-commerce-solutions?lang=en"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://hbw.vn/services/e-commerce-solutions"/>
     </url>
     
+    <!-- ========================================
+         MOBILE & AI DEVELOPMENT SERVICES
+         ======================================== -->
+         
+    <!-- Mobile App Development -->
     <url>
-        <loc>https://hbw.vn/terms.html</loc>
-        <lastmod>2025-01-05</lastmod>
-        <changefreq>yearly</changefreq>
-        <priority>0.3</priority>
+        <loc>https://hbw.vn/services/mobile-apps</loc>
+        <lastmod>2025-01-07</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hbw.vn/services/mobile-apps?lang=en"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://hbw.vn/services/mobile-apps"/>
     </url>
     
+    <!-- Mobile AI Solutions -->
     <url>
-        <loc>https://hbw.vn/cookies.html</loc>
-        <lastmod>2025-01-05</lastmod>
-        <changefreq>yearly</changefreq>
-        <priority>0.3</priority>
+        <loc>https://hbw.vn/services/mobile-ai-solutions</loc>
+        <lastmod>2025-01-07</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hbw.vn/services/mobile-ai-solutions?lang=en"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://hbw.vn/services/mobile-ai-solutions"/>
     </url>
     
+    <!-- AI Trading Bots -->
     <url>
-        <loc>https://hbw.vn/security.html</loc>
-        <lastmod>2025-01-05</lastmod>
+        <loc>https://hbw.vn/services/ai-trading-bots</loc>
+        <lastmod>2025-01-07</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hbw.vn/services/ai-trading-bots?lang=en"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://hbw.vn/services/ai-trading-bots"/>
+    </url>
+    
+    <!-- ========================================
+         BLOG POSTS - TECHNICAL CONTENT
+         ======================================== -->
+         
+    <!-- DeFi Trends & Predictions 2025 -->
+    <url>
+        <loc>https://hbw.vn/blog/the-future-of-defi-trends-2025</loc>
+        <lastmod>2024-10-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hbw.vn/blog/the-future-of-defi-trends-2025?lang=en"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://hbw.vn/blog/the-future-of-defi-trends-2025"/>
+    </url>
+    
+    <!-- AI Trading Strategies & Advanced Algorithms -->
+    <url>
+        <loc>https://hbw.vn/blog/ai-trading-strategies-advanced-algorithms-2025</loc>
+        <lastmod>2024-09-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hbw.vn/blog/ai-trading-strategies-advanced-algorithms-2025?lang=en"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://hbw.vn/blog/ai-trading-strategies-advanced-algorithms-2025"/>
+    </url>
+    
+    <!-- Web3 Development Trends Shaping Future -->
+    <url>
+        <loc>https://hbw.vn/blog/web3-development-trends-shaping-future-2025</loc>
+        <lastmod>2024-09-25</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hbw.vn/blog/web3-development-trends-shaping-future-2025?lang=en"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://hbw.vn/blog/web3-development-trends-shaping-future-2025"/>
+    </url>
+    
+    <!-- Blockchain Integration for Enterprise -->
+    <url>
+        <loc>https://hbw.vn/blog/blockchain-integration-enterprise-real-world-applications</loc>
+        <lastmod>2024-09-22</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hbw.vn/blog/blockchain-integration-enterprise-real-world-applications?lang=en"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://hbw.vn/blog/blockchain-integration-enterprise-real-world-applications"/>
+    </url>
+    
+    <!-- Smart Contract Security & Vulnerabilities -->
+    <url>
+        <loc>https://hbw.vn/blog/smart-contract-security-vulnerabilities-solutions-2025</loc>
+        <lastmod>2024-09-20</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hbw.vn/blog/smart-contract-security-vulnerabilities-solutions-2025?lang=en"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://hbw.vn/blog/smart-contract-security-vulnerabilities-solutions-2025"/>
+    </url>
+    
+    <!-- Cryptocurrency Market Outlook Q4 2024 -->
+    <url>
+        <loc>https://hbw.vn/blog/cryptocurrency-market-outlook-q4-2024-analysis</loc>
+        <lastmod>2024-09-18</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hbw.vn/blog/cryptocurrency-market-outlook-q4-2024-analysis?lang=en"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://hbw.vn/blog/cryptocurrency-market-outlook-q4-2024-analysis"/>
+    </url>
+    
+    <!-- ========================================
+         LEGAL & POLICY PAGES
+         ======================================== -->
+         
+    <!-- Privacy Policy -->
+    <url>
+        <loc>https://hbw.vn/privacy</loc>
+        <lastmod>2025-01-07</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.3</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hbw.vn/privacy?lang=en"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://hbw.vn/privacy"/>
     </url>
+    
+    <!-- Terms of Service -->
+    <url>
+        <loc>https://hbw.vn/terms</loc>
+        <lastmod>2025-01-07</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.3</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hbw.vn/terms?lang=en"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://hbw.vn/terms"/>
+    </url>
+    
+    <!-- Cookie Policy -->
+    <url>
+        <loc>https://hbw.vn/cookies</loc>
+        <lastmod>2025-01-07</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.3</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://hbw.vn/cookies?lang=en"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://hbw.vn/cookies"/>
+    </url>
+    
 </urlset>
