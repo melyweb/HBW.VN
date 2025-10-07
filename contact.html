@@ -6,7 +6,7 @@
     
     <!-- Primary SEO Meta Tags -->
     <title data-i18n="contact.title">Contact HBW Technology Solutions Vietnam | Free Blockchain Consultation | 24/7 Support</title>
-    <meta name="description" data-i18n="contact.meta_description" content="Contact HBW Technology Solutions for professional blockchain development, DeFi protocols, AI trading bots, and web solutions. Free consultation available. Phone: +84-768-931-999, Email: hello@hbw.vn. Located in Da Nang City, Vietnam.">
+    <meta name="description" data-i18n="contact.meta_description" content="Contact HBW Technology Solutions for professional blockchain development, DeFi protocols, AI trading bots, and web solutions. Free consultation available. Phone: +84-768-931-999, Email: hello@hbw.vn. Located in Ho Chi Minh City, Vietnam.">
     <meta name="keywords" content="contact HBW Technology, blockchain development consultation, DeFi development contact, Vietnam technology company contact, free blockchain consultation, HBW contact information, blockchain development Vietnam">
     <meta name="author" content="HBW Technology Solutions">
     <meta name="robots" content="index, follow, max-image-preview:large">
@@ -27,7 +27,7 @@
     <meta name="twitter:site" content="@hbw_tech">
     <meta name="twitter:title" data-i18n="contact.twitter_title" content="Contact HBW Technology Solutions - Free Consultation">
     <meta name="twitter:description" data-i18n="contact.twitter_description" content="Reach out to leading Vietnam blockchain company. Free consultation available 24/7.">
-    <meta name="twitter:image" content="https://hbw.vn/assets/images/hbw-contact-og.jpg">
+    <meta name="twitter:image" content="https://hbw.vn/assets/images/hbw-contact-twitter.jpg">
     
     <!-- Canonical & Language -->
     <link rel="canonical" href="https://hbw.vn/contact.html">
@@ -124,7 +124,7 @@
             "address": {
                 "@type": "PostalAddress",
                 "addressCountry": "VN",
-                "addressLocality": "Da Nang City"
+                "addressLocality": "Ho Chi Minh City"
             }
         }
     }
@@ -368,7 +368,12 @@
                                 </p>
                             </div>
 
-                            <form id="contactForm" class="space-y-6">
+                            <form id="contactForm" class="space-y-6" action="https://api.web3forms.com/submit" method="POST">
+                                <!-- Hidden fields for Web3Forms -->
+                                <input type="hidden" name="access_key" value="3e6f1432-ccba-4c4e-8e4e-969b2bec93ff">
+                                <input type="hidden" name="_captcha" value="false">
+                                <input type="hidden" name="_template" value="table">
+                                <input type="hidden" name="_cc" value="info@hbw.vn,contact@hbw.vn">
                                 <!-- Personal Info -->
                                 <div class="grid md:grid-cols-2 gap-6">
                                     <div>
@@ -569,8 +574,8 @@
                                         <div>
                                             <h4 class="font-semibold text-gray-900 mb-1" data-i18n="contact.office.address.title">Address</h4>
                                             <p class="text-gray-600" data-i18n="contact.office.address.line1">123 Nguyen Hue Boulevard</p>
-                                            <p class="text-gray-600" data-i18n="contact.office.address.line2">District 1, Da Nang City</p>
-                                            <p class="text-gray-600" data-i18n="contact.office.address.line3">Vietnam 550000</p>
+                                            <p class="text-gray-600" data-i18n="contact.office.address.line2">District 1, Ho Chi Minh City</p>
+                                            <p class="text-gray-600" data-i18n="contact.office.address.line3">Vietnam 700000</p>
                                         </div>
                                     </div>
                                     <div class="flex items-start">
@@ -749,36 +754,93 @@
 
     <!-- JavaScript -->
     <script>
-        // Form submission handling
-        document.getElementById('contactForm').addEventListener('submit', function(e) {
+        // Form submission handling với Web3Forms (Free & Easy)
+        document.getElementById('contactForm').addEventListener('submit', async function(e) {
             e.preventDefault();
             
-            // Get form data
-            const formData = new FormData(this);
-            const data = {};
-            
-            for (let [key, value] of formData.entries()) {
-                data[key] = value;
-            }
-            
-            // Show success message
+            const submitBtn = this.querySelector('button[type="submit"]');
+            const originalText = submitBtn.innerHTML;
             const successMessage = document.getElementById('successMessage');
             const form = document.getElementById('contactForm');
             
-            // Hide form and show success
-            form.style.display = 'none';
-            successMessage.style.display = 'block';
-            
-            // Simulate form processing
-            console.log('Form submitted:', data);
-            
-            // Reset form after 3 seconds
-            setTimeout(() => {
-                form.style.display = 'block';
-                successMessage.style.display = 'none';
-                form.reset();
-            }, 3000);
+            try {
+                // Show loading state
+                submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin mr-2"></i>Sending Message...';
+                submitBtn.disabled = true;
+                
+                // Get form data
+                const formData = new FormData(this);
+                
+                // Add Web3Forms configuration
+                formData.append('access_key', '3e6f1432-ccba-4c4e-8e4e-969b2bec93ff'); // Replace with your Web3Forms key
+                formData.append('subject', `New Contact Form: ${formData.get('service')} - ${formData.get('fullName')}`);
+                formData.append('from_name', formData.get('fullName'));
+                formData.append('from_email', formData.get('email'));
+                
+                // Send to Web3Forms
+                const response = await fetch('https://api.web3forms.com/submit', {
+                    method: 'POST',
+                    body: formData
+                });
+                
+                const result = await response.json();
+                
+                if (result.success) {
+                    // Show success message
+                    form.style.display = 'none';
+                    successMessage.classList.remove('hidden');
+                    
+                    // Reset form after 5 seconds
+                    setTimeout(() => {
+                        form.style.display = 'block';
+                        successMessage.classList.add('hidden');
+                        form.reset();
+                    }, 5000);
+                    
+                    console.log('✅ Form submitted successfully');
+                } else {
+                    throw new Error(result.message || 'Form submission failed');
+                }
+                
+            } catch (error) {
+                console.error('❌ Form submission error:', error);
+                
+                // Show error message
+                showErrorMessage('Failed to send message. Please try again or contact us directly at hello@hbw.vn');
+            } finally {
+                // Reset button
+                submitBtn.innerHTML = originalText;
+                submitBtn.disabled = false;
+            }
         });
+        
+        // Error message function
+        function showErrorMessage(message) {
+            let errorDiv = document.getElementById('errorMessage');
+            if (!errorDiv) {
+                errorDiv = document.createElement('div');
+                errorDiv.id = 'errorMessage';
+                errorDiv.className = 'mt-6 p-4 bg-red-50 border border-red-200 rounded-lg';
+                errorDiv.innerHTML = `
+                    <div class="flex items-center">
+                        <i class="fas fa-exclamation-triangle text-red-500 text-xl mr-3"></i>
+                        <div>
+                            <h4 class="font-semibold text-red-800">Error Sending Message</h4>
+                            <p class="text-red-700 text-sm">${message}</p>
+                        </div>
+                    </div>
+                `;
+                document.getElementById('contactForm').parentNode.appendChild(errorDiv);
+            } else {
+                errorDiv.querySelector('.text-red-700').textContent = message;
+                errorDiv.classList.remove('hidden');
+            }
+            
+            // Auto hide after 8 seconds
+            setTimeout(() => {
+                errorDiv.classList.add('hidden');
+            }, 8000);
+        }
 
         // Smooth scroll for anchor links
         document.addEventListener('DOMContentLoaded', function() {
