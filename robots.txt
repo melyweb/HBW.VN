@@ -72,11 +72,11 @@ Disallow: /*?*source=
 Disallow: /*?*campaign=
 
 # Allow important business pages
-Allow: /services/
+Allow: /services
 Allow: /portfolio
-Allow: /about.html
+Allow: /about
 Allow: /contact
-Allow: /blog.html
+Allow: /blog
 
 # Block social media crawlers for better bandwidth management
 User-agent: facebookexternalhit
