@@ -24,8 +24,19 @@ class HBWi18n {
     }
 
     init() {
-        // Get saved language or default to English
-        this.currentLang = localStorage.getItem('hbw_language') || 'en';
+        // Check for URL parameters first (highest priority)
+        const urlLang = this.getLanguageFromURL();
+        
+        // Priority: URL parameter > localStorage > default 'en'
+        if (urlLang && (urlLang === 'vi' || urlLang === 'en')) {
+            this.currentLang = urlLang;
+            // Save URL parameter language to localStorage for consistency
+            localStorage.setItem('hbw_language', urlLang);
+            // console.log(`🔗 Language set from URL parameter: ${urlLang.toUpperCase()}`);
+        } else {
+            // Get saved language or default to English
+            this.currentLang = localStorage.getItem('hbw_language') || 'en';
+        }
         
         // Set initial UI state - Default English button active
         this.updateLanguageButtons();
@@ -36,6 +47,21 @@ class HBWi18n {
         
         // Setup language switcher event listeners
         this.setupLanguageSwitchers();
+    }
+
+    /**
+     * Extract language from URL parameters
+     */
+    getLanguageFromURL() {
+        const urlParams = new URLSearchParams(window.location.search);
+        const langParam = urlParams.get('lang');
+        
+        if (langParam) {
+            // console.log(`🔍 Found URL language parameter: ${langParam}`);
+            return langParam.toLowerCase();
+        }
+        
+        return null;
     }
 
     /**
@@ -260,6 +286,9 @@ class HBWi18n {
         this.currentLang = lang;
         localStorage.setItem('hbw_language', lang);
         
+        // Update URL parameter to reflect language change
+        this.updateURLParameter(lang);
+        
         this.updateLanguageButtons();
         await this.loadLanguage(lang);
         
@@ -267,6 +296,18 @@ class HBWi18n {
         window.dispatchEvent(new CustomEvent('languageChanged', { 
             detail: { language: lang } 
         }));
+    }
+
+    /**
+     * Update URL parameter with current language
+     */
+    updateURLParameter(lang) {
+        const url = new URL(window.location);
+        url.searchParams.set('lang', lang);
+        
+        // Update URL without reloading page
+        window.history.replaceState(null, null, url);
+        // console.log(`🔗 URL updated with language parameter: ?lang=${lang}`);
     }
 
     /**
@@ -305,9 +346,19 @@ class HBWi18n {
             }
         });
 
-        // Handle page navigation to reload appropriate translations
+        // Handle page navigation and URL parameter changes
         window.addEventListener('popstate', () => {
-            this.loadLanguage(this.currentLang);
+            const urlLang = this.getLanguageFromURL();
+            if (urlLang && (urlLang === 'vi' || urlLang === 'en') && urlLang !== this.currentLang) {
+                // Language changed via URL (back/forward buttons)
+                this.currentLang = urlLang;
+                localStorage.setItem('hbw_language', urlLang);
+                this.updateLanguageButtons();
+                this.loadLanguage(urlLang);
+                // console.log(`🔙 Language changed via navigation: ${urlLang.toUpperCase()}`);
+            } else {
+                this.loadLanguage(this.currentLang);
+            }
         });
     }
 
