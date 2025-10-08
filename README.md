@@ -22,32 +22,32 @@ HBW Technology Solutions là một **comprehensive enterprise blockchain và web
 ### **Core File Structure**
 ```
 /
-├── index.html                 # Homepage - Entry Point  
-├── services.html              # Services Overview Page
-├── portfolio.html             # Portfolio Showcase
-├── about.html                 # Company Information  
-├── contact.html               # Contact & Lead Generation
-├── blog.html                  # Content Marketing Hub
-├── privacy.html               # Privacy Policy
-├── terms.html                 # Terms of Service  
-├── cookies.html               # Cookie Policy
+├── index                 # Homepage - Entry Point  
+├── services              # Services Overview Page
+├── portfolio             # Portfolio Showcase
+├── about                 # Company Information  
+├── contact               # Contact & Lead Generation
+├── blog                  # Content Marketing Hub
+├── privacy               # Privacy Policy
+├── terms                 # Terms of Service  
+├── cookies               # Cookie Policy
 ├── services/
-│   ├── blockchain.html        # Blockchain Services Detail
-│   ├── smart-contracts.html   # Smart Contract Services
-│   ├── defi-protocols.html    # DeFi Protocol Development
-│   ├── web-development.html   # Web Development Services  
-│   ├── modern-web-apps.html   # Modern Web Applications
-│   ├── e-commerce-solutions.html # E-commerce Solutions
-│   ├── mobile-ai-solutions.html # Mobile AI Development
-│   ├── mobile-apps.html       # Mobile App Development
-│   └── ai-trading-bots.html   # AI Trading Bot Services
+│   ├── blockchain        # Blockchain Services Detail
+│   ├── smart-contracts   # Smart Contract Services
+│   ├── defi-protocols    # DeFi Protocol Development
+│   ├── web-development   # Web Development Services  
+│   ├── modern-web-apps   # Modern Web Applications
+│   ├── e-commerce-solutions # E-commerce Solutions
+│   ├── mobile-ai-solutions # Mobile AI Development
+│   ├── mobile-apps       # Mobile App Development
+│   └── ai-trading-bots   # AI Trading Bot Services
 ├── blog/
-│   ├── ai-trading-strategies-advanced-algorithms-2025.html
-│   ├── blockchain-integration-enterprise-real-world-applications.html
-│   ├── cryptocurrency-market-outlook-q4-2024-analysis.html
-│   ├── smart-contract-security-vulnerabilities-solutions-2025.html
-│   ├── web3-development-trends-shaping-future-2025.html
-│   └── the-future-of-defi-trends-2025.html
+│   ├── ai-trading-strategies-advanced-algorithms-2025
+│   ├── blockchain-integration-enterprise-real-world-applications
+│   ├── cryptocurrency-market-outlook-q4-2024-analysis
+│   ├── smart-contract-security-vulnerabilities-solutions-2025
+│   ├── web3-development-trends-shaping-future-2025
+│   └── the-future-of-defi-trends-2025
 ├── assets/
 │   ├── js/
 │   │   ├── i18n.js           # Multi-language System Core
@@ -117,7 +117,7 @@ assets/js/lang/
 
 ### **📋 Standard Implementation Pattern**
 
-#### **Root Pages Pattern (index.html, services.html, etc.)**
+#### **Root Pages Pattern (index, services, etc.)**
 ```html
 <script type="module">
     import { loadHBWComponents } from './components/templates.js';
@@ -138,7 +138,7 @@ assets/js/lang/
 </script>
 ```
 
-#### **Service Pages Pattern (services/*.html)**
+#### **Service Pages Pattern (services/*)**
 ```html
 <script type="module">
     import { loadHBWComponents } from '../components/templates.js';
@@ -165,7 +165,7 @@ assets/js/lang/
 </script>
 ```
 
-#### **Blog Posts Pattern (blog/*.html)**
+#### **Blog Posts Pattern (blog/*)**
 ```html
 <script type="module">
     import { loadHBWComponents } from '../components/templates.js';
@@ -228,19 +228,19 @@ All blog posts đều fully implemented với comprehensive i18n support:
 
 | Blog Post | Status | EN/VI | Content Focus | Date |
 |-----------|--------|-------|---------------|------|
-| `ai-trading-strategies-advanced-algorithms-2025.html` | ✅ Complete | ✅ Full | AI Trading Systems & Machine Learning | Sept 28, 2024 |
-| `blockchain-integration-enterprise-real-world-applications.html` | ✅ Complete | ✅ Full | Enterprise Blockchain Implementation | Sept 22, 2024 |
-| `cryptocurrency-market-outlook-q4-2024-analysis.html` | ✅ Complete | ✅ Full | Crypto Market Analysis & Investment | Sept 18, 2024 |
-| `smart-contract-security-vulnerabilities-solutions-2025.html` | ✅ Complete | ✅ Full | Smart Contract Security & Auditing | Sept 20, 2024 |
-| `web3-development-trends-shaping-future-2025.html` | ✅ Complete | ✅ Full | Web3 Development & Layer 2 Solutions | Sept 25, 2024 |
-| `the-future-of-defi-trends-2025.html` | ✅ Complete | ✅ Full | DeFi Trends & Protocol Evolution | Oct 15, 2024 |
+| `ai-trading-strategies-advanced-algorithms-2025` | ✅ Complete | ✅ Full | AI Trading Systems & Machine Learning | Sept 28, 2024 |
+| `blockchain-integration-enterprise-real-world-applications` | ✅ Complete | ✅ Full | Enterprise Blockchain Implementation | Sept 22, 2024 |
+| `cryptocurrency-market-outlook-q4-2024-analysis` | ✅ Complete | ✅ Full | Crypto Market Analysis & Investment | Sept 18, 2024 |
+| `smart-contract-security-vulnerabilities-solutions-2025` | ✅ Complete | ✅ Full | Smart Contract Security & Auditing | Sept 20, 2024 |
+| `web3-development-trends-shaping-future-2025` | ✅ Complete | ✅ Full | Web3 Development & Layer 2 Solutions | Sept 25, 2024 |
+| `the-future-of-defi-trends-2025` | ✅ Complete | ✅ Full | DeFi Trends & Protocol Evolution | Oct 15, 2024 |
 
 ### **Blog Translation Strategy - Individual Files**
 
 **Important**: Mỗi blog post có **translation file riêng biệt** thay vì shared blog.json:
 
 ```
-Blog Post: ai-trading-strategies-advanced-algorithms-2025.html
+Blog Post: ai-trading-strategies-advanced-algorithms-2025
 EN Translation: assets/js/lang/en/ai-trading-strategies-advanced-algorithms-2025.json  
 VI Translation: assets/js/lang/vi/ai-trading-strategies-advanced-algorithms-2025.json
 ```
@@ -249,8 +249,8 @@ VI Translation: assets/js/lang/vi/ai-trading-strategies-advanced-algorithms-2025
 
 ```javascript
 // Path detection logic trong i18n.js
-if (path.includes('/blog/') && path.endsWith('.html')) {
-    const filename = path.split('/').pop().replace('.html', '');
+if (path.includes('/blog/') && path.endsWith('')) {
+    const filename = path.split('/').pop().replace('', '');
     return filename; // e.g., 'ai-trading-strategies-advanced-algorithms-2025'
 }
 ```
@@ -356,7 +356,7 @@ await i18n.init();
 
 **Testing Method**: Use PlaywrightConsoleCapture để verify loading:
 ```javascript
-PlaywrightConsoleCapture('blog/[blog-name].html', {
+PlaywrightConsoleCapture('blog/[blog-name]', {
     wait_for_selector: 'header', 
     capture_duration: 4
 })
@@ -374,8 +374,8 @@ const basePath = (pathname.includes('/services/') || pathname.includes('/blog/')
     : './assets/js/lang';
 
 // ✅ CORRECT: Individual blog file loading
-if (path.includes('/blog/') && path.endsWith('.html')) {
-    const filename = path.split('/').pop().replace('.html', '');
+if (path.includes('/blog/') && path.endsWith('')) {
+    const filename = path.split('/').pop().replace('', '');
     return filename; // Loads [filename].json instead of generic blog.json
 }
 ```
@@ -420,8 +420,8 @@ const observer = new MutationObserver((mutations) => {
 **Solution**:
 ```bash
 # ✅ CORRECT: Renamed files để match content
-FROM: the-future-of-defi-trends-2024.html
-TO:   the-future-of-defi-trends-2025.html
+FROM: the-future-of-defi-trends-2024
+TO:   the-future-of-defi-trends-2025
 
 # Update all references:
 - Meta tags URLs
@@ -440,7 +440,7 @@ TO:   the-future-of-defi-trends-2025.html
 - [ ] Create HTML file với descriptive slug matching content timeline
 - [ ] Create EN translation file: `assets/js/lang/en/[exact-filename].json`  
 - [ ] Create VI translation file: `assets/js/lang/vi/[exact-filename].json`
-- [ ] Ensure translation filename matches blog HTML filename (without .html)
+- [ ] Ensure translation filename matches blog HTML filename (without )
 
 #### **HTML Implementation**  
 - [ ] Add proper data-i18n attributes throughout content
@@ -475,7 +475,7 @@ TO:   the-future-of-defi-trends-2025.html
 
 **Test Blog Page Loading:**
 ```javascript
-PlaywrightConsoleCapture('blog/[blog-name].html', {
+PlaywrightConsoleCapture('blog/[blog-name]', {
     wait_for_selector: 'header', 
     capture_duration: 4
 })
@@ -521,12 +521,12 @@ PlaywrightConsoleCapture('blog/[blog-name].html', {
 
 ### **Blog Translation Status - Individual Files**
 ```
-✅ ai-trading-strategies-advanced-algorithms-2025.html          → EN/VI Complete
-✅ blockchain-integration-enterprise-real-world-applications.html → EN/VI Complete  
-✅ cryptocurrency-market-outlook-q4-2024-analysis.html         → EN/VI Complete
-✅ smart-contract-security-vulnerabilities-solutions-2025.html → EN/VI Complete
-✅ web3-development-trends-shaping-future-2025.html            → EN/VI Complete
-✅ the-future-of-defi-trends-2025.html                        → EN/VI Complete
+✅ ai-trading-strategies-advanced-algorithms-2025          → EN/VI Complete
+✅ blockchain-integration-enterprise-real-world-applications → EN/VI Complete  
+✅ cryptocurrency-market-outlook-q4-2024-analysis         → EN/VI Complete
+✅ smart-contract-security-vulnerabilities-solutions-2025 → EN/VI Complete
+✅ web3-development-trends-shaping-future-2025            → EN/VI Complete
+✅ the-future-of-defi-trends-2025                        → EN/VI Complete
 ```
 
 **Key Feature**: Mỗi blog post có **separate translation files** instead of shared blog.json để optimize loading performance và maintainability.
@@ -572,7 +572,7 @@ PlaywrightConsoleCapture('blog/[blog-name].html', {
 
 #### **Step 1: Planning & Setup**
 1. **Choose appropriate slug** (check timeline consistency với content)
-2. **Copy existing template**: Use `the-future-of-defi-trends-2025.html` as base  
+2. **Copy existing template**: Use `the-future-of-defi-trends-2025` as base  
 3. **Plan content structure** (sections, HBW integrations)
 
 #### **Step 2: HTML Development**
@@ -585,7 +585,7 @@ PlaywrightConsoleCapture('blog/[blog-name].html', {
 #### **Step 3: Translation Files**
 1. **Create EN translation file** với complete coverage all sections
 2. **Create VI translation file** với professional Vietnamese quality
-3. **Ensure filename consistency** with blog HTML file (without .html extension)  
+3. **Ensure filename consistency** with blog HTML file (without  extension)  
 4. **Test key mapping** (no missing translations)
 
 #### **Step 4: Testing & QA**

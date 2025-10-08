@@ -4,8 +4,6 @@
 const CACHE_NAME = 'hbw-v1.0.0';
 const STATIC_CACHE_URLS = [
     '/',
-    '/index-multilang.html',
-    '/en/index.html',
     '/assets/js/language.js',
     '/assets/js/components.js', 
     '/assets/js/main.js',
@@ -81,11 +79,11 @@ self.addEventListener('fetch', (event) => {
                         return response;
                     }
                     // If it fails, fall back to cache
-                    return caches.match('/index-multilang.html');
+                    return caches.match('/index-multilang');
                 })
                 .catch(() => {
                     // Network failed, serve from cache
-                    return caches.match('/index-multilang.html');
+                    return caches.match('/index-multilang');
                 })
         );
         return;

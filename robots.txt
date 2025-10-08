@@ -73,9 +73,9 @@ Disallow: /*?*campaign=
 
 # Allow important business pages
 Allow: /services/
-Allow: /portfolio.html
+Allow: /portfolio
 Allow: /about.html
-Allow: /contact.html
+Allow: /contact
 Allow: /blog.html
 
 # Block social media crawlers for better bandwidth management

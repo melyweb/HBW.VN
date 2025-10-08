@@ -30,12 +30,12 @@ Contact form đã được updated để sử dụng **Web3Forms** - một free 
 1. Login to Web3Forms dashboard
 2. Create a new form
 3. Copy your Access Key (looks like: abc123def-456-789...)
-4. Replace trong contact.html:
+4. Replace trong contact:
 ```
 
 **Update This Line:**
 ```html
-<!-- Line trong contact.html -->
+<!-- Line trong contact -->
 <input type="hidden" name="access_key" value="e30b4c3d-7c5d-4f8f-9b2a-1a3c5e7f9b1d">
 
 <!-- Replace với your actual key: -->
@@ -44,7 +44,7 @@ Contact form đã được updated để sử dụng **Web3Forms** - một free 
 
 #### **3. Configure Email Recipients**
 ```html
-<!-- Update email addresses trong contact.html -->
+<!-- Update email addresses trong contact -->
 <input type="hidden" name="_cc" value="hello@hbw.vn,contact@hbw.vn">
 
 <!-- Change to your actual emails: -->
@@ -52,7 +52,7 @@ Contact form đã được updated để sử dụng **Web3Forms** - một free 
 ```
 
 #### **4. Test Form**
-1. Deploy updated contact.html
+1. Deploy updated contact
 2. Fill out contact form
 3. Check your email for submissions
 4. Verify Web3Forms dashboard shows submissions
@@ -109,7 +109,7 @@ const emailResponse = await fetch('https://api.resend.com/emails', {
 
 #### **4. Update Contact Form**
 ```javascript
-// In contact.html, change form submission to:
+// In contact, change form submission to:
 const response = await fetch('/api/contact', {
     method: 'POST',
     headers: {
@@ -131,7 +131,7 @@ const response = await fetch('/api/contact', {
 
 ### **📧 EmailJS (Client-side)**
 ```javascript
-// Include trong contact.html:
+// Include trong contact:
 <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 
 // Setup:
@@ -169,7 +169,7 @@ emailjs.sendForm('service_id', 'template_id', form)
 
 1. **Go to web3forms.com** và sign up free
 2. **Create form project** và get access key  
-3. **Replace access key** trong contact.html line 372:
+3. **Replace access key** trong contact line 372:
    ```html
    <input type="hidden" name="access_key" value="YOUR_KEY_HERE">
    ```
@@ -177,7 +177,7 @@ emailjs.sendForm('service_id', 'template_id', form)
    ```html
    <input type="hidden" name="_cc" value="your-actual-email@hbw.vn">
    ```
-5. **Deploy updated contact.html** 
+5. **Deploy updated contact** 
 6. **Test form submission**
 
 ### **Current Form Status:**

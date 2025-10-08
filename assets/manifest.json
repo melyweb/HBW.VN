@@ -60,7 +60,7 @@
       "name": "Dịch Vụ",
       "short_name": "Services",
       "description": "Xem tất cả dịch vụ của HBW",
-      "url": "/services.html",
+      "url": "/services",
       "icons": [
         {
           "src": "/images/favicon-96.png",
@@ -72,7 +72,7 @@
       "name": "Portfolio",
       "short_name": "Portfolio",
       "description": "Khám phá các dự án đã hoàn thành",
-      "url": "/portfolio.html",
+      "url": "/portfolio",
       "icons": [
         {
           "src": "/images/favicon-96.png",
@@ -84,7 +84,7 @@
       "name": "Liên Hệ",
       "short_name": "Contact",
       "description": "Liên hệ với HBW ngay hôm nay",
-      "url": "/contact.html",
+      "url": "/contact",
       "icons": [
         {
           "src": "/images/favicon-96.png",
